@@ -1,0 +1,13 @@
+.DS_Store
+*.sw*
+*.class
+tags/
+cscope.*
+ncscope.*
+index.html
+.idea/
+node_modules/
+*.out
+.vscode/
+*.iml
+target/
