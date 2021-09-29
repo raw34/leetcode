@@ -1,0 +1,12 @@
+{
+    "name": "raw34/leetcode",
+    "description": "leetcode",
+    "type": "project",
+    "authors": [
+        {
+            "name": "raw34",
+            "email": "raw34@sina.com"
+        }
+    ],
+    "require": {}
+}
