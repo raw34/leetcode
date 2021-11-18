@@ -1,7 +1,7 @@
 ## 数据结构
 - [ ]  二进制
-    - [ ]  [single-number](https://leetcode-cn.com/problems/single-number/)（136）
-    - [ ]  [single-number-ii](https://leetcode-cn.com/problems/single-number-ii/)（137）
+    - [x]  [single-number](https://leetcode-cn.com/problems/single-number/)（136）
+    - [x]  [single-number-ii](https://leetcode-cn.com/problems/single-number-ii/)（137）
     - [ ]  [single-number-iii](https://leetcode-cn.com/problems/single-number-iii/)（260）
     - [ ]  [number-of-1-bits](https://leetcode-cn.com/problems/number-of-1-bits/)（191）
     - [ ]  [counting-bits](https://leetcode-cn.com/problems/counting-bits/)（338）
