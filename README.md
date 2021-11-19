@@ -2,10 +2,10 @@
 - [ ]  二进制
     - [x]  [single-number](https://leetcode-cn.com/problems/single-number/)（136）
     - [x]  [single-number-ii](https://leetcode-cn.com/problems/single-number-ii/)（137）
-    - [ ]  [single-number-iii](https://leetcode-cn.com/problems/single-number-iii/)（260）
-    - [ ]  [number-of-1-bits](https://leetcode-cn.com/problems/number-of-1-bits/)（191）
-    - [ ]  [counting-bits](https://leetcode-cn.com/problems/counting-bits/)（338）
-    - [ ]  [reverse-bits](https://leetcode-cn.com/problems/reverse-bits/)（190）
+    - [x]  [single-number-iii](https://leetcode-cn.com/problems/single-number-iii/)（260）?
+    - [x]  [number-of-1-bits](https://leetcode-cn.com/problems/number-of-1-bits/)（191）
+    - [x]  [counting-bits](https://leetcode-cn.com/problems/counting-bits/)（338）
+    - [x]  [reverse-bits](https://leetcode-cn.com/problems/reverse-bits/)（190）?
 - [ ]  链表
     - [ ]  [remove-duplicates-from-sorted-list](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)（83）
     - [ ]  [remove-duplicates-from-sorted-list-ii](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)（82）
