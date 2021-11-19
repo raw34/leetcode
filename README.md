@@ -7,7 +7,7 @@
     - [x]  [counting-bits](https://leetcode-cn.com/problems/counting-bits/)（338）
     - [x]  [reverse-bits](https://leetcode-cn.com/problems/reverse-bits/)（190）?
 - [ ]  链表
-    - [ ]  [remove-duplicates-from-sorted-list](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)（83）
+    - [x]  [remove-duplicates-from-sorted-list](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)（83）
     - [ ]  [remove-duplicates-from-sorted-list-ii](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)（82）
     - [ ]  [reverse-linked-list](https://leetcode-cn.com/problems/reverse-linked-list/)（206）
     - [ ]  [reverse-linked-list-ii](https://leetcode-cn.com/problems/reverse-linked-list-ii/)（92）
