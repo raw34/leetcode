@@ -1,5 +1,5 @@
 ## 数据结构
-- [ ]  二进制
+- [ ]  位运算
     - [x]  [single-number](https://leetcode-cn.com/problems/single-number/)（136）
     - [x]  [single-number-ii](https://leetcode-cn.com/problems/single-number-ii/)（137）
     - [x]  [single-number-iii](https://leetcode-cn.com/problems/single-number-iii/)（260）?
@@ -8,7 +8,7 @@
     - [x]  [reverse-bits](https://leetcode-cn.com/problems/reverse-bits/)（190）?
 - [ ]  链表
     - [x]  [remove-duplicates-from-sorted-list](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)（83）
-    - [ ]  [remove-duplicates-from-sorted-list-ii](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)（82）
+    - [x]  [remove-duplicates-from-sorted-list-ii](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)（82）
     - [ ]  [reverse-linked-list](https://leetcode-cn.com/problems/reverse-linked-list/)（206）
     - [ ]  [reverse-linked-list-ii](https://leetcode-cn.com/problems/reverse-linked-list-ii/)（92）
     - [ ]  [merge-two-sorted-lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)（21）
