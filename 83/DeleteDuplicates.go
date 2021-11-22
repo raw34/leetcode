@@ -1,11 +1,8 @@
 package _83
 
-type ListNode struct {
-	Val int
-	Next *ListNode
-}
+import "github.com/raw34/leetcode/runtime"
 
-func deleteDuplicates(head *ListNode) *ListNode {
+func deleteDuplicates(head *runtime.ListNode) *runtime.ListNode {
 	if head == nil {
 		return head
 	}
