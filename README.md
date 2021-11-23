@@ -11,7 +11,7 @@
     - [x]  [remove-duplicates-from-sorted-list-ii](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)（82）
     - [x]  [reverse-linked-list](https://leetcode-cn.com/problems/reverse-linked-list/)（206）
     - [x]  [reverse-linked-list-ii](https://leetcode-cn.com/problems/reverse-linked-list-ii/)（92）
-    - [ ]  [merge-two-sorted-lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)（21）
+    - [x]  [merge-two-sorted-lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)（21）
     - [ ]  [partition-list](https://leetcode-cn.com/problems/partition-list/)（86）
     - [ ]  [sort-list](https://leetcode-cn.com/problems/sort-list/)（148）
     - [ ]  [reorder-list](https://leetcode-cn.com/problems/reorder-list/)（143）
