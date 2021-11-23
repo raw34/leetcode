@@ -1,4 +1,7 @@
 <?php
+
+use runtime\ListNode;
+
 class Solution {
 
     /**
