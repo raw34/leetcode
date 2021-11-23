@@ -12,7 +12,7 @@
     - [x]  [reverse-linked-list](https://leetcode-cn.com/problems/reverse-linked-list/)（206）
     - [x]  [reverse-linked-list-ii](https://leetcode-cn.com/problems/reverse-linked-list-ii/)（92）
     - [x]  [merge-two-sorted-lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)（21）
-    - [ ]  [partition-list](https://leetcode-cn.com/problems/partition-list/)（86）
+    - [x]  [partition-list](https://leetcode-cn.com/problems/partition-list/)（86）
     - [ ]  [sort-list](https://leetcode-cn.com/problems/sort-list/)（148）
     - [ ]  [reorder-list](https://leetcode-cn.com/problems/reorder-list/)（143）
     - [ ]  [linked-list-cycle](https://leetcode-cn.com/problems/linked-list-cycle/)（141）
