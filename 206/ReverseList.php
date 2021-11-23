@@ -1,5 +1,5 @@
 <?php
-class Solution {
+class ReverseList {
     /**
      * @param ListNode $head
      * @return ListNode

@@ -9,8 +9,8 @@
 - [ ]  链表
     - [x]  [remove-duplicates-from-sorted-list](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)（83）
     - [x]  [remove-duplicates-from-sorted-list-ii](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)（82）
-    - [ ]  [reverse-linked-list](https://leetcode-cn.com/problems/reverse-linked-list/)（206）
-    - [ ]  [reverse-linked-list-ii](https://leetcode-cn.com/problems/reverse-linked-list-ii/)（92）
+    - [x]  [reverse-linked-list](https://leetcode-cn.com/problems/reverse-linked-list/)（206）
+    - [x]  [reverse-linked-list-ii](https://leetcode-cn.com/problems/reverse-linked-list-ii/)（92）
     - [ ]  [merge-two-sorted-lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)（21）
     - [ ]  [partition-list](https://leetcode-cn.com/problems/partition-list/)（86）
     - [ ]  [sort-list](https://leetcode-cn.com/problems/sort-list/)（148）
