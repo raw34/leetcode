@@ -15,8 +15,8 @@
     - [x]  [partition-list](https://leetcode-cn.com/problems/partition-list/)（86）
     - [x]  [insertion-sort-list](https://leetcode-cn.com/problems/insertion-sort-list/)（147）
     - [x]  [sort-list](https://leetcode-cn.com/problems/sort-list/)（148）
-    - [ ]  [reorder-list](https://leetcode-cn.com/problems/reorder-list/)（143）
-    - [ ]  [linked-list-cycle](https://leetcode-cn.com/problems/linked-list-cycle/)（141）
+    - [x]  [reorder-list](https://leetcode-cn.com/problems/reorder-list/)（143）
+    - [x]  [linked-list-cycle](https://leetcode-cn.com/problems/linked-list-cycle/)（141）
     - [ ]  [linked-list-cycle-ii](https://leetcode-cn.com/problems/linked-list-cycle-ii/)（142）
     - [ ]  [palindrome-linked-list](https://leetcode-cn.com/problems/palindrome-linked-list/)（234）
     - [ ]  [copy-list-with-random-pointer](https://leetcode-cn.com/problems/copy-list-with-random-pointer/)（138）
