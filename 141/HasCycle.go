@@ -8,7 +8,6 @@ func hasCycle(head *runtime.ListNode) bool {
 	}
 
 	cache := make(map[*runtime.ListNode]int, 0)
-
 	for head != nil {
 		if cache[head] > 1 {
 			return true
