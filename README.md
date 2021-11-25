@@ -21,7 +21,7 @@
     - [x]  [palindrome-linked-list](https://leetcode-cn.com/problems/palindrome-linked-list/)（234）
     - [x]  [copy-list-with-random-pointer](https://leetcode-cn.com/problems/copy-list-with-random-pointer/)（138）
 - [ ]  栈和队列
-    - [ ]  [min-stack](https://leetcode-cn.com/problems/min-stack/)（155）
+    - [x]  [min-stack](https://leetcode-cn.com/problems/min-stack/)（155）
     - [ ]  [evaluate-reverse-polish-notation](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)（150）
     - [ ]  [decode-string](https://leetcode-cn.com/problems/decode-string/)（394）
     - [ ]  [binary-tree-inorder-traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)（94）
