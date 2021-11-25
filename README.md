@@ -19,7 +19,7 @@
     - [x]  [linked-list-cycle](https://leetcode-cn.com/problems/linked-list-cycle/)（141）
     - [x]  [linked-list-cycle-ii](https://leetcode-cn.com/problems/linked-list-cycle-ii/)（142）
     - [x]  [palindrome-linked-list](https://leetcode-cn.com/problems/palindrome-linked-list/)（234）
-    - [ ]  [copy-list-with-random-pointer](https://leetcode-cn.com/problems/copy-list-with-random-pointer/)（138）
+    - [x]  [copy-list-with-random-pointer](https://leetcode-cn.com/problems/copy-list-with-random-pointer/)（138）
 - [ ]  栈和队列
     - [ ]  [min-stack](https://leetcode-cn.com/problems/min-stack/)（155）
     - [ ]  [evaluate-reverse-polish-notation](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)（150）
