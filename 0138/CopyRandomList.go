@@ -1,15 +1,19 @@
 package _138
 
-import "github.com/raw34/leetcode/runtime"
+type Node struct {
+	Val int
+	Next *Node
+	Random *Node
+}
 
-var cache map[*runtime.Node]*runtime.Node
+var cache map[*Node]*Node
 
-func copyRandomList(head *runtime.Node) *runtime.Node {
-	cache = map[*runtime.Node]*runtime.Node{}
+func copyRandomList(head *Node) *Node {
+	cache = map[*Node]*Node{}
 	return deepCopy(head)
 }
 
-func deepCopy(node *runtime.Node) *runtime.Node {
+func deepCopy(node *Node) *Node {
 	if node == nil {
 		return node
 	}
@@ -19,7 +23,7 @@ func deepCopy(node *runtime.Node) *runtime.Node {
 		return nodeNew
 	}
 
-	nodeNew = &runtime.Node{Val: node.Val}
+	nodeNew = &Node{Val: node.Val}
 	cache[node] = nodeNew
 	nodeNew.Next = deepCopy(node.Next)
 	nodeNew.Random = deepCopy(node.Random)

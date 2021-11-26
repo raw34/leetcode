@@ -20,7 +20,6 @@ func decodeString(s string) string {
 				if !(next >= "0" && next <= "9") && (prev >= "0" && prev <= "9") {
 					break
 				}
-				prev = next
 				stack = stack[0:len(stack)-1]
 				if next == "[" {
 					continue
@@ -29,6 +28,7 @@ func decodeString(s string) string {
 				} else {
 					tmpStr = next + tmpStr
 				}
+				prev = next
 			}
 			num, err := strconv.Atoi(tmpNum)
 			if err == nil {
