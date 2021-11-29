@@ -25,7 +25,7 @@
     - [x]  [evaluate-reverse-polish-notation](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)（150）
     - [x]  [decode-string](https://leetcode-cn.com/problems/decode-string/)（394）
     - [x]  [clone-graph](https://leetcode-cn.com/problems/clone-graph/)（133）
-    - [ ]  [number-of-islands](https://leetcode-cn.com/problems/number-of-islands/)（200）
+    - [x]  [number-of-islands](https://leetcode-cn.com/problems/number-of-islands/)（200）
     - [ ]  [largest-rectangle-in-histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)（84）
     - [x]  [implement-queue-using-stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/)（232）
     - [ ]  [01-matrix](https://leetcode-cn.com/problems/01-matrix/)（542）
