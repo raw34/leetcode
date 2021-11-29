@@ -28,7 +28,7 @@
     - [x]  [number-of-islands](https://leetcode-cn.com/problems/number-of-islands/)（200）
     - [ ]  [largest-rectangle-in-histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)（84）
     - [x]  [implement-queue-using-stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/)（232）
-    - [ ]  [01-matrix](https://leetcode-cn.com/problems/01-matrix/)（542）
+    - [x]  [01-matrix](https://leetcode-cn.com/problems/01-matrix/)（542）
 - [ ]  二叉树
     - [ ]  [maximum-depth-of-binary-tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)（104）
     - [ ]  [balanced-binary-tree](https://leetcode-cn.com/problems/balanced-binary-tree/)（110）
