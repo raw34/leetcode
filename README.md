@@ -26,7 +26,7 @@
     - [x]  [decode-string](https://leetcode-cn.com/problems/decode-string/)（394）
     - [x]  [clone-graph](https://leetcode-cn.com/problems/clone-graph/)（133）
     - [x]  [number-of-islands](https://leetcode-cn.com/problems/number-of-islands/)（200）
-    - [ ]  [largest-rectangle-in-histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)（84）
+    - [x]  [largest-rectangle-in-histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)（84）
     - [x]  [implement-queue-using-stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/)（232）
     - [x]  [01-matrix](https://leetcode-cn.com/problems/01-matrix/)（542）
 - [ ]  二叉树
