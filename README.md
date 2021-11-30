@@ -38,7 +38,7 @@
     - [x]  [maximum-depth-of-binary-tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)（104）
     - [x]  [balanced-binary-tree](https://leetcode-cn.com/problems/balanced-binary-tree/)（110）
     - [x]  [binary-tree-maximum-path-sum](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)（124）?
-    - [ ]  [lowest-common-ancestor-of-a-binary-tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)（236）
+    - [x]  [lowest-common-ancestor-of-a-binary-tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)（236）
     - [ ]  [delete-node-in-a-bst](https://leetcode-cn.com/problems/delete-node-in-a-bst/)（450）
     - [ ]  [insert-into-a-binary-search-tree](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)（701）
 
