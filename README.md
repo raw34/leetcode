@@ -36,7 +36,7 @@
     - [x]  [binary-tree-zigzag-level-order-traversal](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)（103）
     - [x]  [validate-binary-search-tree](https://leetcode-cn.com/problems/validate-binary-search-tree/)（98）
     - [x]  [maximum-depth-of-binary-tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)（104）
-    - [ ]  [balanced-binary-tree](https://leetcode-cn.com/problems/balanced-binary-tree/)（110）
+    - [x]  [balanced-binary-tree](https://leetcode-cn.com/problems/balanced-binary-tree/)（110）
     - [ ]  [binary-tree-maximum-path-sum](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)（124）
     - [ ]  [lowest-common-ancestor-of-a-binary-tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)（236）
     - [ ]  [delete-node-in-a-bst](https://leetcode-cn.com/problems/delete-node-in-a-bst/)（450）
