@@ -39,6 +39,7 @@
     - [ ]  [balanced-binary-tree](https://leetcode-cn.com/problems/balanced-binary-tree/)（110）
     - [ ]  [binary-tree-maximum-path-sum](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)（124）
     - [ ]  [lowest-common-ancestor-of-a-binary-tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)（236）
+    - [ ]  [delete-node-in-a-bst](https://leetcode-cn.com/problems/delete-node-in-a-bst/)（450）
     - [ ]  [insert-into-a-binary-search-tree](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)（701）
 
 ## 基础算法
@@ -78,11 +79,6 @@
     - [ ]  [swap-nodes-in-pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)（24）
     - [ ]  [unique-binary-search-trees-ii](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/)（95）
     - [ ]  [fibonacci-number](https://leetcode-cn.com/problems/fibonacci-number/)（509）
-- [ ]  二叉搜索树
-    - [ ]  [validate-binary-search-tree](https://leetcode-cn.com/problems/validate-binary-search-tree/)（98）
-    - [ ]  [insert-into-a-binary-search-tree](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)（701）
-    - [ ]  [delete-node-in-a-bst](https://leetcode-cn.com/problems/delete-node-in-a-bst/)（450）
-    - [ ]  [balanced-binary-tree](https://leetcode-cn.com/problems/balanced-binary-tree/)（110）
 - [ ]  滑动窗口
     - [ ]  [minimum-window-substring](https://leetcode-cn.com/problems/minimum-window-substring/)（76）
     - [ ]  [permutation-in-string](https://leetcode-cn.com/problems/permutation-in-string/)（567）
