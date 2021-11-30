@@ -31,7 +31,7 @@
     - [x]  [01-matrix](https://leetcode-cn.com/problems/01-matrix/)（542）
 - [ ]  二叉树
     - [x]  [binary-tree-inorder-traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)（94）
-    - [ ]  [binary-tree-level-order-traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)（102）
+    - [x]  [binary-tree-level-order-traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)（102）
     - [ ]  [binary-tree-level-order-traversal-ii](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)（107）
     - [ ]  [binary-tree-zigzag-level-order-traversal](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)（103）
     - [ ]  [validate-binary-search-tree](https://leetcode-cn.com/problems/validate-binary-search-tree/)（98）
