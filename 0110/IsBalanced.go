@@ -2,7 +2,6 @@ package _110
 
 import (
 	"github.com/raw34/leetcode/runtime"
-	"math"
 )
 
 func isBalanced(root *runtime.TreeNode) bool {
@@ -10,7 +9,7 @@ func isBalanced(root *runtime.TreeNode) bool {
 		return true
 	}
 
-	return math.Abs(float64(height(root.Left)-height(root.Right))) <= 1 && isBalanced(root.Left) && isBalanced(root.Right)
+	return runtime.Abs(height(root.Left)-height(root.Right)) <= 1 && isBalanced(root.Left) && isBalanced(root.Right)
 }
 
 func height(root *runtime.TreeNode) int {
@@ -18,5 +17,5 @@ func height(root *runtime.TreeNode) int {
 		return 0
 	}
 
-	return int(math.Max(float64(height(root.Left)), float64(height(root.Right))) + 1)
+	return int(runtime.Max(height(root.Left), height(root.Right)) + 1)
 }

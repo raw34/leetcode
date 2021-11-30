@@ -1,9 +1,11 @@
 package _084
 
-import "math"
+import (
+	"github.com/raw34/leetcode/runtime"
+)
 
 func largestRectangleArea(heights []int) int {
-	area := float64(0)
+	area := 0
 	stack := make([]int, 0)
 	newHeights := append([]int{0}, append(heights, 0)...)
 	for i := 0; i < len(newHeights); i++ {
@@ -16,11 +18,11 @@ func largestRectangleArea(heights []int) int {
 			right := i
 			currW := right - left - 1
 
-			area = math.Max(area, float64(currW * currH))
+			area = runtime.Max(area, currW * currH)
 		}
 
 		stack = append(stack, i)
 	}
 
-	return int(area)
+	return area
 }
