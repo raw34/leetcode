@@ -12,19 +12,19 @@ import (
 这个算法的名字由来是因为越小的元素会经由交换慢慢“浮”到数列的顶端。
 */
 
-func bubbleSort(arr []int) []int {
-	n := len(arr)
+func bubbleSort(nums []int) []int {
+	n := len(nums)
 	for i := 0; i < n-1; i++ {
 		for j := 1; j < n-i; j++ {
-			if arr[j] < arr[j-1] {
-				temp := arr[j]
-				arr[j] = arr[j-1]
-				arr[j-1] = temp
+			if nums[j] < nums[j-1] {
+				temp := nums[j]
+				nums[j] = nums[j-1]
+				nums[j-1] = temp
 			}
 		}
 	}
 
-	return arr
+	return nums
 }
 
 /*
@@ -32,49 +32,49 @@ func bubbleSort(arr []int) []int {
 它的工作原理：首先在未排序序列中找到最小（大）元素，存放到排序序列的起始位置，然后，再从剩余未排序元素中继续寻找最小（大）元素，然后放到已排序序列的末尾。
 以此类推，直到所有元素均排序完毕。
 */
-func selectionSort(arr []int) []int {
-	n := len(arr)
+func selectionSort(nums []int) []int {
+	n := len(nums)
 
 	for i := 0; i < n-1; i++ {
 		minIndex := i
 		for j := i + 1; j < n; j++ {
-			if arr[j] < arr[minIndex] {
+			if nums[j] < nums[minIndex] {
 				minIndex = j
 			}
 		}
-		temp := arr[i]
-		arr[i] = arr[minIndex]
-		arr[minIndex] = temp
+		temp := nums[i]
+		nums[i] = nums[minIndex]
+		nums[minIndex] = temp
 	}
 
-	return arr
+	return nums
 }
 
 /*
 插入排序（Insertion-Sort）的算法描述是一种简单直观的排序算法。
 它的工作原理是通过构建有序序列，对于未排序数据，在已排序序列中从后向前扫描，找到相应位置并插入。
 */
-func insertionSort(arr []int) []int {
-	n := len(arr)
+func insertionSort(nums []int) []int {
+	n := len(nums)
 	for i := 1; i < n; i++ {
 		prevIndex := i - 1
-		curr := arr[i]
-		for prevIndex >= 0 && arr[prevIndex] > curr {
-			arr[prevIndex+1] = arr[prevIndex]
+		curr := nums[i]
+		for prevIndex >= 0 && nums[prevIndex] > curr {
+			nums[prevIndex+1] = nums[prevIndex]
 			prevIndex--
 		}
-		arr[prevIndex+1] = curr
+		nums[prevIndex+1] = curr
 	}
 
-	return arr
+	return nums
 }
 
 /*
 1959年Shell发明，第一个突破O(n2)的排序算法，是简单插入排序的改进版。
 它与插入排序的不同之处在于，它会优先比较距离较远的元素。希尔排序又叫缩小增量排序。
 */
-func shellSort(arr []int) []int {
-	return arr
+func shellSort(nums []int) []int {
+	return nums
 }
 
 /*
@@ -84,10 +84,10 @@ func shellSort(arr []int) []int {
 若将两个有序表合并成一个有序表，称为2-路归并。
 */
 
-func mergeSort(arr []int) []int {
-	n := len(arr)
+func mergeSort(nums []int) []int {
+	n := len(nums)
 	if n < 2 {
-		return arr
+		return nums
 	}
 
 	merge := func(left, right []int) []int {
@@ -117,8 +117,8 @@ func mergeSort(arr []int) []int {
 	}
 
 	mid := int(math.Floor(float64(n / 2)))
-	left := arr[0:mid]
-	right := arr[mid:]
+	left := nums[0:mid]
+	right := nums[mid:]
 
 	return merge(mergeSort(left), mergeSort(right))
 }
@@ -126,125 +126,125 @@ func mergeSort(arr []int) []int {
 /*
 快速排序的基本思想：通过一趟排序将待排记录分隔成独立的两部分，其中一部分记录的关键字均比另一部分的关键字小，则可分别对这两部分记录继续进行排序，以达到整个序列有序。
 */
-func quickSort(arr []int) []int {
-	swap := func(arr []int, i, j int) []int {
-		temp := arr[i]
-		arr[i] = arr[j]
-		arr[j] = temp
+func quickSort(nums []int) []int {
+	swap := func(nums []int, i, j int) []int {
+		temp := nums[i]
+		nums[i] = nums[j]
+		nums[j] = temp
 
-		return arr
+		return nums
 	}
 
-	partition := func(arr []int, left, right int) int {
+	partition := func(nums []int, left, right int) int {
 		pivot := left
 		index := pivot + 1
 
 		for i := index; i <= right; i++ {
-			if arr[i] < arr[pivot] {
-				swap(arr, i, index)
+			if nums[i] < nums[pivot] {
+				swap(nums, i, index)
 				index++
 			}
 		}
-		swap(arr, pivot, index-1)
+		swap(nums, pivot, index-1)
 
 		return index - 1
 	}
 
-	var quick func(arr []int, left, right int) []int
-	quick = func(arr []int, left, right int) []int {
+	var quick func(nums []int, left, right int) []int
+	quick = func(nums []int, left, right int) []int {
 		if left >= right {
-			return arr
+			return nums
 		}
 
-		p := partition(arr, left, right)
-		quick(arr, left, p-1)
-		quick(arr, p+1, right)
+		p := partition(nums, left, right)
+		quick(nums, left, p-1)
+		quick(nums, p+1, right)
 
-		return arr
+		return nums
 	}
-	quick(arr, 0, len(arr)-1)
+	quick(nums, 0, len(nums)-1)
 
-	return arr
+	return nums
 }
 
 /*
 堆排序的思想就是先将待排序的序列建成大根堆，使得每个父节点的元素大于等于它的子节点。
 此时整个序列最大值即为堆顶元素，我们将其与末尾元素交换，使末尾元素为最大值，然后再调整堆顶元素使得剩下的 n−1 个元素仍为大根堆，再重复执行以上操作我们即能得到一个有序的序列。
 */
-func heapSort(arr []int) []int {
-	length := len(arr)
-	swap := func(arr []int, i, j int) []int {
-		temp := arr[i]
-		arr[i] = arr[j]
-		arr[j] = temp
+func heapSort(nums []int) []int {
+	length := len(nums)
+	swap := func(nums []int, i, j int) []int {
+		temp := nums[i]
+		nums[i] = nums[j]
+		nums[j] = temp
 
-		return arr
+		return nums
 	}
 
-	var heapUp func(arr []int, i int)
-	heapUp = func(arr []int, i int) {
+	var heapUp func(nums []int, i int)
+	heapUp = func(nums []int, i int) {
 		left := 2*i + 1
 		right := 2*i + 2
 		max := i
 
-		if left < length && arr[left] > arr[max] {
+		if left < length && nums[left] > nums[max] {
 			max = left
 		}
 
-		if right < length && arr[right] > arr[max] {
+		if right < length && nums[right] > nums[max] {
 			max = right
 		}
 
 		if max != i {
-			swap(arr, i, max)
-			heapUp(arr, max)
+			swap(nums, i, max)
+			heapUp(nums, max)
 		}
 	}
 
-	buildMaxHeap := func(arr []int) {
+	buildMaxHeap := func(nums []int) {
 		mid := int(math.Floor(float64(length / 2)))
 		for i := mid; i >= 0; i-- {
-			heapUp(arr, i)
+			heapUp(nums, i)
 		}
 	}
-	buildMaxHeap(arr)
+	buildMaxHeap(nums)
 
-	for i := len(arr) - 1; i >= 0; i-- {
-		swap(arr, 0, i)
+	for i := len(nums) - 1; i >= 0; i-- {
+		swap(nums, 0, i)
 		length--
-		heapUp(arr, 0)
+		heapUp(nums, 0)
 	}
 
-	return arr
+	return nums
 }
 
 /*
 计数排序不是基于比较的排序算法，其核心在于将输入的数据值转化为键存储在额外开辟的数组空间中。
 作为一种线性时间复杂度的排序，计数排序要求输入的数据必须是有确定范围的整数。
 */
-func countingSort(arr []int) []int {
+func countingSort(nums []int) []int {
 	max := math.MinInt32
-	for i := 0; i < len(arr); i++ {
-		if arr[i] > max {
-			max = arr[i]
+	for i := 0; i < len(nums); i++ {
+		if nums[i] > max {
+			max = nums[i]
 		}
 	}
 
 	bucket := make([]int, max+1)
-	for i := 0; i < len(arr); i++ {
-		bucket[arr[i]]++
+	for i := 0; i < len(nums); i++ {
+		bucket[nums[i]]++
 	}
 
 	sortedIndex := 0
 	for i := 0; i < len(bucket); i++ {
 		for bucket[i] > 0 {
-			arr[sortedIndex] = i
+			nums[sortedIndex] = i
 			bucket[i]--
 			sortedIndex++
 		}
 	}
 
-	return arr
+	return nums
 }
 
 /*
@@ -252,12 +252,12 @@ func countingSort(arr []int) []int {
 它利用了函数的映射关系，高效与否的关键就在于这个映射函数的确定。
 桶排序 (Bucket sort)的工作的原理：假设输入数据服从均匀分布，将数据分到有限数量的桶里，每个桶再分别排序（有可能再使用别的排序算法或是以递归方式继续使用桶排序进行排）。
 */
-func bucketSort(arr []int) []int {
+func bucketSort(nums []int) []int {
 	// 获取最小、最大值
-	min := arr[0]
-	max := arr[0]
-	for i := 0; i < len(arr); i++ {
-		val := arr[i]
+	min := nums[0]
+	max := nums[0]
+	for i := 0; i < len(nums); i++ {
+		val := nums[i]
 		if val < min {
 			min = val
 		}
@@ -275,23 +275,23 @@ func bucketSort(arr []int) []int {
 	}
 
 	// 元素入桶
-	for i := 0; i < len(arr); i++ {
-		val := arr[i]
+	for i := 0; i < len(nums); i++ {
+		val := nums[i]
 		index := int(math.Floor(float64((val - min) / bucketSize)))
 		buckets[index] = append(buckets[index], val)
 	}
 
 	// 排序
-	arr = arr[:0]
+	nums = nums[:0]
 	for i := 0; i < len(buckets); i++ {
 		bucket := buckets[i]
 		sort.Ints(bucket)
 		for j := 0; j < len(bucket); j++ {
-			arr = append(arr, bucket[j])
+			nums = append(nums, bucket[j])
 		}
 	}
 
-	return arr
+	return nums
 }
 
 /*
@@ -299,7 +299,7 @@ func bucketSort(arr []int) []int {
 有时候有些属性是有优先级顺序的，先按低优先级排序，再按高优先级排序。
 最后的次序就是高优先级高的在前，高优先级相同的低优先级高的在前。
 */
-func radixSort(arr []int) []int {
+func radixSort(nums []int) []int {
 
-	return arr
+	return nums
 }
