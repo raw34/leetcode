@@ -76,7 +76,7 @@ func insertionSort(nums []int) []int {
 func shellSort(nums []int) []int {
 	length := len(nums)
 
-	for gap := int(math.Floor(float64(length / 2))); gap > 0; gap = int(math.Floor(float64(gap / 2))) {
+	for gap := length / 2; gap > 0; gap = gap / 2 {
 		for i := gap; i < length; i++ {
 			j := i
 			curr := nums[i]
@@ -130,7 +130,7 @@ func mergeSort(nums []int) []int {
 		return res
 	}
 
-	mid := int(math.Floor(float64(n / 2)))
+	mid := n / 2
 	left := nums[0:mid]
 	right := nums[mid:]
 
@@ -216,7 +216,7 @@ func heapSort(nums []int) []int {
 	}
 
 	buildMaxHeap := func(nums []int) {
-		mid := int(math.Floor(float64(length / 2)))
+		mid := length / 2
 		for i := mid; i >= 0; i-- {
 			heapUp(nums, i)
 		}
@@ -282,7 +282,7 @@ func bucketSort(nums []int) []int {
 
 	// 初始化桶
 	bucketSize := 5
-	bucketCount := int(math.Floor(float64((max-min)/bucketSize))) + 1
+	bucketCount := (max-min)/bucketSize + 1
 	buckets := make([][]int, bucketCount)
 	for i := 0; i < len(buckets); i++ {
 		buckets[i] = make([]int, 0)
@@ -291,7 +291,7 @@ func bucketSort(nums []int) []int {
 	// 元素入桶
 	for i := 0; i < len(nums); i++ {
 		val := nums[i]
-		index := int(math.Floor(float64((val - min) / bucketSize)))
+		index := (val - min) / bucketSize
 		buckets[index] = append(buckets[index], val)
 	}
 
