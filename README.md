@@ -46,7 +46,7 @@
 - [ ]  排序算法
     - [x]  [sort-an-array](https://leetcode-cn.com/problems/sort-an-array/)（912）
 - [ ]  二分查找
-    - [ ]  [find-first-and-last-position-of-element-in-sorted-array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)（34）
+    - [x]  [find-first-and-last-position-of-element-in-sorted-array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)（34）
     - [ ]  [search-insert-position](https://leetcode-cn.com/problems/search-insert-position/)（35）
     - [ ]  [search-a-2d-matrix](https://leetcode-cn.com/problems/search-a-2d-matrix/)（74）
     - [ ]  [first-bad-version](https://leetcode-cn.com/problems/first-bad-version/)（278）
