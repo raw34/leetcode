@@ -13,4 +13,5 @@ func Test_sortArray(t *testing.T) {
 	assert.Equal(t, expend, selectionSort(arr))
 	assert.Equal(t, expend, insertionSort(arr))
 	assert.Equal(t, expend, mergeSort(arr))
+	assert.Equal(t, expend, quickSort(arr))
 }

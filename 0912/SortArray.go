@@ -125,23 +125,62 @@ func mergeSort(arr []int) []int {
 /*
 快速排序的基本思想：通过一趟排序将待排记录分隔成独立的两部分，其中一部分记录的关键字均比另一部分的关键字小，则可分别对这两部分记录继续进行排序，以达到整个序列有序。
  */
-func quickSort()  {
+func quickSort(arr []int) []int {
+	swap := func(arr []int, i, j int) []int {
+		temp := arr[i]
+		arr[i] = arr[j]
+		arr[j] = temp
 
+		return arr
+	}
+
+	partition := func(arr []int, left, right int) int {
+		pivot := left
+		index := pivot + 1
+
+		for i := index; i <= right; i++ {
+			if arr[i] < arr[pivot] {
+				swap(arr, i, index)
+				index++
+			}
+		}
+		swap(arr, pivot, index - 1)
+
+		return index - 1
+	}
+
+	var quick func(arr []int, left, right int) []int
+	quick = func(arr []int, left, right int) []int {
+		if left >= right {
+			 return arr
+		}
+
+		p := partition(arr, left, right)
+		quick(arr, left, p -1)
+		quick(arr, p +1, right)
+
+		return arr
+	}
+	quick(arr, 0, len(arr)-1)
+
+	return arr
 }
 
 /*
 堆排序（Heapsort）是指利用堆这种数据结构所设计的一种排序算法。
 堆积是一个近似完全二叉树的结构，并同时满足堆积的性质：即子结点的键值或索引总是小于（或者大于）它的父节点。
  */
-func heapSort()  {
+func heapSort(arr []int) []int {
+	return arr
 }
 
 /*
 计数排序不是基于比较的排序算法，其核心在于将输入的数据值转化为键存储在额外开辟的数组空间中。
 作为一种线性时间复杂度的排序，计数排序要求输入的数据必须是有确定范围的整数。
  */
-func countingSort()  {
+func countingSort(arr []int) []int {
 
+	return arr
 }
 
 /*
@@ -149,8 +188,9 @@ func countingSort()  {
 它利用了函数的映射关系，高效与否的关键就在于这个映射函数的确定。
 桶排序 (Bucket sort)的工作的原理：假设输入数据服从均匀分布，将数据分到有限数量的桶里，每个桶再分别排序（有可能再使用别的排序算法或是以递归方式继续使用桶排序进行排）。
  */
-func bucketSort()  {
+func bucketSort(arr []int) []int {
 
+	return arr
 }
 
 /*
@@ -158,6 +198,7 @@ func bucketSort()  {
 有时候有些属性是有优先级顺序的，先按低优先级排序，再按高优先级排序。
 最后的次序就是高优先级高的在前，高优先级相同的低优先级高的在前。
  */
-func radixSort()  {
+func radixSort(arr []int) []int {
 
+	return arr
 }
