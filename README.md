@@ -44,9 +44,7 @@
 
 ## 基础算法
 - [ ]  排序算法
-    - [ ]  快速排序
-    - [ ]  归并排序
-    - [ ]  堆排序
+    - [x]  [sort-an-array](https://leetcode-cn.com/problems/sort-an-array/)（912）
 - [ ]  二分查找
     - [ ]  [search-for-range](https://www.lintcode.com/problem/search-for-a-range/description)（）
     - [ ]  [search-insert-position](https://leetcode-cn.com/problems/search-insert-position/)（35）
