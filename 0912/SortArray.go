@@ -74,6 +74,20 @@ func insertionSort(nums []int) []int {
 它与插入排序的不同之处在于，它会优先比较距离较远的元素。希尔排序又叫缩小增量排序。
 */
 func shellSort(nums []int) []int {
+	length := len(nums)
+
+	for gap := int(math.Floor(float64(length / 2))); gap > 0; gap = int(math.Floor(float64(gap / 2))) {
+		for i := gap; i < length; i++ {
+			j := i
+			curr := nums[i]
+			for j-gap >= 0 && curr < nums[j-gap] {
+				nums[j] = nums[j-gap]
+				j = j - gap
+			}
+			nums[j] = curr
+		}
+	}
+
 	return nums
 }
 
@@ -300,6 +314,38 @@ func bucketSort(nums []int) []int {
 最后的次序就是高优先级高的在前，高优先级相同的低优先级高的在前。
 */
 func radixSort(nums []int) []int {
+	bitSort := func(arr []int, bit int) []int {
+		length := len(arr)
+		bitCounts := make([]int, 10)
+		for i := 0; i < length; i++ {
+			num := (arr[i] / bit) % 10
+			bitCounts[num]++
+		}
+
+		for j := 1; j < len(bitCounts); j++ {
+			bitCounts[j] += bitCounts[j-1]
+		}
+
+		res := make([]int, length)
+		for i := length - 1; i >= 0; i-- {
+			num := (arr[i] / bit) % 10
+			res[bitCounts[num]-1] = arr[i]
+			bitCounts[num]--
+		}
+
+		return res
+	}
+
+	max := math.MinInt32
+	for i := 0; i < len(nums); i++ {
+		if nums[i] > max {
+			max = nums[i]
+		}
+	}
+
+	for bit := 1; max/bit > 0; bit *= 10 {
+		nums = bitSort(nums, bit)
+	}
 
 	return nums
 }

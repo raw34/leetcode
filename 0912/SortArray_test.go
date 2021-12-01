@@ -15,6 +15,8 @@ func Test_sortArray(t *testing.T) {
 	arr = []int{5, 3, 1, 2, 6, 7, 10, 8, 4, 9}
 	assert.Equal(t, expend, insertionSort(arr))
 	arr = []int{5, 3, 1, 2, 6, 7, 10, 8, 4, 9}
+	assert.Equal(t, expend, shellSort(arr))
+	arr = []int{5, 3, 1, 2, 6, 7, 10, 8, 4, 9}
 	assert.Equal(t, expend, mergeSort(arr))
 	arr = []int{5, 3, 1, 2, 6, 7, 10, 8, 4, 9}
 	assert.Equal(t, expend, quickSort(arr))
@@ -24,4 +26,6 @@ func Test_sortArray(t *testing.T) {
 	assert.Equal(t, expend, countingSort(arr))
 	arr = []int{5, 3, 1, 2, 6, 7, 10, 8, 4, 9}
 	assert.Equal(t, expend, bucketSort(arr))
+	arr = []int{5, 3, 1, 2, 6, 7, 10, 8, 4, 9}
+	assert.Equal(t, expend, radixSort(arr))
 }
