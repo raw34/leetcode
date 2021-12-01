@@ -2,6 +2,7 @@ package _912
 
 import (
 	"math"
+	"sort"
 )
 
 /*
@@ -252,6 +253,43 @@ func countingSort(arr []int) []int {
 桶排序 (Bucket sort)的工作的原理：假设输入数据服从均匀分布，将数据分到有限数量的桶里，每个桶再分别排序（有可能再使用别的排序算法或是以递归方式继续使用桶排序进行排）。
 */
 func bucketSort(arr []int) []int {
+	// 获取最小、最大值
+	min := arr[0]
+	max := arr[0]
+	for i := 0; i < len(arr); i++ {
+		val := arr[i]
+		if val < min {
+			min = val
+		}
+		if val > max {
+			max = val
+		}
+	}
+
+	// 初始化桶
+	bucketSize := 5
+	bucketCount := int(math.Floor(float64((max-min)/bucketSize))) + 1
+	buckets := make([][]int, bucketCount)
+	for i := 0; i < len(buckets); i++ {
+		buckets[i] = make([]int, 0)
+	}
+
+	// 元素入桶
+	for i := 0; i < len(arr); i++ {
+		val := arr[i]
+		index := int(math.Floor(float64((val - min) / bucketSize)))
+		buckets[index] = append(buckets[index], val)
+	}
+
+	// 排序
+	arr = arr[:0]
+	for i := 0; i < len(buckets); i++ {
+		bucket := buckets[i]
+		sort.Ints(bucket)
+		for j := 0; j < len(bucket); j++ {
+			arr = append(arr, bucket[j])
+		}
+	}
 
 	return arr
 }
