@@ -20,4 +20,6 @@ func Test_sortArray(t *testing.T) {
 	assert.Equal(t, expend, quickSort(arr))
 	arr = []int{5, 3, 1, 2}
 	assert.Equal(t, expend, heapSort(arr))
+	arr = []int{5, 3, 1, 2}
+	assert.Equal(t, expend, countingSort(arr))
 }

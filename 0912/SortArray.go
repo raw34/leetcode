@@ -222,6 +222,26 @@ func heapSort(arr []int) []int {
 作为一种线性时间复杂度的排序，计数排序要求输入的数据必须是有确定范围的整数。
 */
 func countingSort(arr []int) []int {
+	max := math.MinInt32
+	for i := 0; i < len(arr); i++ {
+		if arr[i] > max {
+			max = arr[i]
+		}
+	}
+
+	bucket := make([]int, max+1)
+	for i := 0; i < len(arr); i++ {
+		bucket[arr[i]]++
+	}
+
+	sortedIndex := 0
+	for i := 0; i < len(bucket); i++ {
+		for bucket[i] > 0 {
+			arr[sortedIndex] = i
+			bucket[i]--
+			sortedIndex++
+		}
+	}
 
 	return arr
 }
