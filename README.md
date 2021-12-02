@@ -1,12 +1,12 @@
 ## 基础知识
-- [ ]  位运算
+- [x]  位运算
     - [x]  [single-number](https://leetcode-cn.com/problems/single-number/)（136）
     - [x]  [single-number-ii](https://leetcode-cn.com/problems/single-number-ii/)（137）
     - [x]  [single-number-iii](https://leetcode-cn.com/problems/single-number-iii/)（260）?
     - [x]  [number-of-1-bits](https://leetcode-cn.com/problems/number-of-1-bits/)（191）
     - [x]  [counting-bits](https://leetcode-cn.com/problems/counting-bits/)（338）
     - [x]  [reverse-bits](https://leetcode-cn.com/problems/reverse-bits/)（190）?
-- [ ]  链表
+- [x]  链表
     - [x]  [remove-duplicates-from-sorted-list](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)（83）
     - [x]  [remove-duplicates-from-sorted-list-ii](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)（82）
     - [x]  [reverse-linked-list](https://leetcode-cn.com/problems/reverse-linked-list/)（206）
@@ -20,7 +20,7 @@
     - [x]  [linked-list-cycle-ii](https://leetcode-cn.com/problems/linked-list-cycle-ii/)（142）
     - [x]  [palindrome-linked-list](https://leetcode-cn.com/problems/palindrome-linked-list/)（234）
     - [x]  [copy-list-with-random-pointer](https://leetcode-cn.com/problems/copy-list-with-random-pointer/)（138）
-- [ ]  栈和队列
+- [x]  栈和队列
     - [x]  [min-stack](https://leetcode-cn.com/problems/min-stack/)（155）
     - [x]  [evaluate-reverse-polish-notation](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)（150）
     - [x]  [decode-string](https://leetcode-cn.com/problems/decode-string/)（394）
@@ -29,7 +29,7 @@
     - [x]  [largest-rectangle-in-histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)（84）
     - [x]  [implement-queue-using-stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/)（232）
     - [x]  [01-matrix](https://leetcode-cn.com/problems/01-matrix/)（542）
-- [ ]  二叉树
+- [x]  二叉树
     - [x]  [binary-tree-inorder-traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)（94）
     - [x]  [binary-tree-level-order-traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)（102）
     - [x]  [binary-tree-level-order-traversal-ii](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)（107）
@@ -43,9 +43,9 @@
     - [x]  [insert-into-a-binary-search-tree](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)（701）
 
 ## 基础算法
-- [ ]  排序算法
+- [x]  排序算法
     - [x]  [sort-an-array](https://leetcode-cn.com/problems/sort-an-array/)（912）
-- [ ]  二分查找
+- [x]  二分查找
     - [x]  [find-first-and-last-position-of-element-in-sorted-array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)（34）
     - [x]  [search-insert-position](https://leetcode-cn.com/problems/search-insert-position/)（35）
     - [x]  [search-in-rotated-sorted-array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)（33）
