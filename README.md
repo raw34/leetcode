@@ -53,7 +53,7 @@
     - [x]  [search-a-2d-matrix](https://leetcode-cn.com/problems/search-a-2d-matrix/)（74）
     - [x]  [first-bad-version](https://leetcode-cn.com/problems/first-bad-version/)（278）
     - [x]  [find-minimum-in-rotated-sorted-array](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)（153）
-    - [ ]  [find-minimum-in-rotated-sorted-array-ii](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)（154）
+    - [x]  [find-minimum-in-rotated-sorted-array-ii](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)（154）
 - [ ]  动态规划
     - [ ]  [triangle](https://leetcode-cn.com/problems/triangle/)（120）
     - [ ]  [minimum-path-sum](https://leetcode-cn.com/problems/minimum-path-sum/)（64）
