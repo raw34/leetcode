@@ -54,19 +54,22 @@
     - [x]  [first-bad-version](https://leetcode-cn.com/problems/first-bad-version/)（278）
     - [x]  [find-minimum-in-rotated-sorted-array](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)（153）
     - [x]  [find-minimum-in-rotated-sorted-array-ii](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)（154）
-- [ ]  动态规划
-    - [ ]  [triangle](https://leetcode-cn.com/problems/triangle/)（120）
-    - [ ]  [minimum-path-sum](https://leetcode-cn.com/problems/minimum-path-sum/)（64）
-    - [ ]  [unique-paths](https://leetcode-cn.com/problems/unique-paths/)（62）
-    - [ ]  [unique-paths-ii](https://leetcode-cn.com/problems/unique-paths-ii/)（63）
-    - [ ]  [climbing-stairs](https://leetcode-cn.com/problems/climbing-stairs/)（70）
-    - [ ]  [jump-game](https://leetcode-cn.com/problems/jump-game/)（55）
-    - [ ]  [jump-game-ii](https://leetcode-cn.com/problems/jump-game-ii/)（45）
-    - [ ]  [palindrome-partitioning-ii](https://leetcode-cn.com/problems/palindrome-partitioning-ii/)（132）
-    - [ ]  [longest-increasing-subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/)（300）
-    - [ ]  [word-break](https://leetcode-cn.com/problems/word-break/)（139）
-    - [ ]  [longest-common-subsequence](https://leetcode-cn.com/problems/longest-common-subsequence/)（1143）
-    - [ ]  [edit-distance](https://leetcode-cn.com/problems/edit-distance/)（72）
+- [ ]  动态规划 - Matrix DP (10%)
+   - [ ]  [triangle](https://leetcode-cn.com/problems/triangle/)（120）
+   - [ ]  [minimum-path-sum](https://leetcode-cn.com/problems/minimum-path-sum/)（64）
+   - [ ]  [unique-paths](https://leetcode-cn.com/problems/unique-paths/)（62）
+   - [ ]  [unique-paths-ii](https://leetcode-cn.com/problems/unique-paths-ii/)（63）
+- [ ]  动态规划 - Sequence (40%)
+   - [ ]  [climbing-stairs](https://leetcode-cn.com/problems/climbing-stairs/)（70）
+   - [ ]  [jump-game](https://leetcode-cn.com/problems/jump-game/)（55）
+   - [ ]  [jump-game-ii](https://leetcode-cn.com/problems/jump-game-ii/)（45）
+   - [ ]  [palindrome-partitioning-ii](https://leetcode-cn.com/problems/palindrome-partitioning-ii/)（132）
+   - [ ]  [longest-increasing-subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/)（300）
+   - [ ]  [word-break](https://leetcode-cn.com/problems/word-break/)（139）
+- [ ]  动态规划 - Two Sequences DP (40%)
+   - [ ]  [longest-common-subsequence](https://leetcode-cn.com/problems/longest-common-subsequence/)（1143）
+   - [ ]  [edit-distance](https://leetcode-cn.com/problems/edit-distance/)（72）
+- [ ]  动态规划 - Backpack (10%)
     - [ ]  [coin-change](https://leetcode-cn.com/problems/coin-change/)（332）
     - [ ]  [backpack](https://www.lintcode.com/problem/backpack/description)（）
     - [ ]  [backpack-ii](https://www.lintcode.com/problem/backpack-ii/description)（）
