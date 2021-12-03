@@ -63,8 +63,9 @@
     - [x]  [climbing-stairs](https://leetcode-cn.com/problems/climbing-stairs/)（70）
     - [x]  [jump-game](https://leetcode-cn.com/problems/jump-game/)（55）?
     - [x]  [jump-game-ii](https://leetcode-cn.com/problems/jump-game-ii/)（45）?
+    - [ ]  [palindrome-partitioning](https://leetcode-cn.com/problems/palindrome-partitioning/)（131）
     - [ ]  [palindrome-partitioning-ii](https://leetcode-cn.com/problems/palindrome-partitioning-ii/)（132）
-    - [ ]  [longest-increasing-subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/)（300）
+    - [x]  [longest-increasing-subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/)（300）?
     - [ ]  [word-break](https://leetcode-cn.com/problems/word-break/)（139）
 - [ ]  动态规划 - Two Sequences DP (40%)
     - [ ]  [longest-common-subsequence](https://leetcode-cn.com/problems/longest-common-subsequence/)（1143）
@@ -92,6 +93,5 @@
     - [ ]  [permutations-ii](https://leetcode-cn.com/problems/permutations-ii/)（47）
     - [ ]  [combination-sum](https://leetcode-cn.com/problems/combination-sum/)（39）
     - [ ]  [letter-combinations-of-a-phone-number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)（17）
-    - [ ]  [palindrome-partitioning](https://leetcode-cn.com/problems/palindrome-partitioning/)（131）
     - [ ]  [restore-ip-addresses](https://leetcode-cn.com/problems/restore-ip-addresses/)（93）
     - [ ]  [permutations](https://leetcode-cn.com/problems/permutations/)（46）
