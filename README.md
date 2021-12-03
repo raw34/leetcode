@@ -62,7 +62,7 @@
 - [ ]  动态规划 - Sequence (40%)
     - [x]  [climbing-stairs](https://leetcode-cn.com/problems/climbing-stairs/)（70）
     - [x]  [jump-game](https://leetcode-cn.com/problems/jump-game/)（55）?
-    - [ ]  [jump-game-ii](https://leetcode-cn.com/problems/jump-game-ii/)（45）
+    - [x]  [jump-game-ii](https://leetcode-cn.com/problems/jump-game-ii/)（45）?
     - [ ]  [palindrome-partitioning-ii](https://leetcode-cn.com/problems/palindrome-partitioning-ii/)（132）
     - [ ]  [longest-increasing-subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/)（300）
     - [ ]  [word-break](https://leetcode-cn.com/problems/word-break/)（139）
