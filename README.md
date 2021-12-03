@@ -57,7 +57,7 @@
 - [ ]  动态规划 - Matrix DP (10%)
     - [x]  [triangle](https://leetcode-cn.com/problems/triangle/)（120）?
     - [x]  [minimum-path-sum](https://leetcode-cn.com/problems/minimum-path-sum/)（64）
-    - [ ]  [unique-paths](https://leetcode-cn.com/problems/unique-paths/)（62）
+    - [x]  [unique-paths](https://leetcode-cn.com/problems/unique-paths/)（62）
     - [ ]  [unique-paths-ii](https://leetcode-cn.com/problems/unique-paths-ii/)（63）
 - [ ]  动态规划 - Sequence (40%)
     - [ ]  [climbing-stairs](https://leetcode-cn.com/problems/climbing-stairs/)（70）
