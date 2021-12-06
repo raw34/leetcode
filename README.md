@@ -90,7 +90,7 @@
 - [ ]  回溯算法
     - [x]  [subsets](https://leetcode-cn.com/problems/subsets/)（78）
     - [x]  [subsets-ii](https://leetcode-cn.com/problems/subsets-ii/)（90）
-    - [ ]  [permutations](https://leetcode-cn.com/problems/permutations/)（46）
+    - [x]  [permutations](https://leetcode-cn.com/problems/permutations/)（46）
     - [ ]  [permutations-ii](https://leetcode-cn.com/problems/permutations-ii/)（47）
     - [ ]  [combination-sum](https://leetcode-cn.com/problems/combination-sum/)（39）
     - [ ]  [letter-combinations-of-a-phone-number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)（17）
