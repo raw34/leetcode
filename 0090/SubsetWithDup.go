@@ -7,7 +7,7 @@ func subsetsWithDup(nums []int) [][]int {
 
     res := make([][]int, 0)
 
-    var backtrack func(list []int, i int)
+    var backtrack func(list []int, start int)
     backtrack = func(list []int, start int) {
         temp := make([]int, len(list))
         copy(temp, list)
