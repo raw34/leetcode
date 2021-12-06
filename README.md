@@ -72,6 +72,7 @@
     - [ ]  [edit-distance](https://leetcode-cn.com/problems/edit-distance/)（72）
 - [ ]  动态规划 - Backpack (10%)
     - [x]  [coin-change](https://leetcode-cn.com/problems/coin-change/)（332）
+    - [x]  [coin-change-ii](https://leetcode-cn.com/problems/coin-change-2/)（518）
     - [ ]  [backpack](https://www.lintcode.com/problem/backpack/description)（）
     - [ ]  [backpack-ii](https://www.lintcode.com/problem/backpack-ii/description)（）
 
