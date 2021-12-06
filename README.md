@@ -88,7 +88,7 @@
     - [ ]  [find-all-anagrams-in-a-string](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)（438）
     - [ ]  [longest-substring-without-repeating-characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)（3）
 - [ ]  回溯算法
-    - [ ]  [subsets](https://leetcode-cn.com/problems/subsets/)（78）
+    - [x]  [subsets](https://leetcode-cn.com/problems/subsets/)（78）
     - [ ]  [subsets-ii](https://leetcode-cn.com/problems/subsets-ii/)（90）
     - [ ]  [permutations](https://leetcode-cn.com/problems/permutations/)（46）
     - [ ]  [permutations-ii](https://leetcode-cn.com/problems/permutations-ii/)（47）
