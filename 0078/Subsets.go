@@ -5,9 +5,9 @@ func subsets(nums []int) [][]int {
 
     var backtrack func(list []int, i int)
     backtrack = func(list []int, i int) {
-        path := make([]int, len(list))
-        copy(path, list)
-        res = append(res, path)
+        temp := make([]int, len(list))
+        copy(temp, list)
+        res = append(res, temp)
         for j := i; j < len(nums); j++ {
             list = append(list, nums[j])
             backtrack(list, j+1)
