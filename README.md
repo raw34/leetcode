@@ -92,7 +92,7 @@
     - [x]  [subsets-ii](https://leetcode-cn.com/problems/subsets-ii/)（90）
     - [x]  [permutations](https://leetcode-cn.com/problems/permutations/)（46）
     - [x]  [permutations-ii](https://leetcode-cn.com/problems/permutations-ii/)（47）
-    - [ ]  [combination-sum](https://leetcode-cn.com/problems/combination-sum/)（39）
+    - [x]  [combination-sum](https://leetcode-cn.com/problems/combination-sum/)（39）
     - [ ]  [letter-combinations-of-a-phone-number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)（17）
     - [ ]  [restore-ip-addresses](https://leetcode-cn.com/problems/restore-ip-addresses/)（93）
     - [ ]  [permutations](https://leetcode-cn.com/problems/permutations/)（46）
