@@ -71,7 +71,7 @@
     - [ ]  [longest-common-subsequence](https://leetcode-cn.com/problems/longest-common-subsequence/)（1143）
     - [ ]  [edit-distance](https://leetcode-cn.com/problems/edit-distance/)（72）
 - [ ]  动态规划 - Backpack (10%)
-    - [ ]  [coin-change](https://leetcode-cn.com/problems/coin-change/)（332）
+    - [x]  [coin-change](https://leetcode-cn.com/problems/coin-change/)（332）
     - [ ]  [backpack](https://www.lintcode.com/problem/backpack/description)（）
     - [ ]  [backpack-ii](https://www.lintcode.com/problem/backpack-ii/description)（）
 
