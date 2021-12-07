@@ -9,21 +9,20 @@ func lengthOfLongestSubstring(s string) int {
     }
 
     res := 0
-    m := map[byte]int{}
+    cnt := map[byte]int{}
     n := len(s)
-    r := -1
 
-    for l := 0; l < n; l++ {
+    for l, r := 0, 0; l < n; l++ {
         if l > 0 {
-            delete(m, s[l-1])
+            delete(cnt, s[l-1])
         }
 
-        for r+1 < n && m[s[r+1]] == 0 {
-            m[s[r+1]]++
+        for r < n && cnt[s[r]] == 0 {
+            cnt[s[r]]++
             r++
         }
 
-        res = max(res, r-l+1)
+        res = max(res, r-l)
     }
 
     return res
