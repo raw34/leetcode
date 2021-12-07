@@ -81,7 +81,7 @@
     - [x]  [reverse-string](https://leetcode-cn.com/problems/reverse-string/)（344）
     - [x]  [swap-nodes-in-pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)（24）?
     - [ ]  [unique-binary-search-trees-ii](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/)（95）
-    - [ ]  [fibonacci-number](https://leetcode-cn.com/problems/fibonacci-number/)（509）
+    - [x]  [fibonacci-number](https://leetcode-cn.com/problems/fibonacci-number/)（509）
 - [ ]  滑动窗口
     - [ ]  [minimum-window-substring](https://leetcode-cn.com/problems/minimum-window-substring/)（76）
     - [ ]  [permutation-in-string](https://leetcode-cn.com/problems/permutation-in-string/)（567）
