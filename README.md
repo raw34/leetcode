@@ -77,7 +77,7 @@
     - [ ]  [backpack-ii](https://www.lintcode.com/problem/backpack-ii/description)（）
 
 ## 算法思维
-- [ ]  递归思维
+- [x]  递归思维
     - [x]  [reverse-string](https://leetcode-cn.com/problems/reverse-string/)（344）
     - [x]  [swap-nodes-in-pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)（24）?
     - [x]  [unique-binary-search-trees-ii](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/)（95）
