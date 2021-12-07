@@ -84,7 +84,7 @@
     - [x]  [fibonacci-number](https://leetcode-cn.com/problems/fibonacci-number/)（509）
 - [ ]  滑动窗口
     - [x]  [minimum-window-substring](https://leetcode-cn.com/problems/minimum-window-substring/)（76）
-    - [ ]  [permutation-in-string](https://leetcode-cn.com/problems/permutation-in-string/)（567）
+    - [x]  [permutation-in-string](https://leetcode-cn.com/problems/permutation-in-string/)（567）
     - [ ]  [find-all-anagrams-in-a-string](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)（438）
     - [ ]  [longest-substring-without-repeating-characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)（3）
 - [ ]  回溯算法
