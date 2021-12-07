@@ -54,7 +54,7 @@
     - [x]  [first-bad-version](https://leetcode-cn.com/problems/first-bad-version/)（278）
     - [x]  [find-minimum-in-rotated-sorted-array](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)（153）
     - [x]  [find-minimum-in-rotated-sorted-array-ii](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)（154）
-- [ ]  动态规划 - Matrix DP (10%)
+- [x]  动态规划 - Matrix DP (10%)
     - [x]  [triangle](https://leetcode-cn.com/problems/triangle/)（120）?
     - [x]  [minimum-path-sum](https://leetcode-cn.com/problems/minimum-path-sum/)（64）
     - [x]  [unique-paths](https://leetcode-cn.com/problems/unique-paths/)（62）
@@ -82,7 +82,7 @@
     - [x]  [swap-nodes-in-pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)（24）?
     - [ ]  [unique-binary-search-trees-ii](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/)（95）
     - [x]  [fibonacci-number](https://leetcode-cn.com/problems/fibonacci-number/)（509）
-- [ ]  滑动窗口
+- [x]  滑动窗口
     - [x]  [minimum-window-substring](https://leetcode-cn.com/problems/minimum-window-substring/)（76）
     - [x]  [permutation-in-string](https://leetcode-cn.com/problems/permutation-in-string/)（567）
     - [x]  [find-all-anagrams-in-a-string](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)（438）
