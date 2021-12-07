@@ -86,7 +86,7 @@
     - [x]  [minimum-window-substring](https://leetcode-cn.com/problems/minimum-window-substring/)（76）
     - [x]  [permutation-in-string](https://leetcode-cn.com/problems/permutation-in-string/)（567）
     - [x]  [find-all-anagrams-in-a-string](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)（438）
-    - [ ]  [longest-substring-without-repeating-characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)（3）
+    - [x]  [longest-substring-without-repeating-characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)（3）
 - [ ]  回溯算法
     - [x]  [subsets](https://leetcode-cn.com/problems/subsets/)（78）
     - [x]  [subsets-ii](https://leetcode-cn.com/problems/subsets-ii/)（90）
