@@ -70,11 +70,9 @@
 - [x]  动态规划 - Two Sequences DP (40%)
     - [x]  [longest-common-subsequence](https://leetcode-cn.com/problems/longest-common-subsequence/)（1143）
     - [x]  [edit-distance](https://leetcode-cn.com/problems/edit-distance/)（72）
-- [ ]  动态规划 - Backpack (10%)
+- [x]  动态规划 - Backpack (10%)
     - [x]  [coin-change](https://leetcode-cn.com/problems/coin-change/)（332）
     - [x]  [coin-change-ii](https://leetcode-cn.com/problems/coin-change-2/)（518）
-    - [ ]  [backpack](https://www.lintcode.com/problem/backpack/description)（）
-    - [ ]  [backpack-ii](https://www.lintcode.com/problem/backpack-ii/description)（）
 
 ## 算法思维
 - [x]  递归思维
