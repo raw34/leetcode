@@ -64,7 +64,7 @@
     - [x]  [jump-game](https://leetcode-cn.com/problems/jump-game/)（55）?
     - [x]  [jump-game-ii](https://leetcode-cn.com/problems/jump-game-ii/)（45）?
     - [x]  [palindrome-partitioning](https://leetcode-cn.com/problems/palindrome-partitioning/)（131）
-    - [x]  [palindrome-partitioning-ii](https://leetcode-cn.com/problems/palindrome-partitioning-ii/)（132）
+    - [x]  [palindrome-partitioning-ii](https://leetcode-cn.com/problems/palindrome-partitioning-ii/)（132）?
     - [x]  [longest-increasing-subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/)（300）?
     - [ ]  [word-break](https://leetcode-cn.com/problems/word-break/)（139）
 - [ ]  动态规划 - Two Sequences DP (40%)
