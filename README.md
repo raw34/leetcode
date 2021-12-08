@@ -59,14 +59,14 @@
     - [x]  [minimum-path-sum](https://leetcode-cn.com/problems/minimum-path-sum/)（64）
     - [x]  [unique-paths](https://leetcode-cn.com/problems/unique-paths/)（62）
     - [x]  [unique-paths-ii](https://leetcode-cn.com/problems/unique-paths-ii/)（63）
-- [ ]  动态规划 - Sequence (40%)
+- [x]  动态规划 - Sequence (40%)
     - [x]  [climbing-stairs](https://leetcode-cn.com/problems/climbing-stairs/)（70）
     - [x]  [jump-game](https://leetcode-cn.com/problems/jump-game/)（55）?
     - [x]  [jump-game-ii](https://leetcode-cn.com/problems/jump-game-ii/)（45）?
     - [x]  [palindrome-partitioning](https://leetcode-cn.com/problems/palindrome-partitioning/)（131）
     - [x]  [palindrome-partitioning-ii](https://leetcode-cn.com/problems/palindrome-partitioning-ii/)（132）?
     - [x]  [longest-increasing-subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/)（300）?
-    - [ ]  [word-break](https://leetcode-cn.com/problems/word-break/)（139）
+    - [x]  [word-break](https://leetcode-cn.com/problems/word-break/)（139）
 - [ ]  动态规划 - Two Sequences DP (40%)
     - [ ]  [longest-common-subsequence](https://leetcode-cn.com/problems/longest-common-subsequence/)（1143）
     - [ ]  [edit-distance](https://leetcode-cn.com/problems/edit-distance/)（72）
