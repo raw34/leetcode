@@ -68,7 +68,7 @@
     - [x]  [longest-increasing-subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/)（300）?
     - [x]  [word-break](https://leetcode-cn.com/problems/word-break/)（139）
 - [ ]  动态规划 - Two Sequences DP (40%)
-    - [ ]  [longest-common-subsequence](https://leetcode-cn.com/problems/longest-common-subsequence/)（1143）
+    - [x]  [longest-common-subsequence](https://leetcode-cn.com/problems/longest-common-subsequence/)（1143）
     - [ ]  [edit-distance](https://leetcode-cn.com/problems/edit-distance/)（72）
 - [ ]  动态规划 - Backpack (10%)
     - [x]  [coin-change](https://leetcode-cn.com/problems/coin-change/)（332）
