@@ -93,3 +93,10 @@
     - [x]  [combination-sum](https://leetcode-cn.com/problems/combination-sum/)（39）
     - [x]  [letter-combinations-of-a-phone-number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)（17）
     - [x]  [restore-ip-addresses](https://leetcode-cn.com/problems/restore-ip-addresses/)（93）
+
+## 算法技巧
+- [ ]  前缀和
+    - [x]  [range-sum-query-immutable](https://leetcode-cn.com/problems/range-sum-query-immutable/)（303）
+- [ ]  状态压缩
+- [ ]  哈希函数
+- [ ]  滚动哈希
