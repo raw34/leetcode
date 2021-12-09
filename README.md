@@ -112,3 +112,6 @@
    - [ ]  [shopping-offers](https://leetcode-cn.com/problems/shopping-offers/)（638）
    - [ ]  [partition-to-k-equal-sum-subsets](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/)（698）
    - [ ]  [shortest-path-visiting-all-nodes](https://leetcode-cn.com/problems/shortest-path-visiting-all-nodes/)（847）
+- [ ]  扫描线
+   - [ ]  [the-skyline-problem](https://leetcode-cn.com/problems/the-skyline-problem/)（218）
+   - [ ]  [perfect-rectangle](https://leetcode-cn.com/problems/perfect-rectangle/)（391）
