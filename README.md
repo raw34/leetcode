@@ -1,3 +1,35 @@
+## 数据结构设计
+- [ ]  链表
+    - [ ]  [design-linked-list](https://leetcode-cn.com/problems/design-linked-list/)（707）
+    - [ ]  [design-skiplist](https://leetcode-cn.com/problems/design-skiplist/)（1206）
+- [ ]  哈希表
+    - [ ]  [design-hashset](https://leetcode-cn.com/problems/design-hashset/)（705）
+    - [ ]  [design-hashmap](https://leetcode-cn.com/problems/design-hashmap/)（706）
+- [ ]  队列
+    - [ ]  [implement-queue-using-stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/)（232）
+    - [ ]  [design-circular-queue](https://leetcode-cn.com/problems/design-circular-queue/)（622）
+    - [ ]  [design-circular-deque](https://leetcode-cn.com/problems/design-circular-deque/)（641）
+    - [ ]  [design-front-middle-back-queue](https://leetcode-cn.com/problems/design-front-middle-back-queue/)（1670）
+- [ ]  栈
+    - [ ]  [implement-stack-using-queues](https://leetcode-cn.com/problems/implement-stack-using-queues/)（225）
+    - [ ]  [min-stack](https://leetcode-cn.com/problems/min-stack/)（155）
+    - [ ]  [max-stack](https://leetcode-cn.com/problems/max-stack/)（716）
+- [ ]  堆
+    - [ ]  []()（）
+- [ ]  树
+   - [ ]  [recover-a-tree-from-preorder-traversal](https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal/)（1028）
+   - [ ]  [construct-binary-tree-from-preorder-and-inorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)（105）
+   - [ ]  [construct-binary-tree-from-inorder-and-postorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)（106）
+   - [ ]  [construct-binary-tree-from-preorder-and-postorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)（889）
+   - [ ]  [serialize-and-deserialize-binary-tree](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)（297）
+   - [ ]  [recover-binary-search-tree](https://leetcode-cn.com/problems/recover-binary-search-tree/)（99）
+   - [ ]  [convert-sorted-array-to-binary-search-tree](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)（108）
+   - [ ]  [convert-sorted-list-to-binary-search-tree](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/)（109）
+   - [ ]  [construct-binary-search-tree-from-preorder-traversal](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/)（1008）
+   - [ ]  [serialize-and-deserialize-bst](https://leetcode-cn.com/problems/serialize-and-deserialize-bst/)（449）
+- [ ]  图
+    - [ ]  []()（）
+
 ## 基础知识
 - [x]  位运算
     - [x]  [single-number](https://leetcode-cn.com/problems/single-number/)（136）
@@ -101,8 +133,7 @@
     - [x]  [subarray-sum-equals-k](https://leetcode-cn.com/problems/subarray-sum-equals-k/)（560）
 - [ ]  哈希函数
     - [ ]  [subtree-of-another-tree](https://leetcode-cn.com/problems/subtree-of-another-tree/)（572）
-    - [ ]  [design-hashset](https://leetcode-cn.com/problems/design-hashset/)（705）
-    - [ ]  [design-hashmap](https://leetcode-cn.com/problems/design-hashmap/)（706）
+    - [ ]  [longest-chunked-palindrome-decomposition](https://leetcode-cn.com/problems/longest-chunked-palindrome-decomposition/)（1147）
 - [ ]  滚动哈希
     - [ ]  [repeated-dna-sequences](https://leetcode-cn.com/problems/repeated-dna-sequences/)（187）
     - [ ]  [shortest-palindrome](https://leetcode-cn.com/problems/shortest-palindrome/)（214）
