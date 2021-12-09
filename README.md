@@ -98,7 +98,7 @@
 - [ ]  前缀和
     - [x]  [range-sum-query-immutable](https://leetcode-cn.com/problems/range-sum-query-immutable/)（303）
     - [x]  [range-sum-query-2d-immutable](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/)（304）
-    - [ ]  [subarray-sum-equals-k](https://leetcode-cn.com/problems/subarray-sum-equals-k/)（560）
+    - [x]  [subarray-sum-equals-k](https://leetcode-cn.com/problems/subarray-sum-equals-k/)（560）
 - [ ]  状态压缩
 - [ ]  哈希函数
 - [ ]  滚动哈希
