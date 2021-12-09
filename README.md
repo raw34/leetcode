@@ -99,11 +99,6 @@
     - [x]  [range-sum-query-immutable](https://leetcode-cn.com/problems/range-sum-query-immutable/)（303）
     - [x]  [range-sum-query-2d-immutable](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/)（304）
     - [x]  [subarray-sum-equals-k](https://leetcode-cn.com/problems/subarray-sum-equals-k/)（560）
-- [ ]  状态压缩
-   - [ ]  [beautiful-arrangement](https://leetcode-cn.com/problems/beautiful-arrangement/)（526）
-   - [ ]  [shopping-offers](https://leetcode-cn.com/problems/shopping-offers/)（638）
-   - [ ]  [partition-to-k-equal-sum-subsets](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/)（698）
-   - [ ]  [shortest-path-visiting-all-nodes](https://leetcode-cn.com/problems/shortest-path-visiting-all-nodes/)（847）
 - [ ]  哈希函数
    - [ ]  [subtree-of-another-tree](https://leetcode-cn.com/problems/subtree-of-another-tree/)（572）
    - [ ]  [design-hashset](https://leetcode-cn.com/problems/design-hashset/)（705）
@@ -112,3 +107,8 @@
    - [ ]  [repeated-dna-sequences](https://leetcode-cn.com/problems/repeated-dna-sequences/)（187）
    - [ ]  [shortest-palindrome](https://leetcode-cn.com/problems/shortest-palindrome/)（214）
    - [ ]  [maximum-length-of-repeated-subarray](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/)（718）
+- [ ]  状态压缩
+   - [ ]  [beautiful-arrangement](https://leetcode-cn.com/problems/beautiful-arrangement/)（526）
+   - [ ]  [shopping-offers](https://leetcode-cn.com/problems/shopping-offers/)（638）
+   - [ ]  [partition-to-k-equal-sum-subsets](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/)（698）
+   - [ ]  [shortest-path-visiting-all-nodes](https://leetcode-cn.com/problems/shortest-path-visiting-all-nodes/)（847）
