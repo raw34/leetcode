@@ -101,6 +101,9 @@
     - [x]  [subarray-sum-equals-k](https://leetcode-cn.com/problems/subarray-sum-equals-k/)（560）
 - [ ]  状态压缩
 - [ ]  哈希函数
+   - [ ]  [subtree-of-another-tree](https://leetcode-cn.com/problems/subtree-of-another-tree/)（572）
+   - [ ]  [design-hashset](https://leetcode-cn.com/problems/design-hashset/)（705）
+   - [ ]  [design-hashmap](https://leetcode-cn.com/problems/design-hashmap/)（706）
 - [ ]  滚动哈希
    - [ ]  [repeated-dna-sequences](https://leetcode-cn.com/problems/repeated-dna-sequences/)（187）
    - [ ]  [shortest-palindrome](https://leetcode-cn.com/problems/shortest-palindrome/)（214）
