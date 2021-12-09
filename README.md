@@ -102,3 +102,6 @@
 - [ ]  状态压缩
 - [ ]  哈希函数
 - [ ]  滚动哈希
+   - [ ]  [repeated-dna-sequences](https://leetcode-cn.com/problems/repeated-dna-sequences/)（187）
+   - [ ]  [shortest-palindrome](https://leetcode-cn.com/problems/shortest-palindrome/)（214）
+   - [ ]  [maximum-length-of-repeated-subarray](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/)（718）
