@@ -95,7 +95,7 @@
     - [x]  [restore-ip-addresses](https://leetcode-cn.com/problems/restore-ip-addresses/)（93）
 
 ## 算法技巧
-- [ ]  前缀和
+- [x]  前缀和
     - [x]  [range-sum-query-immutable](https://leetcode-cn.com/problems/range-sum-query-immutable/)（303）
     - [x]  [range-sum-query-2d-immutable](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/)（304）
     - [x]  [subarray-sum-equals-k](https://leetcode-cn.com/problems/subarray-sum-equals-k/)（560）
