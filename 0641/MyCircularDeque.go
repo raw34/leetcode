@@ -1,5 +1,7 @@
 package _0641
 
+import "fmt"
+
 type MyCircularDeque struct {
     size    int
     counter int
@@ -67,4 +69,8 @@ func (this *MyCircularDeque) IsEmpty() bool {
 
 func (this *MyCircularDeque) IsFull() bool {
     return this.counter == this.size
+}
+
+func (this *MyCircularDeque) Display() {
+    fmt.Println(this.queue)
 }

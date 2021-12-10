@@ -9,7 +9,7 @@
     - [x]  [implement-queue-using-stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/)（232）
     - [x]  [design-circular-queue](https://leetcode-cn.com/problems/design-circular-queue/)（622）
     - [x]  [design-circular-deque](https://leetcode-cn.com/problems/design-circular-deque/)（641）
-    - [ ]  [design-front-middle-back-queue](https://leetcode-cn.com/problems/design-front-middle-back-queue/)（1670）
+    - [x]  [design-front-middle-back-queue](https://leetcode-cn.com/problems/design-front-middle-back-queue/)（1670）
 - [ ]  栈
     - [ ]  [implement-stack-using-queues](https://leetcode-cn.com/problems/implement-stack-using-queues/)（225）
     - [ ]  [min-stack](https://leetcode-cn.com/problems/min-stack/)（155）
