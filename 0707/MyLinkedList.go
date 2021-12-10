@@ -25,7 +25,7 @@ func (this *MyLinkedList) Get(index int) int {
     }
 
     curr := this.Head
-    for i := 0; i <= index; i++ {
+    for i := 0; i < index+1; i++ {
         curr = curr.Next
     }
 
