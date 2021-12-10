@@ -8,7 +8,7 @@ import (
 //["MyHashSet2","add","add","contains","contains","add","contains","remove","contains"]
 //[[],[1],[2],[1],[3],[2],[2],[2],[2]]
 func TestMyHashSet_InOrder1(t *testing.T) {
-    set := Constructor()
+    set := Constructor2()
     set.Add(1)
     set.Add(2)
     assert.True(t, set.Contains(1))
