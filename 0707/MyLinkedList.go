@@ -10,82 +10,64 @@ type ListNode struct {
 }
 
 type MyLinkedList struct {
+    size int
     Head *ListNode
 }
 
 func Constructor() MyLinkedList {
-    return MyLinkedList{}
+    head := &ListNode{Val: 0}
+    return MyLinkedList{0, head}
 }
 
 func (this *MyLinkedList) Get(index int) int {
-    curr := this.Head
-    for i := 0; i < index; i++ {
-        if curr == nil {
-            break
-        }
-        curr = curr.Next
-    }
-    if curr == nil {
+    if index < 0 || index >= this.size {
         return -1
+    }
+
+    curr := this.Head
+    for i := 0; i <= index; i++ {
+        curr = curr.Next
     }
 
     return curr.Val
 }
 
 func (this *MyLinkedList) AddAtHead(val int) {
-    newHead := &ListNode{Val: val}
-    newHead.Next = this.Head
-    this.Head = newHead
+    this.AddAtIndex(0, val)
 }
 
 func (this *MyLinkedList) AddAtTail(val int) {
-    curr := this.Head
-    for curr != nil && curr.Next != nil {
-        curr = curr.Next
-    }
-    newTail := &ListNode{Val: val}
-    if curr == nil {
-        this.Head = newTail
-    } else {
-        curr.Next = newTail
-    }
+    this.AddAtIndex(this.size, val)
 }
 
 func (this *MyLinkedList) AddAtIndex(index int, val int) {
-    curr := this.Head
-    if curr == nil && index > 0 {
+    if index < 0 || index > this.size {
         return
     }
 
-    for i := 0; i < index-1; i++ {
+    curr := this.Head
+    for i := 0; i < index; i++ {
         curr = curr.Next
     }
 
     node := &ListNode{Val: val}
-    if index == 0 || curr == nil {
-        node.Next = curr
-        this.Head = node
-    } else {
-        node.Next = curr.Next
-        curr.Next = node
-    }
+    node.Next = curr.Next
+    curr.Next = node
+    this.size++
 }
 
 func (this *MyLinkedList) DeleteAtIndex(index int) {
-    curr := this.Head
-    for i := 0; i < index-1; i++ {
-        curr = curr.Next
-    }
-
-    if curr == nil {
+    if index < 0 || index >= this.size {
         return
     }
 
-    if index == 0 {
-        this.Head = curr.Next
-    } else if curr.Next != nil {
-        curr.Next = curr.Next.Next
+    curr := this.Head
+    for i := 0; i < index; i++ {
+        curr = curr.Next
     }
+
+    curr.Next = curr.Next.Next
+    this.size--
 }
 
 func (this *MyLinkedList) Display() {

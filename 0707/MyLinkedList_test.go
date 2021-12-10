@@ -23,7 +23,7 @@ func TestMyLinkedList_InOrder2(t *testing.T) {
     list := Constructor()
     list.AddAtHead(1)
     list.DeleteAtIndex(0)
-    assert.Nil(t, list.Head)
+    assert.Equal(t, -1, list.Get(0))
 }
 
 func TestMyLinkedList_InOrder3(t *testing.T) {
@@ -112,7 +112,7 @@ func TestMyLinkedList_InOrder9(t *testing.T) {
     list.AddAtHead(1)
     list.AddAtTail(3)
     list.AddAtIndex(3, 2)
-    assert.NotNil(t, list.Head)
+    assert.Equal(t, -1, list.Get(3))
 }
 
 func TestMyLinkedList_InOrder10(t *testing.T) {
@@ -121,4 +121,24 @@ func TestMyLinkedList_InOrder10(t *testing.T) {
     list := Constructor()
     list.AddAtIndex(1, 0)
     assert.Equal(t, -1, list.Get(0))
+}
+
+func TestMyLinkedList_InOrder11(t *testing.T) {
+    //["MyLinkedList","addAtHead","deleteAtIndex","addAtHead","addAtHead","addAtHead","addAtHead","addAtHead","addAtTail","get","deleteAtIndex","deleteAtIndex"]
+    //[[],[2],[1],[2],[7],[3],[2],[5],[5],[5],[6],[4]]
+    list := Constructor()
+    list.AddAtHead(2)
+    list.Display()
+    list.DeleteAtIndex(1)
+    list.Display()
+    list.AddAtHead(2)
+    list.AddAtHead(7)
+    list.AddAtHead(3)
+    list.AddAtHead(2)
+    list.AddAtHead(5)
+    list.AddAtTail(5)
+    list.Display()
+    assert.Equal(t, 2, list.Get(5))
+    list.DeleteAtIndex(6)
+    list.DeleteAtIndex(4)
 }
