@@ -11,7 +11,7 @@ type ListNode struct {
 
 type MyLinkedList struct {
     size int
-    Head *ListNode
+    head *ListNode
 }
 
 func Constructor() MyLinkedList {
@@ -24,7 +24,7 @@ func (this *MyLinkedList) Get(index int) int {
         return -1
     }
 
-    curr := this.Head
+    curr := this.head
     for i := 0; i < index+1; i++ {
         curr = curr.Next
     }
@@ -45,7 +45,7 @@ func (this *MyLinkedList) AddAtIndex(index int, val int) {
         return
     }
 
-    curr := this.Head
+    curr := this.head
     for i := 0; i < index; i++ {
         curr = curr.Next
     }
@@ -61,7 +61,7 @@ func (this *MyLinkedList) DeleteAtIndex(index int) {
         return
     }
 
-    curr := this.Head
+    curr := this.head
     for i := 0; i < index; i++ {
         curr = curr.Next
     }
@@ -71,7 +71,7 @@ func (this *MyLinkedList) DeleteAtIndex(index int) {
 }
 
 func (this *MyLinkedList) Display() {
-    curr := this.Head
+    curr := this.head
     i := 0
     for curr != nil {
         fmt.Print(curr.Val, " ")
