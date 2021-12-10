@@ -7,7 +7,7 @@
     - [x]  [design-hashmap](https://leetcode-cn.com/problems/design-hashmap/)（706）
 - [ ]  队列
     - [x]  [implement-queue-using-stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/)（232）
-    - [ ]  [design-circular-queue](https://leetcode-cn.com/problems/design-circular-queue/)（622）
+    - [x]  [design-circular-queue](https://leetcode-cn.com/problems/design-circular-queue/)（622）
     - [ ]  [design-circular-deque](https://leetcode-cn.com/problems/design-circular-deque/)（641）
     - [ ]  [design-front-middle-back-queue](https://leetcode-cn.com/problems/design-front-middle-back-queue/)（1670）
 - [ ]  栈
