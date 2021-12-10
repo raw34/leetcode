@@ -6,7 +6,7 @@
     - [x]  [design-hashset](https://leetcode-cn.com/problems/design-hashset/)（705）
     - [x]  [design-hashmap](https://leetcode-cn.com/problems/design-hashmap/)（706）
 - [ ]  队列
-    - [ ]  [implement-queue-using-stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/)（232）
+    - [x]  [implement-queue-using-stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/)（232）
     - [ ]  [design-circular-queue](https://leetcode-cn.com/problems/design-circular-queue/)（622）
     - [ ]  [design-circular-deque](https://leetcode-cn.com/problems/design-circular-deque/)（641）
     - [ ]  [design-front-middle-back-queue](https://leetcode-cn.com/problems/design-front-middle-back-queue/)（1670）
@@ -57,7 +57,6 @@
     - [x]  [clone-graph](https://leetcode-cn.com/problems/clone-graph/)（133）
     - [x]  [number-of-islands](https://leetcode-cn.com/problems/number-of-islands/)（200）
     - [x]  [largest-rectangle-in-histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)（84）
-    - [x]  [implement-queue-using-stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/)（232）
     - [x]  [01-matrix](https://leetcode-cn.com/problems/01-matrix/)（542）
 - [x]  二叉树
     - [x]  [binary-tree-inorder-traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)（94）
