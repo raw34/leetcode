@@ -3,8 +3,8 @@
     - [x]  [design-linked-list](https://leetcode-cn.com/problems/design-linked-list/)（707）
     - [ ]  [design-skiplist](https://leetcode-cn.com/problems/design-skiplist/)（1206）
 - [ ]  哈希表
-    - [ ]  [design-hashset](https://leetcode-cn.com/problems/design-hashset/)（705）
-    - [ ]  [design-hashmap](https://leetcode-cn.com/problems/design-hashmap/)（706）
+    - [x]  [design-hashset](https://leetcode-cn.com/problems/design-hashset/)（705）
+    - [x]  [design-hashmap](https://leetcode-cn.com/problems/design-hashmap/)（706）
 - [ ]  队列
     - [ ]  [implement-queue-using-stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/)（232）
     - [ ]  [design-circular-queue](https://leetcode-cn.com/problems/design-circular-queue/)（622）
