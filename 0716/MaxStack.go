@@ -36,25 +36,22 @@ func (this *MaxStack) PeekMax() int {
 }
 
 func (this *MaxStack) PopMax() int {
-    val := this.PeekMax()
-    if val == this.stack1[len(this.stack1)-1] {
+    max := this.PeekMax()
+    if max == this.stack1[len(this.stack1)-1] {
         this.stack1 = this.stack1[0 : len(this.stack1)-1]
         this.stack2 = this.stack2[0 : len(this.stack2)-1]
     } else {
-        stackNew := make([]int, 0)
-        for i := len(this.stack1) - 1; i >= 0; i-- {
-            if this.stack1[i] == val {
-                stackNew = append(this.stack1[0:i], this.stack1[i+1:]...)
-                break
-            }
+        temp := make([]int, 0)
+        for this.Top() != max {
+            temp = append(temp, this.Pop())
         }
-        this.stack1 = make([]int, 0)
-        this.stack2 = make([]int, 0)
-        for i := 0; i < len(stackNew); i++ {
-            this.Push(stackNew[i])
+        this.Pop()
+        for len(temp) > 0 {
+            this.Push(temp[len(temp)-1])
+            temp = temp[0 : len(temp)-1]
         }
     }
-    return val
+    return max
 }
 
 func (this *MaxStack) Display() {
