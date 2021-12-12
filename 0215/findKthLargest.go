@@ -3,9 +3,8 @@ package _0215
 import "fmt"
 
 func findKthLargest(nums []int, k int) int {
-    n := len(nums)
     queue := Constructor(nums)
-    for i := n - 1; i >= n-k+1; i-- {
+    for i := 0; i < k-1; i++ {
         queue.Pop()
     }
 
