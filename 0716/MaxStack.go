@@ -37,19 +37,25 @@ func (this *MaxStack) PeekMax() int {
 
 func (this *MaxStack) PopMax() int {
     max := this.PeekMax()
+    //如果最大元素在栈顶
+    //移除栈顶元素，并直接返回
     if max == this.stack1[len(this.stack1)-1] {
-        this.stack1 = this.stack1[0 : len(this.stack1)-1]
-        this.stack2 = this.stack2[0 : len(this.stack2)-1]
-    } else {
-        temp := make([]int, 0)
-        for this.Top() != max {
-            temp = append(temp, this.Pop())
-        }
         this.Pop()
-        for len(temp) > 0 {
-            this.Push(temp[len(temp)-1])
-            temp = temp[0 : len(temp)-1]
-        }
+        return max
+    }
+
+    //如果最大元素不在栈顶
+    //将小于最大元素的元素压入临时栈
+    temp := make([]int, 0)
+    for this.Top() != max {
+        temp = append(temp, this.Pop())
+    }
+    //移除最大元素
+    this.Pop()
+    //将临时栈中的元素重新入栈
+    for len(temp) > 0 {
+        this.Push(temp[len(temp)-1])
+        temp = temp[0 : len(temp)-1]
     }
     return max
 }
