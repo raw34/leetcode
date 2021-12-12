@@ -36,10 +36,10 @@ func (this *MaxPriorityQueue) Push(val int) {
     this.swim(this.count)
 }
 
-func (this *MaxPriorityQueue) swim(k int) {
-    for k > 1 && this.less(this.parent(k), k) {
-        this.swap(this.parent(k), k)
-        k = this.parent(k)
+func (this *MaxPriorityQueue) swim(i int) {
+    for i > 1 && this.less(this.parent(i), i) {
+        this.swap(this.parent(i), i)
+        i = this.parent(i)
     }
 }
 
@@ -56,20 +56,20 @@ func (this *MaxPriorityQueue) Pop() int {
     return max
 }
 
-func (this *MaxPriorityQueue) sink(k int) {
-    for this.left(k) <= this.count {
-        older := this.left(k)
-        right := this.right(k)
-        if right <= this.count && this.less(older, right) {
-            older = right
+func (this *MaxPriorityQueue) sink(i int) {
+    for this.left(i) <= this.count {
+        left := this.left(i)
+        right := this.right(i)
+        if right <= this.count && this.less(left, right) {
+            left = right
         }
 
-        if this.less(older, k) {
+        if this.less(left, i) {
             break
         }
 
-        this.swap(k, older)
-        k = older
+        this.swap(i, left)
+        i = left
     }
 }
 
