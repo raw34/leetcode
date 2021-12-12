@@ -12,8 +12,8 @@
     - [x]  [design-front-middle-back-queue](https://leetcode-cn.com/problems/design-front-middle-back-queue/)（1670）
 - [ ]  栈
     - [x]  [implement-stack-using-queues](https://leetcode-cn.com/problems/implement-stack-using-queues/)（225）
-    - [ ]  [min-stack](https://leetcode-cn.com/problems/min-stack/)（155）
-    - [ ]  [max-stack](https://leetcode-cn.com/problems/max-stack/)（716）
+    - [x]  [min-stack](https://leetcode-cn.com/problems/min-stack/)（155）
+    - [x]  [max-stack](https://leetcode-cn.com/problems/max-stack/)（716）
 - [ ]  堆
 - [ ]  树
     - [ ]  [recover-a-tree-from-preorder-traversal](https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal/)（1028）
@@ -51,7 +51,6 @@
     - [x]  [palindrome-linked-list](https://leetcode-cn.com/problems/palindrome-linked-list/)（234）
     - [x]  [copy-list-with-random-pointer](https://leetcode-cn.com/problems/copy-list-with-random-pointer/)（138）
 - [x]  栈和队列
-    - [x]  [min-stack](https://leetcode-cn.com/problems/min-stack/)（155）
     - [x]  [evaluate-reverse-polish-notation](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)（150）
     - [x]  [decode-string](https://leetcode-cn.com/problems/decode-string/)（394）
     - [x]  [clone-graph](https://leetcode-cn.com/problems/clone-graph/)（133）
