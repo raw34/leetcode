@@ -2,20 +2,21 @@
 - [ ]  链表
     - [x]  [design-linked-list](https://leetcode-cn.com/problems/design-linked-list/)（707）
     - [ ]  [design-skiplist](https://leetcode-cn.com/problems/design-skiplist/)（1206）
-- [ ]  哈希表
+- [x]  哈希表
     - [x]  [design-hashset](https://leetcode-cn.com/problems/design-hashset/)（705）
     - [x]  [design-hashmap](https://leetcode-cn.com/problems/design-hashmap/)（706）
-- [ ]  队列
+- [x]  队列
     - [x]  [implement-queue-using-stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/)（232）
     - [x]  [design-circular-queue](https://leetcode-cn.com/problems/design-circular-queue/)（622）
     - [x]  [design-circular-deque](https://leetcode-cn.com/problems/design-circular-deque/)（641）
     - [x]  [design-front-middle-back-queue](https://leetcode-cn.com/problems/design-front-middle-back-queue/)（1670）
-- [ ]  栈
+- [x]  栈
     - [x]  [implement-stack-using-queues](https://leetcode-cn.com/problems/implement-stack-using-queues/)（225）
     - [x]  [min-stack](https://leetcode-cn.com/problems/min-stack/)（155）
     - [x]  [max-stack](https://leetcode-cn.com/problems/max-stack/)（716）
 - [ ]  堆
-- [ ]  树
+    - [x]  [kth-largest-element-in-an-array](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)（215）
+- [ ]  二叉树
     - [ ]  [recover-a-tree-from-preorder-traversal](https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal/)（1028）
     - [ ]  [construct-binary-tree-from-preorder-and-inorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)（105）
     - [ ]  [construct-binary-tree-from-inorder-and-postorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)（106）
