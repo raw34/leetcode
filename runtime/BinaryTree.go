@@ -92,24 +92,44 @@ func (bt *BinaryTree) buildFromPreorderAndInorder2(preorder []int, inorder []int
 }
 
 func (bt *BinaryTree) displayPreorder1(root *TreeNode) []int {
-    stack := make([]int, 0)
+    res := make([]int, 0)
 
     var dfs func(root *TreeNode)
     dfs = func(root *TreeNode) {
         if root == nil {
             return
         }
-        stack = append(stack, root.Val)
+        res = append(res, root.Val)
         dfs(root.Left)
         dfs(root.Right)
     }
     dfs(root)
 
-    return stack
+    return res
+}
+
+func (bt *BinaryTree) displayPreorder2(root *TreeNode) []int {
+    res := make([]int, 0)
+    stack := make([]*TreeNode, 0)
+    for root != nil || len(stack) > 0 {
+        for root != nil {
+            res = append(res, root.Val)
+            stack = append(stack, root)
+            root = root.Left
+        }
+
+        if len(stack) > 0 {
+            root = stack[len(stack)-1]
+            stack = stack[0 : len(stack)-1]
+            root = root.Right
+        }
+    }
+
+    return res
 }
 
 func (bt *BinaryTree) displayInorder1(root *TreeNode) []int {
-    stack := make([]int, 0)
+    res := make([]int, 0)
 
     var dfs func(root *TreeNode)
     dfs = func(root *TreeNode) {
@@ -117,16 +137,36 @@ func (bt *BinaryTree) displayInorder1(root *TreeNode) []int {
             return
         }
         dfs(root.Left)
-        stack = append(stack, root.Val)
+        res = append(res, root.Val)
         dfs(root.Right)
     }
     dfs(root)
 
-    return stack
+    return res
+}
+
+func (bt *BinaryTree) displayInorder2(root *TreeNode) []int {
+    res := make([]int, 0)
+    stack := make([]*TreeNode, 0)
+    for root != nil || len(stack) > 0 {
+        for root != nil {
+            stack = append(stack, root)
+            root = root.Left
+        }
+
+        if len(stack) > 0 {
+            root = stack[len(stack)-1]
+            res = append(res, root.Val)
+            stack = stack[0 : len(stack)-1]
+            root = root.Right
+        }
+    }
+
+    return res
 }
 
 func (bt *BinaryTree) displayPostorder1(root *TreeNode) []int {
-    stack := make([]int, 0)
+    res := make([]int, 0)
 
     var dfs func(root *TreeNode)
     dfs = func(root *TreeNode) {
@@ -135,14 +175,36 @@ func (bt *BinaryTree) displayPostorder1(root *TreeNode) []int {
         }
         dfs(root.Left)
         dfs(root.Right)
-        stack = append(stack, root.Val)
+        res = append(res, root.Val)
     }
     dfs(root)
 
-    return stack
+    return res
+}
+func (bt *BinaryTree) displayPostorder2(root *TreeNode) []int {
+    res := make([]int, 0)
+    stack := make([]*TreeNode, 0)
+
+    for root != nil || len(stack) > 0 {
+        if root != nil {
+            res = append([]int{root.Val}, res...)
+            stack = append(stack, root)
+            root = root.Right
+        } else {
+            root = stack[len(stack)-1]
+            stack = stack[0 : len(stack)-1]
+            root = root.Left
+        }
+    }
+
+    return res
 }
 
 func (bt *BinaryTree) displayLevelOrder1(root *TreeNode) [][]int {
+    return nil
+}
+
+func (bt *BinaryTree) displayLevelOrder2(root *TreeNode) [][]int {
     res := make([][]int, 0)
     if root == nil {
         return res
