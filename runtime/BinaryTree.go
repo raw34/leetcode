@@ -15,22 +15,23 @@ type BinaryTree struct {
 }
 
 func (bt *BinaryTree) build(nums []int) *TreeNode {
-    root := &TreeNode{nums[0], nil, nil}
+    root := &TreeNode{Val: nums[0]}
     queue := []*TreeNode{root}
 
     n := len(nums)
     i := 1
     for len(queue) > 0 {
         node := queue[0]
+        queue = queue[1:]
 
         if i < n {
-            node.Left = &TreeNode{nums[i], nil, nil}
+            node.Left = &TreeNode{Val: nums[i]}
             queue = append(queue, node.Left)
         }
         i++
 
         if i < n {
-            node.Right = &TreeNode{nums[i], nil, nil}
+            node.Right = &TreeNode{Val: nums[i]}
             queue = append(queue, node.Right)
         }
         i++

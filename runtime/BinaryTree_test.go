@@ -7,7 +7,10 @@ import (
 func TestBinaryTree_build(t *testing.T) {
     nums := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
     tree := &BinaryTree{}
-    tree.build(nums)
+    root := tree.build(nums)
+    tree.displayPreorder1(root)
+    tree.displayInorder1(root)
+    tree.displayPostorder1(root)
 }
 
 func TestBinaryTree_buildFromPreorderAndInorder1(t *testing.T) {
