@@ -203,16 +203,18 @@ func (bt *BinaryTree) displayPostorder1(root *TreeNode) []int {
 func (bt *BinaryTree) displayPostorder2(root *TreeNode) []int {
     res := make([]int, 0)
     stack := make([]*TreeNode, 0)
+    stack = append(stack, root)
+    for root != nil && len(stack) > 0 {
+        root = stack[len(stack)-1]
+        stack = stack[:len(stack)-1]
+        res = append([]int{root.Val}, res...)
 
-    for root != nil || len(stack) > 0 {
-        if root != nil {
-            res = append([]int{root.Val}, res...)
-            stack = append(stack, root)
-            root = root.Right
-        } else {
-            root = stack[len(stack)-1]
-            stack = stack[0 : len(stack)-1]
-            root = root.Left
+        if root.Left != nil {
+            stack = append(stack, root.Left)
+        }
+
+        if root.Right != nil {
+            stack = append(stack, root.Right)
         }
     }
 
