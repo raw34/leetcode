@@ -2,6 +2,7 @@ package runtime
 
 import (
     "fmt"
+    "github.com/stretchr/testify/assert"
     "testing"
 )
 
@@ -25,13 +26,13 @@ func TestBinaryTree_buildFromPreorderAndInorder1(t *testing.T) {
     tree := &BinaryTree{}
     root := tree.buildFromPreorderAndInorder1(preorder, inorder)
     res1 := tree.displayPreorder1(root)
-    fmt.Println(res1)
+    assert.Equal(t, []int{3, 9, 20, 15, 7}, res1)
     res2 := tree.displayInorder1(root)
-    fmt.Println(res2)
+    assert.Equal(t, []int{9, 3, 15, 20, 7}, res2)
     res3 := tree.displayPostorder1(root)
-    fmt.Println(res3)
+    assert.Equal(t, []int{9, 15, 7, 20, 3}, res3)
     res4 := tree.displayLevelOrder1(root)
-    fmt.Println(res4)
+    assert.Equal(t, [][]int{{3}, {9, 20}, {15, 7}}, res4)
 }
 
 func TestBinaryTree_buildFromPreorderAndInorder2(t *testing.T) {
@@ -40,11 +41,11 @@ func TestBinaryTree_buildFromPreorderAndInorder2(t *testing.T) {
     tree := &BinaryTree{}
     root := tree.buildFromPreorderAndInorder2(preorder, inorder)
     res1 := tree.displayPreorder1(root)
-    fmt.Println(res1)
+    assert.Equal(t, []int{3, 9, 20, 15, 7}, res1)
     res2 := tree.displayInorder1(root)
-    fmt.Println(res2)
+    assert.Equal(t, []int{9, 3, 15, 20, 7}, res2)
     res3 := tree.displayPostorder1(root)
-    fmt.Println(res3)
+    assert.Equal(t, []int{9, 15, 7, 20, 3}, res3)
     res4 := tree.displayLevelOrder1(root)
-    fmt.Println(res4)
+    assert.Equal(t, [][]int{{3}, {9, 20}, {15, 7}}, res4)
 }
