@@ -91,6 +91,9 @@ func (bt *BinaryTree) buildFromPreorderAndInorder2(preorder []int, inorder []int
     return root
 }
 
+/*
+前序遍历顺序为：根 -> 左 -> 右
+*/
 func (bt *BinaryTree) displayPreorder1(root *TreeNode) []int {
     res := make([]int, 0)
 
@@ -128,6 +131,9 @@ func (bt *BinaryTree) displayPreorder2(root *TreeNode) []int {
     return res
 }
 
+/*
+前序遍历顺序为：根 -> 右 -> 左
+*/
 func (bt *BinaryTree) displayInorder1(root *TreeNode) []int {
     res := make([]int, 0)
 
@@ -165,6 +171,9 @@ func (bt *BinaryTree) displayInorder2(root *TreeNode) []int {
     return res
 }
 
+/*
+后序遍历顺序为：左 -> 右 -> 根
+*/
 func (bt *BinaryTree) displayPostorder1(root *TreeNode) []int {
     res := make([]int, 0)
 
