@@ -17,15 +17,15 @@
 - [ ]  堆
     - [x]  [kth-largest-element-in-an-array](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)（215）
 - [ ]  二叉树
-    - [ ]  [recover-a-tree-from-preorder-traversal](https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal/)（1028）
-    - [ ]  [construct-binary-tree-from-preorder-and-inorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)（105）
+    - [x]  [construct-binary-tree-from-preorder-and-inorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)（105）
     - [ ]  [construct-binary-tree-from-inorder-and-postorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)（106）
     - [ ]  [construct-binary-tree-from-preorder-and-postorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)（889）
+    - [ ]  [recover-a-tree-from-preorder-traversal](https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal/)（1028）
     - [ ]  [serialize-and-deserialize-binary-tree](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)（297）
-    - [ ]  [recover-binary-search-tree](https://leetcode-cn.com/problems/recover-binary-search-tree/)（99）
+    - [ ]  [construct-binary-search-tree-from-preorder-traversal](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/)（1008）
     - [ ]  [convert-sorted-array-to-binary-search-tree](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)（108）
     - [ ]  [convert-sorted-list-to-binary-search-tree](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/)（109）
-    - [ ]  [construct-binary-search-tree-from-preorder-traversal](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/)（1008）
+    - [ ]  [recover-binary-search-tree](https://leetcode-cn.com/problems/recover-binary-search-tree/)（99）
     - [ ]  [serialize-and-deserialize-bst](https://leetcode-cn.com/problems/serialize-and-deserialize-bst/)（449）
 - [ ]  图
 
