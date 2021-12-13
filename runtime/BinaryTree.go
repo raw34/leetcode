@@ -1,7 +1,5 @@
 package runtime
 
-import "fmt"
-
 type TreeNode struct {
     Val   int
     Left  *TreeNode
@@ -107,7 +105,6 @@ func (bt *BinaryTree) displayPreorder1(root *TreeNode) []int {
     }
     dfs(root)
 
-    fmt.Println(stack)
     return stack
 }
 
@@ -125,7 +122,6 @@ func (bt *BinaryTree) displayInorder1(root *TreeNode) []int {
     }
     dfs(root)
 
-    fmt.Println(stack)
     return stack
 }
 
@@ -143,6 +139,5 @@ func (bt *BinaryTree) displayPostorder1(root *TreeNode) []int {
     }
     dfs(root)
 
-    fmt.Println(stack)
     return stack
 }
