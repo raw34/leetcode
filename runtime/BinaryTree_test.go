@@ -15,9 +15,9 @@ func TestBinaryTree_buildFromPreorderAndInorder1(t *testing.T) {
     inorder := []int{9, 3, 15, 20, 7}
     tree := &BinaryTree{}
     root := tree.buildFromPreorderAndInorder1(preorder, inorder)
-    tree.displayPreorder(root)
-    tree.displayInorder(root)
-    tree.displayPostorder(root)
+    tree.displayPreorder1(root)
+    tree.displayInorder1(root)
+    tree.displayPostorder1(root)
 }
 
 func TestBinaryTree_buildFromPreorderAndInorder2(t *testing.T) {
@@ -25,7 +25,7 @@ func TestBinaryTree_buildFromPreorderAndInorder2(t *testing.T) {
     inorder := []int{9, 3, 15, 20, 7}
     tree := &BinaryTree{}
     root := tree.buildFromPreorderAndInorder2(preorder, inorder)
-    tree.displayPreorder(root)
-    tree.displayInorder(root)
-    tree.displayPostorder(root)
+    tree.displayPreorder1(root)
+    tree.displayInorder1(root)
+    tree.displayPostorder1(root)
 }

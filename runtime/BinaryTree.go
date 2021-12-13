@@ -92,7 +92,7 @@ func (bt *BinaryTree) buildFromPreorderAndInorder2(preorder []int, inorder []int
     return root
 }
 
-func (bt *BinaryTree) displayPreorder(root *TreeNode) []int {
+func (bt *BinaryTree) displayPreorder1(root *TreeNode) []int {
     stack := make([]int, 0)
 
     var dfs func(root *TreeNode)
@@ -110,7 +110,7 @@ func (bt *BinaryTree) displayPreorder(root *TreeNode) []int {
     return stack
 }
 
-func (bt *BinaryTree) displayInorder(root *TreeNode) []int {
+func (bt *BinaryTree) displayInorder1(root *TreeNode) []int {
     stack := make([]int, 0)
 
     var dfs func(root *TreeNode)
@@ -128,7 +128,7 @@ func (bt *BinaryTree) displayInorder(root *TreeNode) []int {
     return stack
 }
 
-func (bt *BinaryTree) displayPostorder(root *TreeNode) []int {
+func (bt *BinaryTree) displayPostorder1(root *TreeNode) []int {
     stack := make([]int, 0)
 
     var dfs func(root *TreeNode)
