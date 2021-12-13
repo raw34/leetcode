@@ -126,7 +126,7 @@ func (bt *BinaryTree) displayPreorder2(root *TreeNode) []int {
 
         if len(stack) > 0 {
             root = stack[len(stack)-1]
-            stack = stack[0 : len(stack)-1]
+            stack = stack[:len(stack)-1]
             root = root.Right
         }
     }
@@ -169,7 +169,7 @@ func (bt *BinaryTree) displayInorder2(root *TreeNode) []int {
         if len(stack) > 0 {
             root = stack[len(stack)-1]
             res = append(res, root.Val)
-            stack = stack[0 : len(stack)-1]
+            stack = stack[:len(stack)-1]
             root = root.Right
         }
     }
