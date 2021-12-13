@@ -13,7 +13,7 @@ func findKthLargest(nums []int, k int) int {
 
 type MaxPriorityQueue struct {
     queue []int
-    count int
+    size  int
 }
 
 func Constructor(nums []int) *MaxPriorityQueue {
@@ -31,15 +31,15 @@ func (this *MaxPriorityQueue) less(i, j int) bool {
 }
 
 func (this *MaxPriorityQueue) Push(val int) {
-    this.count++
-    this.queue[this.count] = val
-    this.swim(this.count)
+    this.size++
+    this.queue[this.size] = val
+    this.swim(this.size)
 }
 
-func (this *MaxPriorityQueue) swim(i int) {
-    for i > 1 && this.less(this.parent(i), i) {
-        this.swap(this.parent(i), i)
-        i = this.parent(i)
+func (this *MaxPriorityQueue) swim(k int) {
+    for k > 1 && this.less(this.parent(k), k) {
+        this.swap(this.parent(k), k)
+        k = this.parent(k)
     }
 }
 
@@ -49,27 +49,27 @@ func (this *MaxPriorityQueue) swap(i, j int) {
 
 func (this *MaxPriorityQueue) Pop() int {
     max := this.queue[1]
-    this.swap(1, this.count)
-    this.queue = this.queue[0:this.count]
-    this.count--
+    this.swap(1, this.size)
+    this.queue = this.queue[0:this.size]
+    this.size--
     this.sink(1)
     return max
 }
 
-func (this *MaxPriorityQueue) sink(i int) {
-    for this.left(i) <= this.count {
-        left := this.left(i)
-        right := this.right(i)
-        if right <= this.count && this.less(left, right) {
-            left = right
+func (this *MaxPriorityQueue) sink(k int) {
+    for this.left(k) <= this.size {
+        leftK := this.left(k)
+        rightK := this.right(k)
+        if rightK <= this.size && this.less(leftK, rightK) {
+            leftK = rightK
         }
 
-        if this.less(left, i) {
+        if this.less(leftK, k) {
             break
         }
 
-        this.swap(i, left)
-        i = left
+        this.swap(k, leftK)
+        k = leftK
     }
 }
 
