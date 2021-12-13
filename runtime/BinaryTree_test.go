@@ -21,39 +21,47 @@ func TestBinaryTree_build(t *testing.T) {
 }
 
 func TestBinaryTree_buildFromPreorderAndInorder1(t *testing.T) {
-    preorder := []int{3, 9, 20, 15, 7}
-    inorder := []int{9, 3, 15, 20, 7}
+    preorder := []int{1, 2, 4, 5, 3, 6, 7}
+    inorder := []int{4, 2, 5, 1, 6, 3, 7}
     tree := &BinaryTree{}
     root := tree.buildFromPreorderAndInorder1(preorder, inorder)
     res1 := tree.displayPreorder1(root)
-    assert.Equal(t, []int{3, 9, 20, 15, 7}, res1)
+    assert.Equal(t, []int{1, 2, 4, 5, 3, 6, 7}, res1)
     res1 = tree.displayPreorder2(root)
-    assert.Equal(t, []int{3, 9, 20, 15, 7}, res1)
+    assert.Equal(t, []int{1, 2, 4, 5, 3, 6, 7}, res1)
     res2 := tree.displayInorder1(root)
-    assert.Equal(t, []int{9, 3, 15, 20, 7}, res2)
+    assert.Equal(t, []int{4, 2, 5, 1, 6, 3, 7}, res2)
     res2 = tree.displayInorder2(root)
-    assert.Equal(t, []int{9, 3, 15, 20, 7}, res2)
+    assert.Equal(t, []int{4, 2, 5, 1, 6, 3, 7}, res2)
     res3 := tree.displayPostorder1(root)
-    assert.Equal(t, []int{9, 15, 7, 20, 3}, res3)
+    assert.Equal(t, []int{4, 5, 2, 6, 7, 3, 1}, res3)
     res3 = tree.displayPostorder2(root)
-    assert.Equal(t, []int{9, 15, 7, 20, 3}, res3)
-    //res4 := tree.displayLevelOrder1(root)
-    //assert.Equal(t, [][]int{{3}, {9, 20}, {15, 7}}, res4)
-    //res4 = tree.displayLevelOrder2(root)
-    //assert.Equal(t, [][]int{{3}, {9, 20}, {15, 7}}, res4)
+    assert.Equal(t, []int{4, 5, 2, 6, 7, 3, 1}, res3)
+    res4 := tree.displayLevelOrder1(root)
+    assert.Equal(t, [][]int{{1}, {2, 3}, {4, 5, 6, 7}}, res4)
+    res4 = tree.displayLevelOrder2(root)
+    assert.Equal(t, [][]int{{1}, {2, 3}, {4, 5, 6, 7}}, res4)
 }
 
 func TestBinaryTree_buildFromPreorderAndInorder2(t *testing.T) {
-    preorder := []int{3, 9, 20, 15, 7}
-    inorder := []int{9, 3, 15, 20, 7}
+    preorder := []int{1, 2, 4, 5, 3, 6, 7}
+    inorder := []int{4, 2, 5, 1, 6, 3, 7}
     tree := &BinaryTree{}
     root := tree.buildFromPreorderAndInorder2(preorder, inorder)
     res1 := tree.displayPreorder1(root)
-    assert.Equal(t, []int{3, 9, 20, 15, 7}, res1)
+    assert.Equal(t, []int{1, 2, 4, 5, 3, 6, 7}, res1)
+    res1 = tree.displayPreorder2(root)
+    assert.Equal(t, []int{1, 2, 4, 5, 3, 6, 7}, res1)
     res2 := tree.displayInorder1(root)
-    assert.Equal(t, []int{9, 3, 15, 20, 7}, res2)
+    assert.Equal(t, []int{4, 2, 5, 1, 6, 3, 7}, res2)
+    res2 = tree.displayInorder2(root)
+    assert.Equal(t, []int{4, 2, 5, 1, 6, 3, 7}, res2)
     res3 := tree.displayPostorder1(root)
-    assert.Equal(t, []int{9, 15, 7, 20, 3}, res3)
-    //res4 := tree.displayLevelOrder1(root)
-    //assert.Equal(t, [][]int{{3}, {9, 20}, {15, 7}}, res4)
+    assert.Equal(t, []int{4, 5, 2, 6, 7, 3, 1}, res3)
+    res3 = tree.displayPostorder2(root)
+    assert.Equal(t, []int{4, 5, 2, 6, 7, 3, 1}, res3)
+    res4 := tree.displayLevelOrder1(root)
+    assert.Equal(t, [][]int{{1}, {2, 3}, {4, 5, 6, 7}}, res4)
+    res4 = tree.displayLevelOrder2(root)
+    assert.Equal(t, [][]int{{1}, {2, 3}, {4, 5, 6, 7}}, res4)
 }

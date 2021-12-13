@@ -111,6 +111,9 @@ func (bt *BinaryTree) displayPreorder1(root *TreeNode) []int {
     return res
 }
 
+/*
+前序遍历顺序为：根 -> 左 -> 右
+*/
 func (bt *BinaryTree) displayPreorder2(root *TreeNode) []int {
     res := make([]int, 0)
     stack := make([]*TreeNode, 0)
@@ -132,7 +135,7 @@ func (bt *BinaryTree) displayPreorder2(root *TreeNode) []int {
 }
 
 /*
-前序遍历顺序为：根 -> 右 -> 左
+中序遍历顺序为：左 -> 根 -> 右
 */
 func (bt *BinaryTree) displayInorder1(root *TreeNode) []int {
     res := make([]int, 0)
@@ -151,6 +154,9 @@ func (bt *BinaryTree) displayInorder1(root *TreeNode) []int {
     return res
 }
 
+/*
+中序遍历顺序为：左 -> 根 -> 右
+*/
 func (bt *BinaryTree) displayInorder2(root *TreeNode) []int {
     res := make([]int, 0)
     stack := make([]*TreeNode, 0)
@@ -190,6 +196,10 @@ func (bt *BinaryTree) displayPostorder1(root *TreeNode) []int {
 
     return res
 }
+
+/*
+后序遍历顺序为：左 -> 右 -> 根
+*/
 func (bt *BinaryTree) displayPostorder2(root *TreeNode) []int {
     res := make([]int, 0)
     stack := make([]*TreeNode, 0)
@@ -209,16 +219,39 @@ func (bt *BinaryTree) displayPostorder2(root *TreeNode) []int {
     return res
 }
 
+/*
+层序遍历顺序为：每一层从左到右
+*/
 func (bt *BinaryTree) displayLevelOrder1(root *TreeNode) [][]int {
-    return nil
+    res := make([][]int, 0)
+    var dfs func(root *TreeNode, level int)
+    dfs = func(root *TreeNode, level int) {
+        if root == nil {
+            return
+        }
+        if len(res) == level {
+            res = append(res, []int{})
+        }
+        res[level] = append(res[level], root.Val)
+
+        if root.Left != nil {
+            dfs(root.Left, level+1)
+        }
+
+        if root.Right != nil {
+            dfs(root.Right, level+1)
+        }
+    }
+    dfs(root, 0)
+
+    return res
 }
 
+/*
+层序遍历顺序为：每一层从左到右
+*/
 func (bt *BinaryTree) displayLevelOrder2(root *TreeNode) [][]int {
     res := make([][]int, 0)
-    if root == nil {
-        return res
-    }
-
     queue := []*TreeNode{root}
     for level := 0; len(queue) > 0; level++ {
         length := len(queue)
