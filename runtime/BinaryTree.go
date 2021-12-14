@@ -49,8 +49,8 @@ func (bt *BinaryTree) buildFromPreorderAndInorder1(preorder []int, inorder []int
     }
 
     val := preorder[0]
-    root := &TreeNode{Val: val}
     mid := indexMap[val]
+    root := &TreeNode{Val: val}
     root.Left = bt.buildFromPreorderAndInorder1(preorder[1:mid+1], inorder[:mid])
     root.Right = bt.buildFromPreorderAndInorder1(preorder[mid+1:], inorder[mid+1:])
 
@@ -81,6 +81,29 @@ func (bt *BinaryTree) buildFromPreorderAndInorder2(preorder []int, inorder []int
         }
     }
     return root
+}
+
+func (bt *BinaryTree) buildFromInorderAndPostorder1(inorder []int, postorder []int) *TreeNode {
+    if len(inorder) == 0 || len(postorder) == 0 {
+        return nil
+    }
+
+    indexMap := make(map[int]int, 0)
+    for i, v := range inorder {
+        indexMap[v] = i
+    }
+
+    val := postorder[len(postorder)-1]
+    mid := indexMap[val]
+    root := &TreeNode{Val: val}
+    root.Left = bt.buildFromInorderAndPostorder1(inorder[:mid], postorder[:mid])
+    root.Right = bt.buildFromInorderAndPostorder1(inorder[mid+1:], postorder[mid:len(postorder)-1])
+
+    return root
+}
+
+func (bt *BinaryTree) buildFromInorderAndPostorder2(inorder []int, postorder []int) *TreeNode {
+    return nil
 }
 
 /*
