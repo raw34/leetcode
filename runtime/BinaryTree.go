@@ -113,27 +113,25 @@ func (bt *BinaryTree) displayPreorder1(root *TreeNode) []int {
 
 /*
 前序遍历顺序为：根 -> 左 -> 右
-
+解题思路：
+1、从当前点开始，向左遍历，直到最左叶子节点
+2、遍历过程中，取出当前节点值，并缓存当前节点到临时栈
+3、如果当前节点为空，从临时栈中取出栈顶节点，赋值给当前节点，循环第1步
 */
 func (bt *BinaryTree) displayPreorder2(root *TreeNode) []int {
     res := make([]int, 0)
     stack := make([]*TreeNode, 0)
     for root != nil || len(stack) > 0 {
-        //fmt.Println("root", root, "stack", stack, "res", res)
         for root != nil {
             res = append(res, root.Val)
             stack = append(stack, root)
             root = root.Left
-            //fmt.Println("root", root, "stack", stack, "res", res)
         }
-        //fmt.Println("root", root, "stack", stack, "res", res)
         if len(stack) > 0 {
             root = stack[len(stack)-1]
             stack = stack[:len(stack)-1]
             root = root.Right
         }
-        //fmt.Println("root", root, "stack", stack, "res", res)
-        //fmt.Println()
     }
 
     return res
