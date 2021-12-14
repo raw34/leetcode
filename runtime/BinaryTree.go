@@ -113,22 +113,27 @@ func (bt *BinaryTree) displayPreorder1(root *TreeNode) []int {
 
 /*
 前序遍历顺序为：根 -> 左 -> 右
+
 */
 func (bt *BinaryTree) displayPreorder2(root *TreeNode) []int {
     res := make([]int, 0)
     stack := make([]*TreeNode, 0)
     for root != nil || len(stack) > 0 {
+        //fmt.Println("root", root, "stack", stack, "res", res)
         for root != nil {
             res = append(res, root.Val)
             stack = append(stack, root)
             root = root.Left
+            //fmt.Println("root", root, "stack", stack, "res", res)
         }
-
+        //fmt.Println("root", root, "stack", stack, "res", res)
         if len(stack) > 0 {
             root = stack[len(stack)-1]
             stack = stack[:len(stack)-1]
             root = root.Right
         }
+        //fmt.Println("root", root, "stack", stack, "res", res)
+        //fmt.Println()
     }
 
     return res
