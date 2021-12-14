@@ -276,6 +276,7 @@ func (bt *BinaryTree) displayLevelOrder2(root *TreeNode) [][]int {
                 queue = append(queue, node.Right)
             }
         }
+        //fmt.Println(res[level])
     }
 
     return res
