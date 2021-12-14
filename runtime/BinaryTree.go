@@ -259,6 +259,10 @@ func (bt *BinaryTree) displayLevelOrder1(root *TreeNode) [][]int {
 
 /*
 层序遍历顺序为：每一层从左到右
+解题思路：
+1、初始化临时队列，将根节点入队
+2、遍历临时队列，每次出队一个节点，获取当前节点值，并将当前节点左右叶子节点依次压入临时队列
+3、当临时队列不为空时，循环1、2步
 */
 func (bt *BinaryTree) displayLevelOrder2(root *TreeNode) [][]int {
     res := make([][]int, 0)
