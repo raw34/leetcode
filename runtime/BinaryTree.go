@@ -114,9 +114,9 @@ func (bt *BinaryTree) displayPreorder1(root *TreeNode) []int {
 /*
 前序遍历顺序为：根 -> 左 -> 右
 解题思路：
-1、从当前点开始，向左遍历，直到最左叶子节点
-2、遍历过程中，取出当前节点值，并缓存当前节点到临时栈
-3、如果当前节点为空，从临时栈中取出栈顶节点，赋值给当前节点，循环第1步
+1、从当前点开始，向左遍历，直到最左叶子节点，遍历过程中，取出当前节点值，并缓存当前节点到临时栈
+2、如果临时栈不为空，出栈一个节点，将该节点的右节点赋值给当前节点
+3、当节点不为空或临时栈不为空时，循环1、2步
 */
 func (bt *BinaryTree) displayPreorder2(root *TreeNode) []int {
     res := make([]int, 0)
@@ -159,6 +159,10 @@ func (bt *BinaryTree) displayInorder1(root *TreeNode) []int {
 
 /*
 中序遍历顺序为：左 -> 根 -> 右
+解题思路：
+1、从当前点开始，向左遍历，直到最左叶子节点，遍历过程中，缓存当前节点到临时栈
+2、如果临时栈不为空，出栈一个节点，取出节点值，将该节点的右节点赋值给当前节点
+3、当节点不为空或临时栈不为空时，循环1、2步
 */
 func (bt *BinaryTree) displayInorder2(root *TreeNode) []int {
     res := make([]int, 0)
@@ -171,8 +175,8 @@ func (bt *BinaryTree) displayInorder2(root *TreeNode) []int {
 
         if len(stack) > 0 {
             root = stack[len(stack)-1]
-            res = append(res, root.Val)
             stack = stack[:len(stack)-1]
+            res = append(res, root.Val)
             root = root.Right
         }
     }
