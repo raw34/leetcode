@@ -3,15 +3,15 @@ package _0108
 import "github.com/raw34/leetcode/runtime"
 
 func sortedArrayToBST(nums []int) *runtime.TreeNode {
-    var dfs func(nums []int, start, end int) *runtime.TreeNode
-    dfs = func(nums []int, start, end int) *runtime.TreeNode {
-        if start > end {
+    var dfs func(nums []int, left, right int) *runtime.TreeNode
+    dfs = func(nums []int, left, right int) *runtime.TreeNode {
+        if left > right {
             return nil
         }
-        mid := (start + end) / 2
+        mid := (left + right) / 2
         root := &runtime.TreeNode{Val: nums[mid]}
-        root.Left = dfs(nums, start, mid-1)
-        root.Right = dfs(nums, mid+1, end)
+        root.Left = dfs(nums, left, mid-1)
+        root.Right = dfs(nums, mid+1, right)
         return root
     }
 
