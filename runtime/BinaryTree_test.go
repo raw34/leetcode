@@ -14,7 +14,7 @@ func TestBinaryTree_build(t *testing.T) {
 
     nums := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
     tree := &BinaryTree{}
-    root := tree.build(nums)
+    root := tree.Build(nums)
     res1 := tree.displayPreorder1(root)
     fmt.Println(res1)
     res2 := tree.displayInorder1(root)

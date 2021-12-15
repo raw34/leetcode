@@ -12,7 +12,7 @@ type BinaryTree struct {
     stackPost []int
 }
 
-func (bt *BinaryTree) build(nums []int) *TreeNode {
+func (bt *BinaryTree) Build(nums []int) *TreeNode {
     root := &TreeNode{Val: nums[0]}
     queue := []*TreeNode{root}
 
