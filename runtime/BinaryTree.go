@@ -6,16 +6,7 @@ import (
     "strings"
 )
 
-type TreeNode struct {
-    Val   int
-    Left  *TreeNode
-    Right *TreeNode
-}
-
 type BinaryTree struct {
-    stackPre  []int
-    stackIn   []int
-    stackPost []int
 }
 
 func (bt *BinaryTree) unserialize1(data string) *TreeNode {
