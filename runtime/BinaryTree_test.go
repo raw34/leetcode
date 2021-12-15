@@ -1,28 +1,22 @@
 package runtime
 
 import (
-    "fmt"
     "github.com/stretchr/testify/assert"
     "testing"
 )
 
 func TestBinaryTree_build(t *testing.T) {
-    str := "1-2--3"
-    for i := 0; i < len(str); i++ {
-        fmt.Println(str[0:i])
-    }
-
-    nums := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+    str := "1,2,3,4,5,6,7,8,9,10"
     tree := &BinaryTree{}
-    root := tree.Build(nums)
+    root := tree.unserialize(str)
     res1 := tree.displayPreorder1(root)
-    fmt.Println(res1)
+    assert.Equal(t, []int{1, 2, 4, 8, 9, 5, 10, 3, 6, 7}, res1)
     res2 := tree.displayInorder1(root)
-    fmt.Println(res2)
+    assert.Equal(t, []int{8, 4, 9, 2, 10, 5, 1, 6, 3, 7}, res2)
     res3 := tree.displayPostorder1(root)
-    fmt.Println(res3)
+    assert.Equal(t, []int{8, 9, 4, 10, 5, 2, 6, 7, 3, 1}, res3)
     res4 := tree.DisplayLevelOrder1(root)
-    fmt.Println(res4)
+    assert.Equal(t, [][]int{{1}, {2, 3}, {4, 5, 6, 7}, {8, 9, 10}}, res4)
 }
 
 func TestBinaryTree_buildFromPreorderAndInorder1(t *testing.T) {

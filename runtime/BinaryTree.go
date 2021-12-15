@@ -1,5 +1,10 @@
 package runtime
 
+import (
+    "strconv"
+    "strings"
+)
+
 type TreeNode struct {
     Val   int
     Left  *TreeNode
@@ -12,24 +17,28 @@ type BinaryTree struct {
     stackPost []int
 }
 
-func (bt *BinaryTree) Build(nums []int) *TreeNode {
-    root := &TreeNode{Val: nums[0]}
+func (bt *BinaryTree) unserialize(str string) *TreeNode {
+    values := strings.Split(str, ",")
+    rootVal, _ := strconv.Atoi(values[0])
+    root := &TreeNode{Val: rootVal}
     queue := []*TreeNode{root}
 
-    n := len(nums)
+    n := len(values)
     i := 1
     for len(queue) > 0 {
         node := queue[0]
         queue = queue[1:]
 
         if i < n {
-            node.Left = &TreeNode{Val: nums[i]}
+            val, _ := strconv.Atoi(values[i])
+            node.Left = &TreeNode{Val: val}
             queue = append(queue, node.Left)
         }
         i++
 
         if i < n {
-            node.Right = &TreeNode{Val: nums[i]}
+            val, _ := strconv.Atoi(values[i])
+            node.Right = &TreeNode{Val: val}
             queue = append(queue, node.Right)
         }
         i++
