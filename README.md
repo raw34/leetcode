@@ -14,9 +14,9 @@
     - [x]  [implement-stack-using-queues](https://leetcode-cn.com/problems/implement-stack-using-queues/)（225）
     - [x]  [min-stack](https://leetcode-cn.com/problems/min-stack/)（155）
     - [x]  [max-stack](https://leetcode-cn.com/problems/max-stack/)（716）
-- [ ]  堆
+- [x]  堆
     - [x]  [kth-largest-element-in-an-array](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)（215）
-- [ ]  二叉树
+- [x]  二叉树
     - [x]  [construct-binary-tree-from-preorder-and-inorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)（105）
     - [x]  [construct-binary-tree-from-inorder-and-postorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)（106）
     - [x]  [construct-binary-tree-from-preorder-and-postorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)（889）
