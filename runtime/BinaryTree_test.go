@@ -7,6 +7,11 @@ import (
 )
 
 func TestBinaryTree_build(t *testing.T) {
+    str := "1-2--3"
+    for i := 0; i < len(str); i++ {
+        fmt.Println(str[0:i])
+    }
+
     nums := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
     tree := &BinaryTree{}
     root := tree.build(nums)
