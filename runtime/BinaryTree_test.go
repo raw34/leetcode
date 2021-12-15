@@ -5,8 +5,8 @@ import (
     "testing"
 )
 
-func TestBinaryTree_build(t *testing.T) {
-    str := "1,2,3,4,5,6,7,8,9,10"
+func TestBinaryTree_unserialize(t *testing.T) {
+    str := "1,2,3,4,5,6,7,8,9,10,null,null,null,null,null,null,null,null,null,null,null"
     tree := &BinaryTree{}
     root := tree.unserialize(str)
     res1 := tree.displayPreorder1(root)
@@ -17,6 +17,14 @@ func TestBinaryTree_build(t *testing.T) {
     assert.Equal(t, []int{8, 9, 4, 10, 5, 2, 6, 7, 3, 1}, res3)
     res4 := tree.DisplayLevelOrder1(root)
     assert.Equal(t, [][]int{{1}, {2, 3}, {4, 5, 6, 7}, {8, 9, 10}}, res4)
+}
+
+func TestBinaryTree_serialize(t *testing.T) {
+    str := "1,2,3,4,5,6,7,8,9,10,null,null,null,null,null,null,null,null,null,null,null"
+    tree := &BinaryTree{}
+    root := tree.unserialize(str)
+    res := tree.serialize(root)
+    assert.Equal(t, str, res)
 }
 
 func TestBinaryTree_buildFromPreorderAndInorder1(t *testing.T) {

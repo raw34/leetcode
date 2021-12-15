@@ -17,27 +17,32 @@ type BinaryTree struct {
     stackPost []int
 }
 
-func (bt *BinaryTree) unserialize(str string) *TreeNode {
-    values := strings.Split(str, ",")
+func (bt *BinaryTree) unserialize(data string) *TreeNode {
+    if data == "null" {
+        return nil
+    }
+    values := strings.Split(data, ",")
     rootVal, _ := strconv.Atoi(values[0])
     root := &TreeNode{Val: rootVal}
     queue := []*TreeNode{root}
 
     n := len(values)
     i := 1
-    for len(queue) > 0 {
+    for i < n {
         node := queue[0]
         queue = queue[1:]
 
-        if i < n {
-            val, _ := strconv.Atoi(values[i])
+        LeftVal := values[i]
+        if LeftVal != "null" {
+            val, _ := strconv.Atoi(LeftVal)
             node.Left = &TreeNode{Val: val}
             queue = append(queue, node.Left)
         }
         i++
 
-        if i < n {
-            val, _ := strconv.Atoi(values[i])
+        rightVal := values[i]
+        if rightVal != "null" {
+            val, _ := strconv.Atoi(rightVal)
             node.Right = &TreeNode{Val: val}
             queue = append(queue, node.Right)
         }
@@ -45,6 +50,25 @@ func (bt *BinaryTree) unserialize(str string) *TreeNode {
     }
 
     return root
+}
+
+func (bt *BinaryTree) serialize(root *TreeNode) string {
+    res := make([]string, 0)
+    queue := []*TreeNode{root}
+    for len(queue) > 0 {
+        node := queue[0]
+        queue = queue[1:]
+
+        if node != nil {
+            res = append(res, strconv.Itoa(node.Val))
+            queue = append(queue, node.Left)
+            queue = append(queue, node.Right)
+        } else {
+            res = append(res, "null")
+        }
+    }
+
+    return strings.Join(res, ",")
 }
 
 func (bt *BinaryTree) buildFromPreorderAndInorder1(preorder []int, inorder []int) *TreeNode {
