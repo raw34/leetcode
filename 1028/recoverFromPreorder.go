@@ -19,18 +19,15 @@ func recoverFromPreorder(traversal string) *TreeNode {
 
     dep := 0
     val := 0
-    hasVal := false
     for i := 0; i < len(traversal); i++ {
         curr := traversal[i]
-        if curr == '-' && hasVal {
+        if curr == '-' && val > 0 {
             addNode(dep, val)
             dep = 0
             val = 0
-            hasVal = false
         }
         if curr != '-' {
             val = val*10 + int(curr-'0')
-            hasVal = true
         } else {
             dep++
         }
