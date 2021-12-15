@@ -1,15 +1,11 @@
 package _1028
 
-type TreeNode struct {
-    Val   int
-    Left  *TreeNode
-    Right *TreeNode
-}
+import "github.com/raw34/leetcode/runtime"
 
-func recoverFromPreorder(traversal string) *TreeNode {
-    nodes := map[int]*TreeNode{-1: &TreeNode{}}
+func recoverFromPreorder(traversal string) *runtime.TreeNode {
+    nodes := map[int]*runtime.TreeNode{-1: &runtime.TreeNode{}}
     addNode := func(dep, val int) {
-        nodes[dep] = &TreeNode{Val: val}
+        nodes[dep] = &runtime.TreeNode{Val: val}
         if nodes[dep-1].Left == nil {
             nodes[dep-1].Left = nodes[dep]
         } else {
