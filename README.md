@@ -65,7 +65,7 @@
     - [x]  [binary-tree-level-order-traversal-ii](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)（107）
     - [x]  [binary-tree-zigzag-level-order-traversal](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)（103）
     - [x]  [validate-binary-search-tree](https://leetcode-cn.com/problems/validate-binary-search-tree/)（98）
-    - [ ]  [recover-binary-search-tree](https://leetcode-cn.com/problems/recover-binary-search-tree/)（99）
+    - [x]  [recover-binary-search-tree](https://leetcode-cn.com/problems/recover-binary-search-tree/)（99）
     - [x]  [maximum-depth-of-binary-tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)（104）
     - [x]  [balanced-binary-tree](https://leetcode-cn.com/problems/balanced-binary-tree/)（110）
     - [x]  [binary-tree-maximum-path-sum](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)（124）?
