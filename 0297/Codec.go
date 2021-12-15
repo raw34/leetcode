@@ -29,7 +29,7 @@ func (this *Codec) serialize(root *runtime.TreeNode) string {
     }
     dfs(root)
 
-    return res
+    return res[:len(res)-1]
 }
 
 // Deserializes your encoded data to tree.

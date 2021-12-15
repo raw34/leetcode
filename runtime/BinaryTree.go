@@ -1,6 +1,7 @@
 package runtime
 
 import (
+    "fmt"
     "strconv"
     "strings"
 )
@@ -17,7 +18,44 @@ type BinaryTree struct {
     stackPost []int
 }
 
-func (bt *BinaryTree) unserialize(data string) *TreeNode {
+func (bt *BinaryTree) unserialize1(data string) *TreeNode {
+    values := strings.Split(data, ",")
+    var build func() *TreeNode
+    build = func() *TreeNode {
+        str := values[0]
+        values = values[1:]
+        if str == "null" {
+            return nil
+        }
+        val, _ := strconv.Atoi(str)
+        root := &TreeNode{Val: val}
+        root.Left = build()
+        root.Right = build()
+
+        return root
+    }
+
+    return build()
+}
+
+func (bt *BinaryTree) serialize1(root *TreeNode) string {
+    res := ""
+    var dfs func(root *TreeNode)
+    dfs = func(root *TreeNode) {
+        if root == nil {
+            res += "null,"
+            return
+        }
+        res += fmt.Sprintf("%d,", root.Val)
+        dfs(root.Left)
+        dfs(root.Right)
+    }
+    dfs(root)
+
+    return res[:len(res)-1]
+}
+
+func (bt *BinaryTree) unserialize2(data string) *TreeNode {
     if data == "null" {
         return nil
     }
@@ -52,7 +90,7 @@ func (bt *BinaryTree) unserialize(data string) *TreeNode {
     return root
 }
 
-func (bt *BinaryTree) serialize(root *TreeNode) string {
+func (bt *BinaryTree) serialize2(root *TreeNode) string {
     res := make([]string, 0)
     queue := []*TreeNode{root}
     for len(queue) > 0 {

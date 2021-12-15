@@ -5,10 +5,10 @@ import (
     "testing"
 )
 
-func TestBinaryTree_unserialize(t *testing.T) {
+func TestBinaryTree_unserialize1(t *testing.T) {
     str := "1,2,3,4,5,6,7,8,9,10,null,null,null,null,null,null,null,null,null,null,null"
     tree := &BinaryTree{}
-    root := tree.unserialize(str)
+    root := tree.unserialize1(str)
     res1 := tree.displayPreorder1(root)
     assert.Equal(t, []int{1, 2, 4, 8, 9, 5, 10, 3, 6, 7}, res1)
     res2 := tree.displayInorder1(root)
@@ -19,11 +19,33 @@ func TestBinaryTree_unserialize(t *testing.T) {
     assert.Equal(t, [][]int{{1}, {2, 3}, {4, 5, 6, 7}, {8, 9, 10}}, res4)
 }
 
-func TestBinaryTree_serialize(t *testing.T) {
+func TestBinaryTree_serialize1(t *testing.T) {
     str := "1,2,3,4,5,6,7,8,9,10,null,null,null,null,null,null,null,null,null,null,null"
     tree := &BinaryTree{}
-    root := tree.unserialize(str)
-    res := tree.serialize(root)
+    root := tree.unserialize1(str)
+    res := tree.serialize1(root)
+    assert.Equal(t, str, res)
+}
+
+func TestBinaryTree_unserialize2(t *testing.T) {
+    str := "1,2,3,4,5,6,7,8,9,10,null,null,null,null,null,null,null,null,null,null,null"
+    tree := &BinaryTree{}
+    root := tree.unserialize2(str)
+    res1 := tree.displayPreorder1(root)
+    assert.Equal(t, []int{1, 2, 4, 8, 9, 5, 10, 3, 6, 7}, res1)
+    res2 := tree.displayInorder1(root)
+    assert.Equal(t, []int{8, 4, 9, 2, 10, 5, 1, 6, 3, 7}, res2)
+    res3 := tree.displayPostorder1(root)
+    assert.Equal(t, []int{8, 9, 4, 10, 5, 2, 6, 7, 3, 1}, res3)
+    res4 := tree.DisplayLevelOrder1(root)
+    assert.Equal(t, [][]int{{1}, {2, 3}, {4, 5, 6, 7}, {8, 9, 10}}, res4)
+}
+
+func TestBinaryTree_serialize2(t *testing.T) {
+    str := "1,2,3,4,5,6,7,8,9,10,null,null,null,null,null,null,null,null,null,null,null"
+    tree := &BinaryTree{}
+    root := tree.unserialize2(str)
+    res := tree.serialize2(root)
     assert.Equal(t, str, res)
 }
 
