@@ -24,7 +24,7 @@
     - [x]  [serialize-and-deserialize-binary-tree](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)（297）
     - [x]  [construct-binary-search-tree-from-preorder-traversal](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/)（1008）
     - [x]  [convert-sorted-array-to-binary-search-tree](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)（108）
-    - [ ]  [convert-sorted-list-to-binary-search-tree](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/)（109）
+    - [x]  [convert-sorted-list-to-binary-search-tree](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/)（109）
     - [ ]  [recover-binary-search-tree](https://leetcode-cn.com/problems/recover-binary-search-tree/)（99）
     - [ ]  [serialize-and-deserialize-bst](https://leetcode-cn.com/problems/serialize-and-deserialize-bst/)（449）
 - [ ]  图
