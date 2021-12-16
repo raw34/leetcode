@@ -26,6 +26,7 @@ func TestSkiplist_Case1(t *testing.T) {
 //[null,null,null,null,null,true,true,true,false,true]
 func TestSkiplist_Case2(t *testing.T) {
     list := Constructor()
+    list.Add(1)
     list.Add(0)
     list.Add(5)
     list.Add(2)

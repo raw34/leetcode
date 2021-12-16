@@ -10,17 +10,14 @@ type SkiplistNode struct {
     Next []*SkiplistNode
 }
 
-func NewSkiplistNode(val, level int) *SkiplistNode {
-    return &SkiplistNode{Val: val, Next: make([]*SkiplistNode, level)}
-}
-
 type Skiplist struct {
     level int
     head  *SkiplistNode
 }
 
 func Constructor() Skiplist {
-    return Skiplist{level: 1, head: NewSkiplistNode(-1, MaxLevel)}
+    head := &SkiplistNode{Next: make([]*SkiplistNode, MaxLevel)}
+    return Skiplist{level: 1, head: head}
 }
 
 func (this *Skiplist) Search(target int) bool {
@@ -46,7 +43,7 @@ func (this *Skiplist) findPrevNode(node *SkiplistNode, level, val int) *Skiplist
 }
 func (this *Skiplist) Add(num int) {
     level := this.randomLevel()
-    newNode := NewSkiplistNode(num, level)
+    newNode := &SkiplistNode{Val: num, Next: make([]*SkiplistNode, level)}
     if level > this.level {
         // 如果随机层比当前最大层大
         // 将新节点更新到每层第一个节点后

@@ -1,7 +1,7 @@
 ## 数据结构设计
 - [ ]  链表
     - [x]  [design-linked-list](https://leetcode-cn.com/problems/design-linked-list/)（707）
-    - [ ]  [design-skiplist](https://leetcode-cn.com/problems/design-skiplist/)（1206）
+    - [x]  [design-skiplist](https://leetcode-cn.com/problems/design-skiplist/)（1206）
 - [x]  哈希表
     - [x]  [design-hashset](https://leetcode-cn.com/problems/design-hashset/)（705）
     - [x]  [design-hashmap](https://leetcode-cn.com/problems/design-hashmap/)（706）
