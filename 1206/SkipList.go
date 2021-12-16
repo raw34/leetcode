@@ -54,13 +54,8 @@ func (this *Skiplist) Add(num int) {
     for i := newLevel - 1; i >= 0; i-- {
         // 逐层遍历，寻找前序节点
         prevNode = this.findPrevNode(prevNode, i, num)
-        if prevNode.Next[i] == nil {
-            // 最近节点无后序节点，直接更新到该节点后
-            prevNode.Next[i] = newNode
-        } else {
-            // 最近节点有后序节点，插入当前节点后，并将后序节点后移
-            prevNode.Next[i], newNode.Next[i] = newNode, prevNode.Next[i]
-        }
+        // 最近节点有后序节点，插入当前节点后，并将后序节点后移
+        prevNode.Next[i], newNode.Next[i] = newNode, prevNode.Next[i]
     }
     if newLevel > this.level {
         // 如果随机层比当前最大层大
