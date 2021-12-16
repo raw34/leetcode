@@ -1,5 +1,5 @@
 ## 数据结构设计
-- [ ]  链表
+- [x]  链表
     - [x]  [design-linked-list](https://leetcode-cn.com/problems/design-linked-list/)（707）
     - [x]  [design-skiplist](https://leetcode-cn.com/problems/design-skiplist/)（1206）
 - [x]  哈希表
