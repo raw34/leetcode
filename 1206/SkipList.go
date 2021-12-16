@@ -52,7 +52,6 @@ func (this *Skiplist) Add(num int) {
     newNode := NewSkiplistNode(num, newLevel)
     prevNode := this.head
     for i := newLevel - 1; i >= 0; i-- {
-        // 如果随机层比当前最大层小
         // 逐层遍历，寻找前序节点
         prevNode = this.findPrevNode(prevNode, i, num)
         if prevNode.Next[i] == nil {
