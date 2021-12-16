@@ -1,13 +1,20 @@
 package _1206
 
-import "math/rand"
+import (
+    "math/rand"
+    "time"
+)
 
 const MaxLevel = 32
-const P = 0.25
+const Probability = 0.25
 
 type SkiplistNode struct {
     Val  int
     Next []*SkiplistNode
+}
+
+func NewSkiplistNode(val, level int) *SkiplistNode {
+    return &SkiplistNode{Val: val, Next: make([]*SkiplistNode, level)}
 }
 
 type Skiplist struct {
@@ -16,8 +23,7 @@ type Skiplist struct {
 }
 
 func Constructor() Skiplist {
-    head := &SkiplistNode{Next: make([]*SkiplistNode, MaxLevel)}
-    return Skiplist{level: 1, head: head}
+    return Skiplist{level: 1, head: NewSkiplistNode(0, MaxLevel)}
 }
 
 func (this *Skiplist) Search(target int) bool {
@@ -42,20 +48,20 @@ func (this *Skiplist) findPrevNode(node *SkiplistNode, level, val int) *Skiplist
     return node
 }
 func (this *Skiplist) Add(num int) {
-    level := this.randomLevel()
-    newNode := &SkiplistNode{Val: num, Next: make([]*SkiplistNode, level)}
-    if level > this.level {
+    newLevel := this.randomLevel()
+    newNode := NewSkiplistNode(num, newLevel)
+    if newLevel > this.level {
         // 如果随机层比当前最大层大
         // 将新节点更新到每层第一个节点后
-        for i := this.level; i < level; i++ {
+        for i := this.level; i < newLevel; i++ {
             this.head.Next[i] = newNode
         }
-        this.level = level
+        this.level = newLevel
     } else {
         // 如果随机层比当前最大层小
         // 逐层遍历，寻找前序节点
         prevNode := this.head
-        for i := level - 1; i >= 0; i-- {
+        for i := newLevel - 1; i >= 0; i-- {
             prevNode = this.findPrevNode(prevNode, i, num)
             if prevNode.Next[i] == nil {
                 // 最近节点无后序节点，直接更新到该节点后
@@ -70,7 +76,8 @@ func (this *Skiplist) Add(num int) {
 
 func (this *Skiplist) randomLevel() int {
     level := 1
-    for rand.Float64() < P && level < MaxLevel {
+    rand.Seed(time.Now().UnixNano())
+    for rand.Float32() < Probability && level < MaxLevel {
         level++
     }
 
