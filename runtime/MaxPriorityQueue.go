@@ -7,10 +7,10 @@ type MaxPriorityQueue struct {
     size  int
 }
 
-func NewMaxPriorityQueue(nums []int) *MaxPriorityQueue {
+func NewMaxPriorityQueue(nums []int) MaxPriorityQueue {
     queue := make([]int, len(nums)+1)
     queue[0] = -1
-    maxPQ := &MaxPriorityQueue{queue, 0}
+    maxPQ := MaxPriorityQueue{queue, 0}
     for i := 0; i < len(nums); i++ {
         maxPQ.Push(nums[i])
     }
