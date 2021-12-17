@@ -1,26 +1,37 @@
 package _0703
 
-import "github.com/raw34/leetcode/runtime"
+import (
+    "container/heap"
+    "sort"
+)
 
 type KthLargest struct {
-    k   int
-    mpq runtime.MaxPriorityQueue
+    k int
+    sort.IntSlice
 }
 
 func Constructor(k int, nums []int) KthLargest {
-    return KthLargest{k, runtime.NewMaxPriorityQueue(nums)}
+    kl := KthLargest{k: k}
+    for i := 0; i < len(nums); i++ {
+        kl.Add(nums[i])
+    }
+    return kl
 }
 
 func (this *KthLargest) Add(val int) int {
-    this.mpq.Push(val)
-    return this.Search(this.k)
+    heap.Push(this, val)
+    if this.Len() > this.k {
+        heap.Pop(this)
+    }
+    return this.IntSlice[0]
 }
 
-func (this *KthLargest) Search(k int) int {
-    queue := this.mpq
-    for i := 0; i < k-1; i++ {
-        queue.Pop()
-    }
+func (this *KthLargest) Push(val interface{}) {
+    this.IntSlice = append(this.IntSlice, val.(int))
+}
 
-    return queue.Pop()
+func (this *KthLargest) Pop() interface{} {
+    val := this.IntSlice[this.IntSlice.Len()-1]
+    this.IntSlice = this.IntSlice[:this.IntSlice.Len()-1]
+    return val
 }
