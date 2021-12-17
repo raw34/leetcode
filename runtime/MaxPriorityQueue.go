@@ -45,10 +45,10 @@ func (this *MaxPriorityQueue) Pop() int {
 }
 
 func (this *MaxPriorityQueue) sink(k int) {
-    for this.left(k) <= len(this.queue) {
+    for this.left(k) < len(this.queue)+1 {
         olderChild := this.left(k)
         rightChild := this.right(k)
-        if rightChild <= len(this.queue) && this.less(olderChild, rightChild) {
+        if rightChild < len(this.queue)+1 && this.less(olderChild, rightChild) {
             olderChild = rightChild
         }
 
