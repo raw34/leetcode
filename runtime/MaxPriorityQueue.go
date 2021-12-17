@@ -16,24 +16,9 @@ func NewMaxPriorityQueue(nums []int) MaxPriorityQueue {
     return maxPQ
 }
 
-func (this *MaxPriorityQueue) less(i, j int) bool {
-    return this.queue[i] < this.queue[j]
-}
-
 func (this *MaxPriorityQueue) Push(val int) {
     this.queue = append(this.queue, val)
     this.swim(len(this.queue) - 1)
-}
-
-func (this *MaxPriorityQueue) swim(k int) {
-    for k > 1 && this.less(this.parent(k), k) {
-        this.swap(this.parent(k), k)
-        k = this.parent(k)
-    }
-}
-
-func (this *MaxPriorityQueue) swap(i, j int) {
-    this.queue[i], this.queue[j] = this.queue[j], this.queue[i]
 }
 
 func (this *MaxPriorityQueue) Pop() int {
@@ -44,11 +29,26 @@ func (this *MaxPriorityQueue) Pop() int {
     return max
 }
 
+func (this *MaxPriorityQueue) swim(k int) {
+    for k > 1 && this.less(this.parent(k), k) {
+        this.swap(this.parent(k), k)
+        k = this.parent(k)
+    }
+}
+
+func (this *MaxPriorityQueue) less(i, j int) bool {
+    return this.queue[i] < this.queue[j]
+}
+
+func (this *MaxPriorityQueue) swap(i, j int) {
+    this.queue[i], this.queue[j] = this.queue[j], this.queue[i]
+}
+
 func (this *MaxPriorityQueue) sink(k int) {
-    for this.left(k) < len(this.queue)+1 {
+    for this.left(k) <= len(this.queue)-1 {
         olderChild := this.left(k)
         rightChild := this.right(k)
-        if rightChild < len(this.queue)+1 && this.less(olderChild, rightChild) {
+        if rightChild <= len(this.queue)-1 && this.less(olderChild, rightChild) {
             olderChild = rightChild
         }
 
