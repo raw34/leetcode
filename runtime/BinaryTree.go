@@ -9,6 +9,10 @@ import (
 type BinaryTree struct {
 }
 
+func NewBinaryTree() BinaryTree {
+    return BinaryTree{}
+}
+
 func (bt *BinaryTree) unserialize1(data string) *TreeNode {
     values := strings.Split(data, ",")
     var build func() *TreeNode
