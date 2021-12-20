@@ -1,9 +1,9 @@
 <?php
 /**
- * Class PriorityQueue
+ * Class MaxPriorityQueue
  * @author Randy Chang
  */
-class PriorityQueue
+class MaxPriorityQueue
 {
     private $queue = [null];
     private $count = 0;
@@ -96,7 +96,7 @@ shuffle($arr);
 
 echo 'i arr = ', json_encode($arr), "\n";
 
-$queue = new PriorityQueue();
+$queue = new MaxPriorityQueue();
 
 foreach ($arr as $k => $v) {
     $queue->insert($v);
