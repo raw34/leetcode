@@ -13,6 +13,7 @@ func combinationSum2(candidates []int, target int) [][]int {
             temp := make([]int, len(path))
             copy(temp, path)
             res = append(res, temp)
+            return
         }
 
         if sum > target {
