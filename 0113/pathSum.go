@@ -17,7 +17,6 @@ func pathSum(root *runtime.TreeNode, targetSum int) [][]int {
         }
         dfs(root.Left, path, num)
         dfs(root.Right, path, num)
-        path = path[:len(path)-1]
     }
     dfs(root, []int{}, 0)
 
