@@ -15,6 +15,10 @@ func combinationSum2(candidates []int, target int) [][]int {
             res = append(res, temp)
         }
 
+        if sum > target {
+            return
+        }
+
         for i := start; i < n; i++ {
             if sum > target {
                 break
