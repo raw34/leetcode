@@ -12,6 +12,7 @@ func exist(board [][]byte, word string) bool {
         if i == len(word) {
             return true
         }
+
         if row < 0 || col < 0 || row >= m || col >= n || used[row][col] || board[row][col] != word[i] {
             return false
         }
