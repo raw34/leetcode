@@ -1,6 +1,7 @@
 package runtime
 
 import (
+    "fmt"
     "github.com/stretchr/testify/assert"
     "testing"
 )
@@ -20,6 +21,7 @@ func TestBinaryTree_unserialize1(t *testing.T) {
 }
 
 func TestBinaryTree_serialize1(t *testing.T) {
+    fmt.Println(byte(0))
     str := "1,2,3,4,5,6,7,8,9,10,null,null,null,null,null,null,null,null,null,null,null"
     tree := &BinaryTree{}
     root := tree.unserialize1(str)
