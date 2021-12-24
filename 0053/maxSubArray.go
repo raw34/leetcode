@@ -8,8 +8,8 @@ func maxSubArray(nums []int) int {
         return a
     }
 
-    res := nums[0]
     n := len(nums)
+    res := nums[0]
     // dp[i]表示到索引i为止的最大子序列和
     dp := make([]int, n)
     dp[0] = nums[0]

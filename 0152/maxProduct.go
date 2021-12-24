@@ -48,8 +48,8 @@ func maxProduct2(nums []int) int {
         return a
     }
 
-    res := nums[0]
     n := len(nums)
+    res := nums[0]
     dpMax := nums[0]
     dpMin := nums[0]
     for i := 1; i < n; i++ {
