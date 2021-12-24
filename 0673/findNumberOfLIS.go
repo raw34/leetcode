@@ -17,13 +17,14 @@ func findNumberOfLIS(nums []int) int {
         dp[i] = 1
         cnt[i] = 1
         for j := 0; j < i; j++ {
-            if nums[j] < nums[i] {
-                if dp[i] == dp[j]+1 {
-                    cnt[i] += cnt[j]
-                } else if dp[i] < dp[j]+1 {
-                    dp[i] = dp[j] + 1
-                    cnt[i] = cnt[j]
-                }
+            if nums[j] >= nums[i] {
+                continue
+            }
+            if dp[i] == dp[j]+1 {
+                cnt[i] += cnt[j]
+            } else if dp[i] < dp[j]+1 {
+                dp[i] = dp[j] + 1
+                cnt[i] = cnt[j]
             }
         }
         if dp[i] == maxLen {
