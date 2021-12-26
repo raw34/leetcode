@@ -65,7 +65,9 @@ func rob2(nums []int) int {
         return currMax
     }
 
+    // 第一种情况，偷第一家，不偷最后一家
     max1 := robMax(0, n-1)
+    // 第一种情况，不偷第一家，偷最后一家
     max2 := robMax(1, n)
 
     return max(max1, max2)
