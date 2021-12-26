@@ -16,7 +16,7 @@ func maxSizeSlices(slices []int) int {
         for i := 1; i <= n; i++ {
             dp[i] = make([]int, choice+1)
             for j := 1; j <= choice; j++ {
-                if i < 2 {
+                if i == 1 {
                     dp[i][j] = max(dp[i-1][j], slices[i-1])
                 } else {
                     dp[i][j] = max(dp[i-1][j], dp[i-2][j-1]+slices[i-1])
