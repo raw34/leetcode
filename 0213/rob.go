@@ -57,12 +57,13 @@ func rob2(nums []int) int {
     }
 
     robMax := func(start, end int) int {
-        prevMax := 0
-        currMax := 0
+        dp := make([]int, 2)
+        dp[0] = 0
+        dp[1] = 0
         for i := start; i < end; i++ {
-            prevMax, currMax = currMax, max(currMax, prevMax+nums[i])
+            dp[0], dp[1] = dp[1], max(dp[1], dp[0]+nums[i])
         }
-        return currMax
+        return dp[1]
     }
 
     // 第一种情况，偷第一家，不偷最后一家

@@ -33,11 +33,12 @@ func rob2(nums []int) int {
     }
 
     n := len(nums)
-    prevMax := 0
-    currMax := nums[0]
+    dp := make([]int, 2)
+    dp[0] = 0
+    dp[1] = nums[0]
     for i := 1; i < n; i++ {
-        prevMax, currMax = currMax, max(currMax, prevMax+nums[i])
+        dp[0], dp[1] = dp[1], max(dp[1], dp[0]+nums[i])
     }
 
-    return currMax
+    return dp[1]
 }
