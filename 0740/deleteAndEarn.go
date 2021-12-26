@@ -17,7 +17,7 @@ func deleteAndEarn(nums []int) int {
     }
 
     n := len(nums)
-    // 统计出数组中重复数字的和，可以转化为打家劫舍问题
+    // 统计出数组中重复数字的和，并求出最大、最小值
     minNum := math.MaxInt32
     maxNum := math.MinInt32
     sums := make([]int, 0)
@@ -33,6 +33,7 @@ func deleteAndEarn(nums []int) int {
         sums[num] += num
     }
 
+    // 利用打家劫舍思路求解
     prevMax := 0
     currMax := 0
     for i := minNum; i < maxNum+1; i++ {
