@@ -23,3 +23,21 @@ func rob(nums []int) int {
 
     return res
 }
+
+func rob2(nums []int) int {
+    max := func(a, b int) int {
+        if a < b {
+            return b
+        }
+        return a
+    }
+
+    n := len(nums)
+    prevMax := 0
+    currMax := nums[0]
+    for i := 1; i < n; i++ {
+        prevMax, currMax = currMax, max(currMax, prevMax+nums[i])
+    }
+
+    return currMax
+}
