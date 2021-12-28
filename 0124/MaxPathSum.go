@@ -6,6 +6,13 @@ import (
 )
 
 func maxPathSum(root *runtime.TreeNode) int {
+	max := func(a, b int) int {
+		if a < b {
+			return b
+		}
+		return a
+	}
+
 	maxSum := math.MinInt32
 	var maxGain func(node *runtime.TreeNode) int
 	maxGain = func(node *runtime.TreeNode) int {
@@ -13,13 +20,13 @@ func maxPathSum(root *runtime.TreeNode) int {
 			return 0
 		}
 
-		leftGain := runtime.Max(maxGain(node.Left), 0)
-		rightGain := runtime.Max(maxGain(node.Right), 0)
+		leftGain := max(maxGain(node.Left), 0)
+		rightGain := max(maxGain(node.Right), 0)
 
 		currSum := node.Val + leftGain + rightGain
-		maxSum = runtime.Max(maxSum, currSum)
+		maxSum = max(maxSum, currSum)
 
-		return node.Val + runtime.Max(leftGain, rightGain)
+		return node.Val + max(leftGain, rightGain)
 	}
 	maxGain(root)
 	return maxSum
