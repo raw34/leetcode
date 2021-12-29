@@ -15,7 +15,7 @@ func canCross(stones []int) bool {
         for j := 0; j < i; j++ {
             // 步长 = 当前石头和前一个石头的距离
             k := stones[i] - stones[j]
-            // ???
+            // 当步长超过了当前石头时，当前石头不可达
             if k > j+1 {
                 continue
             }
