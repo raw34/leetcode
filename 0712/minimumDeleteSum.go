@@ -10,7 +10,7 @@ func minimumDeleteSum(s1 string, s2 string) int {
     }
     m := len(s1)
     n := len(s2)
-    // 求所有字符assii码和
+    // 求所有字符ascii码和
     sum := 0
     for i := 0; i < m; i++ {
         sum += int(s1[i])
@@ -19,7 +19,7 @@ func minimumDeleteSum(s1 string, s2 string) int {
         sum += int(s2[j])
     }
 
-    // 求公共子序列assii码和
+    // 求公共子序列ascii码和
     dp := make([][]int, m+1)
     dp[0] = make([]int, n+1)
     for i := 1; i < m+1; i++ {
