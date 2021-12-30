@@ -38,9 +38,8 @@ func findLength2(nums1 []int, nums2 []int) int {
     }
     m := len(nums1)
     n := len(nums2)
-    dp := make([]int, n+1)
-
     res := 0
+    dp := make([]int, n+1)
     for i := 1; i <= m; i++ {
         for j := n; j > 0; j-- {
             if nums1[i-1] == nums2[j-1] {
