@@ -43,12 +43,12 @@ func minCost(houses []int, cost [][]int, m int, n int, target int) int {
             k := houses[i]
             if houses[i] > 0 {
                 // 当前房子已有颜色
-                // 获取变街区和不变街区的花费，取最小值
+                // 计算变街区和不变街区的花费，取最小值
                 dp[i][j][k] = min(-1, dp[i-1][j][k], min(k, dp[i-1][j-1]...))
             } else {
                 // 当前房子没有颜色，遍历每种颜色，分别计算花费
                 for k = 1; k < n+1; k++ {
-                    // 获取变街区和不变街区的花费，取最小值
+                    // 计算变街区和不变街区的花费，取最小值
                     dp[i][j][k] = min(-1, dp[i-1][j][k], min(k, dp[i-1][j-1]...)) + cost[i][k-1]
                 }
             }
