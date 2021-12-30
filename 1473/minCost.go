@@ -37,22 +37,12 @@ func minCost(houses []int, cost [][]int, m int, n int, target int) int {
         for j := 1; j < target+1; j++ {
             color := houses[i]
             if houses[i] > 0 {
-                for k := 1; k < n+1; k++ {
-                    if k == color {
-                        dp[i][j][color] = min(-1, dp[i][j][color], dp[i-1][j][color])
-                    } else {
-                        dp[i][j][color] = min(-1, dp[i][j][color], dp[i-1][j-1][k])
-                    }
-                }
+                dp[i][j][color] = min(-1, dp[i][j][color], dp[i-1][j][color])
+                dp[i][j][color] = min(-1, dp[i][j][color], min(color, dp[i-1][j-1]...))
             } else {
                 for color = 1; color < n+1; color++ {
-                    for k := 1; k < n+1; k++ {
-                        if k == color {
-                            dp[i][j][color] = min(-1, dp[i][j][color], dp[i-1][j][k]+cost[i][color-1])
-                        } else {
-                            dp[i][j][color] = min(-1, dp[i][j][color], dp[i-1][j-1][k]+cost[i][color-1])
-                        }
-                    }
+                    dp[i][j][color] = min(-1, dp[i][j][color], dp[i-1][j][color]+cost[i][color-1])
+                    dp[i][j][color] = min(-1, dp[i][j][color], min(color, dp[i-1][j-1]...)+cost[i][color-1])
                 }
             }
         }
