@@ -7,7 +7,10 @@ func isMatch(s string, p string) bool {
     for i := 0; i < m+1; i++ {
         dp[i] = make([]bool, n+1)
     }
+
+    // 初始化第一个位置，两串都不取的情况
     dp[0][0] = true
+    // 初始化前缀若干个*的情况
     for j := 1; j < n+1; j++ {
         if p[j-1] != '*' {
             break
