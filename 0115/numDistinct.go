@@ -14,7 +14,7 @@ func numDistinct(s string, t string) int {
     }
 
     for i := 1; i < m+1; i++ {
-        for j := 1; j < n+1; j++ {
+        for j := i; j < n+1; j++ {
             if t[i-1] == s[j-1] {
                 // 当前t和当前s相同时，取t串前移一位的情况 + t串和s串同时前移一位的情况
                 dp[i][j] = dp[i-1][j-1] + dp[i][j-1]
