@@ -1,4 +1,4 @@
-package _003
+package _0003
 
 func lengthOfLongestSubstring(s string) int {
     max := func(a, b int) int {

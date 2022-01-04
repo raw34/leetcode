@@ -19,11 +19,11 @@ class Solution {
             $sum = $x + $y + $carry;
             $carry = floor($sum / 10);
 
-            echo "x = $x, y = $y, sum = $sum, carry = $carry\n";
+//            echo "x = $x, y = $y, sum = $sum, carry = $carry\n";
 
             $node = new ListNode($sum % 10);
 
-            echo "val = $node->val\n";
+//            echo "val = $node->val\n";
 
             $cur->next = $node;
             $cur = $cur->next;
