@@ -14,7 +14,7 @@ func Constructor(matrix [][]int) NumMatrix {
 
     for i := 1; i <= m; i++ {
         for j := 1; j <= n; j++ {
-            preSum[i][j] = preSum[i-1][j] + preSum[i][j-1] + matrix[i-1][j-1] - preSum[i-1][j-1]
+            preSum[i][j] = preSum[i-1][j] + preSum[i][j-1] - preSum[i-1][j-1] + matrix[i-1][j-1]
         }
     }
 
