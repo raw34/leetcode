@@ -43,19 +43,17 @@ func lastStoneWeightII2(stones []int) int {
         return a
     }
 
-    n := len(stones)
     // 计算背包大小
     sum := 0
-    for i := 0; i < n; i++ {
-        sum += stones[i]
+    for _, stone := range stones {
+        sum += stone
     }
     t := sum / 2
 
     dp := make([]int, t+1)
-    for i := 1; i < n+1; i++ {
-        stone := stones[i-1]
-        for j := t; j >= stone; j-- {
-            dp[j] = max(dp[j], dp[j-stone]+stone)
+    for _, stone := range stones {
+        for i := t; i >= stone; i-- {
+            dp[i] = max(dp[i], dp[i-stone]+stone)
         }
     }
 

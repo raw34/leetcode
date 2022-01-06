@@ -16,15 +16,14 @@ func canPartition(nums []int) bool {
     }
 
     // dp[i][j]表示对nums的前i个元素进行选取，dp记录是否存在选取值相加结果为目标值j
-    dp := make([][]bool, n)
-    for i := 0; i < n; i++ {
+    dp := make([][]bool, n+1)
+    for i := 0; i < n+1; i++ {
         dp[i] = make([]bool, t+1)
         dp[i][0] = true
     }
-    dp[0][nums[0]] = true
-    for i := 1; i < n; i++ {
-        num := nums[i]
-        for j := 1; j < t+1; j++ {
+    for i := 1; i < n+1; i++ {
+        num := nums[i-1]
+        for j := 0; j < t+1; j++ {
             if j < num {
                 dp[i][j] = dp[i-1][j]
             } else {
@@ -33,7 +32,7 @@ func canPartition(nums []int) bool {
         }
     }
 
-    return dp[n-1][t]
+    return dp[n][t]
 }
 
 func canPartition2(nums []int) bool {
