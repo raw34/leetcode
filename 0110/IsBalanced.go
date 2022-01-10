@@ -1,21 +1,21 @@
-package _110
+package _0110
 
 import (
-	"github.com/raw34/leetcode/runtime"
+    "github.com/raw34/leetcode/runtime"
 )
 
 func isBalanced(root *runtime.TreeNode) bool {
-	if root == nil {
-		return true
-	}
+    if root == nil {
+        return true
+    }
 
-	return runtime.Abs(height(root.Left)-height(root.Right)) <= 1 && isBalanced(root.Left) && isBalanced(root.Right)
+    return runtime.Abs(height(root.Left)-height(root.Right)) <= 1 && isBalanced(root.Left) && isBalanced(root.Right)
 }
 
 func height(root *runtime.TreeNode) int {
-	if root == nil {
-		return 0
-	}
+    if root == nil {
+        return 0
+    }
 
-	return int(runtime.Max(height(root.Left), height(root.Right)) + 1)
+    return int(runtime.Max(height(root.Left), height(root.Right)) + 1)
 }

@@ -1,8 +1,8 @@
-package _912
+package _0912
 
 import (
-	"math"
-	"sort"
+    "math"
+    "sort"
 )
 
 /*
@@ -13,18 +13,18 @@ import (
 */
 
 func bubbleSort(nums []int) []int {
-	n := len(nums)
-	for i := 0; i < n-1; i++ {
-		for j := 1; j < n-i; j++ {
-			if nums[j] < nums[j-1] {
-				temp := nums[j]
-				nums[j] = nums[j-1]
-				nums[j-1] = temp
-			}
-		}
-	}
+    n := len(nums)
+    for i := 0; i < n-1; i++ {
+        for j := 1; j < n-i; j++ {
+            if nums[j] < nums[j-1] {
+                temp := nums[j]
+                nums[j] = nums[j-1]
+                nums[j-1] = temp
+            }
+        }
+    }
 
-	return nums
+    return nums
 }
 
 /*
@@ -33,21 +33,21 @@ func bubbleSort(nums []int) []int {
 以此类推，直到所有元素均排序完毕。
 */
 func selectionSort(nums []int) []int {
-	n := len(nums)
+    n := len(nums)
 
-	for i := 0; i < n-1; i++ {
-		minIndex := i
-		for j := i + 1; j < n; j++ {
-			if nums[j] < nums[minIndex] {
-				minIndex = j
-			}
-		}
-		temp := nums[i]
-		nums[i] = nums[minIndex]
-		nums[minIndex] = temp
-	}
+    for i := 0; i < n-1; i++ {
+        minIndex := i
+        for j := i + 1; j < n; j++ {
+            if nums[j] < nums[minIndex] {
+                minIndex = j
+            }
+        }
+        temp := nums[i]
+        nums[i] = nums[minIndex]
+        nums[minIndex] = temp
+    }
 
-	return nums
+    return nums
 }
 
 /*
@@ -55,18 +55,18 @@ func selectionSort(nums []int) []int {
 它的工作原理是通过构建有序序列，对于未排序数据，在已排序序列中从后向前扫描，找到相应位置并插入。
 */
 func insertionSort(nums []int) []int {
-	n := len(nums)
-	for i := 1; i < n; i++ {
-		prevIndex := i - 1
-		curr := nums[i]
-		for prevIndex >= 0 && nums[prevIndex] > curr {
-			nums[prevIndex+1] = nums[prevIndex]
-			prevIndex--
-		}
-		nums[prevIndex+1] = curr
-	}
+    n := len(nums)
+    for i := 1; i < n; i++ {
+        prevIndex := i - 1
+        curr := nums[i]
+        for prevIndex >= 0 && nums[prevIndex] > curr {
+            nums[prevIndex+1] = nums[prevIndex]
+            prevIndex--
+        }
+        nums[prevIndex+1] = curr
+    }
 
-	return nums
+    return nums
 }
 
 /*
@@ -74,21 +74,21 @@ func insertionSort(nums []int) []int {
 它与插入排序的不同之处在于，它会优先比较距离较远的元素。希尔排序又叫缩小增量排序。
 */
 func shellSort(nums []int) []int {
-	length := len(nums)
+    length := len(nums)
 
-	for gap := length / 2; gap > 0; gap = gap / 2 {
-		for i := gap; i < length; i++ {
-			j := i
-			curr := nums[i]
-			for j-gap >= 0 && curr < nums[j-gap] {
-				nums[j] = nums[j-gap]
-				j = j - gap
-			}
-			nums[j] = curr
-		}
-	}
+    for gap := length / 2; gap > 0; gap = gap / 2 {
+        for i := gap; i < length; i++ {
+            j := i
+            curr := nums[i]
+            for j-gap >= 0 && curr < nums[j-gap] {
+                nums[j] = nums[j-gap]
+                j = j - gap
+            }
+            nums[j] = curr
+        }
+    }
 
-	return nums
+    return nums
 }
 
 /*
@@ -99,86 +99,86 @@ func shellSort(nums []int) []int {
 */
 
 func mergeSort(nums []int) []int {
-	n := len(nums)
-	if n < 2 {
-		return nums
-	}
+    n := len(nums)
+    if n < 2 {
+        return nums
+    }
 
-	merge := func(left, right []int) []int {
-		res := make([]int, 0)
+    merge := func(left, right []int) []int {
+        res := make([]int, 0)
 
-		for len(left) > 0 && len(right) > 0 {
-			if left[0] < right[0] {
-				res = append(res, left[0])
-				left = left[1:]
-			} else {
-				res = append(res, right[0])
-				right = right[1:]
-			}
-		}
+        for len(left) > 0 && len(right) > 0 {
+            if left[0] < right[0] {
+                res = append(res, left[0])
+                left = left[1:]
+            } else {
+                res = append(res, right[0])
+                right = right[1:]
+            }
+        }
 
-		for len(left) > 0 {
-			res = append(res, left[0])
-			left = left[1:]
-		}
+        for len(left) > 0 {
+            res = append(res, left[0])
+            left = left[1:]
+        }
 
-		for len(right) > 0 {
-			res = append(res, right[0])
-			right = right[1:]
-		}
+        for len(right) > 0 {
+            res = append(res, right[0])
+            right = right[1:]
+        }
 
-		return res
-	}
+        return res
+    }
 
-	mid := n / 2
-	left := nums[0:mid]
-	right := nums[mid:]
+    mid := n / 2
+    left := nums[0:mid]
+    right := nums[mid:]
 
-	return merge(mergeSort(left), mergeSort(right))
+    return merge(mergeSort(left), mergeSort(right))
 }
 
 /*
 快速排序的基本思想：通过一趟排序将待排记录分隔成独立的两部分，其中一部分记录的关键字均比另一部分的关键字小，则可分别对这两部分记录继续进行排序，以达到整个序列有序。
 */
 func quickSort(nums []int) []int {
-	swap := func(nums []int, i, j int) []int {
-		temp := nums[i]
-		nums[i] = nums[j]
-		nums[j] = temp
+    swap := func(nums []int, i, j int) []int {
+        temp := nums[i]
+        nums[i] = nums[j]
+        nums[j] = temp
 
-		return nums
-	}
+        return nums
+    }
 
-	partition := func(nums []int, left, right int) int {
-		pivot := left
-		index := pivot + 1
+    partition := func(nums []int, left, right int) int {
+        pivot := left
+        index := pivot + 1
 
-		for i := index; i <= right; i++ {
-			if nums[i] < nums[pivot] {
-				swap(nums, i, index)
-				index++
-			}
-		}
-		swap(nums, pivot, index-1)
+        for i := index; i <= right; i++ {
+            if nums[i] < nums[pivot] {
+                swap(nums, i, index)
+                index++
+            }
+        }
+        swap(nums, pivot, index-1)
 
-		return index - 1
-	}
+        return index - 1
+    }
 
-	var quick func(nums []int, left, right int) []int
-	quick = func(nums []int, left, right int) []int {
-		if left >= right {
-			return nums
-		}
+    var quick func(nums []int, left, right int) []int
+    quick = func(nums []int, left, right int) []int {
+        if left >= right {
+            return nums
+        }
 
-		p := partition(nums, left, right)
-		quick(nums, left, p-1)
-		quick(nums, p+1, right)
+        p := partition(nums, left, right)
+        quick(nums, left, p-1)
+        quick(nums, p+1, right)
 
-		return nums
-	}
-	quick(nums, 0, len(nums)-1)
+        return nums
+    }
+    quick(nums, 0, len(nums)-1)
 
-	return nums
+    return nums
 }
 
 /*
@@ -186,50 +186,50 @@ func quickSort(nums []int) []int {
 此时整个序列最大值即为堆顶元素，我们将其与末尾元素交换，使末尾元素为最大值，然后再调整堆顶元素使得剩下的 n−1 个元素仍为大根堆，再重复执行以上操作我们即能得到一个有序的序列。
 */
 func heapSort(nums []int) []int {
-	length := len(nums)
-	swap := func(nums []int, i, j int) []int {
-		temp := nums[i]
-		nums[i] = nums[j]
-		nums[j] = temp
+    length := len(nums)
+    swap := func(nums []int, i, j int) []int {
+        temp := nums[i]
+        nums[i] = nums[j]
+        nums[j] = temp
 
-		return nums
-	}
+        return nums
+    }
 
-	var heapUp func(nums []int, i int)
-	heapUp = func(nums []int, i int) {
-		left := 2*i + 1
-		right := 2*i + 2
-		max := i
+    var heapUp func(nums []int, i int)
+    heapUp = func(nums []int, i int) {
+        left := 2*i + 1
+        right := 2*i + 2
+        max := i
 
-		if left < length && nums[left] > nums[max] {
-			max = left
-		}
+        if left < length && nums[left] > nums[max] {
+            max = left
+        }
 
-		if right < length && nums[right] > nums[max] {
-			max = right
-		}
+        if right < length && nums[right] > nums[max] {
+            max = right
+        }
 
-		if max != i {
-			swap(nums, i, max)
-			heapUp(nums, max)
-		}
-	}
+        if max != i {
+            swap(nums, i, max)
+            heapUp(nums, max)
+        }
+    }
 
-	buildMaxHeap := func(nums []int) {
-		mid := length / 2
-		for i := mid; i >= 0; i-- {
-			heapUp(nums, i)
-		}
-	}
-	buildMaxHeap(nums)
+    buildMaxHeap := func(nums []int) {
+        mid := length / 2
+        for i := mid; i >= 0; i-- {
+            heapUp(nums, i)
+        }
+    }
+    buildMaxHeap(nums)
 
-	for i := len(nums) - 1; i >= 0; i-- {
-		swap(nums, 0, i)
-		length--
-		heapUp(nums, 0)
-	}
+    for i := len(nums) - 1; i >= 0; i-- {
+        swap(nums, 0, i)
+        length--
+        heapUp(nums, 0)
+    }
 
-	return nums
+    return nums
 }
 
 /*
@@ -237,28 +237,28 @@ func heapSort(nums []int) []int {
 作为一种线性时间复杂度的排序，计数排序要求输入的数据必须是有确定范围的整数。
 */
 func countingSort(nums []int) []int {
-	max := math.MinInt32
-	for i := 0; i < len(nums); i++ {
-		if nums[i] > max {
-			max = nums[i]
-		}
-	}
+    max := math.MinInt32
+    for i := 0; i < len(nums); i++ {
+        if nums[i] > max {
+            max = nums[i]
+        }
+    }
 
-	bucket := make([]int, max+1)
-	for i := 0; i < len(nums); i++ {
-		bucket[nums[i]]++
-	}
+    bucket := make([]int, max+1)
+    for i := 0; i < len(nums); i++ {
+        bucket[nums[i]]++
+    }
 
-	sortedIndex := 0
-	for i := 0; i < len(bucket); i++ {
-		for bucket[i] > 0 {
-			nums[sortedIndex] = i
-			bucket[i]--
-			sortedIndex++
-		}
-	}
+    sortedIndex := 0
+    for i := 0; i < len(bucket); i++ {
+        for bucket[i] > 0 {
+            nums[sortedIndex] = i
+            bucket[i]--
+            sortedIndex++
+        }
+    }
 
-	return nums
+    return nums
 }
 
 /*
@@ -267,45 +267,45 @@ func countingSort(nums []int) []int {
 桶排序 (Bucket sort)的工作的原理：假设输入数据服从均匀分布，将数据分到有限数量的桶里，每个桶再分别排序（有可能再使用别的排序算法或是以递归方式继续使用桶排序进行排）。
 */
 func bucketSort(nums []int) []int {
-	// 获取最小、最大值
-	min := nums[0]
-	max := nums[0]
-	for i := 0; i < len(nums); i++ {
-		val := nums[i]
-		if val < min {
-			min = val
-		}
-		if val > max {
-			max = val
-		}
-	}
+    // 获取最小、最大值
+    min := nums[0]
+    max := nums[0]
+    for i := 0; i < len(nums); i++ {
+        val := nums[i]
+        if val < min {
+            min = val
+        }
+        if val > max {
+            max = val
+        }
+    }
 
-	// 初始化桶
-	bucketSize := 5
-	bucketCount := (max-min)/bucketSize + 1
-	buckets := make([][]int, bucketCount)
-	for i := 0; i < len(buckets); i++ {
-		buckets[i] = make([]int, 0)
-	}
+    // 初始化桶
+    bucketSize := 5
+    bucketCount := (max-min)/bucketSize + 1
+    buckets := make([][]int, bucketCount)
+    for i := 0; i < len(buckets); i++ {
+        buckets[i] = make([]int, 0)
+    }
 
-	// 元素入桶
-	for i := 0; i < len(nums); i++ {
-		val := nums[i]
-		index := (val - min) / bucketSize
-		buckets[index] = append(buckets[index], val)
-	}
+    // 元素入桶
+    for i := 0; i < len(nums); i++ {
+        val := nums[i]
+        index := (val - min) / bucketSize
+        buckets[index] = append(buckets[index], val)
+    }
 
-	// 排序
-	nums = nums[:0]
-	for i := 0; i < len(buckets); i++ {
-		bucket := buckets[i]
-		sort.Ints(bucket)
-		for j := 0; j < len(bucket); j++ {
-			nums = append(nums, bucket[j])
-		}
-	}
+    // 排序
+    nums = nums[:0]
+    for i := 0; i < len(buckets); i++ {
+        bucket := buckets[i]
+        sort.Ints(bucket)
+        for j := 0; j < len(bucket); j++ {
+            nums = append(nums, bucket[j])
+        }
+    }
 
-	return nums
+    return nums
 }
 
 /*
@@ -314,38 +314,38 @@ func bucketSort(nums []int) []int {
 最后的次序就是高优先级高的在前，高优先级相同的低优先级高的在前。
 */
 func radixSort(nums []int) []int {
-	bitSort := func(arr []int, bit int) []int {
-		length := len(arr)
-		bitCounts := make([]int, 10)
-		for i := 0; i < length; i++ {
-			num := (arr[i] / bit) % 10
-			bitCounts[num]++
-		}
+    bitSort := func(arr []int, bit int) []int {
+        length := len(arr)
+        bitCounts := make([]int, 10)
+        for i := 0; i < length; i++ {
+            num := (arr[i] / bit) % 10
+            bitCounts[num]++
+        }
 
-		for j := 1; j < len(bitCounts); j++ {
-			bitCounts[j] += bitCounts[j-1]
-		}
+        for j := 1; j < len(bitCounts); j++ {
+            bitCounts[j] += bitCounts[j-1]
+        }
 
-		res := make([]int, length)
-		for i := length - 1; i >= 0; i-- {
-			num := (arr[i] / bit) % 10
-			res[bitCounts[num]-1] = arr[i]
-			bitCounts[num]--
-		}
+        res := make([]int, length)
+        for i := length - 1; i >= 0; i-- {
+            num := (arr[i] / bit) % 10
+            res[bitCounts[num]-1] = arr[i]
+            bitCounts[num]--
+        }
 
-		return res
-	}
+        return res
+    }
 
-	max := math.MinInt32
-	for i := 0; i < len(nums); i++ {
-		if nums[i] > max {
-			max = nums[i]
-		}
-	}
+    max := math.MinInt32
+    for i := 0; i < len(nums); i++ {
+        if nums[i] > max {
+            max = nums[i]
+        }
+    }
 
-	for bit := 1; max/bit > 0; bit *= 10 {
-		nums = bitSort(nums, bit)
-	}
+    for bit := 1; max/bit > 0; bit *= 10 {
+        nums = bitSort(nums, bit)
+    }
 
-	return nums
+    return nums
 }
