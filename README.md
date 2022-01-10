@@ -52,10 +52,10 @@
 - [x]  栈
     - [x]  [evaluate-reverse-polish-notation](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)（150）
     - [x]  [decode-string](https://leetcode-cn.com/problems/decode-string/)（394）
-- [x]  队列
-    - [x]  [clone-graph](https://leetcode-cn.com/problems/clone-graph/)（133）
 - [ ]  单调栈
     - [x]  [largest-rectangle-in-histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)（84）
+- [x]  队列
+    - [x]  [clone-graph](https://leetcode-cn.com/problems/clone-graph/)（133）
 - [ ]  单调队列
 - [x]  堆
     - [x]  [kth-largest-element-in-an-array](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)（215）
@@ -96,6 +96,9 @@
     - [x]  [permutation-in-string](https://leetcode-cn.com/problems/permutation-in-string/)（567）
     - [x]  [find-all-anagrams-in-a-string](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)（438）
     - [x]  [longest-substring-without-repeating-characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)（3）
+- [ ]  扫描线
+    - [ ]  [the-skyline-problem](https://leetcode-cn.com/problems/the-skyline-problem/)（218）
+    - [ ]  [perfect-rectangle](https://leetcode-cn.com/problems/perfect-rectangle/)（391）
 - [x]  前缀和
     - [x]  [range-sum-query-immutable](https://leetcode-cn.com/problems/range-sum-query-immutable/)（303）
     - [x]  [range-sum-query-2d-immutable](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/)（304）
@@ -112,9 +115,6 @@
     - [ ]  [shopping-offers](https://leetcode-cn.com/problems/shopping-offers/)（638）
     - [ ]  [partition-to-k-equal-sum-subsets](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/)（698）
     - [ ]  [shortest-path-visiting-all-nodes](https://leetcode-cn.com/problems/shortest-path-visiting-all-nodes/)（847）
-- [ ]  扫描线
-    - [ ]  [the-skyline-problem](https://leetcode-cn.com/problems/the-skyline-problem/)（218）
-    - [ ]  [perfect-rectangle](https://leetcode-cn.com/problems/perfect-rectangle/)（391）
 
 ## 算法思维
 - [x]  排序算法
