@@ -57,6 +57,8 @@
 - [x]  队列
     - [x]  [clone-graph](https://leetcode-cn.com/problems/clone-graph/)（133）
 - [ ]  单调队列
+    - [ ]  [sliding-window-maximum](https://leetcode-cn.com/problems/sliding-window-maximum/)（239）
+    - [ ]  [shortest-subarray-with-sum-at-least-k](https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/)（862）
 - [x]  堆
     - [x]  [kth-largest-element-in-an-array](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)（215）
     - [x]  [kth-largest-element-in-a-stream](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/)（703）
@@ -76,7 +78,10 @@
     - [x]  [delete-node-in-a-bst](https://leetcode-cn.com/problems/delete-node-in-a-bst/)（450）
     - [x]  [insert-into-a-binary-search-tree](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)（701）
 - [ ]  字典树
+    - [ ]  [word-search-ii](https://leetcode-cn.com/problems/word-search-ii/)（212）
+    - [ ]  [design-in-memory-file-system](https://leetcode-cn.com/problems/design-in-memory-file-system/)（588）
 - [ ]  并查集
+    - [ ]  [accounts-merge](https://leetcode-cn.com/problems/accounts-merge/)（721）
 - [ ]  图
 - [ ]  矩阵
     - [x]  [number-of-islands](https://leetcode-cn.com/problems/number-of-islands/)（200）
