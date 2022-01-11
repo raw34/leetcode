@@ -26,8 +26,8 @@
     - [x]  [convert-sorted-list-to-binary-search-tree](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/)（109）
     - [x]  [serialize-and-deserialize-bst](https://leetcode-cn.com/problems/serialize-and-deserialize-bst/)（449）
 - [ ]  字典树
-    - [ ]  [implement-trie-prefix-tree](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)（208）
-    - [ ]  [implement-trie-ii-prefix-tree](https://leetcode-cn.com/problems/implement-trie-ii-prefix-tree/)（1804）
+    - [x]  [implement-trie-prefix-tree](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)（208）
+    - [x]  [implement-trie-ii-prefix-tree](https://leetcode-cn.com/problems/implement-trie-ii-prefix-tree/)（1804）
 - [ ]  并查集
 - [ ]  图
 
@@ -81,7 +81,7 @@
     - [ ]  [word-search-ii](https://leetcode-cn.com/problems/word-search-ii/)（212）
     - [ ]  [design-in-memory-file-system](https://leetcode-cn.com/problems/design-in-memory-file-system/)（588）
 - [ ]  并查集
-   - [ ]  [accounts-merge](https://leetcode-cn.com/problems/accounts-merge/)（721）
+    - [ ]  [accounts-merge](https://leetcode-cn.com/problems/accounts-merge/)（721）
 - [ ]  图
 
 ## 算法技巧
