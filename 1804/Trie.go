@@ -2,8 +2,8 @@ package _1804
 
 type Trie struct {
     children [26]*Trie
-    count    int
-    isEnd    bool
+    pre      int
+    end      int
 }
 
 func Constructor() Trie {
@@ -18,54 +18,43 @@ func (this *Trie) Insert(word string) {
             node.children[c] = &Trie{}
         }
         node = node.children[c]
-        node.count++
+        node.pre++
     }
-
-    node.isEnd = true
+    node.end++
 }
 
 func (this *Trie) CountWordsEqualTo(word string) int {
-    node := this.countPrefix(word)
-    if node != nil && node.isEnd {
-        return node.count
+    node := this
+    for _, c := range word {
+        c -= 'a'
+        if node.children[c] == nil {
+            return 0
+        }
+        node = node.children[c]
     }
-    return 0
+    return node.end
 }
 
-func (this *Trie) countPrefix(prefix string) *Trie {
+func (this *Trie) CountWordsStartingWith(prefix string) int {
     node := this
     for _, c := range prefix {
         c -= 'a'
         if node.children[c] == nil {
-            return nil
+            return 0
         }
         node = node.children[c]
     }
-    return node
-}
-
-func (this *Trie) CountWordsStartingWith(prefix string) int {
-    node := this.countPrefix(prefix)
-    if node != nil {
-        return node.count
-    }
-    return 0
+    return node.pre
 }
 
 func (this *Trie) Erase(word string) {
     node := this
     for _, c := range word {
         c -= 'a'
-        if node.children[c] == nil {
-            break
-        }
-        if node.children[c].count == 1 {
-            node.children[c] = nil
-            break
-        }
         node = node.children[c]
-        node.count--
+        node.pre--
     }
+    node.end--
 }
 
 /**
