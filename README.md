@@ -28,8 +28,8 @@
 - [ ]  字典树
     - [ ]  [implement-trie-prefix-tree](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)（208）
     - [ ]  [implement-trie-ii-prefix-tree](https://leetcode-cn.com/problems/implement-trie-ii-prefix-tree/)（1804）
-- [ ]  图
 - [ ]  并查集
+- [ ]  图
 
 ## 数据结构应用
 - [x]  链表
@@ -80,12 +80,9 @@
 - [ ]  字典树
     - [ ]  [word-search-ii](https://leetcode-cn.com/problems/word-search-ii/)（212）
     - [ ]  [design-in-memory-file-system](https://leetcode-cn.com/problems/design-in-memory-file-system/)（588）
-- [ ]  图
 - [ ]  并查集
    - [ ]  [accounts-merge](https://leetcode-cn.com/problems/accounts-merge/)（721）
-- [ ]  矩阵
-    - [x]  [number-of-islands](https://leetcode-cn.com/problems/number-of-islands/)（200）
-    - [x]  [01-matrix](https://leetcode-cn.com/problems/01-matrix/)（542）
+- [ ]  图
 
 ## 算法技巧
 - [x]  位运算
