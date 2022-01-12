@@ -83,41 +83,7 @@
     - [ ]  [accounts-merge](https://leetcode-cn.com/problems/accounts-merge/)（721）
 - [ ]  图
 
-## 算法技巧
-- [x]  位运算
-    - [x]  [single-number](https://leetcode-cn.com/problems/single-number/)（136）
-    - [x]  [single-number-ii](https://leetcode-cn.com/problems/single-number-ii/)（137）
-    - [x]  [single-number-iii](https://leetcode-cn.com/problems/single-number-iii/)（260）?
-    - [x]  [number-of-1-bits](https://leetcode-cn.com/problems/number-of-1-bits/)（191）
-    - [x]  [counting-bits](https://leetcode-cn.com/problems/counting-bits/)（338）
-    - [x]  [reverse-bits](https://leetcode-cn.com/problems/reverse-bits/)（190）?
-- [ ]  双指针
-- [x]  滑动窗口
-    - [x]  [minimum-window-substring](https://leetcode-cn.com/problems/minimum-window-substring/)（76）
-    - [x]  [permutation-in-string](https://leetcode-cn.com/problems/permutation-in-string/)（567）
-    - [x]  [find-all-anagrams-in-a-string](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)（438）
-    - [x]  [longest-substring-without-repeating-characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)（3）
-- [ ]  扫描线
-    - [ ]  [the-skyline-problem](https://leetcode-cn.com/problems/the-skyline-problem/)（218）
-    - [ ]  [perfect-rectangle](https://leetcode-cn.com/problems/perfect-rectangle/)（391）
-- [x]  前缀和
-    - [x]  [range-sum-query-immutable](https://leetcode-cn.com/problems/range-sum-query-immutable/)（303）
-    - [x]  [range-sum-query-2d-immutable](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/)（304）
-    - [x]  [subarray-sum-equals-k](https://leetcode-cn.com/problems/subarray-sum-equals-k/)（560）
-- [ ]  哈希函数
-    - [ ]  [subtree-of-another-tree](https://leetcode-cn.com/problems/subtree-of-another-tree/)（572）
-    - [ ]  [longest-chunked-palindrome-decomposition](https://leetcode-cn.com/problems/longest-chunked-palindrome-decomposition/)（1147）
-- [ ]  滚动哈希
-    - [ ]  [repeated-dna-sequences](https://leetcode-cn.com/problems/repeated-dna-sequences/)（187）
-    - [ ]  [shortest-palindrome](https://leetcode-cn.com/problems/shortest-palindrome/)（214）
-    - [ ]  [maximum-length-of-repeated-subarray](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/)（718）
-- [ ]  状态压缩
-    - [ ]  [beautiful-arrangement](https://leetcode-cn.com/problems/beautiful-arrangement/)（526）
-    - [ ]  [shopping-offers](https://leetcode-cn.com/problems/shopping-offers/)（638）
-    - [ ]  [partition-to-k-equal-sum-subsets](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/)（698）
-    - [ ]  [shortest-path-visiting-all-nodes](https://leetcode-cn.com/problems/shortest-path-visiting-all-nodes/)（847）
-
-## 算法思维
+## 基础算法
 - [x]  排序算法
     - [x]  [sort-an-array](https://leetcode-cn.com/problems/sort-an-array/)（912）
 - [x]  递归
@@ -135,8 +101,8 @@
     - [x]  [first-bad-version](https://leetcode-cn.com/problems/first-bad-version/)（278）
     - [x]  [find-minimum-in-rotated-sorted-array](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)（153）
     - [x]  [find-minimum-in-rotated-sorted-array-ii](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)（154）
-- [ ]  深度优先搜索
 - [ ]  广度优先搜索
+- [ ]  深度优先搜索
 - [x]  回溯
     - [x]  [subsets](https://leetcode-cn.com/problems/subsets/)（78）
     - [x]  [subsets-ii](https://leetcode-cn.com/problems/subsets-ii/)（90）
@@ -146,22 +112,58 @@
     - [x]  [letter-combinations-of-a-phone-number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)（17）
     - [x]  [restore-ip-addresses](https://leetcode-cn.com/problems/restore-ip-addresses/)（93）
 - [ ]  贪心
-- [x]  动态规划 - 线性单串 (40%)
-    - [x]  [climbing-stairs](https://leetcode-cn.com/problems/climbing-stairs/)（70）
-    - [x]  [jump-game](https://leetcode-cn.com/problems/jump-game/)（55）?
-    - [x]  [jump-game-ii](https://leetcode-cn.com/problems/jump-game-ii/)（45）?
-    - [x]  [palindrome-partitioning](https://leetcode-cn.com/problems/palindrome-partitioning/)（131）
-    - [x]  [palindrome-partitioning-ii](https://leetcode-cn.com/problems/palindrome-partitioning-ii/)（132）?
-    - [x]  [longest-increasing-subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/)（300）?
-    - [x]  [word-break](https://leetcode-cn.com/problems/word-break/)（139）
-- [x]  动态规划 - 线性双串 (40%)
-    - [x]  [longest-common-subsequence](https://leetcode-cn.com/problems/longest-common-subsequence/)（1143）
-    - [x]  [edit-distance](https://leetcode-cn.com/problems/edit-distance/)（72）
-- [x]  动态规划 - 背包 (10%)
-    - [x]  [coin-change](https://leetcode-cn.com/problems/coin-change/)（332）
-    - [x]  [coin-change-ii](https://leetcode-cn.com/problems/coin-change-2/)（518）
-- [x]  动态规划 - 矩阵 (10%)
-    - [x]  [triangle](https://leetcode-cn.com/problems/triangle/)（120）?
-    - [x]  [minimum-path-sum](https://leetcode-cn.com/problems/minimum-path-sum/)（64）
-    - [x]  [unique-paths](https://leetcode-cn.com/problems/unique-paths/)（62）
-    - [x]  [unique-paths-ii](https://leetcode-cn.com/problems/unique-paths-ii/)（63）
+
+## 算法技巧
+- [x]  位运算
+   - [x]  [single-number](https://leetcode-cn.com/problems/single-number/)（136）
+   - [x]  [single-number-ii](https://leetcode-cn.com/problems/single-number-ii/)（137）
+   - [x]  [single-number-iii](https://leetcode-cn.com/problems/single-number-iii/)（260）?
+   - [x]  [number-of-1-bits](https://leetcode-cn.com/problems/number-of-1-bits/)（191）
+   - [x]  [counting-bits](https://leetcode-cn.com/problems/counting-bits/)（338）
+   - [x]  [reverse-bits](https://leetcode-cn.com/problems/reverse-bits/)（190）?
+- [ ]  双指针
+- [x]  滑动窗口
+   - [x]  [minimum-window-substring](https://leetcode-cn.com/problems/minimum-window-substring/)（76）
+   - [x]  [permutation-in-string](https://leetcode-cn.com/problems/permutation-in-string/)（567）
+   - [x]  [find-all-anagrams-in-a-string](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)（438）
+   - [x]  [longest-substring-without-repeating-characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)（3）
+- [ ]  扫描线
+   - [ ]  [the-skyline-problem](https://leetcode-cn.com/problems/the-skyline-problem/)（218）
+   - [ ]  [perfect-rectangle](https://leetcode-cn.com/problems/perfect-rectangle/)（391）
+- [x]  前缀和
+   - [x]  [range-sum-query-immutable](https://leetcode-cn.com/problems/range-sum-query-immutable/)（303）
+   - [x]  [range-sum-query-2d-immutable](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/)（304）
+   - [x]  [subarray-sum-equals-k](https://leetcode-cn.com/problems/subarray-sum-equals-k/)（560）
+- [ ]  哈希函数
+   - [ ]  [subtree-of-another-tree](https://leetcode-cn.com/problems/subtree-of-another-tree/)（572）
+   - [ ]  [longest-chunked-palindrome-decomposition](https://leetcode-cn.com/problems/longest-chunked-palindrome-decomposition/)（1147）
+- [ ]  滚动哈希
+   - [ ]  [repeated-dna-sequences](https://leetcode-cn.com/problems/repeated-dna-sequences/)（187）
+   - [ ]  [shortest-palindrome](https://leetcode-cn.com/problems/shortest-palindrome/)（214）
+   - [ ]  [maximum-length-of-repeated-subarray](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/)（718）
+- [ ]  状态压缩
+   - [ ]  [beautiful-arrangement](https://leetcode-cn.com/problems/beautiful-arrangement/)（526）
+   - [ ]  [shopping-offers](https://leetcode-cn.com/problems/shopping-offers/)（638）
+   - [ ]  [partition-to-k-equal-sum-subsets](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/)（698）
+   - [ ]  [shortest-path-visiting-all-nodes](https://leetcode-cn.com/problems/shortest-path-visiting-all-nodes/)（847）
+
+## 动态规划
+- [x]  线性单串
+   - [x]  [climbing-stairs](https://leetcode-cn.com/problems/climbing-stairs/)（70）
+   - [x]  [jump-game](https://leetcode-cn.com/problems/jump-game/)（55）?
+   - [x]  [jump-game-ii](https://leetcode-cn.com/problems/jump-game-ii/)（45）?
+   - [x]  [palindrome-partitioning](https://leetcode-cn.com/problems/palindrome-partitioning/)（131）
+   - [x]  [palindrome-partitioning-ii](https://leetcode-cn.com/problems/palindrome-partitioning-ii/)（132）?
+   - [x]  [longest-increasing-subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/)（300）?
+   - [x]  [word-break](https://leetcode-cn.com/problems/word-break/)（139）
+- [x]  线性双串
+   - [x]  [longest-common-subsequence](https://leetcode-cn.com/problems/longest-common-subsequence/)（1143）
+   - [x]  [edit-distance](https://leetcode-cn.com/problems/edit-distance/)（72）
+- [x]  线性矩阵
+   - [x]  [triangle](https://leetcode-cn.com/problems/triangle/)（120）?
+   - [x]  [minimum-path-sum](https://leetcode-cn.com/problems/minimum-path-sum/)（64）
+   - [x]  [unique-paths](https://leetcode-cn.com/problems/unique-paths/)（62）
+   - [x]  [unique-paths-ii](https://leetcode-cn.com/problems/unique-paths-ii/)（63）
+- [x]  背包
+   - [x]  [coin-change](https://leetcode-cn.com/problems/coin-change/)（332）
+   - [x]  [coin-change-ii](https://leetcode-cn.com/problems/coin-change-2/)（518）
