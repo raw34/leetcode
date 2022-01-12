@@ -16,7 +16,7 @@
     - [x]  [design-front-middle-back-queue](https://leetcode-cn.com/problems/design-front-middle-back-queue/)（1670）
 - [ ]  堆
 - [x]  树
-    - [x]  [construct-binary-tree-from-preorder-and-inorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)（105）
+    - [x]  [**construct-binary-tree-from-preorder-and-inorder-traversal**](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)（105）
     - [x]  [construct-binary-tree-from-inorder-and-postorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)（106）
     - [x]  [construct-binary-tree-from-preorder-and-postorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)（889）
     - [x]  [recover-a-tree-from-preorder-traversal](https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal/)（1028）
@@ -27,60 +27,69 @@
     - [x]  [convert-sorted-list-to-binary-search-tree](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/)（109）
     - [x]  [serialize-and-deserialize-bst](https://leetcode-cn.com/problems/serialize-and-deserialize-bst/)（449）
 - [ ]  字典树
-    - [x]  [implement-trie-prefix-tree](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)（208）
+    - [x]  [**implement-trie-prefix-tree**](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)（208）
     - [x]  [design-add-and-search-words-data-structure](https://leetcode-cn.com/problems/design-add-and-search-words-data-structure/)（211）
-    - [x]  [implement-trie-ii-prefix-tree](https://leetcode-cn.com/problems/implement-trie-ii-prefix-tree/)（1804）
+    - [x]  [**implement-trie-ii-prefix-tree**](https://leetcode-cn.com/problems/implement-trie-ii-prefix-tree/)（1804）
 - [ ]  并查集
 - [ ]  图
 
 ## 数据结构应用
 - [x]  链表
+    - [ ]  [**add-two-numbers**](https://leetcode-cn.com/problems/add-two-numbers/)（2）
+    - [ ]  [**remove-nth-node-from-end-of-list**](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)（19）
     - [x]  [remove-duplicates-from-sorted-list](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)（83）
     - [x]  [remove-duplicates-from-sorted-list-ii](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)（82）
-    - [x]  [reverse-linked-list](https://leetcode-cn.com/problems/reverse-linked-list/)（206）
-    - [x]  [reverse-linked-list-ii](https://leetcode-cn.com/problems/reverse-linked-list-ii/)（92）
+    - [x]  [**reverse-linked-list**](https://leetcode-cn.com/problems/reverse-linked-list/)（206）
+    - [x]  [**reverse-linked-list-ii**](https://leetcode-cn.com/problems/reverse-linked-list-ii/)（92）
     - [x]  [merge-two-sorted-lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)（21）
+    - [ ]  [**merge-k-sorted-lists**](https://leetcode-cn.com/problems/merge-k-sorted-lists/)（23）
     - [x]  [partition-list](https://leetcode-cn.com/problems/partition-list/)（86）
     - [x]  [insertion-sort-list](https://leetcode-cn.com/problems/insertion-sort-list/)（147）
     - [x]  [sort-list](https://leetcode-cn.com/problems/sort-list/)（148）
     - [x]  [reorder-list](https://leetcode-cn.com/problems/reorder-list/)（143）
     - [x]  [linked-list-cycle](https://leetcode-cn.com/problems/linked-list-cycle/)（141）
-    - [x]  [linked-list-cycle-ii](https://leetcode-cn.com/problems/linked-list-cycle-ii/)（142）
+    - [x]  [**linked-list-cycle-ii**](https://leetcode-cn.com/problems/linked-list-cycle-ii/)（142）
     - [x]  [palindrome-linked-list](https://leetcode-cn.com/problems/palindrome-linked-list/)（234）
-    - [x]  [copy-list-with-random-pointer](https://leetcode-cn.com/problems/copy-list-with-random-pointer/)（138）
+    - [x]  [**copy-list-with-random-pointer**](https://leetcode-cn.com/problems/copy-list-with-random-pointer/)（138）
 - [x]  哈希表
-    - [ ]  [lru-cache](https://leetcode-cn.com/problems/lru-cache/)（146）
-    - [ ]  [lfu-cache](https://leetcode-cn.com/problems/lfu-cache/)（460）
+    - [ ]  [**lru-cache**](https://leetcode-cn.com/problems/lru-cache/)（146）
+    - [ ]  [**lfu-cache**](https://leetcode-cn.com/problems/lfu-cache/)（460）
 - [x]  栈
     - [x]  [evaluate-reverse-polish-notation](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)（150）
     - [x]  [decode-string](https://leetcode-cn.com/problems/decode-string/)（394）
 - [ ]  单调栈
+    - [ ]  [**daily-temperatures**](https://leetcode-cn.com/problems/daily-temperatures/)（739）
+    - [ ]  [**trapping-rain-water**](https://leetcode-cn.com/problems/trapping-rain-water/)（42）
     - [x]  [largest-rectangle-in-histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)（84）
 - [x]  队列
     - [x]  [clone-graph](https://leetcode-cn.com/problems/clone-graph/)（133）
 - [ ]  单调队列
-    - [x]  [sliding-window-maximum](https://leetcode-cn.com/problems/sliding-window-maximum/)（239）
+    - [x]  [**sliding-window-maximum**](https://leetcode-cn.com/problems/sliding-window-maximum/)（239）
+    - [ ]  [shortest-subarray-with-sum-at-least-k](https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/)（862）
 - [x]  堆
-    - [x]  [kth-largest-element-in-an-array](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)（215）
+    - [x]  [**kth-largest-element-in-an-array**](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)（215）
     - [x]  [kth-largest-element-in-a-stream](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/)（703）
 - [x]  树
-    - [x]  [binary-tree-inorder-traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)（94）
-    - [x]  [binary-tree-preorder-traversal](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)（144）
-    - [x]  [binary-tree-postorder-traversal](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)（145）
+    - [x]  [**binary-tree-inorder-traversal**](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)（94）
+    - [x]  [**binary-tree-preorder-traversal**](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)（144）
+    - [x]  [**binary-tree-postorder-traversal**](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)（145）
     - [x]  [binary-tree-level-order-traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)（102）
     - [x]  [binary-tree-level-order-traversal-ii](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)（107）
     - [x]  [binary-tree-zigzag-level-order-traversal](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)（103）
     - [x]  [maximum-depth-of-binary-tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)（104）
     - [x]  [balanced-binary-tree](https://leetcode-cn.com/problems/balanced-binary-tree/)（110）
-    - [x]  [binary-tree-maximum-path-sum](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)（124）?
-    - [x]  [lowest-common-ancestor-of-a-binary-tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)（236）
+    - [x]  [**binary-tree-maximum-path-sum**](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)（124）?
+    - [x]  [**lowest-common-ancestor-of-a-binary-tree**](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)（236）
+    - [ ]  [**longest-zigzag-path-in-a-binary-tree**](https://leetcode-cn.com/problems/longest-zigzag-path-in-a-binary-tree/)（1372）
 - [x]  二叉搜索树
-    - [x]  [validate-binary-search-tree](https://leetcode-cn.com/problems/validate-binary-search-tree/)（98）
+    - [x]  [**validate-binary-search-tree**](https://leetcode-cn.com/problems/validate-binary-search-tree/)（98）
     - [x]  [recover-binary-search-tree](https://leetcode-cn.com/problems/recover-binary-search-tree/)（99）
-    - [x]  [delete-node-in-a-bst](https://leetcode-cn.com/problems/delete-node-in-a-bst/)（450）
+    - [ ]  [**binary-search-tree-iterator**](https://leetcode-cn.com/problems/binary-search-tree-iterator/)（173）
+    - [x]  [**delete-node-in-a-bst**](https://leetcode-cn.com/problems/delete-node-in-a-bst/)（450）
     - [x]  [insert-into-a-binary-search-tree](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)（701）
+    - [ ]  [**convert-binary-search-tree-to-sorted-doubly-linked-list**](https://leetcode-cn.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)（426）
 - [ ]  字典树
-    - [x]  [word-search-ii](https://leetcode-cn.com/problems/word-search-ii/)（212）
+    - [x]  [**word-search-ii**](https://leetcode-cn.com/problems/word-search-ii/)（212）
 - [ ]  并查集
     - [ ]  [accounts-merge](https://leetcode-cn.com/problems/accounts-merge/)（721）
 - [ ]  图
@@ -166,6 +175,6 @@
     - [x]  [minimum-path-sum](https://leetcode-cn.com/problems/minimum-path-sum/)（64）
     - [x]  [unique-paths](https://leetcode-cn.com/problems/unique-paths/)（62）
     - [x]  [unique-paths-ii](https://leetcode-cn.com/problems/unique-paths-ii/)（63）
-- [x]  背包
+- [x]  背包问题
     - [x]  [coin-change](https://leetcode-cn.com/problems/coin-change/)（332）
     - [x]  [coin-change-ii](https://leetcode-cn.com/problems/coin-change-2/)（518）
