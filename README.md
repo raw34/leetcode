@@ -59,7 +59,6 @@
     - [x]  [clone-graph](https://leetcode-cn.com/problems/clone-graph/)（133）
 - [ ]  单调队列
     - [ ]  [sliding-window-maximum](https://leetcode-cn.com/problems/sliding-window-maximum/)（239）
-    - [ ]  [shortest-subarray-with-sum-at-least-k](https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/)（862）
 - [x]  堆
     - [x]  [kth-largest-element-in-an-array](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)（215）
     - [x]  [kth-largest-element-in-a-stream](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/)（703）
