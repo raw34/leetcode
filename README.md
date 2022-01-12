@@ -27,7 +27,7 @@
     - [x]  [serialize-and-deserialize-bst](https://leetcode-cn.com/problems/serialize-and-deserialize-bst/)（449）
 - [ ]  字典树
     - [x]  [implement-trie-prefix-tree](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)（208）
-    - [ ]  [design-add-and-search-words-data-structure](https://leetcode-cn.com/problems/design-add-and-search-words-data-structure/)（211）
+    - [x]  [design-add-and-search-words-data-structure](https://leetcode-cn.com/problems/design-add-and-search-words-data-structure/)（211）
     - [x]  [implement-trie-ii-prefix-tree](https://leetcode-cn.com/problems/implement-trie-ii-prefix-tree/)（1804）
 - [ ]  并查集
 - [ ]  图
