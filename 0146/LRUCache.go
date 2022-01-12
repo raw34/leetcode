@@ -21,9 +21,7 @@ func (this *LRUCache) Get(key int) int {
     }
     // 清理缓存
     this.cleanup(key)
-    // 将新元素入队
-    this.queue = append(this.queue, key)
-
+    // 返回查询元素
     return this.hash[key]
 }
 
@@ -43,6 +41,8 @@ func (this *LRUCache) cleanup(key int) {
         // 清理被出队的key的缓存
         delete(this.hash, keyOld)
     }
+    // 将新元素入队
+    this.queue = append(this.queue, key)
 }
 
 func (this *LRUCache) Put(key int, value int) {
@@ -50,13 +50,4 @@ func (this *LRUCache) Put(key int, value int) {
     this.cleanup(key)
     // 插入新元素
     this.hash[key] = value
-    // 将新元素入队
-    this.queue = append(this.queue, key)
 }
-
-/**
- * Your LRUCache object will be instantiated and called as such:
- * obj := Constructor(capacity);
- * param_1 := obj.Get(key);
- * obj.Put(key,value);
- */
