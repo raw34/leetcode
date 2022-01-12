@@ -21,6 +21,7 @@
     - [x]  [construct-binary-tree-from-preorder-and-postorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)（889）
     - [x]  [recover-a-tree-from-preorder-traversal](https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal/)（1028）
     - [x]  [serialize-and-deserialize-binary-tree](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)（297）
+- [x]  二叉搜索树
     - [x]  [construct-binary-search-tree-from-preorder-traversal](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/)（1008）
     - [x]  [convert-sorted-array-to-binary-search-tree](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)（108）
     - [x]  [convert-sorted-list-to-binary-search-tree](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/)（109）
@@ -69,12 +70,13 @@
     - [x]  [binary-tree-level-order-traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)（102）
     - [x]  [binary-tree-level-order-traversal-ii](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)（107）
     - [x]  [binary-tree-zigzag-level-order-traversal](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)（103）
-    - [x]  [validate-binary-search-tree](https://leetcode-cn.com/problems/validate-binary-search-tree/)（98）
-    - [x]  [recover-binary-search-tree](https://leetcode-cn.com/problems/recover-binary-search-tree/)（99）
     - [x]  [maximum-depth-of-binary-tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)（104）
     - [x]  [balanced-binary-tree](https://leetcode-cn.com/problems/balanced-binary-tree/)（110）
     - [x]  [binary-tree-maximum-path-sum](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)（124）?
     - [x]  [lowest-common-ancestor-of-a-binary-tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)（236）
+- [x]  二叉搜索树
+    - [x]  [validate-binary-search-tree](https://leetcode-cn.com/problems/validate-binary-search-tree/)（98）
+    - [x]  [recover-binary-search-tree](https://leetcode-cn.com/problems/recover-binary-search-tree/)（99）
     - [x]  [delete-node-in-a-bst](https://leetcode-cn.com/problems/delete-node-in-a-bst/)（450）
     - [x]  [insert-into-a-binary-search-tree](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)（701）
 - [ ]  字典树
@@ -115,55 +117,55 @@
 
 ## 算法技巧
 - [x]  位运算
-   - [x]  [single-number](https://leetcode-cn.com/problems/single-number/)（136）
-   - [x]  [single-number-ii](https://leetcode-cn.com/problems/single-number-ii/)（137）
-   - [x]  [single-number-iii](https://leetcode-cn.com/problems/single-number-iii/)（260）?
-   - [x]  [number-of-1-bits](https://leetcode-cn.com/problems/number-of-1-bits/)（191）
-   - [x]  [counting-bits](https://leetcode-cn.com/problems/counting-bits/)（338）
-   - [x]  [reverse-bits](https://leetcode-cn.com/problems/reverse-bits/)（190）?
+    - [x]  [single-number](https://leetcode-cn.com/problems/single-number/)（136）
+    - [x]  [single-number-ii](https://leetcode-cn.com/problems/single-number-ii/)（137）
+    - [x]  [single-number-iii](https://leetcode-cn.com/problems/single-number-iii/)（260）?
+    - [x]  [number-of-1-bits](https://leetcode-cn.com/problems/number-of-1-bits/)（191）
+    - [x]  [counting-bits](https://leetcode-cn.com/problems/counting-bits/)（338）
+    - [x]  [reverse-bits](https://leetcode-cn.com/problems/reverse-bits/)（190）?
 - [ ]  双指针
 - [x]  滑动窗口
-   - [x]  [minimum-window-substring](https://leetcode-cn.com/problems/minimum-window-substring/)（76）
-   - [x]  [permutation-in-string](https://leetcode-cn.com/problems/permutation-in-string/)（567）
-   - [x]  [find-all-anagrams-in-a-string](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)（438）
-   - [x]  [longest-substring-without-repeating-characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)（3）
+    - [x]  [minimum-window-substring](https://leetcode-cn.com/problems/minimum-window-substring/)（76）
+    - [x]  [permutation-in-string](https://leetcode-cn.com/problems/permutation-in-string/)（567）
+    - [x]  [find-all-anagrams-in-a-string](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)（438）
+    - [x]  [longest-substring-without-repeating-characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)（3）
 - [ ]  扫描线
-   - [ ]  [the-skyline-problem](https://leetcode-cn.com/problems/the-skyline-problem/)（218）
-   - [ ]  [perfect-rectangle](https://leetcode-cn.com/problems/perfect-rectangle/)（391）
+    - [ ]  [the-skyline-problem](https://leetcode-cn.com/problems/the-skyline-problem/)（218）
+    - [ ]  [perfect-rectangle](https://leetcode-cn.com/problems/perfect-rectangle/)（391）
 - [x]  前缀和
-   - [x]  [range-sum-query-immutable](https://leetcode-cn.com/problems/range-sum-query-immutable/)（303）
-   - [x]  [range-sum-query-2d-immutable](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/)（304）
-   - [x]  [subarray-sum-equals-k](https://leetcode-cn.com/problems/subarray-sum-equals-k/)（560）
+    - [x]  [range-sum-query-immutable](https://leetcode-cn.com/problems/range-sum-query-immutable/)（303）
+    - [x]  [range-sum-query-2d-immutable](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/)（304）
+    - [x]  [subarray-sum-equals-k](https://leetcode-cn.com/problems/subarray-sum-equals-k/)（560）
 - [ ]  哈希函数
-   - [ ]  [subtree-of-another-tree](https://leetcode-cn.com/problems/subtree-of-another-tree/)（572）
-   - [ ]  [longest-chunked-palindrome-decomposition](https://leetcode-cn.com/problems/longest-chunked-palindrome-decomposition/)（1147）
+    - [ ]  [subtree-of-another-tree](https://leetcode-cn.com/problems/subtree-of-another-tree/)（572）
+    - [ ]  [longest-chunked-palindrome-decomposition](https://leetcode-cn.com/problems/longest-chunked-palindrome-decomposition/)（1147）
 - [ ]  滚动哈希
-   - [ ]  [repeated-dna-sequences](https://leetcode-cn.com/problems/repeated-dna-sequences/)（187）
-   - [ ]  [shortest-palindrome](https://leetcode-cn.com/problems/shortest-palindrome/)（214）
-   - [ ]  [maximum-length-of-repeated-subarray](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/)（718）
+    - [ ]  [repeated-dna-sequences](https://leetcode-cn.com/problems/repeated-dna-sequences/)（187）
+    - [ ]  [shortest-palindrome](https://leetcode-cn.com/problems/shortest-palindrome/)（214）
+    - [ ]  [maximum-length-of-repeated-subarray](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/)（718）
 - [ ]  状态压缩
-   - [ ]  [beautiful-arrangement](https://leetcode-cn.com/problems/beautiful-arrangement/)（526）
-   - [ ]  [shopping-offers](https://leetcode-cn.com/problems/shopping-offers/)（638）
-   - [ ]  [partition-to-k-equal-sum-subsets](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/)（698）
-   - [ ]  [shortest-path-visiting-all-nodes](https://leetcode-cn.com/problems/shortest-path-visiting-all-nodes/)（847）
+    - [ ]  [beautiful-arrangement](https://leetcode-cn.com/problems/beautiful-arrangement/)（526）
+    - [ ]  [shopping-offers](https://leetcode-cn.com/problems/shopping-offers/)（638）
+    - [ ]  [partition-to-k-equal-sum-subsets](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/)（698）
+    - [ ]  [shortest-path-visiting-all-nodes](https://leetcode-cn.com/problems/shortest-path-visiting-all-nodes/)（847）
 
 ## 动态规划
 - [x]  线性单串
-   - [x]  [climbing-stairs](https://leetcode-cn.com/problems/climbing-stairs/)（70）
-   - [x]  [jump-game](https://leetcode-cn.com/problems/jump-game/)（55）?
-   - [x]  [jump-game-ii](https://leetcode-cn.com/problems/jump-game-ii/)（45）?
-   - [x]  [palindrome-partitioning](https://leetcode-cn.com/problems/palindrome-partitioning/)（131）
-   - [x]  [palindrome-partitioning-ii](https://leetcode-cn.com/problems/palindrome-partitioning-ii/)（132）?
-   - [x]  [longest-increasing-subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/)（300）?
-   - [x]  [word-break](https://leetcode-cn.com/problems/word-break/)（139）
+    - [x]  [climbing-stairs](https://leetcode-cn.com/problems/climbing-stairs/)（70）
+    - [x]  [jump-game](https://leetcode-cn.com/problems/jump-game/)（55）?
+    - [x]  [jump-game-ii](https://leetcode-cn.com/problems/jump-game-ii/)（45）?
+    - [x]  [palindrome-partitioning](https://leetcode-cn.com/problems/palindrome-partitioning/)（131）
+    - [x]  [palindrome-partitioning-ii](https://leetcode-cn.com/problems/palindrome-partitioning-ii/)（132）?
+    - [x]  [longest-increasing-subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/)（300）?
+    - [x]  [word-break](https://leetcode-cn.com/problems/word-break/)（139）
 - [x]  线性双串
-   - [x]  [longest-common-subsequence](https://leetcode-cn.com/problems/longest-common-subsequence/)（1143）
-   - [x]  [edit-distance](https://leetcode-cn.com/problems/edit-distance/)（72）
+    - [x]  [longest-common-subsequence](https://leetcode-cn.com/problems/longest-common-subsequence/)（1143）
+    - [x]  [edit-distance](https://leetcode-cn.com/problems/edit-distance/)（72）
 - [x]  线性矩阵
-   - [x]  [triangle](https://leetcode-cn.com/problems/triangle/)（120）?
-   - [x]  [minimum-path-sum](https://leetcode-cn.com/problems/minimum-path-sum/)（64）
-   - [x]  [unique-paths](https://leetcode-cn.com/problems/unique-paths/)（62）
-   - [x]  [unique-paths-ii](https://leetcode-cn.com/problems/unique-paths-ii/)（63）
+    - [x]  [triangle](https://leetcode-cn.com/problems/triangle/)（120）?
+    - [x]  [minimum-path-sum](https://leetcode-cn.com/problems/minimum-path-sum/)（64）
+    - [x]  [unique-paths](https://leetcode-cn.com/problems/unique-paths/)（62）
+    - [x]  [unique-paths-ii](https://leetcode-cn.com/problems/unique-paths-ii/)（63）
 - [x]  背包
-   - [x]  [coin-change](https://leetcode-cn.com/problems/coin-change/)（332）
-   - [x]  [coin-change-ii](https://leetcode-cn.com/problems/coin-change-2/)（518）
+    - [x]  [coin-change](https://leetcode-cn.com/problems/coin-change/)（332）
+    - [x]  [coin-change-ii](https://leetcode-cn.com/problems/coin-change-2/)（518）
