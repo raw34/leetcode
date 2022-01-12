@@ -35,7 +35,7 @@
 
 ## 数据结构应用
 - [x]  链表
-    - [ ]  [**add-two-numbers**](https://leetcode-cn.com/problems/add-two-numbers/)（2）
+    - [x]  [**add-two-numbers**](https://leetcode-cn.com/problems/add-two-numbers/)（2）
     - [ ]  [**remove-nth-node-from-end-of-list**](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)（19）
     - [x]  [remove-duplicates-from-sorted-list](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)（83）
     - [x]  [remove-duplicates-from-sorted-list-ii](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)（82）
