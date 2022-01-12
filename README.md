@@ -84,7 +84,7 @@
 - [x]  二叉搜索树
     - [x]  [**validate-binary-search-tree**](https://leetcode-cn.com/problems/validate-binary-search-tree/)（98）
     - [x]  [recover-binary-search-tree](https://leetcode-cn.com/problems/recover-binary-search-tree/)（99）
-    - [ ]  [**binary-search-tree-iterator**](https://leetcode-cn.com/problems/binary-search-tree-iterator/)（173）
+    - [x]  [**binary-search-tree-iterator**](https://leetcode-cn.com/problems/binary-search-tree-iterator/)（173）
     - [x]  [**delete-node-in-a-bst**](https://leetcode-cn.com/problems/delete-node-in-a-bst/)（450）
     - [x]  [insert-into-a-binary-search-tree](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)（701）
     - [ ]  [**convert-binary-search-tree-to-sorted-doubly-linked-list**](https://leetcode-cn.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)（426）
@@ -116,7 +116,7 @@
     - [x]  [find-minimum-in-rotated-sorted-array-ii](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)（154）
     - [ ]  [**fen-ge-shu-zu-de-zui-da-zhi**](https://leetcode-cn.com/problems/split-array-largest-sum/solution/fen-ge-shu-zu-de-zui-da-zhi-by-leetcode-solution/)（410）
 - [ ]  深度、广度优先搜索
-    - [ ]  [**number-of-islands**](https://leetcode-cn.com/problems/number-of-islands/)（200）
+    - [x]  [**number-of-islands**](https://leetcode-cn.com/problems/number-of-islands/)（200）
     - [ ]  [**qian-tao-lie-biao-quan-zhong-he**](https://leetcode-cn.com/problems/nested-list-weight-sum/solution/qian-tao-lie-biao-quan-zhong-he-by-leetcode-2/)（339）
     - [ ]  [**the-maze**](https://leetcode-cn.com/problems/the-maze/)（490）
 - [x]  回溯
