@@ -104,6 +104,7 @@
     - [x]  [unique-binary-search-trees-ii](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/)（95）
     - [x]  [fibonacci-number](https://leetcode-cn.com/problems/fibonacci-number/)（509）
 - [ ]  分治
+    - [ ]  [median-of-two-sorted-arrays](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)（4）
 - [x]  二分查找
     - [x]  [find-first-and-last-position-of-element-in-sorted-array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)（34）
     - [x]  [search-insert-position](https://leetcode-cn.com/problems/search-insert-position/)（35）
@@ -127,6 +128,8 @@
     - [x]  [**letter-combinations-of-a-phone-number**](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)（17）
     - [x]  [restore-ip-addresses](https://leetcode-cn.com/problems/restore-ip-addresses/)（93）
 - [ ]  贪心
+    - [ ]  [**container-with-most-water**](https://leetcode-cn.com/problems/container-with-most-water/)（11）
+    - [ ]  [**candy**](https://leetcode-cn.com/problems/candy/)（135）
 
 ## 算法技巧
 - [x]  位运算
@@ -138,7 +141,6 @@
     - [x]  [reverse-bits](https://leetcode-cn.com/problems/reverse-bits/)（190）?
 - [ ]  双指针
     - [ ]  [**move-zeroes**](https://leetcode-cn.com/problems/move-zeroes/)（283）
-    - [ ]  [**container-with-most-water**](https://leetcode-cn.com/problems/container-with-most-water/)（11）
     - [ ]  [**3sum-closest**](https://leetcode-cn.com/problems/3sum-closest/)（16）
 - [x]  滑动窗口
     - [x]  [minimum-window-substring](https://leetcode-cn.com/problems/minimum-window-substring/)（76）
