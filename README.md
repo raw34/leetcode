@@ -79,8 +79,7 @@
     - [x]  [delete-node-in-a-bst](https://leetcode-cn.com/problems/delete-node-in-a-bst/)（450）
     - [x]  [insert-into-a-binary-search-tree](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)（701）
 - [ ]  字典树
-    - [ ]  [word-search-ii](https://leetcode-cn.com/problems/word-search-ii/)（212）
-    - [ ]  [design-in-memory-file-system](https://leetcode-cn.com/problems/design-in-memory-file-system/)（588）
+    - [x]  [word-search-ii](https://leetcode-cn.com/problems/word-search-ii/)（212）
 - [ ]  并查集
     - [ ]  [accounts-merge](https://leetcode-cn.com/problems/accounts-merge/)（721）
 - [ ]  图
