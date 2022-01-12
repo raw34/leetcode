@@ -96,7 +96,8 @@
 
 ## 基础算法
 - [x]  排序算法
-    - [x]  [sort-an-array](https://leetcode-cn.com/problems/sort-an-array/)（912）
+    - [x]  [**sort-an-array**](https://leetcode-cn.com/problems/sort-an-array/)（912）
+    - [ ]  [**sort-characters-by-frequency**](https://leetcode-cn.com/problems/sort-characters-by-frequency/)（451）
 - [x]  递归
     - [x]  [reverse-string](https://leetcode-cn.com/problems/reverse-string/)（344）
     - [x]  [swap-nodes-in-pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)（24）?
@@ -108,19 +109,22 @@
     - [x]  [search-insert-position](https://leetcode-cn.com/problems/search-insert-position/)（35）
     - [x]  [search-in-rotated-sorted-array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)（33）
     - [x]  [search-in-rotated-sorted-array-ii](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)（81）
-    - [x]  [search-a-2d-matrix](https://leetcode-cn.com/problems/search-a-2d-matrix/)（74）
-    - [x]  [first-bad-version](https://leetcode-cn.com/problems/first-bad-version/)（278）
+    - [x]  [**search-a-2d-matrix**](https://leetcode-cn.com/problems/search-a-2d-matrix/)（74）
+    - [x]  [**first-bad-version**](https://leetcode-cn.com/problems/first-bad-version/)（278）
     - [x]  [find-minimum-in-rotated-sorted-array](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)（153）
     - [x]  [find-minimum-in-rotated-sorted-array-ii](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)（154）
-- [ ]  广度优先搜索
-- [ ]  深度优先搜索
+    - [ ]  [**fen-ge-shu-zu-de-zui-da-zhi**](https://leetcode-cn.com/problems/split-array-largest-sum/solution/fen-ge-shu-zu-de-zui-da-zhi-by-leetcode-solution/)（410）
+- [ ]  深度、广度优先搜索
+    - [ ]  [**number-of-islands**](https://leetcode-cn.com/problems/number-of-islands/)（200）
+    - [ ]  [**qian-tao-lie-biao-quan-zhong-he**](https://leetcode-cn.com/problems/nested-list-weight-sum/solution/qian-tao-lie-biao-quan-zhong-he-by-leetcode-2/)（339）
+    - [ ]  [**the-maze**](https://leetcode-cn.com/problems/the-maze/)（490）
 - [x]  回溯
-    - [x]  [subsets](https://leetcode-cn.com/problems/subsets/)（78）
+    - [x]  [**subsets**](https://leetcode-cn.com/problems/subsets/)（78）
     - [x]  [subsets-ii](https://leetcode-cn.com/problems/subsets-ii/)（90）
     - [x]  [permutations](https://leetcode-cn.com/problems/permutations/)（46）
     - [x]  [permutations-ii](https://leetcode-cn.com/problems/permutations-ii/)（47）
     - [x]  [combination-sum](https://leetcode-cn.com/problems/combination-sum/)（39）
-    - [x]  [letter-combinations-of-a-phone-number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)（17）
+    - [x]  [**letter-combinations-of-a-phone-number**](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)（17）
     - [x]  [restore-ip-addresses](https://leetcode-cn.com/problems/restore-ip-addresses/)（93）
 - [ ]  贪心
 
@@ -133,11 +137,16 @@
     - [x]  [counting-bits](https://leetcode-cn.com/problems/counting-bits/)（338）
     - [x]  [reverse-bits](https://leetcode-cn.com/problems/reverse-bits/)（190）?
 - [ ]  双指针
+    - [ ]  [**move-zeroes**](https://leetcode-cn.com/problems/move-zeroes/)（283）
+    - [ ]  [**container-with-most-water**](https://leetcode-cn.com/problems/container-with-most-water/)（11）
+    - [ ]  [**3sum-closest**](https://leetcode-cn.com/problems/3sum-closest/)（16）
 - [x]  滑动窗口
     - [x]  [minimum-window-substring](https://leetcode-cn.com/problems/minimum-window-substring/)（76）
+    - [ ]  [**minimum-size-subarray-sum**](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)（209）
     - [x]  [permutation-in-string](https://leetcode-cn.com/problems/permutation-in-string/)（567）
     - [x]  [find-all-anagrams-in-a-string](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)（438）
     - [x]  [longest-substring-without-repeating-characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)（3）
+    - [ ]  [**longest-substring-with-at-most-k-distinct-characters**](https://leetcode-cn.com/problems/longest-substring-with-at-most-k-distinct-characters/)（340）
 - [ ]  扫描线
     - [ ]  [the-skyline-problem](https://leetcode-cn.com/problems/the-skyline-problem/)（218）
     - [ ]  [perfect-rectangle](https://leetcode-cn.com/problems/perfect-rectangle/)（391）
