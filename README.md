@@ -52,7 +52,7 @@
     - [x]  [palindrome-linked-list](https://leetcode-cn.com/problems/palindrome-linked-list/)（234）
     - [x]  [**copy-list-with-random-pointer**](https://leetcode-cn.com/problems/copy-list-with-random-pointer/)（138）
 - [x]  哈希表
-    - [ ]  [**lru-cache**](https://leetcode-cn.com/problems/lru-cache/)（146）
+    - [x]  [**lru-cache**](https://leetcode-cn.com/problems/lru-cache/)（146）
     - [ ]  [**lfu-cache**](https://leetcode-cn.com/problems/lfu-cache/)（460）
 - [x]  栈
     - [x]  [evaluate-reverse-polish-notation](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)（150）
