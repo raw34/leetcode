@@ -9,7 +9,7 @@ func maxSlidingWindow(nums []int, k int) []int {
         }
         queue = append(queue, i)
     }
-    // 利用单调队列将数组中k位置前单调递增的数字入队
+    // 利用单调队列将数组中k位置前单调递减的数字入队
     for i := 0; i < k; i++ {
         enqueue(i)
     }
