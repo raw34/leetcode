@@ -87,7 +87,7 @@
     - [x]  [**binary-search-tree-iterator**](https://leetcode-cn.com/problems/binary-search-tree-iterator/)（173）
     - [x]  [**delete-node-in-a-bst**](https://leetcode-cn.com/problems/delete-node-in-a-bst/)（450）
     - [x]  [insert-into-a-binary-search-tree](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)（701）
-    - [ ]  [**convert-binary-search-tree-to-sorted-doubly-linked-list**](https://leetcode-cn.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)（426）
+    - [x]  [**convert-binary-search-tree-to-sorted-doubly-linked-list**](https://leetcode-cn.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)（426）
 - [ ]  字典树
     - [x]  [**word-search-ii**](https://leetcode-cn.com/problems/word-search-ii/)（212）
 - [ ]  并查集
