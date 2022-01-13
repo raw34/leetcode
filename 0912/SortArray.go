@@ -183,12 +183,8 @@ func quickSort(nums []int) []int {
 */
 func heapSort(nums []int) []int {
     length := len(nums)
-    swap := func(nums []int, i, j int) []int {
-        temp := nums[i]
-        nums[i] = nums[j]
-        nums[j] = temp
-
-        return nums
+    swap := func(nums []int, i, j int) {
+        nums[i], nums[j] = nums[j], nums[i]
     }
 
     var heapUp func(nums []int, i int)
