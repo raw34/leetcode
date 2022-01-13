@@ -114,7 +114,6 @@
     - [x]  [**first-bad-version**](https://leetcode-cn.com/problems/first-bad-version/)（278）
     - [x]  [find-minimum-in-rotated-sorted-array](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)（153）
     - [x]  [find-minimum-in-rotated-sorted-array-ii](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)（154）
-    - [ ]  [**fen-ge-shu-zu-de-zui-da-zhi**](https://leetcode-cn.com/problems/split-array-largest-sum/solution/fen-ge-shu-zu-de-zui-da-zhi-by-leetcode-solution/)（410）
 - [ ]  深度、广度优先搜索
     - [x]  [**number-of-islands**](https://leetcode-cn.com/problems/number-of-islands/)（200）
     - [ ]  [**qian-tao-lie-biao-quan-zhong-he**](https://leetcode-cn.com/problems/nested-list-weight-sum/solution/qian-tao-lie-biao-quan-zhong-he-by-leetcode-2/)（339）
@@ -155,6 +154,7 @@
 - [x]  前缀和
     - [x]  [range-sum-query-immutable](https://leetcode-cn.com/problems/range-sum-query-immutable/)（303）
     - [x]  [range-sum-query-2d-immutable](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/)（304）
+    - [x]  [fen-ge-shu-zu-de-zui-da-zhi](https://leetcode-cn.com/problems/split-array-largest-sum/solution/fen-ge-shu-zu-de-zui-da-zhi-by-leetcode-solution/)（410）
     - [x]  [subarray-sum-equals-k](https://leetcode-cn.com/problems/subarray-sum-equals-k/)（560）
 - [ ]  哈希函数
     - [ ]  [subtree-of-another-tree](https://leetcode-cn.com/problems/subtree-of-another-tree/)（572）
