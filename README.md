@@ -80,7 +80,7 @@
     - [x]  [balanced-binary-tree](https://leetcode-cn.com/problems/balanced-binary-tree/)（110）
     - [x]  [**binary-tree-maximum-path-sum**](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)（124）?
     - [x]  [**lowest-common-ancestor-of-a-binary-tree**](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)（236）
-    - [ ]  [**longest-zigzag-path-in-a-binary-tree**](https://leetcode-cn.com/problems/longest-zigzag-path-in-a-binary-tree/)（1372）
+    - [x]  [**longest-zigzag-path-in-a-binary-tree**](https://leetcode-cn.com/problems/longest-zigzag-path-in-a-binary-tree/)（1372）
 - [x]  二叉搜索树
     - [x]  [**validate-binary-search-tree**](https://leetcode-cn.com/problems/validate-binary-search-tree/)（98）
     - [x]  [recover-binary-search-tree](https://leetcode-cn.com/problems/recover-binary-search-tree/)（99）
