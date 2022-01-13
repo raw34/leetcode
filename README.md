@@ -114,6 +114,9 @@
     - [x]  [**first-bad-version**](https://leetcode-cn.com/problems/first-bad-version/)（278）
     - [x]  [find-minimum-in-rotated-sorted-array](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)（153）
     - [x]  [find-minimum-in-rotated-sorted-array-ii](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)（154）
+- [ ]  贪心
+    - [ ]  [**container-with-most-water**](https://leetcode-cn.com/problems/container-with-most-water/)（11）
+    - [ ]  [**candy**](https://leetcode-cn.com/problems/candy/)（135）
 - [ ]  深度、广度优先搜索
     - [x]  [**number-of-islands**](https://leetcode-cn.com/problems/number-of-islands/)（200）
     - [ ]  [**qian-tao-lie-biao-quan-zhong-he**](https://leetcode-cn.com/problems/nested-list-weight-sum/solution/qian-tao-lie-biao-quan-zhong-he-by-leetcode-2/)（339）
@@ -126,9 +129,6 @@
     - [x]  [combination-sum](https://leetcode-cn.com/problems/combination-sum/)（39）
     - [x]  [**letter-combinations-of-a-phone-number**](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)（17）
     - [x]  [restore-ip-addresses](https://leetcode-cn.com/problems/restore-ip-addresses/)（93）
-- [ ]  贪心
-    - [ ]  [**container-with-most-water**](https://leetcode-cn.com/problems/container-with-most-water/)（11）
-    - [ ]  [**candy**](https://leetcode-cn.com/problems/candy/)（135）
 
 ## 算法技巧
 - [x]  位运算
