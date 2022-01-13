@@ -20,6 +20,6 @@ func TestLFUCache_Case1(t *testing.T) {
     assert.Equal(t, 3, cache.Get(3))
     cache.Put(4, 4)
     assert.Equal(t, -1, cache.Get(1))
-    assert.Equal(t, 4, cache.Get(3))
+    assert.Equal(t, 3, cache.Get(3))
     assert.Equal(t, 4, cache.Get(4))
 }

@@ -10,7 +10,7 @@ func Constructor(capacity int) LRUCache {
     return LRUCache{
         capacity: capacity,
         hash:     map[int]int{},
-        queue:    make([]int, 0),
+        queue:    make([]int, capacity),
     }
 }
 
