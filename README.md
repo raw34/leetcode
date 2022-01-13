@@ -97,7 +97,7 @@
 ## 基础算法
 - [x]  排序算法
     - [x]  [**sort-an-array**](https://leetcode-cn.com/problems/sort-an-array/)（912）
-    - [ ]  [**sort-characters-by-frequency**](https://leetcode-cn.com/problems/sort-characters-by-frequency/)（451）
+    - [x]  [**sort-characters-by-frequency**](https://leetcode-cn.com/problems/sort-characters-by-frequency/)（451）
 - [x]  递归
     - [x]  [reverse-string](https://leetcode-cn.com/problems/reverse-string/)（344）
     - [x]  [swap-nodes-in-pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)（24）?
