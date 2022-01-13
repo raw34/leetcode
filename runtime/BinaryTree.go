@@ -191,7 +191,7 @@ func (bt *BinaryTree) buildFromPreorderAndPostorder1(preorder []int, postorder [
         }
     }
 
-    root.Left = bt.buildFromPreorderAndPostorder1(preorder[1:mid+1], postorder[0:mid])
+    root.Left = bt.buildFromPreorderAndPostorder1(preorder[1:mid+1], postorder[:mid])
     root.Right = bt.buildFromPreorderAndPostorder1(preorder[mid+1:], postorder[mid:len(postorder)-1])
 
     return root

@@ -18,7 +18,7 @@ func (this *FrontMiddleBackQueue) PushFront(val int) {
 
 func (this *FrontMiddleBackQueue) PushMiddle(val int) {
     mid := this.size / 2
-    left := this.queue[0:mid]
+    left := this.queue[:mid]
     right := this.queue[mid:this.size]
     tempLeft := make([]int, len(left))
     tempRight := make([]int, len(right))
@@ -49,7 +49,7 @@ func (this *FrontMiddleBackQueue) PopMiddle() int {
     }
     mid := (this.size - 1) / 2
     val := this.queue[mid]
-    left := this.queue[0:mid]
+    left := this.queue[:mid]
     right := this.queue[mid+1 : this.size]
     this.queue = append(left, right...)
     this.size--

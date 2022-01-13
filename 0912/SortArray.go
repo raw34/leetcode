@@ -131,7 +131,7 @@ func mergeSort(nums []int) []int {
     }
 
     mid := n / 2
-    left := nums[0:mid]
+    left := nums[:mid]
     right := nums[mid:]
 
     return merge(mergeSort(left), mergeSort(right))
@@ -141,12 +141,8 @@ func mergeSort(nums []int) []int {
 快速排序的基本思想：通过一趟排序将待排记录分隔成独立的两部分，其中一部分记录的关键字均比另一部分的关键字小，则可分别对这两部分记录继续进行排序，以达到整个序列有序。
 */
 func quickSort(nums []int) []int {
-    swap := func(nums []int, i, j int) []int {
-        temp := nums[i]
-        nums[i] = nums[j]
-        nums[j] = temp
-
-        return nums
+    swap := func(nums []int, i, j int) {
+        nums[i], nums[j] = nums[j], nums[i]
     }
 
     partition := func(nums []int, left, right int) int {

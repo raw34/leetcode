@@ -21,7 +21,7 @@ func constructFromPrePost(preorder []int, postorder []int) *runtime.TreeNode {
         }
     }
 
-    root.Left = constructFromPrePost(preorder[1:mid+1], postorder[0:mid])
+    root.Left = constructFromPrePost(preorder[1:mid+1], postorder[:mid])
     root.Right = constructFromPrePost(preorder[mid+1:], postorder[mid:len(postorder)-1])
 
     return root
