@@ -58,8 +58,8 @@
     - [x]  [evaluate-reverse-polish-notation](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)（150）
     - [x]  [decode-string](https://leetcode-cn.com/problems/decode-string/)（394）
 - [ ]  单调栈
-    - [ ]  [**daily-temperatures**](https://leetcode-cn.com/problems/daily-temperatures/)（739）
-    - [ ]  [**trapping-rain-water**](https://leetcode-cn.com/problems/trapping-rain-water/)（42）
+    - [x]  [**daily-temperatures**](https://leetcode-cn.com/problems/daily-temperatures/)（739）
+    - [x]  [**trapping-rain-water**](https://leetcode-cn.com/problems/trapping-rain-water/)（42）
     - [x]  [largest-rectangle-in-histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)（84）
 - [x]  队列
     - [x]  [clone-graph](https://leetcode-cn.com/problems/clone-graph/)（133）
