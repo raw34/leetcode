@@ -138,7 +138,7 @@
     - [x]  [counting-bits](https://leetcode-cn.com/problems/counting-bits/)（338）
     - [x]  [reverse-bits](https://leetcode-cn.com/problems/reverse-bits/)（190）?
 - [ ]  双指针
-    - [ ]  [**move-zeroes**](https://leetcode-cn.com/problems/move-zeroes/)（283）
+    - [x]  [**move-zeroes**](https://leetcode-cn.com/problems/move-zeroes/)（283）
     - [ ]  [**3sum-closest**](https://leetcode-cn.com/problems/3sum-closest/)（16）
 - [x]  滑动窗口
     - [x]  [minimum-window-substring](https://leetcode-cn.com/problems/minimum-window-substring/)（76）
