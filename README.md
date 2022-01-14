@@ -146,7 +146,7 @@
     - [x]  [permutation-in-string](https://leetcode-cn.com/problems/permutation-in-string/)（567）
     - [x]  [find-all-anagrams-in-a-string](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)（438）
     - [x]  [longest-substring-without-repeating-characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)（3）
-    - [ ]  [**longest-substring-with-at-most-k-distinct-characters**](https://leetcode-cn.com/problems/longest-substring-with-at-most-k-distinct-characters/)（340）
+    - [x]  [**longest-substring-with-at-most-k-distinct-characters**](https://leetcode-cn.com/problems/longest-substring-with-at-most-k-distinct-characters/)（340）
 - [ ]  扫描线
     - [ ]  [the-skyline-problem](https://leetcode-cn.com/problems/the-skyline-problem/)（218）
     - [ ]  [perfect-rectangle](https://leetcode-cn.com/problems/perfect-rectangle/)（391）
