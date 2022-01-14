@@ -119,8 +119,7 @@
     - [ ]  [**candy**](https://leetcode-cn.com/problems/candy/)（135）
 - [ ]  深度、广度优先搜索
     - [x]  [**number-of-islands**](https://leetcode-cn.com/problems/number-of-islands/)（200）
-    - [ ]  [**qian-tao-lie-biao-quan-zhong-he**](https://leetcode-cn.com/problems/nested-list-weight-sum/solution/qian-tao-lie-biao-quan-zhong-he-by-leetcode-2/)（339）
-    - [ ]  [**the-maze**](https://leetcode-cn.com/problems/the-maze/)（490）
+    - [x]  [**house-robber-iii**](https://leetcode-cn.com/problems/house-robber-iii/)（337）
 - [x]  回溯
     - [x]  [**subsets**](https://leetcode-cn.com/problems/subsets/)（78）
     - [x]  [subsets-ii](https://leetcode-cn.com/problems/subsets-ii/)（90）
