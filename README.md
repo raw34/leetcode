@@ -115,7 +115,7 @@
     - [x]  [find-minimum-in-rotated-sorted-array](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)（153）
     - [x]  [find-minimum-in-rotated-sorted-array-ii](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)（154）
 - [ ]  贪心
-    - [ ]  [**container-with-most-water**](https://leetcode-cn.com/problems/container-with-most-water/)（11）
+    - [x]  [**container-with-most-water**](https://leetcode-cn.com/problems/container-with-most-water/)（11）
     - [ ]  [**candy**](https://leetcode-cn.com/problems/candy/)（135）
 - [ ]  深度、广度优先搜索
     - [x]  [**number-of-islands**](https://leetcode-cn.com/problems/number-of-islands/)（200）
