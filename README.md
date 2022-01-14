@@ -142,7 +142,7 @@
     - [x]  [**3sum-closest**](https://leetcode-cn.com/problems/3sum-closest/)（16）
 - [x]  滑动窗口
     - [x]  [minimum-window-substring](https://leetcode-cn.com/problems/minimum-window-substring/)（76）
-    - [ ]  [**minimum-size-subarray-sum**](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)（209）
+    - [x]  [**minimum-size-subarray-sum**](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)（209）
     - [x]  [permutation-in-string](https://leetcode-cn.com/problems/permutation-in-string/)（567）
     - [x]  [find-all-anagrams-in-a-string](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)（438）
     - [x]  [longest-substring-without-repeating-characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)（3）
