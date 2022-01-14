@@ -103,8 +103,8 @@
     - [x]  [swap-nodes-in-pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)（24）?
     - [x]  [unique-binary-search-trees-ii](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/)（95）
     - [x]  [fibonacci-number](https://leetcode-cn.com/problems/fibonacci-number/)（509）
-- [ ]  分治
-    - [ ]  [median-of-two-sorted-arrays](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)（4）
+- [x]  分治
+    - [x]  [median-of-two-sorted-arrays](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)（4）
 - [x]  二分查找
     - [x]  [find-first-and-last-position-of-element-in-sorted-array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)（34）
     - [x]  [search-insert-position](https://leetcode-cn.com/problems/search-insert-position/)（35）
