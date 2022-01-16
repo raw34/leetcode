@@ -40,6 +40,7 @@
     - [x]  [remove-duplicates-from-sorted-list-ii](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)（82）
     - [x]  [**reverse-linked-list**](https://leetcode-cn.com/problems/reverse-linked-list/)（206）
     - [x]  [**reverse-linked-list-ii**](https://leetcode-cn.com/problems/reverse-linked-list-ii/)（92）
+    - [ ]  [**reverse-nodes-in-k-group**](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)（25）
     - [x]  [merge-two-sorted-lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)（21）
     - [x]  [**merge-k-sorted-lists**](https://leetcode-cn.com/problems/merge-k-sorted-lists/)（23）
     - [x]  [partition-list](https://leetcode-cn.com/problems/partition-list/)（86）
@@ -49,10 +50,12 @@
     - [x]  [palindrome-linked-list](https://leetcode-cn.com/problems/palindrome-linked-list/)（234）
     - [x]  [**copy-list-with-random-pointer**](https://leetcode-cn.com/problems/copy-list-with-random-pointer/)（138）
 - [x]  哈希表
+    - [ ]  [first-missing-positive](https://leetcode-cn.com/problems/first-missing-positive/)（41）
     - [x]  [**lru-cache**](https://leetcode-cn.com/problems/lru-cache/)（146）
     - [x]  [**lfu-cache**](https://leetcode-cn.com/problems/lfu-cache/)（460）
 - [x]  栈
     - [x]  [evaluate-reverse-polish-notation](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)（150）
+    - [ ]  [basic-calculator](https://leetcode-cn.com/problems/basic-calculator/)（224）
     - [x]  [decode-string](https://leetcode-cn.com/problems/decode-string/)（394）
 - [x]  单调栈
     - [x]  [**daily-temperatures**](https://leetcode-cn.com/problems/daily-temperatures/)（739）
@@ -65,6 +68,7 @@
     - [x]  [shortest-subarray-with-sum-at-least-k](https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/)（862）
 - [x]  最大、最小堆?
     - [x]  [**kth-largest-element-in-an-array**](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)（215）
+    - [ ]  [find-median-from-data-stream](https://leetcode-cn.com/problems/find-median-from-data-stream/)（295）
     - [x]  [kth-largest-element-in-a-stream](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/)（703）
 - [x]  树?
     - [x]  [**binary-tree-inorder-traversal**](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)（94）
@@ -117,6 +121,7 @@
     - [x]  [**candy**](https://leetcode-cn.com/problems/candy/)（135）
 - [x]  深度、广度优先搜索
     - [x]  [**number-of-islands**](https://leetcode-cn.com/problems/number-of-islands/)（200）
+    - [ ]  [longest-increasing-path-in-a-matrix](https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix/)（329）
     - [x]  [**house-robber-iii**](https://leetcode-cn.com/problems/house-robber-iii/)（337）
 - [x]  回溯?
     - [x]  [**subsets**](https://leetcode-cn.com/problems/subsets/)（78）
@@ -126,6 +131,7 @@
     - [x]  [combination-sum](https://leetcode-cn.com/problems/combination-sum/)（39）
     - [x]  [**letter-combinations-of-a-phone-number**](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)（17）
     - [x]  [restore-ip-addresses](https://leetcode-cn.com/problems/restore-ip-addresses/)（93）
+    - [ ]  [k-th-smallest-in-lexicographical-order](https://leetcode-cn.com/problems/k-th-smallest-in-lexicographical-order/)（440）
 - [x]  双指针
     - [x]  [**move-zeroes**](https://leetcode-cn.com/problems/move-zeroes/)（283）
     - [x]  [**3sum-closest**](https://leetcode-cn.com/problems/3sum-closest/)（16）
