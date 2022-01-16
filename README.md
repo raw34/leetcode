@@ -174,9 +174,9 @@
        - [x]  [minimum-path-sum](https://leetcode-cn.com/problems/minimum-path-sum/)（64）
        - [x]  [unique-paths](https://leetcode-cn.com/problems/unique-paths/)（62）
        - [x]  [unique-paths-ii](https://leetcode-cn.com/problems/unique-paths-ii/)（63）
-   - [x]  背包
-       - [x]  [coin-change](https://leetcode-cn.com/problems/coin-change/)（332）
-       - [x]  [coin-change-ii](https://leetcode-cn.com/problems/coin-change-2/)（518）
+- [x]  背包
+    - [x]  [coin-change](https://leetcode-cn.com/problems/coin-change/)（332）
+    - [x]  [coin-change-ii](https://leetcode-cn.com/problems/coin-change-2/)（518）
 - [ ]  区间
 - [ ]  树形
 - [ ]  数位
