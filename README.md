@@ -66,7 +66,7 @@
 - [x]  单调队列
     - [x]  [**sliding-window-maximum**](https://leetcode-cn.com/problems/sliding-window-maximum/)（239）
     - [x]  [shortest-subarray-with-sum-at-least-k](https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/)（862）
-- [x]  最大、最小堆?
+- [x]  最大、最小堆
     - [x]  [**kth-largest-element-in-an-array**](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)（215）
     - [ ]  [find-median-from-data-stream](https://leetcode-cn.com/problems/find-median-from-data-stream/)（295）
     - [x]  [top-k-frequent-elements](https://leetcode-cn.com/problems/top-k-frequent-elements/)（347）
