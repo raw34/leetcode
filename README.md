@@ -157,30 +157,40 @@
 - [ ]  离散化
 
 ## 动态规划
-- [x]  线性单串
-    - [x]  [climbing-stairs](https://leetcode-cn.com/problems/climbing-stairs/)（70）
-    - [x]  [jump-game](https://leetcode-cn.com/problems/jump-game/)（55）?
-    - [x]  [jump-game-ii](https://leetcode-cn.com/problems/jump-game-ii/)（45）?
-    - [x]  [palindrome-partitioning](https://leetcode-cn.com/problems/palindrome-partitioning/)（131）
-    - [x]  [palindrome-partitioning-ii](https://leetcode-cn.com/problems/palindrome-partitioning-ii/)（132）?
-    - [x]  [longest-increasing-subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/)（300）?
-    - [x]  [word-break](https://leetcode-cn.com/problems/word-break/)（139）
-- [x]  线性双串
-    - [x]  [longest-common-subsequence](https://leetcode-cn.com/problems/longest-common-subsequence/)（1143）
-    - [x]  [edit-distance](https://leetcode-cn.com/problems/edit-distance/)（72）
-- [x]  线性矩阵
-    - [x]  [triangle](https://leetcode-cn.com/problems/triangle/)（120）?
-    - [x]  [minimum-path-sum](https://leetcode-cn.com/problems/minimum-path-sum/)（64）
-    - [x]  [unique-paths](https://leetcode-cn.com/problems/unique-paths/)（62）
-    - [x]  [unique-paths-ii](https://leetcode-cn.com/problems/unique-paths-ii/)（63）
-- [x]  背包问题
-    - [x]  [coin-change](https://leetcode-cn.com/problems/coin-change/)（332）
-    - [x]  [coin-change-ii](https://leetcode-cn.com/problems/coin-change-2/)（518）
+- [x]  线性
+   - [x]  单串
+       - [x]  [climbing-stairs](https://leetcode-cn.com/problems/climbing-stairs/)（70）
+       - [x]  [jump-game](https://leetcode-cn.com/problems/jump-game/)（55）?
+       - [x]  [jump-game-ii](https://leetcode-cn.com/problems/jump-game-ii/)（45）?
+       - [x]  [palindrome-partitioning](https://leetcode-cn.com/problems/palindrome-partitioning/)（131）
+       - [x]  [palindrome-partitioning-ii](https://leetcode-cn.com/problems/palindrome-partitioning-ii/)（132）?
+       - [x]  [**longest-increasing-subsequence**](https://leetcode-cn.com/problems/longest-increasing-subsequence/)（300）?
+       - [x]  [word-break](https://leetcode-cn.com/problems/word-break/)（139）
+   - [x]  双串
+       - [x]  [**longest-common-subsequence**](https://leetcode-cn.com/problems/longest-common-subsequence/)（1143）
+       - [x]  [edit-distance](https://leetcode-cn.com/problems/edit-distance/)（72）
+   - [x]  矩阵
+       - [x]  [**triangle**](https://leetcode-cn.com/problems/triangle/)（120）?
+       - [x]  [minimum-path-sum](https://leetcode-cn.com/problems/minimum-path-sum/)（64）
+       - [x]  [unique-paths](https://leetcode-cn.com/problems/unique-paths/)（62）
+       - [x]  [unique-paths-ii](https://leetcode-cn.com/problems/unique-paths-ii/)（63）
+   - [x]  背包
+       - [x]  [coin-change](https://leetcode-cn.com/problems/coin-change/)（332）
+       - [x]  [coin-change-ii](https://leetcode-cn.com/problems/coin-change-2/)（518）
+- [ ]  区间
+- [ ]  树形
+- [ ]  数位
+- [ ]  概率
 - [ ]  状态压缩
    - [ ]  [beautiful-arrangement](https://leetcode-cn.com/problems/beautiful-arrangement/)（526）
    - [ ]  [shopping-offers](https://leetcode-cn.com/problems/shopping-offers/)（638）
    - [ ]  [partition-to-k-equal-sum-subsets](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/)（698）
    - [ ]  [shortest-path-visiting-all-nodes](https://leetcode-cn.com/problems/shortest-path-visiting-all-nodes/)（847）
+- [ ]  数据结构优化
+   - [ ]  二进制
+   - [ ]  单调队列
+   - [ ]  斜率
+   - [ ]  四边形不等式
 
 ## 图论
 
