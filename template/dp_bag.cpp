@@ -28,6 +28,7 @@ void bags1()
     cout << dp[weight.size() - 1][bagWeight] << endl;
 }
 
+// 0-1背包问题母代码(一维)
 void bags2()
 {
     vector<int> weight = {1, 3, 4};
