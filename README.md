@@ -145,8 +145,8 @@
     - [x]  [range-sum-query-2d-immutable](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/)（304）
     - [x]  [fen-ge-shu-zu-de-zui-da-zhi](https://leetcode-cn.com/problems/split-array-largest-sum/solution/fen-ge-shu-zu-de-zui-da-zhi-by-leetcode-solution/)（410）
     - [x]  [subarray-sum-equals-k](https://leetcode-cn.com/problems/subarray-sum-equals-k/)（560）
-- [ ]  差分
-   - [ ]  [range-addition](https://leetcode-cn.com/problems/range-addition/)（370）
+- [x]  差分
+   - [x]  [range-addition](https://leetcode-cn.com/problems/range-addition/)（370）
 - [x]  位运算
    - [x]  [single-number](https://leetcode-cn.com/problems/single-number/)（136）
    - [x]  [single-number-ii](https://leetcode-cn.com/problems/single-number-ii/)（137）
