@@ -156,7 +156,6 @@
    - [x]  [reverse-bits](https://leetcode-cn.com/problems/reverse-bits/)（190）?
 - [ ]  高精度
 - [ ]  离散化
-- [ ]  RMQ
 
 ## 动态规划
 - [x]  线性单串
