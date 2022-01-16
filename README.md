@@ -26,7 +26,7 @@
     - [x]  [convert-sorted-array-to-binary-search-tree](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)（108）
     - [x]  [convert-sorted-list-to-binary-search-tree](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/)（109）
     - [x]  [serialize-and-deserialize-bst](https://leetcode-cn.com/problems/serialize-and-deserialize-bst/)（449）
-- [ ]  字典树
+- [x]  字典树
     - [x]  [**implement-trie-prefix-tree**](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)（208）
     - [x]  [design-add-and-search-words-data-structure](https://leetcode-cn.com/problems/design-add-and-search-words-data-structure/)（211）
     - [x]  [**implement-trie-ii-prefix-tree**](https://leetcode-cn.com/problems/implement-trie-ii-prefix-tree/)（1804）
@@ -57,7 +57,7 @@
 - [x]  栈
     - [x]  [evaluate-reverse-polish-notation](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)（150）
     - [x]  [decode-string](https://leetcode-cn.com/problems/decode-string/)（394）
-- [ ]  单调栈
+- [x]  单调栈
     - [x]  [**daily-temperatures**](https://leetcode-cn.com/problems/daily-temperatures/)（739）
     - [x]  [**trapping-rain-water**](https://leetcode-cn.com/problems/trapping-rain-water/)（42）
     - [x]  [largest-rectangle-in-histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)（84）
@@ -88,7 +88,7 @@
     - [x]  [**delete-node-in-a-bst**](https://leetcode-cn.com/problems/delete-node-in-a-bst/)（450）
     - [x]  [insert-into-a-binary-search-tree](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)（701）
     - [x]  [**convert-binary-search-tree-to-sorted-doubly-linked-list**](https://leetcode-cn.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)（426）
-- [ ]  字典树
+- [x]  字典树
     - [x]  [**word-search-ii**](https://leetcode-cn.com/problems/word-search-ii/)（212）
 - [ ]  并查集
     - [ ]  [accounts-merge](https://leetcode-cn.com/problems/accounts-merge/)（721）
@@ -113,10 +113,10 @@
     - [x]  [**first-bad-version**](https://leetcode-cn.com/problems/first-bad-version/)（278）
     - [x]  [find-minimum-in-rotated-sorted-array](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)（153）
     - [x]  [find-minimum-in-rotated-sorted-array-ii](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)（154）
-- [ ]  贪心
+- [x]  贪心
     - [x]  [**container-with-most-water**](https://leetcode-cn.com/problems/container-with-most-water/)（11）
     - [x]  [**candy**](https://leetcode-cn.com/problems/candy/)（135）
-- [ ]  深度、广度优先搜索
+- [x]  深度、广度优先搜索
     - [x]  [**number-of-islands**](https://leetcode-cn.com/problems/number-of-islands/)（200）
     - [x]  [**house-robber-iii**](https://leetcode-cn.com/problems/house-robber-iii/)（337）
 - [x]  回溯
@@ -127,7 +127,7 @@
     - [x]  [combination-sum](https://leetcode-cn.com/problems/combination-sum/)（39）
     - [x]  [**letter-combinations-of-a-phone-number**](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)（17）
     - [x]  [restore-ip-addresses](https://leetcode-cn.com/problems/restore-ip-addresses/)（93）
-- [ ]  双指针
+- [x]  双指针
     - [x]  [**move-zeroes**](https://leetcode-cn.com/problems/move-zeroes/)（283）
     - [x]  [**3sum-closest**](https://leetcode-cn.com/problems/3sum-closest/)（16）
 - [x]  滑动窗口
