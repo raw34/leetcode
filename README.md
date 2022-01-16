@@ -69,6 +69,7 @@
 - [x]  最大、最小堆?
     - [x]  [**kth-largest-element-in-an-array**](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)（215）
     - [ ]  [find-median-from-data-stream](https://leetcode-cn.com/problems/find-median-from-data-stream/)（295）
+    - [x]  [top-k-frequent-elements](https://leetcode-cn.com/problems/top-k-frequent-elements/)（347）
     - [x]  [kth-largest-element-in-a-stream](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/)（703）
 - [x]  树?
     - [x]  [**binary-tree-inorder-traversal**](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)（94）

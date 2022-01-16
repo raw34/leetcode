@@ -8,22 +8,17 @@ func topKFrequent(nums []int, k int) []int {
     for _, num := range nums {
         counts[num]++
     }
-
     // 将哈希表构建为最小堆
-    hp := &MinHeap{}
-    heap.Init(hp)
-    for key, count := range counts {
-        heap.Push(hp, [2]int{key, count})
-        if hp.Len() > k {
-            heap.Pop(hp)
-        }
+    mh := NewMinHeap(counts)
+    // 将不需要的元素移除
+    for mh.Len() > k {
+        heap.Pop(mh)
     }
-
     // 逐个取出最小堆中剩余元素
-    res := make([]int, hp.Len())
-    for hp.Len() > 0 {
-        num := heap.Pop(hp).([2]int)[0]
-        res[hp.Len()] = num
+    res := make([]int, mh.Len())
+    for mh.Len() > 0 {
+        num := heap.Pop(mh).([2]int)[0]
+        res[mh.Len()] = num
     }
 
     return res
@@ -31,9 +26,18 @@ func topKFrequent(nums []int, k int) []int {
 
 type MinHeap [][2]int
 
+func NewMinHeap(counts map[int]int) *MinHeap {
+    mh := &MinHeap{}
+    for key, count := range counts {
+        heap.Push(mh, [2]int{key, count})
+    }
+    return mh
+}
+
 func (h MinHeap) Len() int {
     return len(h)
 }
+
 func (h MinHeap) Less(i, j int) bool {
     return h[i][1] < h[j][1]
 }
