@@ -92,10 +92,9 @@
     - [x]  [**word-search-ii**](https://leetcode-cn.com/problems/word-search-ii/)（212）
 - [ ]  并查集
     - [ ]  [accounts-merge](https://leetcode-cn.com/problems/accounts-merge/)（721）
-- [ ]  图
 
 ## 基础算法
-- [x]  排序算法
+- [x]  排序
     - [x]  [**sort-an-array**](https://leetcode-cn.com/problems/sort-an-array/)（912）
     - [x]  [**sort-characters-by-frequency**](https://leetcode-cn.com/problems/sort-characters-by-frequency/)（451）
 - [x]  递归
@@ -105,7 +104,7 @@
     - [x]  [fibonacci-number](https://leetcode-cn.com/problems/fibonacci-number/)（509）
 - [x]  分治
     - [x]  [median-of-two-sorted-arrays](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)（4）
-- [x]  二分查找
+- [x]  二分
     - [x]  [find-first-and-last-position-of-element-in-sorted-array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)（34）
     - [x]  [search-insert-position](https://leetcode-cn.com/problems/search-insert-position/)（35）
     - [x]  [search-in-rotated-sorted-array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)（33）
@@ -128,15 +127,6 @@
     - [x]  [combination-sum](https://leetcode-cn.com/problems/combination-sum/)（39）
     - [x]  [**letter-combinations-of-a-phone-number**](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)（17）
     - [x]  [restore-ip-addresses](https://leetcode-cn.com/problems/restore-ip-addresses/)（93）
-
-## 算法技巧
-- [x]  位运算
-    - [x]  [single-number](https://leetcode-cn.com/problems/single-number/)（136）
-    - [x]  [single-number-ii](https://leetcode-cn.com/problems/single-number-ii/)（137）
-    - [x]  [single-number-iii](https://leetcode-cn.com/problems/single-number-iii/)（260）?
-    - [x]  [number-of-1-bits](https://leetcode-cn.com/problems/number-of-1-bits/)（191）
-    - [x]  [counting-bits](https://leetcode-cn.com/problems/counting-bits/)（338）
-    - [x]  [reverse-bits](https://leetcode-cn.com/problems/reverse-bits/)（190）?
 - [ ]  双指针
     - [x]  [**move-zeroes**](https://leetcode-cn.com/problems/move-zeroes/)（283）
     - [x]  [**3sum-closest**](https://leetcode-cn.com/problems/3sum-closest/)（16）
@@ -155,18 +145,17 @@
     - [x]  [range-sum-query-2d-immutable](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/)（304）
     - [x]  [fen-ge-shu-zu-de-zui-da-zhi](https://leetcode-cn.com/problems/split-array-largest-sum/solution/fen-ge-shu-zu-de-zui-da-zhi-by-leetcode-solution/)（410）
     - [x]  [subarray-sum-equals-k](https://leetcode-cn.com/problems/subarray-sum-equals-k/)（560）
-- [ ]  哈希函数
-    - [ ]  [subtree-of-another-tree](https://leetcode-cn.com/problems/subtree-of-another-tree/)（572）
-    - [ ]  [longest-chunked-palindrome-decomposition](https://leetcode-cn.com/problems/longest-chunked-palindrome-decomposition/)（1147）
-- [ ]  滚动哈希
-    - [ ]  [repeated-dna-sequences](https://leetcode-cn.com/problems/repeated-dna-sequences/)（187）
-    - [ ]  [shortest-palindrome](https://leetcode-cn.com/problems/shortest-palindrome/)（214）
-    - [ ]  [maximum-length-of-repeated-subarray](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/)（718）
-- [ ]  状态压缩
-    - [ ]  [beautiful-arrangement](https://leetcode-cn.com/problems/beautiful-arrangement/)（526）
-    - [ ]  [shopping-offers](https://leetcode-cn.com/problems/shopping-offers/)（638）
-    - [ ]  [partition-to-k-equal-sum-subsets](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/)（698）
-    - [ ]  [shortest-path-visiting-all-nodes](https://leetcode-cn.com/problems/shortest-path-visiting-all-nodes/)（847）
+- [ ]  差分
+- [x]  位运算
+   - [x]  [single-number](https://leetcode-cn.com/problems/single-number/)（136）
+   - [x]  [single-number-ii](https://leetcode-cn.com/problems/single-number-ii/)（137）
+   - [x]  [single-number-iii](https://leetcode-cn.com/problems/single-number-iii/)（260）?
+   - [x]  [number-of-1-bits](https://leetcode-cn.com/problems/number-of-1-bits/)（191）
+   - [x]  [counting-bits](https://leetcode-cn.com/problems/counting-bits/)（338）
+   - [x]  [reverse-bits](https://leetcode-cn.com/problems/reverse-bits/)（190）?
+- [ ]  高精度
+- [ ]  离散化
+- [ ]  RMQ
 
 ## 动态规划
 - [x]  线性单串
@@ -188,3 +177,12 @@
 - [x]  背包问题
     - [x]  [coin-change](https://leetcode-cn.com/problems/coin-change/)（332）
     - [x]  [coin-change-ii](https://leetcode-cn.com/problems/coin-change-2/)（518）
+- [ ]  状态压缩
+   - [ ]  [beautiful-arrangement](https://leetcode-cn.com/problems/beautiful-arrangement/)（526）
+   - [ ]  [shopping-offers](https://leetcode-cn.com/problems/shopping-offers/)（638）
+   - [ ]  [partition-to-k-equal-sum-subsets](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/)（698）
+   - [ ]  [shortest-path-visiting-all-nodes](https://leetcode-cn.com/problems/shortest-path-visiting-all-nodes/)（847）
+
+## 图论
+
+## 数学知识
