@@ -141,40 +141,38 @@ func mergeSort(nums []int) []int {
 快速排序的基本思想：通过一趟排序将待排记录分隔成独立的两部分，其中一部分记录的关键字均比另一部分的关键字小，则可分别对这两部分记录继续进行排序，以达到整个序列有序。
 */
 func quickSort(nums []int) []int {
-    swap := func(nums []int, i, j int) {
+    swap := func(i, j int) {
         nums[i], nums[j] = nums[j], nums[i]
     }
 
-    partition := func(nums []int, left, right int) int {
-        pivot := left
-        index := pivot + 1
-
-        for i := index; i <= right; i++ {
-            if nums[i] < nums[pivot] {
-                swap(nums, i, index)
-                index++
-            }
-        }
-        swap(nums, pivot, index-1)
-
-        return index - 1
-    }
-
-    var quick func(nums []int, left, right int) []int
-    quick = func(nums []int, left, right int) []int {
-        if left >= right {
+    var quick func(nums []int, l, r int) []int
+    quick = func(nums []int, l, r int) []int {
+        if l >= r {
             return nums
         }
-
-        p := partition(nums, left, right)
-        quick(nums, left, p-1)
-        quick(nums, p+1, right)
+        mid := (l + r) / 2
+        val := nums[mid]
+        i, j := l-1, r+1
+        for i < j {
+            i++
+            j--
+            for nums[i] < val {
+                i++
+            }
+            for nums[j] > val {
+                j--
+            }
+            if i < j {
+                swap(i, j)
+            }
+        }
+        quick(nums, l, j)
+        quick(nums, j+1, r)
 
         return nums
     }
-    quick(nums, 0, len(nums)-1)
 
-    return nums
+    return quick(nums, 0, len(nums)-1)
 }
 
 /*

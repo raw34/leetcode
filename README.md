@@ -96,7 +96,7 @@
     - [ ]  [accounts-merge](https://leetcode-cn.com/problems/accounts-merge/)（721）
 
 ## 基础算法
-- [x]  排序?
+- [x]  排序
     - [x]  [insertion-sort-list](https://leetcode-cn.com/problems/insertion-sort-list/)（147）
     - [x]  [**sort-list**](https://leetcode-cn.com/problems/sort-list/)（148）
     - [ ]  [maximum-gap](https://leetcode-cn.com/problems/maximum-gap/)（164）
