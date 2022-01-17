@@ -40,7 +40,7 @@
     - [x]  [remove-duplicates-from-sorted-list-ii](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)（82）
     - [x]  [**reverse-linked-list**](https://leetcode-cn.com/problems/reverse-linked-list/)（206）
     - [x]  [**reverse-linked-list-ii**](https://leetcode-cn.com/problems/reverse-linked-list-ii/)（92）
-    - [ ]  [**reverse-nodes-in-k-group**](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)（25）
+    - [x]  [**reverse-nodes-in-k-group**](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)（25）
     - [x]  [merge-two-sorted-lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)（21）
     - [x]  [**merge-k-sorted-lists**](https://leetcode-cn.com/problems/merge-k-sorted-lists/)（23）
     - [x]  [partition-list](https://leetcode-cn.com/problems/partition-list/)（86）
@@ -183,7 +183,7 @@
         - [x]  [minimum-path-sum](https://leetcode-cn.com/problems/minimum-path-sum/)（64）
         - [x]  [unique-paths](https://leetcode-cn.com/problems/unique-paths/)（62）
         - [x]  [unique-paths-ii](https://leetcode-cn.com/problems/unique-paths-ii/)（63）
-- [x]  背包?
+- [x]  背包
     - [x]  [coin-change](https://leetcode-cn.com/problems/coin-change/)（332）
     - [x]  [coin-change-ii](https://leetcode-cn.com/problems/coin-change-2/)（518）
 - [ ]  区间
