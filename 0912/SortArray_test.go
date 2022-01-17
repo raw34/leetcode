@@ -1,31 +1,38 @@
 package _0912
 
-import (
-    "github.com/stretchr/testify/assert"
-    "testing"
-)
+func sortArray(nums []int) []int {
+    swap := func(i, j int) {
+        nums[i], nums[j] = nums[j], nums[i]
+    }
 
-func Test_sortArray(t *testing.T) {
-    expect := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+    var down func(n, i int)
+    down = func(n, i int) {
+        l := 2*i + 1
+        r := 2*i + 2
+        max := i
 
-    arr := []int{5, 3, 1, 2, 6, 7, 10, 8, 4, 9}
-    assert.Equal(t, expect, bubbleSort(arr))
-    arr = []int{5, 3, 1, 2, 6, 7, 10, 8, 4, 9}
-    assert.Equal(t, expect, selectionSort(arr))
-    arr = []int{5, 3, 1, 2, 6, 7, 10, 8, 4, 9}
-    assert.Equal(t, expect, insertionSort(arr))
-    arr = []int{5, 3, 1, 2, 6, 7, 10, 8, 4, 9}
-    assert.Equal(t, expect, shellSort(arr))
-    arr = []int{5, 3, 1, 2, 6, 7, 10, 8, 4, 9}
-    assert.Equal(t, expect, mergeSort(arr))
-    arr = []int{5, 3, 1, 2, 6, 7, 10, 8, 4, 9}
-    assert.Equal(t, expect, quickSort(arr))
-    arr = []int{5, 3, 1, 2, 6, 7, 10, 8, 4, 9}
-    assert.Equal(t, expect, heapSort(arr))
-    arr = []int{5, 3, 1, 2, 6, 7, 10, 8, 4, 9}
-    assert.Equal(t, expect, countingSort(arr))
-    arr = []int{5, 3, 1, 2, 6, 7, 10, 8, 4, 9}
-    assert.Equal(t, expect, bucketSort(arr))
-    arr = []int{5, 3, 1, 2, 6, 7, 10, 8, 4, 9}
-    assert.Equal(t, expect, radixSort(arr))
+        if l < n && nums[l] > nums[max] {
+            max = l
+        }
+
+        if r < n && nums[r] > nums[max] {
+            max = r
+        }
+
+        if max != i {
+            swap(i, max)
+            down(n, max)
+        }
+    }
+
+    n := len(nums)
+    for i := n / 2; i >= 0; i-- {
+        down(n, i)
+    }
+    for i := n - 1; i >= 0; i-- {
+        swap(i, 0)
+        down(i, 0)
+    }
+
+    return nums
 }
