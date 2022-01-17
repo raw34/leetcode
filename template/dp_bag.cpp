@@ -1,48 +1,303 @@
-// 0-1背包问题母代码(二维)
-void bags1()
+//一、01背包问题
+// 二维
+#include<iostream>
+#include<algorithm>
+
+using namespace std;
+
+const int N = 1010;
+
+int n, m;
+int f[N][N], w[N], v[N];
+
+int main()
 {
-    vector<int> weight = {1, 3, 4};   //各个物品的重量
-    vector<int> value = {15, 20, 30}; //对应的价值
-    int bagWeight = 4;                //背包最大能放下多少重的物品
+    cin >> n >> m;
+    for(int i = 1; i <= n; i++) cin >> w[i] >> v[i];
 
-    // 二维数组：状态定义:dp[i][j]表示从0-i个物品中选择不超过j重量的物品的最大价值
-    vector<vector<int>> dp(weight.size() + 1, vector<int>(bagWeight + 1, 0));
-
-    // 初始化:第一列都是0，第一行表示只选取0号物品最大价值
-    for (int j = bagWeight; j >= weight[0]; j--)
-        dp[0][j] = dp[0][j - weight[0]] + value[0];
-
-    // weight数组的大小 就是物品个数
-    for (int i = 1; i < weight.size(); i++) // 遍历物品(第0个物品已经初始化)
-    {
-        for (int j = 0; j <= bagWeight; j++) // 遍历背包容量
+    for(int i = 1; i <= n; i++)
+        for(int j = 1; j <= m; j++)
         {
-            if (j < weight[i])           //背包容量已经不足以拿第i个物品了
-                dp[i][j] = dp[i - 1][j]; //最大价值就是拿第i-1个物品的最大价值
-            //背包容量足够拿第i个物品,可拿可不拿：拿了最大价值是前i-1个物品扣除第i个物品的 重量的最大价值加上i个物品的价值
-            //不拿就是前i-1个物品的最大价值,两者进行比较取较大的
-            else
-                dp[i][j] = max(dp[i - 1][j], dp[i - 1][j - weight[i]] + value[i]);
+            f[i][j] = f[i-1][j];
+            if(j >= w[i])
+                f[i][j] = max(f[i][j], f[i-1][j - w[i]] + v[i]);
         }
-    }
-    cout << dp[weight.size() - 1][bagWeight] << endl;
+
+    cout << f[n][m] << endl;
+    return 0;
 }
 
-// 0-1背包问题母代码(一维)
-void bags2()
-{
-    vector<int> weight = {1, 3, 4};
-    vector<int> value = {15, 20, 30};
-    int bagWeight = 4;
+// 一维
+#include <iostream>
+#include <algorithm>
 
-    // 初始化
-    vector<int> dp(bagWeight + 1, 0);
-    for (int i = 0; i < weight.size(); i++)
-    { // 遍历物品
-        for (int j = bagWeight; j >= weight[i]; j--)
-        {                                                     // 遍历背包容量(一定要逆序)
-            dp[j] = max(dp[j], dp[j - weight[i]] + value[i]); //不取或者取第i个
+using namespace std;
+
+const int N = 1010;
+
+int n, m;
+int v[N], w[N];
+int f[N];
+
+int main()
+{
+    cin >> n >> m;
+
+    for (int i = 1; i <= n; i ++ ) cin >> v[i] >> w[i];
+
+    for (int i = 1; i <= n; i ++ )
+        for (int j = m; j >= v[i]; j -- )
+            f[j] = max(f[j], f[j - v[i]] + w[i]);
+
+    cout << f[m] << endl;
+
+    return 0;
+}
+
+//二、完全背包问题
+// 二维暴力
+#include<iostream>
+
+using namespace std;
+
+const int N=1010;
+
+int f[N][N];
+int w[N],v[N];
+
+int main()
+{
+    int n, m;
+    cin >> n >> m;
+    for(int i = 1; i <= n; i++)  cin >> w[i] >> v[i];
+
+    for(int i = 1; i <= n; i++)
+        for(int j = 1; j <= m; j++)
+            for(int k = 0; k*w[i] <= j; k++)
+                f[i][j] = max(f[i][j], f[i-1][j - k*w[i]] + k*v[i]);
+
+    cout << f[n][m] << endl;
+    return 0;
+}
+
+// 二维
+#include<iostream>
+#include<algorithm>
+
+using namespace std;
+
+const int N=1010;
+
+
+int f[N][N];
+int n, m;
+int w[N],v[N];
+
+int main()
+{
+    cin >> n >> m;
+    for(int i = 1; i <= n; i++) cin >> w[i] >> v[i];
+
+    for(int i = 1; i <= n; i++)
+        for(int j = 1; j <= m; j++)
+        {
+            f[i][j] = f[i-1][j];
+            if(j >= w[i])
+                f[i][j]=max(f[i][j], f[i][j - w[i]] + v[i]);
+        }
+
+    cout<< f[n][m] <<endl;
+    return 0;
+}
+
+// 一维
+#include <iostream>
+#include <algorithm>
+
+using namespace std;
+
+const int N = 1010;
+
+int n, m;
+int v[N], w[N];
+int f[N];
+
+int main()
+{
+    cin >> n >> m;
+    for (int i = 1; i <= n; i ++ ) cin >> v[i] >> w[i];
+
+    for (int i = 1; i <= n; i ++ )
+        for (int j = v[i]; j <= m; j ++ )
+            f[j] = max(f[j], f[j - v[i]] + w[i]);
+
+    cout << f[m] << endl;
+
+    return 0;
+}
+
+//三、多重背包问题I
+// 二维
+#include<iostream>
+#include<algorithm>
+
+using namespace std;
+
+const int N=110;
+
+int f[N][N], s[N], w[N], v[N];
+
+int main()
+{
+    int n, m;
+    cin >> n >> m;
+    for(int i = 1; i <= n; i++) cin >> w[i] >> v[i] >> s[i];
+
+    for(int i = 1; i <= n; i++)
+        for(int j = 1; j <= m; j++)
+            for(int k = 0; k <= s[i] && k*w[i] <= j;k++)
+                f[i][j]=max(f[i][j], f[i-1][j - k*w[i]] + k*v[i]);
+
+    cout<< f[n][m] <<endl;
+    return 0;
+}
+
+// 一维
+#include <iostream>
+#include <algorithm>
+
+using namespace std;
+
+const int N = 110;
+
+int n, m;
+int v[N], w[N], s[N];
+int f[N][N];
+
+int main()
+{
+    cin >> n >> m;
+
+    for (int i = 1; i <= n; i ++ ) cin >> v[i] >> w[i] >> s[i];
+
+    for (int i = 1; i <= n; i ++ )
+        for (int j = 0; j <= m; j ++ )
+            for (int k = 0; k <= s[i] && k * v[i] <= j; k ++ )
+                f[i][j] = max(f[i][j], f[i - 1][j - v[i] * k] + w[i] * k);
+
+    cout << f[n][m] << endl;
+    return 0;
+}
+
+//四、多重背包问题II
+#include <iostream>
+#include <algorithm>
+
+using namespace std;
+
+const int N = 11010, M = 2010;
+
+int n, m;
+int v[N], w[N];
+int f[N];
+
+int main()
+{
+    cin >> n >> m;
+
+    int cnt = 0;
+    for (int i = 1; i <= n; i ++ )
+    {
+        int a, b, s;
+        cin >> a >> b >> s;
+        int k = 1;
+        while (k <= s)
+        {
+            cnt ++ ;
+            v[cnt] = a * k;
+            w[cnt] = b * k;
+            s -= k;
+            k *= 2;
+        }
+        if (s > 0)
+        {
+            cnt ++ ;
+            v[cnt] = a * s;
+            w[cnt] = b * s;
         }
     }
-    cout << dp[bagWeight] << endl;
+
+    n = cnt;
+    for (int i = 1; i <= n; i ++ )
+        for (int j = m; j >= v[i]; j -- )
+            f[j] = max(f[j], f[j - v[i]] + w[i]);
+
+    cout << f[m] << endl;
+
+    return 0;
+}
+
+//五、分组背包问题
+// 二维
+#include<bits/stdc++.h>
+using namespace std;
+
+const int N=110;
+int f[N][N];  //只从前i组物品中选，当前体积小于等于j的最大值
+int v[N][N], w[N][N], s[N];   //v为体积，w为价值，s代表第i组物品的个数
+int n, m, k;
+
+int main(){
+    cin >> n >> m;
+    for(int i = 1; i <= n; i++){
+        cin >> s[i];
+        for(int j = 0; j < s[i]; j++){
+            cin >> v[i][j] >> w[i][j];  //读入
+        }
+    }
+
+    for(int i = 1; i <= n; i++){
+        for(int j = 0; j <= m; j++){
+            f[i][j] = f[i-1][j];  //不选
+            for(int k = 0; k < s[i]; k++){
+                if(j >= v[i][k])
+                   f[i][j] = max(f[i][j], f[i-1][j -v[i][k]] + w[i][k]);
+            }
+        }
+    }
+    cout << f[n][m] << endl;
+}
+
+// 一维
+#include <iostream>
+#include <algorithm>
+
+using namespace std;
+
+const int N = 110;
+
+int n, m;
+int v[N][N], w[N][N], s[N];
+int f[N];
+
+int main()
+{
+    cin >> n >> m;
+
+    for (int i = 1; i <= n; i ++ )
+    {
+        cin >> s[i];
+        for (int j = 0; j < s[i]; j ++ )
+            cin >> v[i][j] >> w[i][j];
+    }
+
+    for (int i = 1; i <= n; i ++ )
+        for (int j = m; j >= 0; j -- )
+            for (int k = 0; k < s[i]; k ++ )
+                if (v[i][k] <= j)
+                    f[j] = max(f[j], f[j - v[i][k]] + w[i][k]);
+
+    cout << f[m] << endl;
+
+    return 0;
 }
