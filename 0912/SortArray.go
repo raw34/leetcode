@@ -182,37 +182,37 @@ func quickSort(nums []int) []int {
 此时整个序列最大值即为堆顶元素，我们将其与末尾元素交换，使末尾元素为最大值，然后再调整堆顶元素使得剩下的 n−1 个元素仍为大根堆，再重复执行以上操作我们即能得到一个有序的序列。
 */
 func heapSort(nums []int) []int {
-    swap := func(nums []int, i, j int) {
+    swap := func(i, j int) {
         nums[i], nums[j] = nums[j], nums[i]
     }
 
-    var heapUp func(nums []int, n, i int)
-    heapUp = func(nums []int, n, i int) {
-        left := 2*i + 1
-        right := 2*i + 2
-        largest := i
+    var down func(n, i int)
+    down = func(n, i int) {
+        l := 2*i + 1
+        r := 2*i + 2
+        max := i
 
-        if left < n && nums[left] > nums[largest] {
-            largest = left
+        if l < n && nums[l] > nums[max] {
+            max = l
         }
 
-        if right < n && nums[right] > nums[largest] {
-            largest = right
+        if r < n && nums[r] > nums[max] {
+            max = r
         }
 
-        if largest != i {
-            swap(nums, i, largest)
-            heapUp(nums, n, largest)
+        if max != i {
+            swap(i, max)
+            down(n, max)
         }
     }
 
     n := len(nums)
     for i := n / 2; i >= 0; i-- {
-        heapUp(nums, n, i)
+        down(n, i)
     }
     for i := n - 1; i >= 0; i-- {
-        swap(nums, 0, i)
-        heapUp(nums, i, 0)
+        swap(i, 0)
+        down(i, 0)
     }
 
     return nums
