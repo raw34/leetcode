@@ -17,9 +17,7 @@ func bubbleSort(nums []int) []int {
     for i := 0; i < n-1; i++ {
         for j := 1; j < n-i; j++ {
             if nums[j] < nums[j-1] {
-                temp := nums[j]
-                nums[j] = nums[j-1]
-                nums[j-1] = temp
+                nums[j], nums[j-1] = nums[j-1], nums[j]
             }
         }
     }
@@ -42,9 +40,7 @@ func selectionSort(nums []int) []int {
                 minIndex = j
             }
         }
-        temp := nums[i]
-        nums[i] = nums[minIndex]
-        nums[minIndex] = temp
+        nums[i], nums[minIndex] = nums[minIndex], nums[i]
     }
 
     return nums
