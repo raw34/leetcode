@@ -152,10 +152,8 @@ func quickSort(nums []int) []int {
         }
         mid := (l + r) / 2
         val := nums[mid]
-        i, j := l-1, r+1
+        i, j := l, r
         for i < j {
-            i++
-            j--
             for nums[i] < val {
                 i++
             }
