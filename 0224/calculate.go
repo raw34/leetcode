@@ -5,6 +5,39 @@ import (
 )
 
 func calculate(s string) int {
+    n := len(s)
+    sign := 1
+    stack := []int{sign}
+    res := 0
+    for i := 0; i < n; {
+        switch s[i] {
+        case ' ':
+            i++
+        case '+':
+            sign = stack[len(stack)-1]
+            i++
+        case '-':
+            sign = -stack[len(stack)-1]
+            i++
+        case '(':
+            stack = append(stack, sign)
+            i++
+        case ')':
+            stack = stack[:len(stack)-1]
+            i++
+        default:
+            num := 0
+            for ; i < n && s[i] >= '0' && s[i] <= '9'; i++ {
+                num = num*10 + int(s[i]-'0')
+            }
+            res += sign * num
+        }
+    }
+
+    return res
+}
+
+func calculate2(s string) int {
     // 追加前导0，以方便后续统一处理逻辑
     if s[0] == '-' {
         s = "0" + s
