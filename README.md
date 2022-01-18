@@ -55,7 +55,7 @@
     - [x]  [**lfu-cache**](https://leetcode-cn.com/problems/lfu-cache/)（460）
 - [x]  栈
     - [x]  [evaluate-reverse-polish-notation](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)（150）
-    - [ ]  [basic-calculator](https://leetcode-cn.com/problems/basic-calculator/)（224）
+    - [x]  [basic-calculator](https://leetcode-cn.com/problems/basic-calculator/)（224）
     - [x]  [decode-string](https://leetcode-cn.com/problems/decode-string/)（394）
 - [x]  单调栈
     - [x]  [**daily-temperatures**](https://leetcode-cn.com/problems/daily-temperatures/)（739）
