@@ -4,13 +4,16 @@ import "github.com/raw34/leetcode/runtime"
 
 func reverseKGroup(head *runtime.ListNode, k int) *runtime.ListNode {
     reverse := func(head *runtime.ListNode, left, right int) *runtime.ListNode {
+        // 声明哑节点，以便后续操作
         dummy := &runtime.ListNode{Next: head}
 
+        // 遍历节点到目标位置
         prev := dummy
         for i := 0; i < left-1; i++ {
             prev = prev.Next
         }
 
+        // 反转链表目标位置节点
         curr := prev.Next
         for i := 0; i < right-left; i++ {
             next := curr.Next
@@ -19,6 +22,7 @@ func reverseKGroup(head *runtime.ListNode, k int) *runtime.ListNode {
             prev.Next = next
         }
 
+        // 返开始结点
         return dummy.Next
     }
 
