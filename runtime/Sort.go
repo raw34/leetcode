@@ -248,21 +248,21 @@ func countingSort(nums []int) []int {
 */
 func bucketSort(nums []int) []int {
     // 获取最小、最大值
-    min := nums[0]
-    max := nums[0]
+    minNum := nums[0]
+    maxNum := nums[0]
     for i := 0; i < len(nums); i++ {
-        val := nums[i]
-        if val < min {
-            min = val
+        num := nums[i]
+        if num < minNum {
+            minNum = num
         }
-        if val > max {
-            max = val
+        if num > maxNum {
+            maxNum = num
         }
     }
 
     // 初始化桶
     bucketSize := 5
-    bucketCount := (max-min)/bucketSize + 1
+    bucketCount := (maxNum-minNum)/bucketSize + 1
     buckets := make([][]int, bucketCount)
     for i := 0; i < len(buckets); i++ {
         buckets[i] = make([]int, 0)
@@ -271,13 +271,13 @@ func bucketSort(nums []int) []int {
     // 元素入桶
     for i := 0; i < len(nums); i++ {
         val := nums[i]
-        index := (val - min) / bucketSize
+        index := (val - minNum) / bucketSize
         buckets[index] = append(buckets[index], val)
     }
 
     // 排序
     nums = nums[:0]
-    for i := 0; i < len(buckets); i++ {
+    for i := 0; i < bucketCount; i++ {
         bucket := buckets[i]
         sort.Ints(bucket)
         for j := 0; j < len(bucket); j++ {
