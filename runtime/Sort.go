@@ -310,8 +310,8 @@ func radixSort(nums []int) []int {
             cnt[num]++
         }
 
-        for j := 1; j < 10; j++ {
-            cnt[j] += cnt[j-1]
+        for i := 1; i < 10; i++ {
+            cnt[i] += cnt[i-1]
         }
 
         for i := n - 1; i >= 0; i-- {
