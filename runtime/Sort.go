@@ -294,37 +294,32 @@ func bucketSort(nums []int) []int {
 最后的次序就是高优先级高的在前，高优先级相同的低优先级高的在前。
 */
 func radixSort(nums []int) []int {
-    bitSort := func(arr []int, bit int) []int {
-        length := len(arr)
-        bitCounts := make([]int, 10)
-        for i := 0; i < length; i++ {
-            num := (arr[i] / bit) % 10
-            bitCounts[num]++
-        }
-
-        for j := 1; j < len(bitCounts); j++ {
-            bitCounts[j] += bitCounts[j-1]
-        }
-
-        res := make([]int, length)
-        for i := length - 1; i >= 0; i-- {
-            num := (arr[i] / bit) % 10
-            res[bitCounts[num]-1] = arr[i]
-            bitCounts[num]--
-        }
-
-        return res
-    }
-
-    max := math.MinInt32
+    n := len(nums)
+    maxNum := math.MinInt32
     for i := 0; i < len(nums); i++ {
-        if nums[i] > max {
-            max = nums[i]
+        if nums[i] > maxNum {
+            maxNum = nums[i]
         }
     }
 
-    for bit := 1; max/bit > 0; bit *= 10 {
-        nums = bitSort(nums, bit)
+    buf := make([]int, n)
+    for bit := 1; maxNum/bit > 0; bit *= 10 {
+        cnt := make([]int, 10)
+        for i := 0; i < n; i++ {
+            num := (nums[i] / bit) % 10
+            cnt[num]++
+        }
+
+        for j := 1; j < 10; j++ {
+            cnt[j] += cnt[j-1]
+        }
+
+        for i := n - 1; i >= 0; i-- {
+            num := (nums[i] / bit) % 10
+            buf[cnt[num]-1] = nums[i]
+            cnt[num]--
+        }
+        copy(nums, buf)
     }
 
     return nums
