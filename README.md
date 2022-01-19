@@ -99,7 +99,7 @@
 - [x]  排序
     - [x]  [insertion-sort-list](https://leetcode-cn.com/problems/insertion-sort-list/)（147）
     - [x]  [**sort-list**](https://leetcode-cn.com/problems/sort-list/)（148）
-    - [ ]  [maximum-gap](https://leetcode-cn.com/problems/maximum-gap/)（164）
+    - [x]  [maximum-gap](https://leetcode-cn.com/problems/maximum-gap/)（164）
     - [x]  [**sort-an-array**](https://leetcode-cn.com/problems/sort-an-array/)（912）
     - [x]  [**sort-characters-by-frequency**](https://leetcode-cn.com/problems/sort-characters-by-frequency/)（451）
 - [x]  递归
