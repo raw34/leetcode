@@ -123,7 +123,7 @@
     - [x]  [**candy**](https://leetcode-cn.com/problems/candy/)（135）
 - [x]  深度、广度优先搜索
     - [x]  [**number-of-islands**](https://leetcode-cn.com/problems/number-of-islands/)（200）
-    - [ ]  [longest-increasing-path-in-a-matrix](https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix/)（329）
+    - [x]  [longest-increasing-path-in-a-matrix](https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix/)（329）
     - [x]  [**house-robber-iii**](https://leetcode-cn.com/problems/house-robber-iii/)（337）
 - [x]  回溯
     - [x]  [**subsets**](https://leetcode-cn.com/problems/subsets/)（78）
