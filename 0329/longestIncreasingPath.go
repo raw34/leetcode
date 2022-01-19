@@ -9,7 +9,9 @@ func longestIncreasingPath(matrix [][]int) int {
     }
     m := len(matrix)
     n := len(matrix[0])
+    // 四个可移动方向的坐标
     dxy := [][]int{{0, -1}, {0, 1}, {-1, 0}, {1, 0}}
+    // 备忘录，表示从matrix[i][j]为起点的路径长度，不带备忘录会LTE
     memo := make([][]int, m)
     for i := 0; i < m; i++ {
         memo[i] = make([]int, n)
@@ -30,6 +32,8 @@ func longestIncreasingPath(matrix [][]int) int {
         }
         return memo[i][j]
     }
+
+    // 以矩阵的所有坐标做起点开始遍历
     res := 0
     for i := 0; i < m; i++ {
         for j := 0; j < n; j++ {
