@@ -25,6 +25,7 @@ func longestIncreasingPath(matrix [][]int) int {
         for _, xy := range dxy {
             x := i + xy[0]
             y := j + xy[1]
+            // 越界或不符合条件时跳过
             if x < 0 || y < 0 || x > m-1 || y > n-1 || matrix[i][j] >= matrix[x][y] {
                 continue
             }
