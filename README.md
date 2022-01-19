@@ -1,244 +1,247 @@
 # 编号序
 
 
-| No.  | Title | Difficulty | Tag | Mark |
-|------| ----- |------------| --- |------|
-| 2    | Add Two Numbers | Medium     | |      |
-| 3    | Longest Substring Without Repeating Characters | Medium     | |      |
-| 4    | Median of Two Sorted Arrays | Hard       | |      |
-| 10   | Regular Expression Matching | Hard       | |      |
-| 11   | Container With Most Water | Medium     | |      |
-| 15   | 3Sum | Medium     | |      |
-| 16   | 3Sum Closest | Medium     | |      |
-| 17   | Letter Combinations of a Phone Number | Medium     | |      |
-| 19   | Remove Nth Node From End of List | Easy       | |      |
-| 21   | Merge Two Sorted Lists | Easy       | |      |
-| 22   | Generate Parentheses | Medium     | |      |
-| 23   | Merge k Sorted Lists | Hard       | |      |
-| 24   | Swap Nodes in Pairs | Medium     | |      |
-| 25   | Reverse Nodes in k-Group | Hard       | |      |
-| 30   | Substring with Concatenation of All Words | Hard       | |      |
-| 32   | Longest Valid Parentheses | Hard       | |      |
-| 33   | Search in Rotated Sorted Array | Hard       | |      |
-| 34   | Search for a Range | Medium     | |      |
-| 35   | Search Insert Position | Medium     | |      |
-| 37   | Sudoku Solver | Hard       | |      |
-| 39   | Combination Sum | Medium     | |      |
-| 40   | Combination Sum II | Medium     | |      |
-| 41   | First Missing Positive | Hard       | |      |
-| 42   | Trapping Rain Water | Hard       | |      |
-| 43   | Multiply Strings | Medium     | |      |
-| 44   | Wildcard Matching | Hard       | |      |
-| 45   | Jump Game II | Hard       | |      |
-| 46   | Permutations | Medium     | |      |
-| 47   | Permutations II | Hard       | |      |
-| 51   | N-Queens | Hard       | |      |
-| 53   | Maximum Subarray | Medium     | |      |
-| 55   | Jump Game | Medium     | |      |
-| 60   | Permutation Sequence | Medium     | |      |
-| 62   | Unique Paths | Medium     | |      |
-| 63   | Unique Paths II | Medium     | |      |
-| 64   | Minimum Path Sum | Medium     | |      |
-| 70   | Climbing Stairs | Easy       | |      |
-| 72   | Edit Distance | Hard       | |      |
-| 74   | Search a 2D Matrix | Medium     | |      |
-| 76   | Minimum Window Substring | Hard       | |      |
-| 77   | Combinations | Medium     | |      |
-| 78   | Subsets | Medium     | |      |
-| 79   | Word Search | Medium     | |      |
-| 81   | Search in Rotated Sorted Array II | Medium     | |      |
-| 82   | Remove Duplicates from Sorted List II | Medium     | |      |
-| 83   | Remove Duplicates from Sorted List | Easy       | |      |
-| 84   | Largest Rectangle in Histogram | Hard       | |      |
-| 85   | Maximal Rectangle | Hard       | |      |
-| 86   | Partition List | Medium     | |      |
-| 87   | Scramble String | Hard       | |      |
-| 90   | Subsets II | Medium     | |      |
-| 91   | Decode Ways | Medium     | |      |
-| 92   | Reverse Linked List II | Medium     | |      |
-| 93   | Restore IP Addresses | Medium     | |      |
-| 94   | Binary Tree Inorder Traversal | Medium     | |      |
-| 95   | Unique Binary Search Trees II | Medium     | |      |
-| 97   | Interleaving String | Hard       | |      |
-| 98   | Validate Binary Search Tree | Medium     | |      |
-| 99   | Recover Binary Search Tree | Hard       | |      |
-| 100  | Same Tree | Easy       | |      |
-| 102  | Binary Tree Level Order Traversal | Easy       | |      |
-| 103  | Binary Tree Zigzag Level Order Traversal | Medium     | |      |
-| 104  | Maximum Depth of Binary Tree | Easy       | |      |
-| 105  | Construct Binary Tree from Preorder and Inorder Traversal | Medium     | |      |
-| 106  | Construct Binary Tree from Inorder and Postorder Traversal | Medium     | |      |
-| 107  | Binary Tree Level Order Traversal II | Easy       | |      |
-| 108  | Convert Sorted Array to Binary Search Tree | Medium     | |      |
-| 109  | Convert Sorted List to Binary Search Tree | Medium     | |      |
-| 110  | Balanced Binary Tree | Easy       | |      |
-| 112  | Path Sum | Easy       | |      |
-| 113  | Path Sum II | Medium     | |      |
-| 114  | Flatten Binary Tree to Linked List | Medium     | |      |
-| 115  | Distinct Subsequences | Hard       | |      |
-| 116  | Populating Next Right Pointers in Each Node | Medium     | |      |
-| 117  | Populating Next Right Pointers in Each Node II | Hard       | |      |
-| 120  | Triangle | Medium     | |      |
-| 121  | Best Time to Buy and Sell Stock | Medium     | |      |
-| 122  | Best Time to Buy and Sell Stock II | Medium     | |      |
-| 123  | Best Time to Buy and Sell Stock III | Hard       | |      |
-| 124  | Binary Tree Maximum Path Sum | Hard       | |      |
-| 129  | Sum Root to Leaf Numbers | Medium     | |      |
-| 130  | Surrounded Regions | Medium     | |      |
-| 131  | Palindrome Partitioning | Medium     | |      |
-| 132  | Palindrome Partitioning II | Hard       | |      |
-| 133  | Clone Graph | Medium     | |      |
-| 135  | Candy | Hard       | |      |
-| 136  | Single Number | Medium     | |      |
-| 137  | Single Number II | Medium     | |      |
-| 138  | Copy List with Random Pointer | Hard       | |      |
-| 139  | Word Break | Medium     | |      |
-| 141  | Linked List Cycle | Medium     | |      |
-| 142  | Linked List Cycle II | Medium     | |      |
-| 143  | Reorder List | Medium     | |      |
-| 144  | Binary Tree Preorder Traversal | Medium     | |      |
-| 145  | Binary Tree Postorder Traversal | Hard       | |      |
-| 146  | LRU Cache | Hard       | |      |
-| 147  | Insertion Sort List | Medium     | |      |
-| 148  | Sort List | Medium     | |      |
-| 150  | Evaluate Reverse Polish Notation | Medium     | |      |
-| 152  | Maximum Product Subarray | Medium     | |      |
-| 153  | Find Minimum in Rotated Sorted Array | Medium     | |      |
-| 154  | Find Minimum in Rotated Sorted Array II | Hard       | |      |
-| 155  | Min Stack | Easy       | |      |
-| 164  | Maximum Gap | Hard       | |      |
-| 173  | Binary Search Tree Iterator | Medium     | |      |
-| 174  | Dungeon Game | Hard       | |      |
-| 188  | Best Time to Buy and Sell Stock IV | Hard       | |      |
-| 190  | Reverse Bits | Easy       | |      |
-| 191  | Number of 1 Bits | Easy       | |      |
-| 198  | House Robber | Easy       | |      |
-| 200  | Number of Islands | Medium     | |      |
-| 206  | Reverse Linked List | Easy       | |      |
-| 208  | Implement Trie (Prefix Tree) | Medium     | |      |
-| 209  | Minimum Size Subarray Sum | Medium     | |      |
-| 211  | Add and Search Word - Data structure design | Medium     | |      |
-| 212  | Word Search II | Hard       | |      |
-| 213  | House Robber II | Medium     | |      |
-| 215  | Kth Largest Element in an Array | Medium     | |      |
-| 216  | Combination Sum III | Medium     | |      |
-| 221  | Maximal Square | Medium     | |      |
-| 222  | Count Complete Tree Nodes | Medium     | |      |
-| 224  | Basic Calculator | Medium     | |      |
-| 225  | Implement Stack using Queues | Medium     | |      |
-| 232  | Implement Queue using Stacks | Easy       | |      |
-| 234  | Palindrome Linked List | Easy       | |      |
-| 235  | Lowest Common Ancestor of a Binary Search Tree | Medium     | |      |
-| 236  | Lowest Common Ancestor of a Binary Tree | Medium     | |      |
-| 239  | Sliding Window Maximum | Hard       | |      |
-| 256  | Paint House $ | Medium     | |      |
-| 257  | Binary Tree Paths | Easy       | |      |
-| 260  | Single Number III | Medium     | |      |
-| 264  | Ugly Number II | Medium     | |      |
-| 265  | Paint House II $ | Hard       | |      |
-| 278  | First Bad Version | Easy       | |      |
-| 279  | Perfect Squares | Medium     | |      |
-| 283  | Move Zeroes | Easy       | |      |
-| 285  | Inorder Successor in BST $ | Medium     | |      |
-| 295  | Find Median from Data Stream | Hard       | |      |
-| 297  | Serialize and Deserialize Binary Tree | Medium     | |      |
-| 300  | Longest Increasing Subsequence | Medium     | |      |
-| 303  | Range Sum Query - Immutable | Easy       | |      |
-| 304  | Range Sum Query 2D - Immutable | Medium     | |      |
-| 309  | Best Time to Buy and Sell Stock with Cooldown | Medium     | |      |
-| 316  | Remove Duplicate Letters | Medium     | |      |
-| 322  | Coin Change | Medium     | |      |
-| 329  | Longest Increasing Path in a Matrix | Medium     | |      |
-| 337  | House Robber III | Medium     | |      |
-| 338  | Counting Bits | Medium     | |      |
-| 340  | Longest Substring with At Most K Distinct Characters $ | Hard       | |      |
-| 343  | Integer Break | Medium     | |      |
-| 344  | Reverse String | Easy       | |      |
-| 347  | Top K Frequent Elements | Medium     | |      |
-| 354  | Russian Doll Envelopes | Hard       | |      |
-| 363  | Max Sum of Rectangle No Larger Than K | Hard       | |      |
-| 368  | Largest Divisible Subset | Medium     | |      |
-| 370  | Range Addition $ | Medium     | |      |
-| 377  | Combination Sum IV | Medium     | |      |
-| 394  | Decode String | Medium     | |      |
-| 401  | Binary Watch | Easy       | |      |
-| 402  | Remove K Digits | Medium     | |      |
-| 403  | Frog Jump | Hard       | |      |
-| 404  | Sum of Left Leaves | Easy       | |      |
-| 410  | Split Array Largest Sum | Hard       | |      |
-| 413  | Arithmetic Slices | Medium     | |      |
-| 416  | Partition Equal Subset Sum | Medium     | |      |
-| 426  | Convert Binary Search Tree to Sorted Doubly Linked List | Medium     | |      |
-| 437  | Path Sum III | Easy       | |      |
-| 438  | Find All Anagrams in a String | Easy       | |      |
-| 440  | K-th Smallest in Lexicographical Order | Hard       | |      |
-| 449  | Serialize and Deserialize BST | Medium     | |      |
-| 450  | Delete Node in a BST | Medium     | |      |
-| 451  | Sort Characters By Frequency | Medium     | |      |
-| 460  | LFU Cache | Hard       | |      |
-| 474  | Ones and Zeroes | Medium     | |      |
-| 494  | Target Sum | Medium     | |      |
-| 496  | Next Greater Element I | Easy       | |      |
-| 501  | Find Mode in Binary Search Tree | Easy       | |      |
-| 503  | Next Greater Element II | Medium     | |      |
-| 509  | Fibonacci Number | Easy       | |      |
-| 510  | Inorder Successor in BST II $ | Medium     | |      |
-| 518  | Coin Change 2 | Medium     | |      |
-| 529  | Minesweeper | Medium     | |      |
-| 538  | Convert BST to Greater Tree | Medium     | |      |
-| 542  | 01 Matrix | Medium     | |      |
-| 560  | Subarray Sum Equals K | Medium     | |      |
-| 567  | Permutation in String | Medium     | |      |
-| 572  | Subtree of Another Tree | Easy       | |      |
-| 583  | Delete Operation for Two Strings | Medium     | |      |
-| 622  | Design Circular Queue | Medium     | |      |
-| 641  | Design Circular Deque | Medium     | |      |
-| 650  | 2 Keys Keyboard | Medium     | |      |
-| 652  | Find Duplicate Subtrees | Medium     | |      |
-| 671  | Second Minimum Node In a Binary Tree | Easy       | |      |
-| 673  | Number of Longest Increasing Subsequence | Medium     | |      |
-| 701  | Insert into a Binary Search Tree | Medium     | |      |
-| 703  | Kth Largest Element in a Stream | Easy       | |      |
-| 704  | Binary Search | Easy       | |      |
-| 705  | Design HashSet | Easy       | |      |
-| 706  | Design HashMap | Easy       | |      |
-| 707  | Design Linked List | Easy       | |      |
-| 712  | Minimum ASCII Delete Sum for Two Strings | Medium     | |      |
-| 714  | Best Time to Buy and Sell Stock with Transaction Fee | Medium     | |      |
-| 716  | Max Stack $ | Hard       | |      |
-| 718  | Maximum Length of Repeated Subarray | Medium     | |      |
-| 733  | Flood Fill | Easy       | |      |
-| 739  | Daily Temperatures | Medium     | |      |
-| 740  | Delete and Earn | Medium     | |      |
-| 784  | Letter Case Permutation | Easy       | |      |
-| 801  | Minimum Swaps To Make Sequences Increasing | Medium     | |      |
-| 813  | Largest Sum of Averages | Medium     | |      |
-| 862  | Shortest Subarray with Sum at Least K | Hard       | |      |
-| 863  | All Nodes Distance K in Binary Tree | Medium     | |      |
-| 871  | Minimum Number of Refueling Stops | Hard       | |      |
-| 873  | Length of Longest Fibonacci Subsequence | Medium     | |      |
-| 879  | Profitable Schemes | Hard       | |      |
-| 912  | Sort an Array | Medium     | |      |
-| 918  | Maximum Sum Circular Subarray | Medium     | |      |
-| 931  | Minimum Falling Path Sum | Medium     | |      |
-| 1008 | Construct Binary Search Tree from Preorder Traversal | Medium     | |      |
-| 1013 | Partition Array Into Three Parts With Equal Sum | Easy       | |      |
-| 1027 | Longest Arithmetic Subsequence | Medium     | |      |
-| 1028 | Recover a Tree From Preorder Traversal | Hard       | |      |
-| 1049 | Last Stone Weight II | Medium     | |      |
-| 1055 | Shortest Way to Form String $ | Medium     | |      |
-| 1143 | Longest Common Subsequence | Medium     | |      |
-| 1155 | Number of Dice Rolls With Target Sum | Medium     | |      |
-| 1206 | Design Skiplist | Hard       | |      |
-| 1250 | Check If It Is a Good Array | Hard       | |      |
-| 1277 | Count Square Submatrices with All Ones | Medium     | |      |
-| 1372 | Longest ZigZag Path in a Binary Tree | Medium     | |      |
-| 1388 | Pizza With 3n Slices | Hard       | |      |
-| 1473 | Paint House III | Hard       | |      |
-| 1650 | Lowest Common Ancestor of a Binary Tree III | Medium     | |      |
-| 1670 | Design Front Middle Back Queue | Medium     | |      |
-| 1804 | Implement Trie II (Prefix Tree) | Medium     | |      |
-| 1863 | Sum of All Subset XOR Totals | Easy       | |      |
+| Done | No.  | Title                                                      | Difficulty | Tag | Mark   |
+|:----:|------|------------------------------------------------------------|------------| --- |--------|
+| [x]  | 2    | Add Two Numbers                                            | Medium     | |        |
+| [x]  | 3    | Longest Substring Without Repeating Characters             | Medium     | |        |
+| [x]  | 4    | Median of Two Sorted Arrays                                | Hard       | | top100 |
+| [x]  | 10   | Regular Expression Matching                                | Hard       | | top100 |
+| [x]  | 11   | Container With Most Water                                  | Medium     | |        |
+| [x]  | 15   | 3Sum                                                       | Medium     | |        |
+| [x]  | 16   | 3Sum Closest                                               | Medium     | |        |
+| [x]  | 17   | Letter Combinations of a Phone Number                      | Medium     | |        |
+| [x]  | 19   | Remove Nth Node From End of List                           | Easy       | |        |
+| [x]  | 21   | Merge Two Sorted Lists                                     | Easy       | |        |
+| [x]  | 22   | Generate Parentheses                                       | Medium     | |        |
+| [x]  | 23   | Merge k Sorted Lists                                       | Hard       | | top100 |
+| [x]  | 24   | Swap Nodes in Pairs                                        | Medium     | |        |
+| [x]  | 25   | Reverse Nodes in k-Group                                   | Hard       | | top100 |
+| [x]  | 30   | Substring with Concatenation of All Words                  | Hard       | | top100 |
+| [x]  | 32   | Longest Valid Parentheses                                  | Hard       | | top100 |
+| [x]  | 33   | Search in Rotated Sorted Array                             | Medium     | |        |
+| [x]  | 34   | Search for a Range                                         | Medium     | |        |
+| [x]  | 35   | Search Insert Position                                     | Medium     | |        |
+| [x]  | 37   | Sudoku Solver                                              | Hard       | | top100 |
+| [x]  | 39   | Combination Sum                                            | Medium     | |        |
+| [x]  | 40   | Combination Sum II                                         | Medium     | |        |
+| [x]  | 41   | First Missing Positive                                     | Hard       | | top100 |
+| [x]  | 42   | Trapping Rain Water                                        | Hard       | | top100 |
+| [x]  | 43   | Multiply Strings                                           | Medium     | |        |
+| [x]  | 44   | Wildcard Matching                                          | Hard       | | top100 |
+| [x]  | 45   | Jump Game II                                               | Medium     | |        |
+| [x]  | 46   | Permutations                                               | Medium     | |        |
+| [x]  | 47   | Permutations II                                            | Medium     | |        |
+| [x]  | 51   | N-Queens                                                   | Hard       | | top100 |
+| [ ]  | 52  | N-Queens II                                                | Hard       | | top100 |
+| [x]  | 53   | Maximum Subarray                                           | Medium     | |        |
+| [x]  | 55   | Jump Game                                                  | Medium     | |        |
+| [x]  | 60   | Permutation Sequence                                       | Hard      | | top100 |
+| [x]  | 62   | Unique Paths                                               | Medium     | |        |
+| [x]  | 63   | Unique Paths II                                            | Medium     | |        |
+| [x]  | 64   | Minimum Path Sum                                           | Medium     | |        |
+| [ ]  | 65  | Minimum Path Sum                                           | Hard       | | top100 |
+| [ ]  | 68  | Minimum Path Sum                                           | Hard       | | top100 |
+| [x]  | 70   | Climbing Stairs                                            | Easy       | |        |
+| [x]  | 72   | Edit Distance                                              | Hard       | | top100 |
+| [x]  | 74   | Search a 2D Matrix                                         | Medium     | |        |
+| [x]  | 76   | Minimum Window Substring                                   | Hard       | | top100 |
+| [x]  | 77   | Combinations                                               | Medium     | |        |
+| [x]  | 78   | Subsets                                                    | Medium     | |        |
+| [x]  | 79   | Word Search                                                | Medium     | |        |
+| [x]  | 81   | Search in Rotated Sorted Array II                          | Medium     | |        |
+| [x]  | 82   | Remove Duplicates from Sorted List II                      | Medium     | |        |
+| [x]  | 83   | Remove Duplicates from Sorted List                         | Easy       | |        |
+| [x]  | 84   | Largest Rectangle in Histogram                             | Hard       | | top100 |
+| [x]  | 85   | Maximal Rectangle                                          | Hard       | | top100 |
+| [x]  | 86   | Partition List                                             | Medium     | |        |
+| [x]  | 87   | Scramble String                                            | Hard       | | top100 |
+| [x]  | 90   | Subsets II                                                 | Medium     | |        |
+| [x]  | 91   | Decode Ways                                                | Medium     | |        |
+| [x]  | 92   | Reverse Linked List II                                     | Medium     | |        |
+| [x]  | 93   | Restore IP Addresses                                       | Medium     | |        |
+| [x]  | 94   | Binary Tree Inorder Traversal                              | Medium     | |        |
+| [x]  | 95   | Unique Binary Search Trees II                              | Medium     | |        |
+| [x]  | 97   | Interleaving String                                        | Medium     | |  |
+| [x]  | 98   | Validate Binary Search Tree                                | Medium     | |        |
+| [x]  | 99   | Recover Binary Search Tree                                 | Medium     | |  |
+| [x]  | 100  | Same Tree                                                  | Easy       | |        |
+| [x]  | 102  | Binary Tree Level Order Traversal                          | Easy       | |        |
+| [x]  | 103  | Binary Tree Zigzag Level Order Traversal                   | Medium     | |        |
+| [x]  | 104  | Maximum Depth of Binary Tree                               | Easy       | |        |
+| [x]  | 105  | Construct Binary Tree from Preorder and Inorder Traversal  | Medium     | |        |
+| [x]  | 106  | Construct Binary Tree from Inorder and Postorder Traversal | Medium     | |        |
+| [x]  | 107  | Binary Tree Level Order Traversal II                       | Easy       | |        |
+| [x]  | 108  | Convert Sorted Array to Binary Search Tree                 | Medium     | |        |
+| [x]  | 109  | Convert Sorted List to Binary Search Tree                  | Medium     | |        |
+| [x]  | 110  | Balanced Binary Tree                                       | Easy       | |        |
+| [x]  | 112  | Path Sum                                                   | Easy       | |        |
+| [x]  | 113  | Path Sum II                                                | Medium     | |        |
+| [x]  | 114  | Flatten Binary Tree to Linked List                         | Medium     | |        |
+| [x]  | 115  | Distinct Subsequences                                      | Hard       | |        |
+| [x]  | 116  | Populating Next Right Pointers in Each Node                | Medium     | |        |
+| [x]  | 117  | Populating Next Right Pointers in Each Node II             | Hard       | |        |
+| [x]  | 120  | Triangle                                                   | Medium     | |        |
+| [x]  | 121  | Best Time to Buy and Sell Stock                            | Medium     | |        |
+| [x]  | 122  | Best Time to Buy and Sell Stock II                         | Medium     | |        |
+| [x]  | 123  | Best Time to Buy and Sell Stock III                        | Hard       | |        |
+| [x]  | 124  | Binary Tree Maximum Path Sum                               | Hard       | |        |
+| [x]  | 129  | Sum Root to Leaf Numbers                                   | Medium     | |        |
+| [x]  | 130  | Surrounded Regions                                         | Medium     | |        |
+| [x]  | 131  | Palindrome Partitioning                                    | Medium     | |        |
+| [x]  | 132  | Palindrome Partitioning II                                 | Hard       | |        |
+| [x]  | 133  | Clone Graph                                                | Medium     | |        |
+| [x]  | 135  | Candy                                                      | Hard       | |        |
+| [x]  | 136  | Single Number                                              | Medium     | |        |
+| [x]  | 137  | Single Number II                                           | Medium     | |        |
+| [x]  | 138  | Copy List with Random Pointer                              | Hard       | |        |
+| [x]  | 139  | Word Break                                                 | Medium     | |        |
+| [x]  | 141  | Linked List Cycle                                          | Medium     | |        |
+| [x]  | 142  | Linked List Cycle II                                       | Medium     | |        |
+| [x]  | 143  | Reorder List                                               | Medium     | |        |
+| [x]  | 144  | Binary Tree Preorder Traversal                             | Medium     | |        |
+| [x]  | 145  | Binary Tree Postorder Traversal                            | Hard       | |        |
+| [x]  | 146  | LRU Cache                                                  | Hard       | |        |
+| [x]  | 147  | Insertion Sort List                                        | Medium     | |        |
+| [x]  | 148  | Sort List                                                  | Medium     | |        |
+| [x]  | 150  | Evaluate Reverse Polish Notation                           | Medium     | |        |
+| [x]  | 152  | Maximum Product Subarray                                   | Medium     | |        |
+| [x]  | 153  | Find Minimum in Rotated Sorted Array                       | Medium     | |        |
+| [x]  | 154  | Find Minimum in Rotated Sorted Array II                    | Hard       | |        |
+| [x]  | 155  | Min Stack                                                  | Easy       | |        |
+| [x]  | 164  | Maximum Gap                                                | Hard       | |        |
+| [x]  | 173  | Binary Search Tree Iterator                                | Medium     | |        |
+| [x]  | 174  | Dungeon Game                                               | Hard       | |        |
+| [x]  | 188  | Best Time to Buy and Sell Stock IV                         | Hard       | |        |
+| [x]  | 190  | Reverse Bits                                               | Easy       | |        |
+| [x]  | 191  | Number of 1 Bits                                           | Easy       | |        |
+| [x]  | 198  | House Robber                                               | Easy       | |        |
+| [x]  | 200  | Number of Islands                                          | Medium     | |        |
+| [x]  | 206  | Reverse Linked List                                        | Easy       | |        |
+| [x]  | 208  | Implement Trie (Prefix Tree)                               | Medium     | |        |
+| [x]  | 209  | Minimum Size Subarray Sum                                  | Medium     | |        |
+| [x]  | 211  | Add and Search Word - Data structure design                | Medium     | |        |
+| [x]  | 212  | Word Search II                                             | Hard       | |        |
+| [x]  | 213  | House Robber II                                            | Medium     | |        |
+| [x]  | 215  | Kth Largest Element in an Array                            | Medium     | |        |
+| [x]  | 216  | Combination Sum III                                        | Medium     | |        |
+| [x]  | 221  | Maximal Square                                             | Medium     | |        |
+| [x]  | 222  | Count Complete Tree Nodes                                  | Medium     | |        |
+| [x]  | 224  | Basic Calculator                                           | Medium     | |        |
+| [x]  | 225  | Implement Stack using Queues                               | Medium     | |        |
+| [x]  | 232  | Implement Queue using Stacks                               | Easy       | |        |
+| [x]  | 234  | Palindrome Linked List                                     | Easy       | |        |
+| [x]  | 235  | Lowest Common Ancestor of a Binary Search Tree             | Medium     | |        |
+| [x]  | 236  | Lowest Common Ancestor of a Binary Tree                    | Medium     | |        |
+| [x]  | 239  | Sliding Window Maximum                                     | Hard       | |        |
+| [x]  | 256  | Paint House $                                              | Medium     | |        |
+| [x]  | 257  | Binary Tree Paths                                          | Easy       | |        |
+| [x]  | 260  | Single Number III                                          | Medium     | |        |
+| [x]  | 264  | Ugly Number II                                             | Medium     | |        |
+| [x]  | 265  | Paint House II $                                           | Hard       | |        |
+| [x]  | 278  | First Bad Version                                          | Easy       | |        |
+| [x]  | 279  | Perfect Squares                                            | Medium     | |        |
+| [x]  | 283  | Move Zeroes                                                | Easy       | |        |
+| [x]  | 285  | Inorder Successor in BST $                                 | Medium     | |        |
+| [x]  | 295  | Find Median from Data Stream                               | Hard       | |        |
+| [x]  | 297  | Serialize and Deserialize Binary Tree                      | Medium     | |        |
+| [x]  | 300  | Longest Increasing Subsequence                             | Medium     | |        |
+| [x]  | 303  | Range Sum Query - Immutable                                | Easy       | |        |
+| [x]  | 304  | Range Sum Query 2D - Immutable                             | Medium     | |        |
+| [x]  | 309  | Best Time to Buy and Sell Stock with Cooldown              | Medium     | |        |
+| [x]  | 316  | Remove Duplicate Letters                                   | Medium     | |        |
+| [x]  | 322  | Coin Change                                                | Medium     | |        |
+| [x]  | 329  | Longest Increasing Path in a Matrix                        | Medium     | |        |
+| [x]  | 337  | House Robber III                                           | Medium     | |        |
+| [x]  | 338  | Counting Bits                                              | Medium     | |        |
+| [x]  | 340  | Longest Substring with At Most K Distinct Characters $     | Hard       | |        |
+| [x]  | 343  | Integer Break                                              | Medium     | |        |
+| [x]  | 344  | Reverse String                                             | Easy       | |        |
+| [x]  | 347  | Top K Frequent Elements                                    | Medium     | |        |
+| [x]  | 354  | Russian Doll Envelopes                                     | Hard       | |        |
+| [x]  | 363  | Max Sum of Rectangle No Larger Than K                      | Hard       | |        |
+| [x]  | 368  | Largest Divisible Subset                                   | Medium     | |        |
+| [x]  | 370  | Range Addition $                                           | Medium     | |        |
+| [x]  | 377  | Combination Sum IV                                         | Medium     | |        |
+| [x]  | 394  | Decode String                                              | Medium     | |        |
+| [x]  | 401  | Binary Watch                                               | Easy       | |        |
+| [x]  | 402  | Remove K Digits                                            | Medium     | |        |
+| [x]  | 403  | Frog Jump                                                  | Hard       | |        |
+| [x]  | 404  | Sum of Left Leaves                                         | Easy       | |        |
+| [x]  | 410  | Split Array Largest Sum                                    | Hard       | |        |
+| [x]  | 413  | Arithmetic Slices                                          | Medium     | |        |
+| [x]  | 416  | Partition Equal Subset Sum                                 | Medium     | |        |
+| [x]  | 426  | Convert Binary Search Tree to Sorted Doubly Linked List    | Medium     | |        |
+| [x]  | 437  | Path Sum III                                               | Easy       | |        |
+| [x]  | 438  | Find All Anagrams in a String                              | Easy       | |        |
+| [x]  | 440  | K-th Smallest in Lexicographical Order                     | Hard       | |        |
+| [x]  | 449  | Serialize and Deserialize BST                              | Medium     | |        |
+| [x]  | 450  | Delete Node in a BST                                       | Medium     | |        |
+| [x]  | 451  | Sort Characters By Frequency                               | Medium     | |        |
+| [x]  | 460  | LFU Cache                                                  | Hard       | |        |
+| [x]  | 474  | Ones and Zeroes                                            | Medium     | |        |
+| [x]  | 494  | Target Sum                                                 | Medium     | |        |
+| [x]  | 496  | Next Greater Element I                                     | Easy       | |        |
+| [x]  | 501  | Find Mode in Binary Search Tree                            | Easy       | |        |
+| [x]  | 503  | Next Greater Element II                                    | Medium     | |        |
+| [x]  | 509  | Fibonacci Number                                           | Easy       | |        |
+| [x]  | 510  | Inorder Successor in BST II $                              | Medium     | |        |
+| [x]  | 518  | Coin Change 2                                              | Medium     | |        |
+| [x]  | 529  | Minesweeper                                                | Medium     | |        |
+| [x]  | 538  | Convert BST to Greater Tree                                | Medium     | |        |
+| [x]  | 542  | 01 Matrix                                                  | Medium     | |        |
+| [x]  | 560  | Subarray Sum Equals K                                      | Medium     | |        |
+| [x]  | 567  | Permutation in String                                      | Medium     | |        |
+| [x]  | 572  | Subtree of Another Tree                                    | Easy       | |        |
+| [x]  | 583  | Delete Operation for Two Strings                           | Medium     | |        |
+| [x]  | 622  | Design Circular Queue                                      | Medium     | |        |
+| [x]  | 641  | Design Circular Deque                                      | Medium     | |        |
+| [x]  | 650  | 2 Keys Keyboard                                            | Medium     | |        |
+| [x]  | 652  | Find Duplicate Subtrees                                    | Medium     | |        |
+| [x]  | 671  | Second Minimum Node In a Binary Tree                       | Easy       | |        |
+| [x]  | 673  | Number of Longest Increasing Subsequence                   | Medium     | |        |
+| [x]  | 701  | Insert into a Binary Search Tree                           | Medium     | |        |
+| [x]  | 703  | Kth Largest Element in a Stream                            | Easy       | |        |
+| [x]  | 704  | Binary Search                                              | Easy       | |        |
+| [x]  | 705  | Design HashSet                                             | Easy       | |        |
+| [x]  | 706  | Design HashMap                                             | Easy       | |        |
+| [x]  | 707  | Design Linked List                                         | Easy       | |        |
+| [x]  | 712  | Minimum ASCII Delete Sum for Two Strings                   | Medium     | |        |
+| [x]  | 714  | Best Time to Buy and Sell Stock with Transaction Fee       | Medium     | |        |
+| [x]  | 716  | Max Stack $                                                | Hard       | |        |
+| [x]  | 718  | Maximum Length of Repeated Subarray                        | Medium     | |        |
+| [x]  | 733  | Flood Fill                                                 | Easy       | |        |
+| [x]  | 739  | Daily Temperatures                                         | Medium     | |        |
+| [x]  | 740  | Delete and Earn                                            | Medium     | |        |
+| [x]  | 784  | Letter Case Permutation                                    | Easy       | |        |
+| [x]  | 801  | Minimum Swaps To Make Sequences Increasing                 | Medium     | |        |
+| [x]  | 813  | Largest Sum of Averages                                    | Medium     | |        |
+| [x]  | 862  | Shortest Subarray with Sum at Least K                      | Hard       | |        |
+| [x]  | 863  | All Nodes Distance K in Binary Tree                        | Medium     | |        |
+| [x]  | 871  | Minimum Number of Refueling Stops                          | Hard       | |        |
+| [x]  | 873  | Length of Longest Fibonacci Subsequence                    | Medium     | |        |
+| [x]  | 879  | Profitable Schemes                                         | Hard       | |        |
+| [x]  | 912  | Sort an Array                                              | Medium     | |        |
+| [x]  | 918  | Maximum Sum Circular Subarray                              | Medium     | |        |
+| [x]  | 931  | Minimum Falling Path Sum                                   | Medium     | |        |
+| [x]  | 1008 | Construct Binary Search Tree from Preorder Traversal       | Medium     | |        |
+| [x]  | 1013 | Partition Array Into Three Parts With Equal Sum            | Easy       | |        |
+| [x]  | 1027 | Longest Arithmetic Subsequence                             | Medium     | |        |
+| [x]  | 1028 | Recover a Tree From Preorder Traversal                     | Hard       | |        |
+| [x]  | 1049 | Last Stone Weight II                                       | Medium     | |        |
+| [x]  | 1055 | Shortest Way to Form String $                              | Medium     | |        |
+| [x]  | 1143 | Longest Common Subsequence                                 | Medium     | |        |
+| [x]  | 1155 | Number of Dice Rolls With Target Sum                       | Medium     | |        |
+| [x]  | 1206 | Design Skiplist                                            | Hard       | |        |
+| [x]  | 1250 | Check If It Is a Good Array                                | Hard       | |        |
+| [x]  | 1277 | Count Square Submatrices with All Ones                     | Medium     | |        |
+| [x]  | 1372 | Longest ZigZag Path in a Binary Tree                       | Medium     | |        |
+| [x]  | 1388 | Pizza With 3n Slices                                       | Hard       | |        |
+| [x]  | 1473 | Paint House III                                            | Hard       | |        |
+| [x]  | 1650 | Lowest Common Ancestor of a Binary Tree III                | Medium     | |        |
+| [x]  | 1670 | Design Front Middle Back Queue                             | Medium     | |        |
+| [x]  | 1804 | Implement Trie II (Prefix Tree)                            | Medium     | |        |
+| [x]  | 1863 | Sum of All Subset XOR Totals                               | Easy       | |        |
 
 
 # 标签序
