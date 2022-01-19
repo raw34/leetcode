@@ -125,7 +125,6 @@
     - [x]  [**number-of-islands**](https://leetcode-cn.com/problems/number-of-islands/)（200）
     - [x]  [longest-increasing-path-in-a-matrix](https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix/)（329）
     - [x]  [**house-robber-iii**](https://leetcode-cn.com/problems/house-robber-iii/)（337）
-    - [x]  [k-th-smallest-in-lexicographical-order](https://leetcode-cn.com/problems/k-th-smallest-in-lexicographical-order/)（440）
 - [x]  回溯
     - [x]  [**subsets**](https://leetcode-cn.com/problems/subsets/)（78）
     - [x]  [subsets-ii](https://leetcode-cn.com/problems/subsets-ii/)（90）
@@ -134,6 +133,7 @@
     - [x]  [combination-sum](https://leetcode-cn.com/problems/combination-sum/)（39）
     - [x]  [**letter-combinations-of-a-phone-number**](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)（17）
     - [x]  [restore-ip-addresses](https://leetcode-cn.com/problems/restore-ip-addresses/)（93）
+    - [x]  [k-th-smallest-in-lexicographical-order](https://leetcode-cn.com/problems/k-th-smallest-in-lexicographical-order/)（440）
 - [x]  双指针
     - [x]  [**move-zeroes**](https://leetcode-cn.com/problems/move-zeroes/)（283）
     - [x]  [**3sum-closest**](https://leetcode-cn.com/problems/3sum-closest/)（16）
