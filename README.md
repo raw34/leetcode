@@ -40,8 +40,8 @@
 | [x]  | 62    | Unique Paths                                               | Medium     | |        |
 | [x]  | 63    | Unique Paths II                                            | Medium     | |        |
 | [x]  | 64    | Minimum Path Sum                                           | Medium     | |        |
-| [ ]  | 65    | Minimum Path Sum                                           | Hard       | | hot |
-| [ ]  | 68    | Minimum Path Sum                                           | Hard       | | hot |
+| [ ]  | 65    | Valid Number                                               | Hard       | | hot |
+| [ ]  | 68    | Text Justification                                         | Hard       | | hot |
 | [x]  | 70    | Climbing Stairs                                            | Easy       | |        |
 | [x]  | 72    | Edit Distance                                              | Hard       | | hot |
 | [x]  | 74    | Search a 2D Matrix                                         | Medium     | |        |
