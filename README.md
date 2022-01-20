@@ -233,7 +233,6 @@
 |  ✅   | 1143 | Longest Common Subsequence                                 | Medium     |     |      |
 |  ✅   | 1155 | Number of Dice Rolls With Target Sum                       | Medium     |     |      |
 |  ✅   | 1206 | Design Skiplist                                            | Hard       |     |      |
-|  ⬜   | 1250 | Check If It Is a Good Array                                | Hard       |     |      |
 |  ✅   | 1277 | Count Square Submatrices with All Ones                     | Medium     |     |      |
 |  ✅   | 1372 | Longest ZigZag Path in a Binary Tree                       | Medium     |     |      |
 |  ✅   | 1388 | Pizza With 3n Slices                                       | Hard       |     |      |
