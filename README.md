@@ -41,7 +41,7 @@
 |  ✅   | 63   | Unique Paths II                                            | Medium     |     |      |
 |  ✅   | 64   | Minimum Path Sum                                           | Medium     |     |      |
 |  ✅   | 65   | Valid Number                                               | Hard       |     | hot  |
-|  ⬜   | 68   | Text Justification                                         | Hard       |     | hot  |
+|  ✅   | 68   | Text Justification                                         | Hard       |     | hot  |
 |  ✅   | 70   | Climbing Stairs                                            | Easy       |     |      |
 |  ✅   | 72   | Edit Distance                                              | Hard       |     | hot  |
 |  ✅   | 74   | Search a 2D Matrix                                         | Medium     |     |      |
