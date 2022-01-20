@@ -225,7 +225,7 @@
 |  ✅   | 918  | Maximum Sum Circular Subarray                              | Medium     |     |      |
 |  ✅   | 931  | Minimum Falling Path Sum                                   | Medium     |     |      |
 |  ✅   | 1008 | Construct Binary Search Tree from Preorder Traversal       | Medium     |     |      |
-|  ⬜   | 1013 | Partition Array Into Three Parts With Equal Sum            | Easy       |     |      |
+|  ✅   | 1013 | Partition Array Into Three Parts With Equal Sum            | Easy       |     |      |
 |  ✅   | 1027 | Longest Arithmetic Subsequence                             | Medium     |     |      |
 |  ✅   | 1028 | Recover a Tree From Preorder Traversal                     | Hard       |     |      |
 |  ✅   | 1038 | Binary Search Tree to Greater Sum Tree                     | Medium     |     |      |
