@@ -5,8 +5,8 @@
 |:----:|------|------------------------------------------------------------|------------| --- |--------|
 | [x]  | 2    | Add Two Numbers                                            | Medium     | |        |
 | [x]  | 3    | Longest Substring Without Repeating Characters             | Medium     | |        |
-| [x]  | 4    | Median of Two Sorted Arrays                                | Hard       | | top100 |
-| [x]  | 10   | Regular Expression Matching                                | Hard       | | top100 |
+| [x]  | 4    | Median of Two Sorted Arrays                                | Hard       | | hot |
+| [x]  | 10   | Regular Expression Matching                                | Hard       | | hot |
 | [x]  | 11   | Container With Most Water                                  | Medium     | |        |
 | [x]  | 15   | 3Sum                                                       | Medium     | |        |
 | [x]  | 16   | 3Sum Closest                                               | Medium     | |        |
@@ -14,48 +14,48 @@
 | [x]  | 19   | Remove Nth Node From End of List                           | Easy       | |        |
 | [x]  | 21   | Merge Two Sorted Lists                                     | Easy       | |        |
 | [x]  | 22   | Generate Parentheses                                       | Medium     | |        |
-| [x]  | 23   | Merge k Sorted Lists                                       | Hard       | | top100 |
+| [x]  | 23   | Merge k Sorted Lists                                       | Hard       | | hot |
 | [x]  | 24   | Swap Nodes in Pairs                                        | Medium     | |        |
-| [x]  | 25   | Reverse Nodes in k-Group                                   | Hard       | | top100 |
-| [x]  | 30   | Substring with Concatenation of All Words                  | Hard       | | top100 |
-| [x]  | 32   | Longest Valid Parentheses                                  | Hard       | | top100 |
+| [x]  | 25   | Reverse Nodes in k-Group                                   | Hard       | | hot |
+| [x]  | 30   | Substring with Concatenation of All Words                  | Hard       | | hot |
+| [x]  | 32   | Longest Valid Parentheses                                  | Hard       | | hot |
 | [x]  | 33   | Search in Rotated Sorted Array                             | Medium     | |        |
 | [x]  | 34   | Search for a Range                                         | Medium     | |        |
 | [x]  | 35   | Search Insert Position                                     | Medium     | |        |
-| [x]  | 37   | Sudoku Solver                                              | Hard       | | top100 |
+| [x]  | 37   | Sudoku Solver                                              | Hard       | | hot |
 | [x]  | 39   | Combination Sum                                            | Medium     | |        |
 | [x]  | 40   | Combination Sum II                                         | Medium     | |        |
-| [x]  | 41   | First Missing Positive                                     | Hard       | | top100 |
-| [x]  | 42   | Trapping Rain Water                                        | Hard       | | top100 |
-| [x]  | 43   | Multiply Strings                                           | Medium     | |        |
-| [x]  | 44   | Wildcard Matching                                          | Hard       | | top100 |
+| [x]  | 41   | First Missing Positive                                     | Hard       | | hot |
+| [x]  | 42   | Trapping Rain Water                                        | Hard       | | hot |
+| [ ]  | 43   | Multiply Strings                                           | Medium     | |        |
+| [x]  | 44   | Wildcard Matching                                          | Hard       | | hot |
 | [x]  | 45   | Jump Game II                                               | Medium     | |        |
 | [x]  | 46   | Permutations                                               | Medium     | |        |
 | [x]  | 47   | Permutations II                                            | Medium     | |        |
-| [x]  | 51   | N-Queens                                                   | Hard       | | top100 |
-| [ ]  | 52  | N-Queens II                                                | Hard       | | top100 |
+| [x]  | 51   | N-Queens                                                   | Hard       | | hot |
+| [ ]  | 52  | N-Queens II                                                | Hard       | | hot |
 | [x]  | 53   | Maximum Subarray                                           | Medium     | |        |
 | [x]  | 55   | Jump Game                                                  | Medium     | |        |
-| [x]  | 60   | Permutation Sequence                                       | Hard      | | top100 |
+| [x]  | 60   | Permutation Sequence                                       | Hard      | | hot |
 | [x]  | 62   | Unique Paths                                               | Medium     | |        |
 | [x]  | 63   | Unique Paths II                                            | Medium     | |        |
 | [x]  | 64   | Minimum Path Sum                                           | Medium     | |        |
-| [ ]  | 65  | Minimum Path Sum                                           | Hard       | | top100 |
-| [ ]  | 68  | Minimum Path Sum                                           | Hard       | | top100 |
+| [ ]  | 65  | Minimum Path Sum                                           | Hard       | | hot |
+| [ ]  | 68  | Minimum Path Sum                                           | Hard       | | hot |
 | [x]  | 70   | Climbing Stairs                                            | Easy       | |        |
-| [x]  | 72   | Edit Distance                                              | Hard       | | top100 |
+| [x]  | 72   | Edit Distance                                              | Hard       | | hot |
 | [x]  | 74   | Search a 2D Matrix                                         | Medium     | |        |
-| [x]  | 76   | Minimum Window Substring                                   | Hard       | | top100 |
+| [x]  | 76   | Minimum Window Substring                                   | Hard       | | hot |
 | [x]  | 77   | Combinations                                               | Medium     | |        |
 | [x]  | 78   | Subsets                                                    | Medium     | |        |
 | [x]  | 79   | Word Search                                                | Medium     | |        |
 | [x]  | 81   | Search in Rotated Sorted Array II                          | Medium     | |        |
 | [x]  | 82   | Remove Duplicates from Sorted List II                      | Medium     | |        |
 | [x]  | 83   | Remove Duplicates from Sorted List                         | Easy       | |        |
-| [x]  | 84   | Largest Rectangle in Histogram                             | Hard       | | top100 |
-| [x]  | 85   | Maximal Rectangle                                          | Hard       | | top100 |
+| [x]  | 84   | Largest Rectangle in Histogram                             | Hard       | | hot |
+| [x]  | 85   | Maximal Rectangle                                          | Hard       | | hot |
 | [x]  | 86   | Partition List                                             | Medium     | |        |
-| [x]  | 87   | Scramble String                                            | Hard       | | top100 |
+| [x]  | 87   | Scramble String                                            | Hard       | | hot |
 | [x]  | 90   | Subsets II                                                 | Medium     | |        |
 | [x]  | 91   | Decode Ways                                                | Medium     | |        |
 | [x]  | 92   | Reverse Linked List II                                     | Medium     | |        |
@@ -188,7 +188,7 @@
 | [x]  | 510  | Inorder Successor in BST II $                              | Medium     | |        |
 | [x]  | 518  | Coin Change 2                                              | Medium     | |        |
 | [x]  | 529  | Minesweeper                                                | Medium     | |        |
-| [x]  | 538  | Convert BST to Greater Tree                                | Medium     | |        |
+| [ ]  | 538  | Convert BST to Greater Tree                                | Medium     | |        |
 | [x]  | 542  | 01 Matrix                                                  | Medium     | |        |
 | [x]  | 560  | Subarray Sum Equals K                                      | Medium     | |        |
 | [x]  | 567  | Permutation in String                                      | Medium     | |        |
@@ -225,7 +225,7 @@
 | [x]  | 918  | Maximum Sum Circular Subarray                              | Medium     | |        |
 | [x]  | 931  | Minimum Falling Path Sum                                   | Medium     | |        |
 | [x]  | 1008 | Construct Binary Search Tree from Preorder Traversal       | Medium     | |        |
-| [x]  | 1013 | Partition Array Into Three Parts With Equal Sum            | Easy       | |        |
+| [ ]  | 1013 | Partition Array Into Three Parts With Equal Sum            | Easy       | |        |
 | [x]  | 1027 | Longest Arithmetic Subsequence                             | Medium     | |        |
 | [x]  | 1028 | Recover a Tree From Preorder Traversal                     | Hard       | |        |
 | [x]  | 1049 | Last Stone Weight II                                       | Medium     | |        |
@@ -233,7 +233,7 @@
 | [x]  | 1143 | Longest Common Subsequence                                 | Medium     | |        |
 | [x]  | 1155 | Number of Dice Rolls With Target Sum                       | Medium     | |        |
 | [x]  | 1206 | Design Skiplist                                            | Hard       | |        |
-| [x]  | 1250 | Check If It Is a Good Array                                | Hard       | |        |
+| [ ]  | 1250 | Check If It Is a Good Array                                | Hard       | |        |
 | [x]  | 1277 | Count Square Submatrices with All Ones                     | Medium     | |        |
 | [x]  | 1372 | Longest ZigZag Path in a Binary Tree                       | Medium     | |        |
 | [x]  | 1388 | Pizza With 3n Slices                                       | Hard       | |        |
