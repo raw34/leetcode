@@ -7,6 +7,9 @@ func canThreePartsEqualSum(arr []int) bool {
     for i := 1; i < n+1; i++ {
         preSum[i] += preSum[i-1] + arr[i-1]
     }
+    if preSum[n]%3 != 0 {
+        return false
+    }
 
     for i := 1; i < n; i++ {
         left := preSum[i] - preSum[0]
