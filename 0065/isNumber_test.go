@@ -38,4 +38,5 @@ func Test_isNumber(t *testing.T) {
     assert.False(t, isNumber("6+1"))
     assert.False(t, isNumber("+E3"))
     assert.False(t, isNumber("-9e0E3"))
+    assert.False(t, isNumber(".-4"))
 }
