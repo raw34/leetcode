@@ -6,7 +6,7 @@ func isNumber(s string) bool {
         return curr >= '0' && curr <= '9'
     }
     // 判断字符串是否为纯整数或纯小数
-    isIntOrFloat := func(str string, numMin, optMax, dotMax int) bool {
+    isIntOrFloat := func(str string, optMax, dotMax int) bool {
         numCount := 0
         optCount := 0
         dotCount := 0
@@ -29,7 +29,7 @@ func isNumber(s string) bool {
             }
         }
 
-        if numCount == numMin || dotCount != dotMax {
+        if numCount == 0 || dotCount != dotMax {
             return false
         }
 
@@ -37,11 +37,11 @@ func isNumber(s string) bool {
     }
     // 判断当前字符串是否为纯整数
     isInt := func(str string) bool {
-        return isIntOrFloat(str, 0, 1, 0)
+        return isIntOrFloat(str, 1, 0)
     }
     // 判断当前字符串是否为纯小数
     isFloat := func(str string) bool {
-        return isIntOrFloat(str, 0, 1, 1)
+        return isIntOrFloat(str, 1, 1)
     }
 
     // 当字符串为纯整数或纯小数，直接返回
