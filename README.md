@@ -27,7 +27,7 @@
 |  ✅   | 40   | Combination Sum II                                         | Medium     |     |      |
 |  ✅   | 41   | First Missing Positive                                     | Hard       |     | hot  |
 |  ✅   | 42   | Trapping Rain Water                                        | Hard       |     | hot  |
-|  ⬜   | 43   | Multiply Strings                                           | Medium     |     |      |
+|  ✅   | 43   | Multiply Strings                                           | Medium     |     |      |
 |  ✅   | 44   | Wildcard Matching                                          | Hard       |     | hot  |
 |  ✅   | 45   | Jump Game II                                               | Medium     |     |      |
 |  ✅   | 46   | Permutations                                               | Medium     |     |      |
