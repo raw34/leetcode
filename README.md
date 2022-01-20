@@ -188,7 +188,7 @@
 |  ✅   | 510  | Inorder Successor in BST II $                              | Medium     |     |      |
 |  ✅   | 518  | Coin Change 2                                              | Medium     |     |      |
 |  ✅   | 529  | Minesweeper                                                | Medium     |     |      |
-|  ⬜   | 538  | Convert BST to Greater Tree                                | Medium     |     |      |
+|  ✅   | 538  | Convert BST to Greater Tree                                | Medium     |     |      |
 |  ✅   | 542  | 01 Matrix                                                  | Medium     |     |      |
 |  ✅   | 560  | Subarray Sum Equals K                                      | Medium     |     |      |
 |  ✅   | 567  | Permutation in String                                      | Medium     |     |      |
@@ -228,6 +228,7 @@
 |  ⬜   | 1013 | Partition Array Into Three Parts With Equal Sum            | Easy       |     |      |
 |  ✅   | 1027 | Longest Arithmetic Subsequence                             | Medium     |     |      |
 |  ✅   | 1028 | Recover a Tree From Preorder Traversal                     | Hard       |     |      |
+|  ✅   | 1038 | Binary Search Tree to Greater Sum Tree                     | Medium     |     |      |
 |  ✅   | 1049 | Last Stone Weight II                                       | Medium     |     |      |
 |  ✅   | 1055 | Shortest Way to Form String $                              | Medium     |     |      |
 |  ✅   | 1143 | Longest Common Subsequence                                 | Medium     |     |      |
