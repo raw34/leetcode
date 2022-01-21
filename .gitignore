@@ -12,3 +12,4 @@ node_modules/
 *.iml
 target/
 vendor/
+go.sum
