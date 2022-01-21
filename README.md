@@ -41,6 +41,7 @@
 |  ✅   | 53   | Maximum Subarray                                            | Medium     |     |      |
 |  ⬜   | 54   | Spiral Matrix                                               | Medium     |     |      |
 |  ✅   | 55   | Jump Game                                                   | Medium     |     |      |
+|  ✅   | 56   | Merge Intervals                                             | Medium     |     |      |
 |  ✅   | 60   | Permutation Sequence                                        | Hard       |     | hot  |
 |  ✅   | 62   | Unique Paths                                                | Medium     |     |      |
 |  ✅   | 63   | Unique Paths II                                             | Medium     |     |      |

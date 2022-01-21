@@ -3,6 +3,7 @@
 |-----|---------------------------------|----------|
 | 15  | 3Sum                            |          |
 | 16  | 3Sum Closest                    |          |
+| 56  | Merge Intervals                 | template |
 | 147 | Insertion Sort List             | template |
 | 148 | Sort List                       | template |
 | 164 | Maximum Gap                     |          |
