@@ -85,10 +85,10 @@ func getDoneQuestions() map[int]bool {
 
 func question2Topic(name string, questions []gjson.Result, doneQuestions map[int]bool) {
     topicPath := "topic/" + strings.Replace(name, " ", "", -1) + ".md"
-    title := fmt.Sprintf("## %s\n", name)
-    title += "| No.  | Title                                                       | Mark |\n"
-    title += "|------|-------------------------------------------------------------|------|\n"
-    err := ioutil.WriteFile(topicPath, []byte(title), 0644)
+    header := fmt.Sprintf("## %s\n", name)
+    header += "| No.  | Title                                                       | Mark |\n"
+    header += "|------|-------------------------------------------------------------|------|\n"
+    err := ioutil.WriteFile(topicPath, []byte(header), 0644)
     if err != nil {
         panic(err)
     }
