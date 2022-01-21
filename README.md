@@ -88,21 +88,21 @@
 |  ✅   | 112  | Path Sum                                                    | Easy       |     |      |
 |  ✅   | 113  | Path Sum II                                                 | Medium     |     |      |
 |  ✅   | 114  | Flatten Binary Tree to Linked List                          | Medium     |     |      |
-|  ✅   | 115  | Distinct Subsequences                                       | Hard       |     |      |
+|  ✅   | 115  | Distinct Subsequences                                       | Hard       |     | hot  |
 |  ✅   | 116  | Populating Next Right Pointers in Each Node                 | Medium     |     |      |
 |  ✅   | 117  | Populating Next Right Pointers in Each Node II              | Hard       |     |      |
 |  ⬜   | 118  | Pascal's Triangle                                           | Medium     |     |      |
 |  ✅   | 120  | Triangle                                                    | Medium     |     |      |
 |  ✅   | 121  | Best Time to Buy and Sell Stock                             | Medium     |     |      |
 |  ✅   | 122  | Best Time to Buy and Sell Stock II                          | Medium     |     |      |
-|  ✅   | 123  | Best Time to Buy and Sell Stock III                         | Hard       |     |      |
-|  ✅   | 124  | Binary Tree Maximum Path Sum                                | Hard       |     |      |
+|  ✅   | 123  | Best Time to Buy and Sell Stock III                         | Hard       |     | hot  |
+|  ✅   | 124  | Binary Tree Maximum Path Sum                                | Hard       |     | hot  |
 |  ✅   | 129  | Sum Root to Leaf Numbers                                    | Medium     |     |      |
 |  ✅   | 130  | Surrounded Regions                                          | Medium     |     |      |
 |  ✅   | 131  | Palindrome Partitioning                                     | Medium     |     |      |
 |  ✅   | 132  | Palindrome Partitioning II                                  | Hard       |     |      |
 |  ✅   | 133  | Clone Graph                                                 | Medium     |     |      |
-|  ✅   | 135  | Candy                                                       | Hard       |     |      |
+|  ✅   | 135  | Candy                                                       | Hard       |     | hot  |
 |  ✅   | 136  | Single Number                                               | Medium     |     |      |
 |  ✅   | 137  | Single Number II                                            | Medium     |     |      |
 |  ✅   | 138  | Copy List with Random Pointer                               | Hard       |     |      |
@@ -125,7 +125,7 @@
 |  ⬜   | 169  | Majority Element                                            | Easy       |     |      |
 |  ✅   | 173  | Binary Search Tree Iterator                                 | Medium     |     |      |
 |  ✅   | 174  | Dungeon Game                                                | Hard       |     |      |
-|  ✅   | 188  | Best Time to Buy and Sell Stock IV                          | Hard       |     |      |
+|  ✅   | 188  | Best Time to Buy and Sell Stock IV                          | Hard       |     | hot  |
 |  ⬜   | 189  | Rotate Array                                                | Medium     |     |      |
 |  ✅   | 190  | Reverse Bits                                                | Easy       |     |      |
 |  ✅   | 191  | Number of 1 Bits                                            | Easy       |     |      |
@@ -143,7 +143,7 @@
 |  ⬜   | 217  | Contains Duplicate                                          | Easy       |     |      |
 |  ✅   | 221  | Maximal Square                                              | Medium     |     |      |
 |  ✅   | 222  | Count Complete Tree Nodes                                   | Medium     |     |      |
-|  ✅   | 224  | Basic Calculator                                            | Medium     |     |      |
+|  ✅   | 224  | Basic Calculator                                            | Medium     |     | hot  |
 |  ✅   | 225  | Implement Stack using Queues                                | Medium     |     |      |
 |  ⬜   | 226  | Invert Binary Tree                                          | Easy       |     |      |
 |  ✅   | 232  | Implement Queue using Stacks                                | Easy       |     |      |
@@ -162,7 +162,7 @@
 |  ✅   | 279  | Perfect Squares                                             | Medium     |     |      |
 |  ✅   | 283  | Move Zeroes                                                 | Easy       |     |      |
 |  ✅   | 285  | Inorder Successor in BST $                                  | Medium     |     |      |
-|  ✅   | 295  | Find Median from Data Stream                                | Hard       |     |      |
+|  ✅   | 295  | Find Median from Data Stream                                | Hard       |     | hot  |
 |  ✅   | 297  | Serialize and Deserialize Binary Tree                       | Medium     |     |      |
 |  ✅   | 300  | Longest Increasing Subsequence                              | Medium     |     |      |
 |  ✅   | 303  | Range Sum Query - Immutable                                 | Easy       |     |      |
@@ -170,7 +170,7 @@
 |  ✅   | 309  | Best Time to Buy and Sell Stock with Cooldown               | Medium     |     |      |
 |  ✅   | 316  | Remove Duplicate Letters                                    | Medium     |     |      |
 |  ✅   | 322  | Coin Change                                                 | Medium     |     |      |
-|  ✅   | 329  | Longest Increasing Path in a Matrix                         | Medium     |     |      |
+|  ✅   | 329  | Longest Increasing Path in a Matrix                         | Medium     |     | hot  |
 |  ✅   | 337  | House Robber III                                            | Medium     |     |      |
 |  ✅   | 338  | Counting Bits                                               | Medium     |     |      |
 |  ✅   | 340  | Longest Substring with At Most K Distinct Characters $      | Hard       |     |      |
@@ -188,18 +188,18 @@
 |  ✅   | 402  | Remove K Digits                                             | Medium     |     |      |
 |  ✅   | 403  | Frog Jump                                                   | Hard       |     |      |
 |  ✅   | 404  | Sum of Left Leaves                                          | Easy       |     |      |
-|  ✅   | 410  | Split Array Largest Sum                                     | Hard       |     |      |
+|  ✅   | 410  | Split Array Largest Sum                                     | Hard       |     | hot  |
 |  ✅   | 413  | Arithmetic Slices                                           | Medium     |     |      |
 |  ✅   | 416  | Partition Equal Subset Sum                                  | Medium     |     |      |
 |  ✅   | 426  | Convert Binary Search Tree to Sorted Doubly Linked List     | Medium     |     |      |
 |  ✅   | 437  | Path Sum III                                                | Easy       |     |      |
 |  ✅   | 438  | Find All Anagrams in a String                               | Easy       |     |      |
-|  ✅   | 440  | K-th Smallest in Lexicographical Order                      | Hard       |     |      |
+|  ✅   | 440  | K-th Smallest in Lexicographical Order                      | Hard       |     | hot  |
 |  ⬜   | 448  | Find All Numbers Disappeared in an Array                    | Easy       |     |      |
 |  ✅   | 449  | Serialize and Deserialize BST                               | Medium     |     |      |
 |  ✅   | 450  | Delete Node in a BST                                        | Medium     |     |      |
 |  ✅   | 451  | Sort Characters By Frequency                                | Medium     |     |      |
-|  ✅   | 460  | LFU Cache                                                   | Hard       |     |      |
+|  ✅   | 460  | LFU Cache                                                   | Hard       |     | hot  |
 |  ⬜   | 461  | Hamming Distance                                            | Easy       |     |      |
 |  ✅   | 474  | Ones and Zeroes                                             | Medium     |     |      |
 |  ✅   | 494  | Target Sum                                                  | Medium     |     |      |
