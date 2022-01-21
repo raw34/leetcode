@@ -25,6 +25,8 @@
 | 496  | Next Greater Element I                                      |            |
 | 560  | Subarray Sum Equals K                                       |            |
 | 567  | Permutation in String                                       |            |
+| 705  | Design HashSet                                              | design     |
+| 706  | Design HashMap                                              | design     |
 | 740  | Delete and Earn                                             |            |
 | 931  | Maximum Frequency Stack                                     |            |
 | 1055 | Pairs of Songs With Total Durations Divisible by 60         |            |
