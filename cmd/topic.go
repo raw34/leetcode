@@ -33,8 +33,10 @@ var topicCmd = &cobra.Command{
         questions := getAllQuestions()
         // 已完成的题目
         doneQuestions := getDoneQuestions()
+        // 当前标签已收录的题目
+        topicQuestions := getTopicQuestions(name)
         // 题目写入标签文件
-        question2Topic(name, questions, doneQuestions)
+        question2Topic(name, questions, doneQuestions, topicQuestions)
     },
 }
 
@@ -83,7 +85,38 @@ func getDoneQuestions() map[int]bool {
     return doneQuestions
 }
 
-func question2Topic(name string, questions []gjson.Result, doneQuestions map[int]bool) {
+func getTopicQuestions(name string) map[int]string {
+    topicQuestions := map[int]string{}
+    // 读取topic文件
+    topicPath := fmt.Sprintf("topic/%s.md", strings.Replace(name, " ", "", -1))
+    content, err := ioutil.ReadFile(topicPath)
+    if err != nil {
+        panic(err)
+    }
+    // 解析topic文件
+    markdown := goldmark.New()
+    topic := (markdown.Parser()).Parse(text.NewReader(content))
+    // 遍历topic文件，获取全部题目
+    topic = topic.FirstChild()
+    for topic.NextSibling() != nil {
+        topic = topic.NextSibling()
+        kind := topic.Kind().String()
+        if kind == "Paragraph" {
+            child := topic.FirstChild().NextSibling()
+            for child.NextSibling() != nil {
+                child = child.NextSibling()
+                row := string(child.Text(content))
+                arr := strings.Split(row, "|")
+                no, _ := strconv.Atoi(strings.Trim(arr[1], " "))
+                topicQuestions[no] = row
+            }
+            break
+        }
+    }
+    return topicQuestions
+}
+
+func question2Topic(name string, questions []gjson.Result, doneQuestions map[int]bool, topicQuestions map[int]string) {
     topicPath := "topic/" + strings.Replace(name, " ", "", -1) + ".md"
     header := fmt.Sprintf("## %s\n", name)
     header += "| No.  | Title                                                       | Mark |\n"
@@ -106,8 +139,12 @@ func question2Topic(name string, questions []gjson.Result, doneQuestions map[int
                 if !doneQuestions[no] {
                     continue
                 }
-                title := question.Get("title").String()
-                row := fmt.Sprintf("| %d | %s | |\n", no, title)
+                row, ok := topicQuestions[no]
+                if !ok {
+                    title := question.Get("title").String()
+                    row = fmt.Sprintf("| %d | %s | |", no, title)
+                }
+                row += "\n"
                 // TODO 格式化一下当前行，补若干个空格
                 _, err = topicFile.WriteString(row)
                 if err != nil {
