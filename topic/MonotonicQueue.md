@@ -1,4 +1,4 @@
 ## Monotonic Queue
-| No. | Title                  | Mark |
-|-----|------------------------|------|
-| 239 | Sliding Window Maximum |      |
+| No. | Title                  | Mark     |
+|-----|------------------------|----------|
+| 239 | Sliding Window Maximum | template |

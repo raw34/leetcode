@@ -1,25 +1,25 @@
 ## 数据结构设计
 - [x]  链表
-    - [x]  [design-linked-list](https://leetcode-cn.com/problems/design-linked-list/)（707）
-    - [x]  [design-skiplist](https://leetcode-cn.com/problems/design-skiplist/)（1206）
+    - [x]  [design-linked-list](https://leetcode-cn.com/problems/design-linked-list/)（707）?
+    - [x]  [design-skiplist](https://leetcode-cn.com/problems/design-skiplist/)（1206）?
 - [x]  哈希表
-    - [x]  [design-hashset](https://leetcode-cn.com/problems/design-hashset/)（705）
-    - [x]  [design-hashmap](https://leetcode-cn.com/problems/design-hashmap/)（706）
+    - [x]  [design-hashset](https://leetcode-cn.com/problems/design-hashset/)（705）?
+    - [x]  [design-hashmap](https://leetcode-cn.com/problems/design-hashmap/)（706）?
 - [x]  栈
     - [x]  [implement-stack-using-queues](https://leetcode-cn.com/problems/implement-stack-using-queues/)（225）
     - [x]  [min-stack](https://leetcode-cn.com/problems/min-stack/)（155）
     - [x]  [max-stack](https://leetcode-cn.com/problems/max-stack/)（716）
 - [x]  队列
     - [x]  [implement-queue-using-stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/)（232）
-    - [x]  [design-circular-queue](https://leetcode-cn.com/problems/design-circular-queue/)（622）
-    - [x]  [design-circular-deque](https://leetcode-cn.com/problems/design-circular-deque/)（641）
-    - [x]  [design-front-middle-back-queue](https://leetcode-cn.com/problems/design-front-middle-back-queue/)（1670）
+    - [x]  [design-circular-queue](https://leetcode-cn.com/problems/design-circular-queue/)（622）?
+    - [x]  [design-circular-deque](https://leetcode-cn.com/problems/design-circular-deque/)（641）?
+    - [x]  [design-front-middle-back-queue](https://leetcode-cn.com/problems/design-front-middle-back-queue/)（1670）?
 - [ ]  堆
 - [x]  树
     - [x]  [**construct-binary-tree-from-preorder-and-inorder-traversal**](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)（105）
     - [x]  [construct-binary-tree-from-inorder-and-postorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)（106）
-    - [x]  [construct-binary-tree-from-preorder-and-postorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)（889）
-    - [x]  [recover-a-tree-from-preorder-traversal](https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal/)（1028）
+    - [x]  [construct-binary-tree-from-preorder-and-postorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)（889）?
+    - [x]  [recover-a-tree-from-preorder-traversal](https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal/)（1028）?
     - [x]  [serialize-and-deserialize-binary-tree](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)（297）
 - [x]  二叉搜索树
     - [x]  [construct-binary-search-tree-from-preorder-traversal](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/)（1008）
@@ -29,7 +29,7 @@
 - [x]  字典树
     - [x]  [**implement-trie-prefix-tree**](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)（208）
     - [x]  [design-add-and-search-words-data-structure](https://leetcode-cn.com/problems/design-add-and-search-words-data-structure/)（211）
-    - [x]  [**implement-trie-ii-prefix-tree**](https://leetcode-cn.com/problems/implement-trie-ii-prefix-tree/)（1804）
+    - [x]  [**implement-trie-ii-prefix-tree**](https://leetcode-cn.com/problems/implement-trie-ii-prefix-tree/)（1804）?
 - [ ]  并查集
 
 ## 数据结构应用
@@ -82,14 +82,14 @@
     - [x]  [balanced-binary-tree](https://leetcode-cn.com/problems/balanced-binary-tree/)（110）
     - [x]  [**binary-tree-maximum-path-sum**](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)（124）
     - [x]  [**lowest-common-ancestor-of-a-binary-tree**](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)（236）
-    - [x]  [**longest-zigzag-path-in-a-binary-tree**](https://leetcode-cn.com/problems/longest-zigzag-path-in-a-binary-tree/)（1372）
+    - [x]  [**longest-zigzag-path-in-a-binary-tree**](https://leetcode-cn.com/problems/longest-zigzag-path-in-a-binary-tree/)（1372）?
 - [x]  二叉搜索树
     - [x]  [**validate-binary-search-tree**](https://leetcode-cn.com/problems/validate-binary-search-tree/)（98）
     - [x]  [recover-binary-search-tree](https://leetcode-cn.com/problems/recover-binary-search-tree/)（99）
     - [x]  [**binary-search-tree-iterator**](https://leetcode-cn.com/problems/binary-search-tree-iterator/)（173）
     - [x]  [**delete-node-in-a-bst**](https://leetcode-cn.com/problems/delete-node-in-a-bst/)（450）
     - [x]  [insert-into-a-binary-search-tree](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)（701）
-    - [x]  [**convert-binary-search-tree-to-sorted-doubly-linked-list**](https://leetcode-cn.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)（426）
+    - [x]  [**convert-binary-search-tree-to-sorted-doubly-linked-list**](https://leetcode-cn.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)（426）?
 - [x]  字典树
     - [x]  [**word-search-ii**](https://leetcode-cn.com/problems/word-search-ii/)（212）
 - [ ]  并查集
