@@ -1,7 +1,7 @@
 # 编号序
 | Done | No.  | Title                                                       | Difficulty | Tag | Mark |
 |:----:|------|-------------------------------------------------------------|------------|-----|------|
-|  ⬜   | 1    | Two Sum                                                     | Easy       |     |      |
+|  ✅   | 1    | Two Sum                                                     | Easy       |     |      |
 |  ✅   | 2    | Add Two Numbers                                             | Medium     |     |      |
 |  ✅   | 3    | Longest Substring Without Repeating Characters              | Medium     |     |      |
 |  ✅   | 4    | Median of Two Sorted Arrays                                 | Hard       |     | hot  |
