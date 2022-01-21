@@ -140,17 +140,29 @@ func question2Topic(name string, questions []gjson.Result, doneQuestions map[int
                     continue
                 }
                 row, ok := topicQuestions[no]
-                if !ok {
+                if ok {
+                    row += "\n"
+                    delete(topicQuestions, no)
+                } else {
                     title := question.Get("title").String()
-                    row = fmt.Sprintf("| %d | %s | |", no, title)
+                    row = fmt.Sprintf("| %d | %s | |\n", no, title)
                 }
-                row += "\n"
                 // TODO 格式化一下当前行，补若干个空格
                 _, err = topicFile.WriteString(row)
                 if err != nil {
                     panic(err)
                 }
             }
+        }
+    }
+    // 补全手动覆盖标签的数据
+    for no, row := range topicQuestions {
+        if no == 0 {
+            continue
+        }
+        _, err = topicFile.WriteString(row + "\n")
+        if err != nil {
+            panic(err)
         }
     }
 }
