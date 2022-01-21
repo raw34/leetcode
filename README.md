@@ -3,20 +3,26 @@
 
 | Done | No.  | Title                                                      | Difficulty | Tag | Mark |
 |:----:|------|------------------------------------------------------------|------------|-----|------|
+|  ⬜   | 1    | Two Sum                                                    | Easy       |     |      |
 |  ✅   | 2    | Add Two Numbers                                            | Medium     |     |      |
 |  ✅   | 3    | Longest Substring Without Repeating Characters             | Medium     |     |      |
 |  ✅   | 4    | Median of Two Sorted Arrays                                | Hard       |     | hot  |
+|  ⬜   | 5    | Longest Palindromic Substring                              | Medium     |     |      |
+|  ⬜   | 7    | Reverse Integer                                            | Medium     |     |      |
 |  ✅   | 10   | Regular Expression Matching                                | Hard       |     | hot  |
 |  ✅   | 11   | Container With Most Water                                  | Medium     |     |      |
+|  ⬜   | 14   | Longest Common Prefix                                      | Easy       |     |      |
 |  ✅   | 15   | 3Sum                                                       | Medium     |     |      |
 |  ✅   | 16   | 3Sum Closest                                               | Medium     |     |      |
 |  ✅   | 17   | Letter Combinations of a Phone Number                      | Medium     |     |      |
 |  ✅   | 19   | Remove Nth Node From End of List                           | Easy       |     |      |
+|  ⬜   | 20   | Valid Parentheses                                          | Easy       |     |      |
 |  ✅   | 21   | Merge Two Sorted Lists                                     | Easy       |     |      |
 |  ✅   | 22   | Generate Parentheses                                       | Medium     |     |      |
 |  ✅   | 23   | Merge k Sorted Lists                                       | Hard       |     | hot  |
 |  ✅   | 24   | Swap Nodes in Pairs                                        | Medium     |     |      |
 |  ✅   | 25   | Reverse Nodes in k-Group                                   | Hard       |     | hot  |
+|  ⬜   | 26   | Remove Duplicates from Sorted Array                        | Easy       |     |      |
 |  ✅   | 30   | Substring with Concatenation of All Words                  | Hard       |     | hot  |
 |  ✅   | 32   | Longest Valid Parentheses                                  | Hard       |     | hot  |
 |  ✅   | 33   | Search in Rotated Sorted Array                             | Medium     |     |      |
@@ -35,12 +41,14 @@
 |  ✅   | 51   | N-Queens                                                   | Hard       |     | hot  |
 |  ✅   | 52   | N-Queens II                                                | Hard       |     | hot  |
 |  ✅   | 53   | Maximum Subarray                                           | Medium     |     |      |
+|  ⬜   | 54   | Spiral Matrix                                              | Medium     |     |      |
 |  ✅   | 55   | Jump Game                                                  | Medium     |     |      |
 |  ✅   | 60   | Permutation Sequence                                       | Hard       |     | hot  |
 |  ✅   | 62   | Unique Paths                                               | Medium     |     |      |
 |  ✅   | 63   | Unique Paths II                                            | Medium     |     |      |
 |  ✅   | 64   | Minimum Path Sum                                           | Medium     |     |      |
 |  ✅   | 65   | Valid Number                                               | Hard       |     | hot  |
+|  ⬜   | 66   | Plus One                                                   | Easy       |     |      |
 |  ✅   | 68   | Text Justification                                         | Hard       |     | hot  |
 |  ✅   | 70   | Climbing Stairs                                            | Easy       |     |      |
 |  ✅   | 72   | Edit Distance                                              | Hard       |     | hot  |
@@ -56,6 +64,7 @@
 |  ✅   | 85   | Maximal Rectangle                                          | Hard       |     | hot  |
 |  ✅   | 86   | Partition List                                             | Medium     |     |      |
 |  ✅   | 87   | Scramble String                                            | Hard       |     | hot  |
+|  ⬜   | 88   | Merge Sorted Array                                         | Easy       |     |      |
 |  ✅   | 90   | Subsets II                                                 | Medium     |     |      |
 |  ✅   | 91   | Decode Ways                                                | Medium     |     |      |
 |  ✅   | 92   | Reverse Linked List II                                     | Medium     |     |      |
@@ -66,6 +75,7 @@
 |  ✅   | 98   | Validate Binary Search Tree                                | Medium     |     |      |
 |  ✅   | 99   | Recover Binary Search Tree                                 | Medium     |     |      |
 |  ✅   | 100  | Same Tree                                                  | Easy       |     |      |
+|  ⬜   | 101  | Symmetric Tree                                             | Medium     |     |      |
 |  ✅   | 102  | Binary Tree Level Order Traversal                          | Easy       |     |      |
 |  ✅   | 103  | Binary Tree Zigzag Level Order Traversal                   | Medium     |     |      |
 |  ✅   | 104  | Maximum Depth of Binary Tree                               | Easy       |     |      |
@@ -75,12 +85,14 @@
 |  ✅   | 108  | Convert Sorted Array to Binary Search Tree                 | Medium     |     |      |
 |  ✅   | 109  | Convert Sorted List to Binary Search Tree                  | Medium     |     |      |
 |  ✅   | 110  | Balanced Binary Tree                                       | Easy       |     |      |
+|  ⬜   | 111  | Minimum Depth of Binary Tree                               | Medium     |     |      |
 |  ✅   | 112  | Path Sum                                                   | Easy       |     |      |
 |  ✅   | 113  | Path Sum II                                                | Medium     |     |      |
 |  ✅   | 114  | Flatten Binary Tree to Linked List                         | Medium     |     |      |
 |  ✅   | 115  | Distinct Subsequences                                      | Hard       |     |      |
 |  ✅   | 116  | Populating Next Right Pointers in Each Node                | Medium     |     |      |
 |  ✅   | 117  | Populating Next Right Pointers in Each Node II             | Hard       |     |      |
+|  ⬜   | 118  | Pascal's Triangle                                          | Medium     |     |      |
 |  ✅   | 120  | Triangle                                                   | Medium     |     |      |
 |  ✅   | 121  | Best Time to Buy and Sell Stock                            | Medium     |     |      |
 |  ✅   | 122  | Best Time to Buy and Sell Stock II                         | Medium     |     |      |
@@ -109,13 +121,17 @@
 |  ✅   | 153  | Find Minimum in Rotated Sorted Array                       | Medium     |     |      |
 |  ✅   | 154  | Find Minimum in Rotated Sorted Array II                    | Hard       |     |      |
 |  ✅   | 155  | Min Stack                                                  | Easy       |     |      |
+|  ⬜   | 160  | Intersection of Two Linked Lists                           | Easy       |     |      |
 |  ✅   | 164  | Maximum Gap                                                | Hard       |     |      |
+|  ⬜   | 169  | Majority Element                                           | Easy       |     |      |
 |  ✅   | 173  | Binary Search Tree Iterator                                | Medium     |     |      |
 |  ✅   | 174  | Dungeon Game                                               | Hard       |     |      |
 |  ✅   | 188  | Best Time to Buy and Sell Stock IV                         | Hard       |     |      |
+|  ⬜   | 189  | Rotate Array                                               | Medium     |     |      |
 |  ✅   | 190  | Reverse Bits                                               | Easy       |     |      |
 |  ✅   | 191  | Number of 1 Bits                                           | Easy       |     |      |
 |  ✅   | 198  | House Robber                                               | Easy       |     |      |
+|  ⬜   | 199  | Binary Tree Right Side View                                | Medium     |     |      |
 |  ✅   | 200  | Number of Islands                                          | Medium     |     |      |
 |  ✅   | 206  | Reverse Linked List                                        | Easy       |     |      |
 |  ✅   | 208  | Implement Trie (Prefix Tree)                               | Medium     |     |      |
@@ -125,10 +141,12 @@
 |  ✅   | 213  | House Robber II                                            | Medium     |     |      |
 |  ✅   | 215  | Kth Largest Element in an Array                            | Medium     |     |      |
 |  ✅   | 216  | Combination Sum III                                        | Medium     |     |      |
+|  ⬜   | 217  | Contains Duplicate                                         | Easy       |     |      |
 |  ✅   | 221  | Maximal Square                                             | Medium     |     |      |
 |  ✅   | 222  | Count Complete Tree Nodes                                  | Medium     |     |      |
 |  ✅   | 224  | Basic Calculator                                           | Medium     |     |      |
 |  ✅   | 225  | Implement Stack using Queues                               | Medium     |     |      |
+|  ⬜   | 226  | Invert Binary Tree                                         | Easy       |     |      |
 |  ✅   | 232  | Implement Queue using Stacks                               | Easy       |     |      |
 |  ✅   | 234  | Palindrome Linked List                                     | Easy       |     |      |
 |  ✅   | 235  | Lowest Common Ancestor of a Binary Search Tree             | Medium     |     |      |
@@ -139,6 +157,7 @@
 |  ✅   | 260  | Single Number III                                          | Medium     |     |      |
 |  ✅   | 264  | Ugly Number II                                             | Medium     |     |      |
 |  ✅   | 265  | Paint House II $                                           | Hard       |     |      |
+|  ⬜   | 268  | Missing Number                                             | Easy       |     |      |
 |  ✅   | 278  | First Bad Version                                          | Easy       |     |      |
 |  ✅   | 279  | Perfect Squares                                            | Medium     |     |      |
 |  ✅   | 283  | Move Zeroes                                                | Easy       |     |      |
@@ -175,10 +194,12 @@
 |  ✅   | 437  | Path Sum III                                               | Easy       |     |      |
 |  ✅   | 438  | Find All Anagrams in a String                              | Easy       |     |      |
 |  ✅   | 440  | K-th Smallest in Lexicographical Order                     | Hard       |     |      |
+|  ⬜   | 448  | Find All Numbers Disappeared in an Array                   | Easy       |     |      |
 |  ✅   | 449  | Serialize and Deserialize BST                              | Medium     |     |      |
 |  ✅   | 450  | Delete Node in a BST                                       | Medium     |     |      |
 |  ✅   | 451  | Sort Characters By Frequency                               | Medium     |     |      |
 |  ✅   | 460  | LFU Cache                                                  | Hard       |     |      |
+|  ⬜   | 461  | Hamming Distance                                           | Easy       |     |      |
 |  ✅   | 474  | Ones and Zeroes                                            | Medium     |     |      |
 |  ✅   | 494  | Target Sum                                                 | Medium     |     |      |
 |  ✅   | 496  | Next Greater Element I                                     | Easy       |     |      |
@@ -190,10 +211,14 @@
 |  ✅   | 529  | Minesweeper                                                | Medium     |     |      |
 |  ✅   | 538  | Convert BST to Greater Tree                                | Medium     |     |      |
 |  ✅   | 542  | 01 Matrix                                                  | Medium     |     |      |
+|  ⬜   | 543  | Diameter of Binary Tree                                    | Easy       |     |      |
+|  ⬜   | 545  | Boundary of Binary Tree                                    | Medium     |     |      |
 |  ✅   | 560  | Subarray Sum Equals K                                      | Medium     |     |      |
 |  ✅   | 567  | Permutation in String                                      | Medium     |     |      |
 |  ✅   | 572  | Subtree of Another Tree                                    | Easy       |     |      |
+|  ⬜   | 581  | Shortest Unsorted Continuous Subarray                      | Medium     |     |      |
 |  ✅   | 583  | Delete Operation for Two Strings                           | Medium     |     |      |
+|  ⬜   | 617  | Merge Two Binary Trees                                     | Easy       |     |      |
 |  ✅   | 622  | Design Circular Queue                                      | Medium     |     |      |
 |  ✅   | 641  | Design Circular Deque                                      | Medium     |     |      |
 |  ✅   | 650  | 2 Keys Keyboard                                            | Medium     |     |      |
@@ -231,6 +256,7 @@
 |  ✅   | 1038 | Binary Search Tree to Greater Sum Tree                     | Medium     |     |      |
 |  ✅   | 1049 | Last Stone Weight II                                       | Medium     |     |      |
 |  ✅   | 1055 | Shortest Way to Form String $                              | Medium     |     |      |
+|  ⬜   | 1108 | Defanging an IP Address                                    | Easy       |     |      |
 |  ✅   | 1143 | Longest Common Subsequence                                 | Medium     |     |      |
 |  ✅   | 1155 | Number of Dice Rolls With Target Sum                       | Medium     |     |      |
 |  ✅   | 1206 | Design Skiplist                                            | Hard       |     |      |
