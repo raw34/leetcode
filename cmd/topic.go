@@ -33,7 +33,7 @@ var topicCmd = &cobra.Command{
         questions := getAllQuestions()
         // 已完成的题目
         doneQuestions := getDoneQuestions()
-        // 问题写入标签文件
+        // 题目写入标签文件
         question2Topic(name, questions, doneQuestions)
     },
 }
