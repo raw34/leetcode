@@ -46,7 +46,7 @@ var topicCmd = &cobra.Command{
         if err != nil {
             panic(err)
         }
-        topicFile, err := os.OpenFile(topicPath, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0644)
+        topicFile, err := os.OpenFile(topicPath, os.O_APPEND, 0644)
         if err != nil {
             panic(err)
         }
