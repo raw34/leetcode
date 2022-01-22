@@ -75,11 +75,14 @@ func (this *LFUCache) Get(key int) int {
 }
 
 func (this *LFUCache) updateNodeCount(node *DListNode) {
+    // 删除旧热度
     list := this.counter[node.Count]
     list.RemoveNode(node)
     if node.Count == this.minCount && list.size == 0 {
+        // 更新热度最小值
         this.minCount++
     }
+    // 更新新热度
     node.Count++
     this.getNodeList(node.Count).AddToHead(node)
 }
@@ -115,5 +118,6 @@ func (this *LFUCache) Put(key int, value int) {
     node := &DListNode{Key: key, Val: value, Count: 1}
     this.cache[key] = node
     this.getNodeList(node.Count).AddToHead(node)
+    // 更新热度最小值
     this.minCount = node.Count
 }
