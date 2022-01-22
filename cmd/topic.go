@@ -83,17 +83,17 @@ func getDoneQuestions(filePath, fileType string) map[int]string {
     for node.NextSibling() != nil {
         node = node.NextSibling()
         kind := node.Kind().String()
-        if kind == "Paragraph" {
-            child := node.FirstChild().NextSibling()
-            for child.NextSibling() != nil {
-                child = child.NextSibling()
-                row := string(child.Text(content))
-                arr := strings.Split(row, "|")
-                i := noIndex[fileType]
-                no, _ := strconv.Atoi(strings.Trim(arr[i], " "))
-                questions[no] = row
-            }
-            break
+        if kind != "Paragraph" {
+            continue
+        }
+        child := node.FirstChild().NextSibling()
+        for child.NextSibling() != nil {
+            child = child.NextSibling()
+            row := string(child.Text(content))
+            arr := strings.Split(row, "|")
+            i := noIndex[fileType]
+            no, _ := strconv.Atoi(strings.Trim(arr[i], " "))
+            questions[no] = row
         }
     }
     return questions
@@ -123,24 +123,25 @@ func question2Topic(name string, questions []gjson.Result, doneQuestions map[int
     for _, question := range questions {
         topics := question.Get("topicTags").Array()
         for _, topic := range topics {
-            if topic.Get("name").String() == name {
-                no := int(question.Get("questionId").Int())
-                if _, ok := doneQuestions[no]; !ok {
-                    continue
-                }
-                row, ok := topicQuestions[no]
-                if ok {
-                    row += "\n"
-                    delete(topicQuestions, no)
-                } else {
-                    title := question.Get("title").String()
-                    row = fmt.Sprintf("| %d | %s | |\n", no, title)
-                }
-                // TODO 格式化一下当前行，补若干个空格
-                _, err = topicFile.WriteString(row)
-                if err != nil {
-                    panic(err)
-                }
+            if topic.Get("name").String() != name {
+                continue
+            }
+            no := int(question.Get("questionId").Int())
+            if _, ok := doneQuestions[no]; !ok {
+                continue
+            }
+            row, ok := topicQuestions[no]
+            if ok {
+                row += "\n"
+                delete(topicQuestions, no)
+            } else {
+                title := question.Get("title").String()
+                row = fmt.Sprintf("| %d | %s | |\n", no, title)
+            }
+            // TODO 格式化一下当前行，补若干个空格
+            _, err = topicFile.WriteString(row)
+            if err != nil {
+                panic(err)
             }
         }
     }
