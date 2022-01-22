@@ -7,7 +7,6 @@ import (
     "github.com/yuin/goldmark"
     "github.com/yuin/goldmark/text"
     "io/ioutil"
-    "os"
     "strconv"
     "strings"
 )
@@ -107,18 +106,9 @@ func getTopicQuestions(name string) map[int]string {
 
 func question2Topic(name string, questions []gjson.Result, doneQuestions map[int]string, topicQuestions map[int]string) {
     topicPath := "topic/" + strings.Replace(name, " ", "", -1) + ".md"
-    header := fmt.Sprintf("## %s\n", name)
-    header += "| No.  | Title                                                       | Mark |\n"
-    header += "|------|-------------------------------------------------------------|------|\n"
-    err := ioutil.WriteFile(topicPath, []byte(header), 0644)
-    if err != nil {
-        panic(err)
-    }
-    topicFile, err := os.OpenFile(topicPath, os.O_WRONLY|os.O_APPEND, 0644)
-    if err != nil {
-        panic(err)
-    }
-    defer topicFile.Close()
+    content := fmt.Sprintf("## %s\n", name)
+    content += "| No.  | Title                                                       | Mark |\n"
+    content += "|------|-------------------------------------------------------------|------|\n"
     // 遍历全部题目，找到包含当前标签的题目，逐行写入文件
     for _, question := range questions {
         topics := question.Get("topicTags").Array()
@@ -137,10 +127,7 @@ func question2Topic(name string, questions []gjson.Result, doneQuestions map[int
                 row = fmt.Sprintf("| %d | %s | |\n", no, title)
             }
             // TODO 格式化一下当前行，补若干个空格
-            _, err = topicFile.WriteString(row)
-            if err != nil {
-                panic(err)
-            }
+            content += row
         }
     }
     // 补全手动覆盖标签的数据
@@ -148,10 +135,12 @@ func question2Topic(name string, questions []gjson.Result, doneQuestions map[int
         if no == 0 {
             continue
         }
-        _, err = topicFile.WriteString(row + "\n")
-        if err != nil {
-            panic(err)
-        }
+        content += row + "\n"
+    }
+    // 写入文件
+    err := ioutil.WriteFile(topicPath, []byte(content), 0644)
+    if err != nil {
+        panic(err)
     }
 }
 
