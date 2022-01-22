@@ -110,9 +110,9 @@
 |  ✅   | 141  | Linked List Cycle                                           | Medium     |     |      |
 |  ✅   | 142  | Linked List Cycle II                                        | Medium     |     |      |
 |  ✅   | 143  | Reorder List                                                | Medium     |     |      |
-|  ✅   | 144  | Binary Tree Preorder Traversal                              | Medium     |     |      |
-|  ✅   | 145  | Binary Tree Postorder Traversal                             | Hard       |     |      |
-|  ✅   | 146  | LRU Cache                                                   | Hard       |     |      |
+|  ✅   | 144  | Binary Tree Preorder Traversal                              | Easy       |     |      |
+|  ✅   | 145  | Binary Tree Postorder Traversal                             | Easy       |     |      |
+|  ✅   | 146  | LRU Cache                                                   | Medium     |     | hot  |
 |  ✅   | 147  | Insertion Sort List                                         | Medium     |     |      |
 |  ✅   | 148  | Sort List                                                   | Medium     |     |      |
 |  ✅   | 150  | Evaluate Reverse Polish Notation                            | Medium     |     |      |
