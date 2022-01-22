@@ -95,7 +95,7 @@
 |  ✅   | 120  | Triangle                                                    | Medium     |     |      |
 |  ✅   | 121  | Best Time to Buy and Sell Stock                             | Medium     |     |      |
 |  ✅   | 122  | Best Time to Buy and Sell Stock II                          | Medium     |     |      |
-|  ✅   | 123  | Best Time to Buy and Sell Stock III                         | Hard       |     | hot  |
+|  ✅   | 123  | Best Time to Buy and Sell Stock III                         | Hard       |     |      |
 |  ✅   | 124  | Binary Tree Maximum Path Sum                                | Hard       |     | hot  |
 |  ✅   | 129  | Sum Root to Leaf Numbers                                    | Medium     |     |      |
 |  ✅   | 130  | Surrounded Regions                                          | Medium     |     |      |
