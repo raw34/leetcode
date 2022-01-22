@@ -2,6 +2,8 @@
 | No.  | Title                            | Mark |
 |------|----------------------------------|------|
 | 2    | Add Two Numbers                  |      |
+| 12   | Integer to Roman                 |      |
+| 13   | Roman to Integer                 |      |
 | 43   | Multiply Strings                 |      |
 | 60   | Permutation Sequence             |      |
 | 62   | Unique Paths                     |      |

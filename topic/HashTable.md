@@ -3,7 +3,6 @@
 |------|-------------------------------------------------------------|------------|
 | 1    | Two Sum                                                     |            |
 | 3    | Longest Substring Without Repeating Characters              |            |
-| 13   | Roman to Integer                                            |            |
 | 17   | Letter Combinations of a Phone Number                       |            |
 | 30   | Substring with Concatenation of All Words                   |            |
 | 41   | First Missing Positive                                      | template   |

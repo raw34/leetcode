@@ -9,6 +9,7 @@
 |  ⬜   | 7    | Reverse Integer                                             | Medium     |     |      |
 |  ✅   | 10   | Regular Expression Matching                                 | Hard       |     | hot  |
 |  ✅   | 11   | Container With Most Water                                   | Medium     |     |      |
+|  ✅   | 12   | Integer to Roman                                            | Medium     |     |      |
 |  ✅   | 13   | Roman to Integer                                            | Easy       |     |      |
 |  ⬜   | 14   | Longest Common Prefix                                       | Easy       |     |      |
 |  ✅   | 15   | 3Sum                                                        | Medium     |     |      |
