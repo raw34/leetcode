@@ -32,7 +32,7 @@ var topicCmd = &cobra.Command{
         // 全部题目
         questions := getAllQuestions()
         // 已完成的题目
-        doneQuestions := getDoneQuestions()
+        doneQuestions := getDoneQuestionsOld()
         // 当前标签已收录的题目
         topicQuestions := getTopicQuestions(name)
         // 题目写入标签文件
@@ -52,71 +52,60 @@ func getAllQuestions() []gjson.Result {
     return questions
 }
 
-func getDoneQuestions() map[int]bool {
-    doneQuestions := map[int]bool{}
+func getDoneQuestionsOld() map[int]string {
     // 读取README文件
     readmePath := "README.md"
-    content, err := ioutil.ReadFile(readmePath)
-    if err != nil {
-        panic(err)
-    }
-    // 解析README文件
-    markdown := goldmark.New()
-    readme := (markdown.Parser()).Parse(text.NewReader(content))
-    // 遍历README文件，获取已完成题目编号
-    readme = readme.FirstChild()
-    for readme.NextSibling() != nil {
-        readme = readme.NextSibling()
-        kind := readme.Kind().String()
-        if kind == "Paragraph" {
-            child := readme.FirstChild().NextSibling()
-            for child.NextSibling() != nil {
-                child = child.NextSibling()
-                row := strings.Split(string(child.Text(content)), "|")
-                done, no := strings.Trim(row[1], " "), strings.Trim(row[2], " ")
-                if done == "✅" {
-                    i, _ := strconv.Atoi(no)
-                    doneQuestions[i] = true
-                }
-            }
-            break
+    questions := getDoneQuestions(readmePath, "readme")
+    for no, question := range questions {
+        row := strings.Split(question, "|")
+        done := strings.Trim(row[1], " ")
+        if done != "✅" {
+            delete(questions, no)
         }
     }
-    return doneQuestions
+
+    return questions
 }
 
-func getTopicQuestions(name string) map[int]string {
-    topicQuestions := map[int]string{}
+func getDoneQuestions(filePath, fileType string) map[int]string {
+    noIndex := map[string]int{"topic": 1, "readme": 2}
+    questions := map[int]string{}
     // 读取topic文件
-    topicPath := fmt.Sprintf("topic/%s.md", strings.Replace(name, " ", "", -1))
-    content, err := ioutil.ReadFile(topicPath)
+    content, err := ioutil.ReadFile(filePath)
     if err != nil {
         panic(err)
     }
     // 解析topic文件
     markdown := goldmark.New()
-    topic := (markdown.Parser()).Parse(text.NewReader(content))
+    node := (markdown.Parser()).Parse(text.NewReader(content))
     // 遍历topic文件，获取全部题目
-    topic = topic.FirstChild()
-    for topic.NextSibling() != nil {
-        topic = topic.NextSibling()
-        kind := topic.Kind().String()
+    node = node.FirstChild()
+    for node.NextSibling() != nil {
+        node = node.NextSibling()
+        kind := node.Kind().String()
         if kind == "Paragraph" {
-            child := topic.FirstChild().NextSibling()
+            child := node.FirstChild().NextSibling()
             for child.NextSibling() != nil {
                 child = child.NextSibling()
                 row := string(child.Text(content))
                 arr := strings.Split(row, "|")
-                no, _ := strconv.Atoi(strings.Trim(arr[1], " "))
-                topicQuestions[no] = row
+                i := noIndex[fileType]
+                no, _ := strconv.Atoi(strings.Trim(arr[i], " "))
+                questions[no] = row
             }
             break
         }
     }
-    return topicQuestions
+    return questions
 }
 
-func question2Topic(name string, questions []gjson.Result, doneQuestions map[int]bool, topicQuestions map[int]string) {
+func getTopicQuestions(name string) map[int]string {
+    // 读取topic文件
+    topicPath := fmt.Sprintf("topic/%s.md", strings.Replace(name, " ", "", -1))
+    return getDoneQuestions(topicPath, "topic")
+}
+
+func question2Topic(name string, questions []gjson.Result, doneQuestions map[int]string, topicQuestions map[int]string) {
     topicPath := "topic/" + strings.Replace(name, " ", "", -1) + ".md"
     header := fmt.Sprintf("## %s\n", name)
     header += "| No.  | Title                                                       | Mark |\n"
@@ -136,7 +125,7 @@ func question2Topic(name string, questions []gjson.Result, doneQuestions map[int
         for _, topic := range topics {
             if topic.Get("name").String() == name {
                 no := int(question.Get("questionId").Int())
-                if !doneQuestions[no] {
+                if _, ok := doneQuestions[no]; !ok {
                     continue
                 }
                 row, ok := topicQuestions[no]
