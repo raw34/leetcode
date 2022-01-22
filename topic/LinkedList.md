@@ -17,12 +17,12 @@
 | 141  | Linked List Cycle                         | template |
 | 142  | Linked List Cycle II                      | template |
 | 143  | Reorder List                              |          |
-| 146  | LRU Cache                                 |          |
+| 146  | LRU Cache                                 | design   |
 | 147  | Insertion Sort List                       |          |
 | 148  | Sort List                                 |          |
 | 206  | Reverse Linked List                       | template |
 | 234  | Palindrome Linked List                    |          |
-| 460  | LFU Cache                                 |          |
+| 460  | LFU Cache                                 | design   |
 | 707  | Design Linked List                        | design   |
 | 716  | Max Stack                                 |          |
 | 1206 | Design Skiplist                           | design   |
