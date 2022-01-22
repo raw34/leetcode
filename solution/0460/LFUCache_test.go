@@ -23,3 +23,12 @@ func TestLFUCache_Case1(t *testing.T) {
     assert.Equal(t, 3, cache.Get(3))
     assert.Equal(t, 4, cache.Get(4))
 }
+
+//["LFUCache","put","get"]
+//[[0],[0,0],[0]]
+//[null,null,-1]
+func TestLFUCache_Case2(t *testing.T) {
+    cache := Constructor(0)
+    cache.Put(0, 0)
+    assert.Equal(t, -1, cache.Get(0))
+}

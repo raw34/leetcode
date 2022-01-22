@@ -1,90 +1,119 @@
 package _0460
 
 import (
-    "container/list"
+    "fmt"
 )
 
-type Node struct {
-    key   int
-    value int
-    count int
+type DListNode struct {
+    Key   int
+    Val   int
+    Count int
+    Prev  *DListNode
+    Next  *DListNode
+}
+
+type DLinkedList struct {
+    head *DListNode
+    tail *DListNode
+    size int
+}
+
+func (this *DLinkedList) AddToHead(node *DListNode) {
+    node.Prev = this.head
+    node.Next = this.head.Next
+    this.head.Next.Prev = node
+    this.head.Next = node
+    this.size++
+}
+
+func (this *DLinkedList) RemoveNode(node *DListNode) {
+    node.Prev.Next = node.Next
+    node.Next.Prev = node.Prev
+    this.size--
+}
+
+func (this *DLinkedList) RemoveTail() *DListNode {
+    node := this.tail.Prev
+    this.RemoveNode(node)
+    return node
+}
+
+func (this *DLinkedList) Display() {
+    curr := this.head
+    for curr != nil {
+        fmt.Print(curr, " ")
+        curr = curr.Next
+    }
+    fmt.Println()
 }
 
 type LFUCache struct {
     capacity int
     minCount int
-    keyMap   map[int]*list.Element
-    countMap map[int]*list.List
+    cache    map[int]*DListNode
+    counter  map[int]*DLinkedList
 }
 
 func Constructor(capacity int) LFUCache {
     return LFUCache{
         capacity: capacity,
-        keyMap:   make(map[int]*list.Element, capacity),
-        countMap: make(map[int]*list.List, capacity),
+        cache:    map[int]*DListNode{},
+        counter:  map[int]*DLinkedList{},
     }
 }
 
 func (this *LFUCache) Get(key int) int {
-    if this.capacity == 0 {
+    node, ok := this.cache[key]
+    if !ok || this.capacity == 0 {
+        // 未命中，直接返回
         return -1
     }
-    e, ok := this.keyMap[key]
-    if !ok {
-        return -1
-    }
-    this.update(e)
-    node := e.Value.(*Node)
-    return node.value
+    // 更新热度
+    this.updateNodeCount(node)
+    // 返回元素
+    return node.Val
 }
 
-func (this *LFUCache) update(e *list.Element) {
-    node := e.Value.(*Node)
-    curList, ok := this.countMap[node.count]
+func (this *LFUCache) updateNodeCount(node *DListNode) {
+    list := this.counter[node.Count]
+    list.RemoveNode(node)
+    if node.Count == this.minCount && list.size == 0 {
+        this.minCount++
+    }
+    node.Count++
+    this.getNodeList(node.Count).AddToHead(node)
+}
+
+func (this *LFUCache) getNodeList(count int) *DLinkedList {
+    list, ok := this.counter[count]
     if !ok {
-        return
+        list = &DLinkedList{&DListNode{}, &DListNode{}, 0}
+        list.head.Next = list.tail
+        list.tail.Prev = list.head
+        this.counter[count] = list
     }
-    curList.Remove(e)
-    if curList.Len() == 0 {
-        if node.count == this.minCount {
-            this.minCount++
-        }
-    }
-    node.count++
-    newList, ok := this.countMap[node.count]
-    if !ok {
-        newList = list.New()
-        this.countMap[node.count] = newList
-    }
-    newEle := newList.PushBack(node)
-    this.keyMap[node.key] = newEle
+
+    return list
 }
 
 func (this *LFUCache) Put(key int, value int) {
-    minEle, ok := this.keyMap[key]
-    if ok {
-        node := minEle.Value.(*Node)
-        node.value = value
-        this.update(minEle)
+    if this.capacity == 0 {
         return
     }
-    if len(this.keyMap) == this.capacity {
-        minList, ok := this.countMap[this.minCount]
-        if !ok {
-            return
-        }
-        minEle = minList.Front()
-        minList.Remove(minEle)
-        minNode := minEle.Value.(*Node)
-        delete(this.keyMap, minNode.key)
+    // 如果key存在，更新缓存、更新热度
+    if node, ok := this.cache[key]; ok {
+        node.Val = value
+        this.updateNodeCount(node)
+        return
     }
-    newNode := &Node{key, value, 1}
-    newList, ok := this.countMap[newNode.count]
-    if !ok {
-        newList = list.New()
-        this.countMap[newNode.count] = newList
+    // 如果空间已满，清理缓存、清理热度
+    if len(this.cache) == this.capacity {
+        removed := this.counter[this.minCount].RemoveTail()
+        delete(this.cache, removed.Key)
     }
-    newEle := newList.PushBack(newNode)
-    this.keyMap[key] = newEle
-    this.minCount = newNode.count
+    // 添加缓存、更新热度
+    node := &DListNode{Key: key, Val: value, Count: 1}
+    this.cache[key] = node
+    this.getNodeList(node.Count).AddToHead(node)
+    this.minCount = node.Count
 }

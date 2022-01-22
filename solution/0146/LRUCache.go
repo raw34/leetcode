@@ -86,7 +86,7 @@ func (this *LRUCache) Put(key int, value int) {
         removed := this.list.RemoveTail()
         delete(this.hash, removed.Key)
     }
-    // 添加缓存和度
+    // 添加缓存
     node := &DListNode{Key: key, Val: value}
     this.hash[key] = node
     this.list.AddToHead(node)
