@@ -42,14 +42,14 @@ func (this *LinkedList) AddAtIndex(index int, val int) {
         return
     }
 
-    curr := this.head
+    prev := this.head
     for i := 0; i < index; i++ {
-        curr = curr.Next
+        prev = prev.Next
     }
 
     node := &ListNode{Val: val}
-    node.Next = curr.Next
-    curr.Next = node
+    node.Next = prev.Next
+    prev.Next = node
     this.size++
 }
 
@@ -58,22 +58,20 @@ func (this *LinkedList) DeleteAtIndex(index int) {
         return
     }
 
-    curr := this.head
+    prev := this.head
     for i := 0; i < index; i++ {
-        curr = curr.Next
+        prev = prev.Next
     }
 
-    curr.Next = curr.Next.Next
+    prev.Next = prev.Next.Next
     this.size--
 }
 
 func (this *LinkedList) Display() {
     curr := this.head
-    i := 0
     for curr != nil {
-        fmt.Print(curr.Val, " ")
+        fmt.Print(curr, " ")
         curr = curr.Next
-        i++
     }
     fmt.Println()
 }
