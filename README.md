@@ -276,7 +276,10 @@
 
 # 标签序
 ## 数据结构
+- [Array](topic/Array.md)
+- [Matrix](topic/Matrix.md)
 - [LinkedList](topic/LinkedList.md)
+- [Doubly-LinkedList](topic/Doubly-LinkedList.md)
 - [HashTable](topic/HashTable.md)
 - [Stack](topic/Stack.md)
 - [MonotonicStack](topic/MonotonicStack.md)
@@ -284,9 +287,11 @@
 - [MonotonicQueue](topic/MonotonicQueue.md)
 - [Heap(PriorityQueue)](topic/Heap(PriorityQueue).md)
 - [Tree](topic/Tree.md)
+- [BinaryTree](topic/BinaryTree.md)
 - [BinarySearchTree](topic/BinarySearchTree.md)
 - [Trie](topic/Trie.md)
 - [UnionFind](topic/UnionFind.md)
+- [String](topic/String.md)
 
 ## 算法基础
 - [Sorting](topic/Sorting.md)
@@ -301,7 +306,7 @@
 - [SlidingWindow](topic/SlidingWindow.md)
 - [PrefixSum](topic/PrefixSum.md)
 - [BitManipulation](topic/BitManipulation.md)
-- 
+ 
 ## 动态规划
 - [DynamicProgramming](topic/DynamicProgramming.md)
  

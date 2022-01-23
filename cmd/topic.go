@@ -14,8 +14,7 @@ import (
 func init() {
     var Name string
 
-    topicCmd.Flags().StringVarP(&Name, "name", "", "", "标签名称")
-    _ = topicCmd.MarkFlagRequired("name")
+    topicCmd.Flags().StringVarP(&Name, "name", "", "All", "标签名称")
 
     rootCmd.AddCommand(topicCmd)
 }
@@ -28,14 +27,25 @@ var topicCmd = &cobra.Command{
     Run: func(cmd *cobra.Command, args []string) {
         fmt.Println("topic called")
         name := cmd.Flag("name").Value.String()
+        fmt.Println("name is " + name)
         // 全部题目
         questions := getAllQuestions()
         // 已完成的题目
         doneQuestions := getDoneQuestionsOld()
-        // 当前标签已收录的题目
-        topicQuestions := getTopicQuestions(name)
-        // 题目写入标签文件
-        question2Topic(name, questions, doneQuestions, topicQuestions)
+        if name != "All" {
+            // 当前标签已收录的题目
+            topicQuestions := getTopicQuestions(name)
+            // 题目写入标签文件
+            question2Topic(name, questions, doneQuestions, topicQuestions)
+        } else {
+            names := getAllTopics()
+            for _, name := range names {
+                // 当前标签已收录的题目
+                topicQuestions := getTopicQuestions(name)
+                // 题目写入标签文件
+                question2Topic(name, questions, doneQuestions, topicQuestions)
+            }
+        }
     },
 }
 
@@ -72,7 +82,7 @@ func getDoneQuestions(filePath, fileType string) map[int]string {
     // 读取topic文件
     content, err := ioutil.ReadFile(filePath)
     if err != nil {
-        panic(err)
+        return questions
     }
     // 解析topic文件
     markdown := goldmark.New()
@@ -158,7 +168,7 @@ func getAllTopics() []string {
         "Tree",
         "Binary Tree",
         "Binary Search",
-        "Database",
+        //"Database",
         "Matrix",
         "Two Pointers",
         "Bit Manipulation",
@@ -168,54 +178,54 @@ func getAllTopics() []string {
         "Backtracking",
         "Graph",
         "Linked List",
-        "Simulation",
+        //"Simulation",
         "Prefix Sum",
         "Sliding Window",
-        "Counting",
+        //"Counting",
         "Union Find",
         "Recursion",
         "Binary Search Tree",
         "Divide and Conquer",
         "Trie",
         "Monotonic Stack",
-        "Ordered Set",
+        //"Ordered Set",
         "Queue",
-        "Memoization",
-        "Geometry",
-        "Bitmask",
-        "Enumeration",
-        "Topological Sort",
-        "Segment Tree",
-        "Game Theory",
-        "Hash Function",
-        "Data Stream",
-        "Binary Indexed Tree",
-        "String Matching",
-        "Interactive",
-        "Shortest Path",
-        "Combinatorics",
-        "Rolling Hash",
-        "Randomized",
-        "Merge Sort",
+        //"Memoization",
+        //"Geometry",
+        //"Bitmask",
+        //"Enumeration",
+        //"Topological Sort",
+        //"Segment Tree",
+        //"Game Theory",
+        //"Hash Function",
+        //"Data Stream",
+        //"Binary Indexed Tree",
+        //"String Matching",
+        //"Interactive",
+        //"Shortest Path",
+        //"Combinatorics",
+        //"Rolling Hash",
+        //"Randomized",
+        //"Merge Sort",
         "Monotonic Queue",
         "Doubly-Linked List",
-        "Quickselect",
-        "Number Theory",
-        "Iterator",
-        "Brainteaser",
-        "Probability and Statistics",
-        "Concurrency",
-        "Bucket Sort",
-        "Counting Sort",
-        "Suffix Array",
-        "Minimum Spanning Tree",
-        "Line Sweep",
-        "Shell",
-        "Reservoir Sampling",
-        "Eulerian Circuit",
-        "Strongly Connected Component",
-        "Rejection Sampling",
-        "Radix Sort",
-        "Biconnected Component",
+        //"Quickselect",
+        //"Number Theory",
+        //"Iterator",
+        //"Brainteaser",
+        //"Probability and Statistics",
+        //"Concurrency",
+        //"Bucket Sort",
+        //"Counting Sort",
+        //"Suffix Array",
+        //"Minimum Spanning Tree",
+        //"Line Sweep",
+        //"Shell",
+        //"Reservoir Sampling",
+        //"Eulerian Circuit",
+        //"Strongly Connected Component",
+        //"Rejection Sampling",
+        //"Radix Sort",
+        //"Biconnected Component",
     }
 }
