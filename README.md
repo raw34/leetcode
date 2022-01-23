@@ -16,7 +16,7 @@
 |  ✅   | 16   | 3Sum Closest                                                | Medium     |     |      |
 |  ✅   | 17   | Letter Combinations of a Phone Number                       | Medium     |     |      |
 |  ✅   | 19   | Remove Nth Node From End of List                            | Easy       |     |      |
-|  ⬜   | 20   | Valid Parentheses                                           | Easy       |     |      |
+|  ✅   | 20   | Valid Parentheses                                           | Easy       |     |      |
 |  ✅   | 21   | Merge Two Sorted Lists                                      | Easy       |     |      |
 |  ✅   | 22   | Generate Parentheses                                        | Medium     |     |      |
 |  ✅   | 23   | Merge k Sorted Lists                                        | Hard       |     | hot  |
