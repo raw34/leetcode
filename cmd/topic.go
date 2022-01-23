@@ -28,17 +28,6 @@ var topicCmd = &cobra.Command{
         fmt.Println("topic called")
         name := cmd.Flag("name").Value.String()
         fmt.Println("name is " + name)
-        // 全部题目
-        questions := getAllQuestions()
-        // 已完成的题目
-        doneQuestions := getDoneQuestionsOld()
-        saveTopic := func(name string) {
-            name = strings.Replace(name, " ", "", -1)
-            // 当前标签已收录的题目
-            topicQuestions := getTopicQuestions(name)
-            // 题目写入标签文件
-            question2Topic(name, questions, doneQuestions, topicQuestions)
-        }
         if name != "All" {
             saveTopic(name)
         } else {
@@ -48,6 +37,18 @@ var topicCmd = &cobra.Command{
             }
         }
     },
+}
+
+func saveTopic(name string) {
+    name = strings.Replace(name, " ", "", -1)
+    // 全部题目
+    questions := getAllQuestions()
+    // 已完成的题目
+    doneQuestions := getReadmeQuestions()
+    // 当前标签已收录的题目
+    topicQuestions := getTopicQuestions(name)
+    // 题目写入标签文件
+    question2Topic(name, questions, doneQuestions, topicQuestions)
 }
 
 func getAllQuestions() []gjson.Result {
@@ -62,7 +63,7 @@ func getAllQuestions() []gjson.Result {
     return questions
 }
 
-func getDoneQuestionsOld() map[int]string {
+func getReadmeQuestions() map[int]string {
     // 读取README文件
     readmePath := "README.md"
     questions := getDoneQuestions(readmePath, "readme")
