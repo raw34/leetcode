@@ -41,7 +41,7 @@
 |  ✅   | 51   | N-Queens                                                    | Hard       |     | hot  |
 |  ✅   | 52   | N-Queens II                                                 | Hard       |     | hot  |
 |  ✅   | 53   | Maximum Subarray                                            | Medium     |     |      |
-|  ⬜   | 54   | Spiral Matrix                                               | Medium     |     |      |
+|  ✅   | 54   | Spiral Matrix                                               | Medium     |     |      |
 |  ✅   | 55   | Jump Game                                                   | Medium     |     |      |
 |  ✅   | 56   | Merge Intervals                                             | Medium     |     |      |
 |  ✅   | 60   | Permutation Sequence                                        | Hard       |     | hot  |
