@@ -296,8 +296,8 @@
 ## 算法基础
 - [Sorting](topic/Sorting.md)
 - [Recursion](topic/Recursion.md)
-- [BinarySearch](topic/BinarySearch.md)
 - [DivideandConquer](topic/DivideandConquer.md)
+- [BinarySearch](topic/BinarySearch.md)
 - [Breadth-FirstSearch](topic/Breadth-FirstSearch.md)
 - [Depth-FirstSearch](topic/Depth-FirstSearch.md)
 - [Backtracking](topic/Backtracking.md)
