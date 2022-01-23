@@ -277,6 +277,7 @@
 # 标签序
 ## 数据结构
 - [Array](topic/Array.md)
+- [String](topic/String.md)
 - [Matrix](topic/Matrix.md)
 - [LinkedList](topic/LinkedList.md)
 - [Doubly-LinkedList](topic/Doubly-LinkedList.md)
@@ -291,7 +292,6 @@
 - [BinarySearchTree](topic/BinarySearchTree.md)
 - [Trie](topic/Trie.md)
 - [UnionFind](topic/UnionFind.md)
-- [String](topic/String.md)
 
 ## 算法基础
 - [Sorting](topic/Sorting.md)
