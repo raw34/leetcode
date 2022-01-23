@@ -32,18 +32,19 @@ var topicCmd = &cobra.Command{
         questions := getAllQuestions()
         // 已完成的题目
         doneQuestions := getDoneQuestionsOld()
-        if name != "All" {
+        saveTopic := func(name string) {
+            name = strings.Replace(name, " ", "", -1)
             // 当前标签已收录的题目
             topicQuestions := getTopicQuestions(name)
             // 题目写入标签文件
             question2Topic(name, questions, doneQuestions, topicQuestions)
+        }
+        if name != "All" {
+            saveTopic(name)
         } else {
             names := getAllTopics()
             for _, name := range names {
-                // 当前标签已收录的题目
-                topicQuestions := getTopicQuestions(name)
-                // 题目写入标签文件
-                question2Topic(name, questions, doneQuestions, topicQuestions)
+                saveTopic(name)
             }
         }
     },
@@ -110,12 +111,12 @@ func getDoneQuestions(filePath, fileType string) map[int]string {
 
 func getTopicQuestions(name string) map[int]string {
     // 读取topic文件
-    topicPath := fmt.Sprintf("topic/%s.md", strings.Replace(name, " ", "", -1))
+    topicPath := fmt.Sprintf("topic/%s.md", name)
     return getDoneQuestions(topicPath, "topic")
 }
 
 func question2Topic(name string, questions []gjson.Result, doneQuestions map[int]string, topicQuestions map[int]string) {
-    topicPath := "topic/" + strings.Replace(name, " ", "", -1) + ".md"
+    topicPath := fmt.Sprintf("topic/%s.md", name)
     content := fmt.Sprintf("## %s\n", name)
     content += "| No.  | Title                                                       | Mark |\n"
     content += "|------|-------------------------------------------------------------|------|\n"
