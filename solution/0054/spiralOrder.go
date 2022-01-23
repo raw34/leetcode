@@ -8,6 +8,7 @@ func spiralOrder(matrix [][]int) []int {
     m := len(matrix)
     n := len(matrix[0])
     res := make([]int, m*n)
+    // 下一个位置的坐标位移，依次是右、下、左，上
     directions := [][]int{{0, 1}, {1, 0}, {0, -1}, {-1, 0}}
     visited := make([][]bool, m)
     for i := 0; i < m; i++ {
@@ -20,6 +21,7 @@ func spiralOrder(matrix [][]int) []int {
         nx := x + directions[j][0]
         ny := y + directions[j][1]
         if nx < 0 || ny < 0 || nx >= m || ny >= n || visited[nx][ny] {
+            // 如果发现下一个位置坐标越界或已访问过，顺时针旋转一次
             j = (j + 1) % 4
         }
         x += directions[j][0]
