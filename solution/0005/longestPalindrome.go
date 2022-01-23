@@ -34,7 +34,7 @@ func longestPalindrome2(s string) string {
         return s
     }
 
-    extend := func(s string, left, right int) int {
+    extendLen := func(left, right int) int {
         for left >= 0 && right < len(s) && s[left] == s[right] {
             left--
             right++
@@ -49,8 +49,8 @@ func longestPalindrome2(s string) string {
     }
     start, end := 0, 0
     for i := 0; i < n; i++ {
-        len1 := extend(s, i, i)
-        len2 := extend(s, i, i+1)
+        len1 := extendLen(i, i)
+        len2 := extendLen(i, i+1)
         maxLen := max(len1, len2)
         if maxLen > end-start {
             start = i - (maxLen-1)/2
