@@ -7,6 +7,31 @@ import (
 func spiralOrder(matrix [][]int) []int {
     m := len(matrix)
     n := len(matrix[0])
+    res := make([]int, m*n)
+    directions := [][]int{{0, 1}, {1, 0}, {0, -1}, {-1, 0}}
+    visited := make([][]bool, m)
+    for i := 0; i < m; i++ {
+        visited[i] = make([]bool, n)
+    }
+    x, y := 0, 0
+    for i, j := 0, 0; i < m*n; i++ {
+        res[i] = matrix[x][y]
+        visited[x][y] = true
+        nx := x + directions[j][0]
+        ny := y + directions[j][1]
+        if nx < 0 || ny < 0 || nx >= m || ny >= n || visited[nx][ny] {
+            j = (j + 1) % 4
+        }
+        x += directions[j][0]
+        y += directions[j][1]
+    }
+
+    return res
+}
+
+func spiralOrder2(matrix [][]int) []int {
+    m := len(matrix)
+    n := len(matrix[0])
     dirs := map[string][]int{
         "left":   {0, -1},
         "right":  {0, 1},
