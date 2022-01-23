@@ -22,7 +22,7 @@
 |  ✅   | 23   | Merge k Sorted Lists                                        | Hard       |     | hot  |
 |  ✅   | 24   | Swap Nodes in Pairs                                         | Medium     |     |      |
 |  ✅   | 25   | Reverse Nodes in k-Group                                    | Hard       |     | hot  |
-|  ⬜   | 26   | Remove Duplicates from Sorted Array                         | Easy       |     |      |
+|  ✅   | 26   | Remove Duplicates from Sorted Array                         | Easy       |     |      |
 |  ✅   | 30   | Substring with Concatenation of All Words                   | Hard       |     | hot  |
 |  ✅   | 32   | Longest Valid Parentheses                                   | Hard       |     | hot  |
 |  ✅   | 33   | Search in Rotated Sorted Array                              | Medium     |     |      |
