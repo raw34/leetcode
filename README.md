@@ -5,7 +5,7 @@
 |  ✅   | 2    | Add Two Numbers                                             | Medium     |     |      |
 |  ✅   | 3    | Longest Substring Without Repeating Characters              | Medium     |     |      |
 |  ✅   | 4    | Median of Two Sorted Arrays                                 | Hard       |     | hot  |
-|  ⬜   | 5    | Longest Palindromic Substring                               | Medium     |     |      |
+|  ✅   | 5    | Longest Palindromic Substring                               | Medium     |     |      |
 |  ⬜   | 7    | Reverse Integer                                             | Medium     |     |      |
 |  ✅   | 10   | Regular Expression Matching                                 | Hard       |     | hot  |
 |  ✅   | 11   | Container With Most Water                                   | Medium     |     |      |
