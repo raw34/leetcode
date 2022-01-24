@@ -161,7 +161,7 @@
 |  ✅   | 260  | Single Number III                                           | Medium     |     |      |
 |  ✅   | 264  | Ugly Number II                                              | Medium     |     |      |
 |  ✅   | 265  | Paint House II $                                            | Hard       |     |      |
-|  ⬜   | 268  | Missing Number                                              | Easy       |     |      |
+|  ✅   | 268  | Missing Number                                              | Easy       |     |      |
 |  ✅   | 278  | First Bad Version                                           | Easy       |     |      |
 |  ✅   | 279  | Perfect Squares                                             | Medium     |     |      |
 |  ✅   | 283  | Move Zeroes                                                 | Easy       |     |      |
