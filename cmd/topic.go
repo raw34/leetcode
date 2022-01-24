@@ -123,9 +123,9 @@ func question2Topic(name string, questions []gjson.Result, doneQuestions map[int
     content += "|------|-------------------------------------------------------------|------|\n"
     // 遍历全部题目，找到包含当前标签的题目，逐行写入文件
     for _, question := range questions {
+        no := int(question.Get("questionId").Int())
         topics := question.Get("topicTags").Array()
         for _, topic := range topics {
-            no := int(question.Get("questionId").Int())
             topicName := topic.Get("name").String()
             if _, ok := doneQuestions[no]; !ok || topicName != name {
                 continue
