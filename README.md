@@ -38,6 +38,7 @@
 |  ✅   | 45   | Jump Game II                                                | Medium     |     |      |
 |  ✅   | 46   | Permutations                                                | Medium     |     |      |
 |  ✅   | 47   | Permutations II                                             | Medium     |     |      |
+|  ✅   | 48   | Rotate Image                                                | Medium     |     |      |
 |  ✅   | 51   | N-Queens                                                    | Hard       |     | hot  |
 |  ✅   | 52   | N-Queens II                                                 | Hard       |     | hot  |
 |  ✅   | 53   | Maximum Subarray                                            | Medium     |     |      |
