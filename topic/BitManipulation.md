@@ -11,5 +11,6 @@
 | 268  | Missing Number                                              | template |
 | 338  | Counting Bits                                               | template |
 | 401  | Binary Watch                                                |          |
+| 461  | Hamming Distance                                            | template |
 | 1038 | Number of Squareful Arrays                                  |          |
 | 1473 | Find the Longest Substring Containing Vowels in Even Counts |          |
