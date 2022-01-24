@@ -130,7 +130,7 @@
 |  ✅   | 173  | Binary Search Tree Iterator                                 | Medium     |     |      |
 |  ✅   | 174  | Dungeon Game                                                | Hard       |     |      |
 |  ✅   | 188  | Best Time to Buy and Sell Stock IV                          | Hard       |     | hot  |
-|  ⬜   | 189  | Rotate Array                                                | Medium     |     |      |
+|  ✅   | 189  | Rotate Array                                                | Medium     |     |      |
 |  ✅   | 190  | Reverse Bits                                                | Easy       |     |      |
 |  ✅   | 191  | Number of 1 Bits                                            | Easy       |     |      |
 |  ✅   | 198  | House Robber                                                | Easy       |     |      |
