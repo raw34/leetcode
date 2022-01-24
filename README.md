@@ -154,7 +154,7 @@
 |  ✅   | 234  | Palindrome Linked List                                      | Easy       |     |      |
 |  ✅   | 235  | Lowest Common Ancestor of a Binary Search Tree              | Medium     |     |      |
 |  ✅   | 236  | Lowest Common Ancestor of a Binary Tree                     | Medium     |     |      |
-|  ⬜   | 237  | Delete Node in a Linked List                                | Easy       |     |      |
+|  ✅   | 237  | Delete Node in a Linked List                                | Easy       |     |      |
 |  ✅   | 239  | Sliding Window Maximum                                      | Hard       |     |      |
 |  ✅   | 256  | Paint House $                                               | Medium     |     |      |
 |  ✅   | 257  | Binary Tree Paths                                           | Easy       |     |      |
