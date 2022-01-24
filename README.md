@@ -124,7 +124,7 @@
 |  ✅   | 153  | Find Minimum in Rotated Sorted Array                        | Medium     |     |      |
 |  ✅   | 154  | Find Minimum in Rotated Sorted Array II                     | Hard       |     |      |
 |  ✅   | 155  | Min Stack                                                   | Easy       |     |      |
-|  ⬜   | 160  | Intersection of Two Linked Lists                            | Easy       |     |      |
+|  ✅   | 160  | Intersection of Two Linked Lists                            | Easy       |     |      |
 |  ✅   | 164  | Maximum Gap                                                 | Hard       |     |      |
 |  ⬜   | 169  | Majority Element                                            | Easy       |     |      |
 |  ✅   | 173  | Binary Search Tree Iterator                                 | Medium     |     |      |
