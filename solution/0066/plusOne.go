@@ -5,7 +5,7 @@ func plusOne(digits []int) []int {
     carry := 1
     for carry > 0 && i > 0 {
         i--
-        sum := digits[i] + 1
+        sum := digits[i] + carry
         digits[i] = sum % 10
         carry = sum / 10
     }
