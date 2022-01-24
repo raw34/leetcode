@@ -28,6 +28,7 @@
 |  ✅   | 33   | Search in Rotated Sorted Array                              | Medium     |     |      |
 |  ✅   | 34   | Search for a Range                                          | Medium     |     |      |
 |  ✅   | 35   | Search Insert Position                                      | Medium     |     |      |
+|  ✅   | 36   | isValidSudoku                                               | Medium     |     |      |
 |  ✅   | 37   | Sudoku Solver                                               | Hard       |     | hot  |
 |  ✅   | 39   | Combination Sum                                             | Medium     |     |      |
 |  ✅   | 40   | Combination Sum II                                          | Medium     |     |      |
