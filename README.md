@@ -204,7 +204,7 @@
 |  ✅   | 450  | Delete Node in a BST                                        | Medium     |     |      |
 |  ✅   | 451  | Sort Characters By Frequency                                | Medium     |     |      |
 |  ✅   | 460  | LFU Cache                                                   | Hard       |     | hot  |
-|  ⬜   | 461  | Hamming Distance                                            | Easy       |     |      |
+|  ✅   | 461  | Hamming Distance                                            | Easy       |     |      |
 |  ✅   | 474  | Ones and Zeroes                                             | Medium     |     |      |
 |  ✅   | 494  | Target Sum                                                  | Medium     |     |      |
 |  ✅   | 496  | Next Greater Element I                                      | Easy       |     |      |
