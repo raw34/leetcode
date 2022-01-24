@@ -43,6 +43,8 @@
 | 501  | Find Mode in Binary Search Tree                            |      |
 | 509  | Inorder Successor in BST II                                |      |
 | 538  | Convert BST to Greater Tree                                |      |
+| 543 | Diameter of Binary Tree | |
+| 545 | Boundary of Binary Tree | |
 | 572  | Subtree of Another Tree                                    |      |
 | 652  | Find Duplicate Subtrees                                    |      |
 | 671  | Second Minimum Node In a Binary Tree                       |      |
