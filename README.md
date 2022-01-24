@@ -126,7 +126,7 @@
 |  ✅   | 155  | Min Stack                                                   | Easy       |     |      |
 |  ✅   | 160  | Intersection of Two Linked Lists                            | Easy       |     |      |
 |  ✅   | 164  | Maximum Gap                                                 | Hard       |     |      |
-|  ⬜   | 169  | Majority Element                                            | Easy       |     |      |
+|  ✅   | 169  | Majority Element                                            | Easy       |     |      |
 |  ✅   | 173  | Binary Search Tree Iterator                                 | Medium     |     |      |
 |  ✅   | 174  | Dungeon Game                                                | Hard       |     |      |
 |  ✅   | 188  | Best Time to Buy and Sell Stock IV                          | Hard       |     | hot  |
