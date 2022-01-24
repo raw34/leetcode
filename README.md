@@ -251,7 +251,7 @@
 |  ✅   | 871  | Minimum Number of Refueling Stops                           | Hard       |     |      |
 |  ✅   | 873  | Length of Longest Fibonacci Subsequence                     | Medium     |     |      |
 |  ✅   | 879  | Profitable Schemes                                          | Hard       |     |      |
-|  ⬜   | 889  | Construct Binary Tree from Preorder and Postorder Traversal | Medium     |     |      |
+|  ✅   | 889  | Construct Binary Tree from Preorder and Postorder Traversal | Medium     |     |      |
 |  ✅   | 912  | Sort an Array                                               | Medium     |     |      |
 |  ✅   | 918  | Maximum Sum Circular Subarray                               | Medium     |     |      |
 |  ✅   | 931  | Minimum Falling Path Sum                                    | Medium     |     |      |
