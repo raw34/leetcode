@@ -67,7 +67,7 @@
 |  ✅   | 85   | Maximal Rectangle                                           | Hard       |     | hot  |
 |  ✅   | 86   | Partition List                                              | Medium     |     |      |
 |  ✅   | 87   | Scramble String                                             | Hard       |     | hot  |
-|  ⬜   | 88   | Merge Sorted Array                                          | Easy       |     |      |
+|  ✅   | 88   | Merge Sorted Array                                          | Easy       |     |      |
 |  ✅   | 90   | Subsets II                                                  | Medium     |     |      |
 |  ✅   | 91   | Decode Ways                                                 | Medium     |     |      |
 |  ✅   | 92   | Reverse Linked List II                                      | Medium     |     |      |
