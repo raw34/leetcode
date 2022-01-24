@@ -9,8 +9,10 @@
 | 48 | Rotate Image | |
 | 60   | Permutation Sequence             |      |
 | 62   | Unique Paths                     |      |
+| 66 | Plus One | |
 | 70   | Climbing Stairs                  |      |
 | 150  | Evaluate Reverse Polish Notation |      |
+| 189 | Rotate Array | |
 | 224  | Basic Calculator                 |      |
 | 264  | Ugly Number II                   |      |
 | 279  | Perfect Squares                  |      |

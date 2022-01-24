@@ -1,6 +1,6 @@
 ## LinkedList
-| No.  | Title                                                       | Mark |
-|------|-------------------------------------------------------------|------|
+| No.  | Title                                     | Mark     |
+|------|-------------------------------------------|----------|
 | 2    | Add Two Numbers                           | template |
 | 19   | Remove Nth Node From End of List          | template |
 | 21   | Merge Two Sorted Lists                    |          |
@@ -22,6 +22,7 @@
 | 148  | Sort List                                 |          |
 | 206  | Reverse Linked List                       | template |
 | 234  | Palindrome Linked List                    |          |
+| 237  | Delete Node in a Linked List              | template |
 | 460  | LFU Cache                                 |          |
 | 707  | Design Linked List                        | design   |
 | 716  | Max Stack                                 |          |

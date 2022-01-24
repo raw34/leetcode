@@ -27,6 +27,7 @@
 | 56   | Merge Intervals                                            |      |
 | 63   | Unique Paths II                                            |      |
 | 64   | Minimum Path Sum                                           |      |
+| 66 | Plus One | |
 | 74   | Search a 2D Matrix                                         |      |
 | 77   | Combinations                                               |      |
 | 78   | Subsets                                                    |      |
@@ -34,10 +35,12 @@
 | 81   | Search in Rotated Sorted Array II                          |      |
 | 84   | Largest Rectangle in Histogram                             |      |
 | 85   | Maximal Rectangle                                          |      |
+| 88 | Merge Sorted Array | |
 | 90   | Subsets II                                                 |      |
 | 105  | Construct Binary Tree from Preorder and Inorder Traversal  |      |
 | 106  | Construct Binary Tree from Inorder and Postorder Traversal |      |
 | 108  | Convert Sorted Array to Binary Search Tree                 |      |
+| 118 | Pascal's Triangle | |
 | 120  | Triangle                                                   |      |
 | 121  | Best Time to Buy and Sell Stock                            |      |
 | 122  | Best Time to Buy and Sell Stock II                         |      |
@@ -51,8 +54,10 @@
 | 153  | Find Minimum in Rotated Sorted Array                       |      |
 | 154  | Find Minimum in Rotated Sorted Array II                    |      |
 | 164  | Maximum Gap                                                |      |
+| 169 | Majority Element | |
 | 174  | Dungeon Game                                               |      |
 | 188  | Best Time to Buy and Sell Stock IV                         |      |
+| 189 | Rotate Array | |
 | 198  | House Robber                                               |      |
 | 200  | Number of Islands                                          |      |
 | 209  | Minimum Size Subarray Sum                                  |      |
@@ -60,6 +65,7 @@
 | 213  | House Robber II                                            |      |
 | 215  | Kth Largest Element in an Array                            |      |
 | 216  | Combination Sum III                                        |      |
+| 217 | Contains Duplicate | |
 | 221  | Maximal Square                                             |      |
 | 239  | Sliding Window Maximum                                     |      |
 | 256  | Paint House                                                |      |

@@ -1,6 +1,6 @@
 ## Matrix
-| No.  | Title                                    | Mark     |
-|------|------------------------------------------|----------|
+| No.  | Title                                                       | Mark |
+|------|-------------------------------------------------------------|------|
 | 36   | Valid Sudoku                             | template |
 | 37   | Sudoku Solver                            | hot      |
 | 48   | Rotate Image                             | template |
