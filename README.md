@@ -199,7 +199,7 @@
 |  ✅   | 437  | Path Sum III                                                | Easy       |     |      |
 |  ✅   | 438  | Find All Anagrams in a String                               | Easy       |     |      |
 |  ✅   | 440  | K-th Smallest in Lexicographical Order                      | Hard       |     | hot  |
-|  ⬜   | 448  | Find All Numbers Disappeared in an Array                    | Easy       |     |      |
+|  ✅   | 448  | Find All Numbers Disappeared in an Array                    | Easy       |     |      |
 |  ✅   | 449  | Serialize and Deserialize BST                               | Medium     |     |      |
 |  ✅   | 450  | Delete Node in a BST                                        | Medium     |     |      |
 |  ✅   | 451  | Sort Characters By Frequency                                | Medium     |     |      |
