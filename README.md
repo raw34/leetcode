@@ -78,7 +78,7 @@
 |  ✅   | 98   | Validate Binary Search Tree                                 | Medium     |     |      |
 |  ✅   | 99   | Recover Binary Search Tree                                  | Medium     |     |      |
 |  ✅   | 100  | Same Tree                                                   | Easy       |     |      |
-|  ⬜   | 101  | Symmetric Tree                                              | Medium     |     |      |
+|  ✅   | 101  | Symmetric Tree                                              | Medium     |     |      |
 |  ✅   | 102  | Binary Tree Level Order Traversal                           | Easy       |     |      |
 |  ✅   | 103  | Binary Tree Zigzag Level Order Traversal                    | Medium     |     |      |
 |  ✅   | 104  | Maximum Depth of Binary Tree                                | Easy       |     |      |
