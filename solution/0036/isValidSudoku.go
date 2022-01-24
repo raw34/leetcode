@@ -8,17 +8,17 @@ func isValidSudoku(board [][]byte) bool {
 
     for i := 0; i < n; i++ {
         for j := 0; j < n; j++ {
-            curr := board[i][j]
-            if curr == '.' {
+            char := board[i][j]
+            if char == '.' {
                 continue
             }
-            curr -= '1'
-            if dx[i][curr] || dy[j][curr] || dc[i/3][j/3][curr] {
+            char -= '1'
+            if dx[i][char] || dy[j][char] || dc[i/3][j/3][char] {
                 return false
             }
-            dx[i][curr] = true
-            dy[j][curr] = true
-            dc[i/3][j/3][curr] = true
+            dx[i][char] = true
+            dy[j][char] = true
+            dc[i/3][j/3][char] = true
         }
     }
 
