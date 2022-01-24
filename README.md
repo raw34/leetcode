@@ -88,7 +88,7 @@
 |  ✅   | 108  | Convert Sorted Array to Binary Search Tree                  | Medium     |     |      |
 |  ✅   | 109  | Convert Sorted List to Binary Search Tree                   | Medium     |     |      |
 |  ✅   | 110  | Balanced Binary Tree                                        | Easy       |     |      |
-|  ⬜   | 111  | Minimum Depth of Binary Tree                                | Medium     |     |      |
+|  ✅   | 111  | Minimum Depth of Binary Tree                                | Medium     |     |      |
 |  ✅   | 112  | Path Sum                                                    | Easy       |     |      |
 |  ✅   | 113  | Path Sum II                                                 | Medium     |     |      |
 |  ✅   | 114  | Flatten Binary Tree to Linked List                          | Medium     |     |      |
