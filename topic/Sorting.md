@@ -11,6 +11,7 @@
 | 169 | Majority Element | |
 | 215 | Kth Largest Element in an Array |          |
 | 217 | Contains Duplicate | |
+| 268 | Missing Number | |
 | 295 | Find Median from Data Stream    |          |
 | 347 | Top K Frequent Elements         |          |
 | 349 | Intersection of Two Arrays      |          |

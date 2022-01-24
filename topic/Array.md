@@ -71,6 +71,7 @@
 | 256  | Paint House                                                |      |
 | 260  | Single Number III                                          |      |
 | 265  | Paint House II                                             |      |
+| 268 | Missing Number | |
 | 283  | Move Zeroes                                                |      |
 | 300  | Longest Increasing Subsequence                             |      |
 | 303  | Range Sum Query - Immutable                                |      |

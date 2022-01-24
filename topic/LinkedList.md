@@ -1,6 +1,6 @@
 ## LinkedList
-| No.  | Title                                     | Mark     |
-|------|-------------------------------------------|----------|
+| No.  | Title                                                       | Mark |
+|------|-------------------------------------------------------------|------|
 | 2    | Add Two Numbers                           | template |
 | 19   | Remove Nth Node From End of List          | template |
 | 21   | Merge Two Sorted Lists                    |          |

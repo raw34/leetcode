@@ -15,6 +15,7 @@
 | 189 | Rotate Array | |
 | 224  | Basic Calculator                 |      |
 | 264  | Ugly Number II                   |      |
+| 268 | Missing Number | |
 | 279  | Perfect Squares                  |      |
 | 343  | Integer Break                    |      |
 | 368  | Largest Divisible Subset         |      |
