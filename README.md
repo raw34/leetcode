@@ -149,7 +149,7 @@
 |  ✅   | 222  | Count Complete Tree Nodes                                   | Medium     |     |      |
 |  ✅   | 224  | Basic Calculator                                            | Medium     |     | hot  |
 |  ✅   | 225  | Implement Stack using Queues                                | Medium     |     |      |
-|  ⬜   | 226  | Invert Binary Tree                                          | Easy       |     |      |
+|  ✅   | 226  | Invert Binary Tree                                          | Easy       |     |      |
 |  ✅   | 232  | Implement Queue using Stacks                                | Easy       |     |      |
 |  ✅   | 234  | Palindrome Linked List                                      | Easy       |     |      |
 |  ✅   | 235  | Lowest Common Ancestor of a Binary Search Tree              | Medium     |     |      |
