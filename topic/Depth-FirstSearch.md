@@ -1,6 +1,6 @@
-## Depth-First Search
-| No.  | Title                                          | Mark     |
-|------|------------------------------------------------|----------|
+## Depth-FirstSearch
+| No.  | Title                                                       | Mark |
+|------|-------------------------------------------------------------|------|
 | 94   | Binary Tree Inorder Traversal                  |          |
 | 98   | Validate Binary Search Tree                    |          |
 | 99   | Recover Binary Search Tree                     |          |

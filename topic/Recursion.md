@@ -1,6 +1,6 @@
 ## Recursion
-| No.  | Title                       | Mark     |
-|------|-----------------------------|----------|
+| No.  | Title                                                       | Mark |
+|------|-------------------------------------------------------------|------|
 | 2    | Add Two Numbers             |          |
 | 10   | Regular Expression Matching |          |
 | 21   | Merge Two Sorted Lists      |          |

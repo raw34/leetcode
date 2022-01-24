@@ -1,6 +1,6 @@
 ## Greedy
-| No.  | Title                                                | Mark     |
-|------|------------------------------------------------------|----------|
+| No.  | Title                                                       | Mark |
+|------|-------------------------------------------------------------|------|
 | 11   | Container With Most Water                            | template |
 | 44   | Wildcard Matching                                    | hot      |
 | 45   | Jump Game II                                         | template |

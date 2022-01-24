@@ -1,6 +1,6 @@
 ## Backtracking
-| No.  | Title                                 | Mark     |
-|------|---------------------------------------|----------|
+| No.  | Title                                                       | Mark |
+|------|-------------------------------------------------------------|------|
 | 17   | Letter Combinations of a Phone Number | hot      |
 | 22   | Generate Parentheses                  |          |
 | 37   | Sudoku Solver                         |          |

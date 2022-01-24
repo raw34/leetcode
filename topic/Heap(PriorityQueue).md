@@ -1,6 +1,6 @@
-## Heap (Priority Queue)
-| No. | Title                               | Mark     |
-|-----|-------------------------------------|----------|
+## Heap(PriorityQueue)
+| No.  | Title                                                       | Mark |
+|------|-------------------------------------------------------------|------|
 | 23  | Merge k Sorted Lists                |          |
 | 215 | Kth Largest Element in an Array     | template |
 | 239 | Sliding Window Maximum              |          |

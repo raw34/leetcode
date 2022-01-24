@@ -1,6 +1,7 @@
 ## Stack
-| No. | Title                              | Mark   |
-|-----|------------------------------------|--------|
+| No.  | Title                                                       | Mark |
+|------|-------------------------------------------------------------|------|
+| 20 | Valid Parentheses | |
 | 32  | Longest Valid Parentheses          |        |
 | 42  | Trapping Rain Water                |        |
 | 84  | Largest Rectangle in Histogram     |        |

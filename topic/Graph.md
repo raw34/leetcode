@@ -1,6 +1,6 @@
 ## Graph
-| No. | Title                               | Mark |
-|-----|-------------------------------------|------|
+| No.  | Title                                                       | Mark |
+|------|-------------------------------------------------------------|------|
 | 133 | Clone Graph                         |      |
 | 329 | Longest Increasing Path in a Matrix |      |
 | 801 | Is Graph Bipartite?                 |      |

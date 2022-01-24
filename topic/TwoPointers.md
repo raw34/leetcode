@@ -1,6 +1,6 @@
-## Two Pointers
-| No.  | Title                                 | Mark     |
-|------|---------------------------------------|----------|
+## TwoPointers
+| No.  | Title                                                       | Mark |
+|------|-------------------------------------------------------------|------|
 | 11   | Container With Most Water             |          |
 | 15   | 3Sum                                  |          |
 | 16   | 3Sum Closest                          | template |

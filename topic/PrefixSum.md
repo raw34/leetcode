@@ -1,6 +1,6 @@
-## Prefix Sum
-| No.  | Title                                                       | Mark     |
-|------|-------------------------------------------------------------|----------|
+## PrefixSum
+| No.  | Title                                                       | Mark |
+|------|-------------------------------------------------------------|------|
 | 209  | Minimum Size Subarray Sum                                   |          |
 | 303  | Range Sum Query - Immutable                                 | template |
 | 304  | Range Sum Query 2D - Immutable                              | template |

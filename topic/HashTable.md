@@ -1,6 +1,6 @@
-## Hash Table
-| No.  | Title                                                       | Mark     |
-|------|-------------------------------------------------------------|----------|
+## HashTable
+| No.  | Title                                                       | Mark |
+|------|-------------------------------------------------------------|------|
 | 1    | Two Sum                                                     |          |
 | 3    | Longest Substring Without Repeating Characters              |          |
 | 17   | Letter Combinations of a Phone Number                       |          |

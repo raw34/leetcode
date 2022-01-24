@@ -1,11 +1,12 @@
 ## Array
-| No.  | Title                                                      | Mark |
-|------|------------------------------------------------------------|------|
+| No.  | Title                                                       | Mark |
+|------|-------------------------------------------------------------|------|
 | 1    | Two Sum                                                    |      |
 | 4    | Median of Two Sorted Arrays                                |      |
 | 11   | Container With Most Water                                  |      |
 | 15   | 3Sum                                                       |      |
 | 16   | 3Sum Closest                                               |      |
+| 26 | Remove Duplicates from Sorted Array | |
 | 33   | Search in Rotated Sorted Array                             |      |
 | 34   | Find First and Last Position of Element in Sorted Array    |      |
 | 35   | Search Insert Position                                     |      |
@@ -17,8 +18,10 @@
 | 45   | Jump Game II                                               |      |
 | 46   | Permutations                                               |      |
 | 47   | Permutations II                                            |      |
+| 48 | Rotate Image | |
 | 51   | N-Queens                                                   |      |
 | 53   | Maximum Subarray                                           |      |
+| 54 | Spiral Matrix | |
 | 55   | Jump Game                                                  |      |
 | 56   | Merge Intervals                                            |      |
 | 63   | Unique Paths II                                            |      |

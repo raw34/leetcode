@@ -1,6 +1,6 @@
-## Breadth-First Search
-| No. | Title                                          | Mark     |
-|-----|------------------------------------------------|----------|
+## Breadth-FirstSearch
+| No.  | Title                                                       | Mark |
+|------|-------------------------------------------------------------|------|
 | 100 | Same Tree                                      |          |
 | 102 | Binary Tree Level Order Traversal              |          |
 | 103 | Binary Tree Zigzag Level Order Traversal       |          |

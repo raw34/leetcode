@@ -1,6 +1,6 @@
-## Dynamic Programming
-| No.  | Title                                                | Mark     |
-|------|------------------------------------------------------|----------|
+## DynamicProgramming
+| No.  | Title                                                       | Mark |
+|------|-------------------------------------------------------------|------|
 | 10   | Regular Expression Matching                          |          |
 | 22   | Generate Parentheses                                 |          |
 | 32   | Longest Valid Parentheses                            |          |

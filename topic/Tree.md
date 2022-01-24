@@ -1,6 +1,6 @@
 ## Tree
-| No.  | Title                                                      | Mark |
-|------|------------------------------------------------------------|------|
+| No.  | Title                                                       | Mark |
+|------|-------------------------------------------------------------|------|
 | 94   | Binary Tree Inorder Traversal                              |      |
 | 95   | Unique Binary Search Trees II                              |      |
 | 98   | Validate Binary Search Tree                                |      |

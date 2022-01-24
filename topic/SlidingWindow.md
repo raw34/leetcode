@@ -1,6 +1,6 @@
-## Sliding Window
-| No. | Title                                                | Mark     |
-|-----|------------------------------------------------------|----------|
+## SlidingWindow
+| No.  | Title                                                       | Mark |
+|------|-------------------------------------------------------------|------|
 | 3   | Longest Substring Without Repeating Characters       |          |
 | 30  | Substring with Concatenation of All Words            |          |
 | 76  | Minimum Window Substring                             | template |

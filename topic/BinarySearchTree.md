@@ -1,6 +1,6 @@
-## Binary Search Tree
-| No.  | Title                                                   | Mark     |
-|------|---------------------------------------------------------|----------|
+## BinarySearchTree
+| No.  | Title                                                       | Mark |
+|------|-------------------------------------------------------------|------|
 | 95   | Unique Binary Search Trees II                           |          |
 | 98   | Validate Binary Search Tree                             | template |
 | 99   | Recover Binary Search Tree                              |          |

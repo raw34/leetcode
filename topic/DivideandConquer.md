@@ -1,6 +1,6 @@
-## Divide and Conquer
-| No. | Title                                                      | Mark         |
-|-----|------------------------------------------------------------|--------------|
+## DivideandConquer
+| No.  | Title                                                       | Mark |
+|------|-------------------------------------------------------------|------|
 | 4   | Median of Two Sorted Arrays                                | hot,template |
 | 23  | Merge k Sorted Lists                                       | hot,template |
 | 53  | Maximum Subarray                                           |              |

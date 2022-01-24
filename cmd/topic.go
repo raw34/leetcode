@@ -7,6 +7,7 @@ import (
     "github.com/yuin/goldmark"
     "github.com/yuin/goldmark/text"
     "io/ioutil"
+    "sort"
     "strconv"
     "strings"
 )
@@ -143,11 +144,17 @@ func question2Topic(name string, questions []gjson.Result, doneQuestions map[int
         }
     }
     // 补全手动覆盖标签的数据
-    for no, row := range topicQuestions {
+    nos := make([]int, 0)
+    for no, _ := range topicQuestions {
+        nos = append(nos, no)
+    }
+    sort.Ints(nos)
+    for i := 0; i < len(nos); i++ {
+        no := nos[i]
         if no == 0 {
             continue
         }
-        content += row + "\n"
+        content += topicQuestions[no] + "\n"
     }
     // 写入文件
     err := ioutil.WriteFile(topicPath, []byte(content), 0644)

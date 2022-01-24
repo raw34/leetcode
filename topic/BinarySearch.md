@@ -1,6 +1,6 @@
-## Binary Search
-| No.  | Title                                                   | Mark     |
-|------|---------------------------------------------------------|----------|
+## BinarySearch
+| No.  | Title                                                       | Mark |
+|------|-------------------------------------------------------------|------|
 | 4    | Median of Two Sorted Arrays                             | hot      |
 | 33   | Search in Rotated Sorted Array                          |          |
 | 34   | Find First and Last Position of Element in Sorted Array |          |

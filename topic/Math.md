@@ -1,10 +1,12 @@
 ## Math
-| No.  | Title                            | Mark |
-|------|----------------------------------|------|
+| No.  | Title                                                       | Mark |
+|------|-------------------------------------------------------------|------|
 | 2    | Add Two Numbers                  |      |
+| 7 | Reverse Integer | |
 | 12   | Integer to Roman                 |      |
 | 13   | Roman to Integer                 |      |
 | 43   | Multiply Strings                 |      |
+| 48 | Rotate Image | |
 | 60   | Permutation Sequence             |      |
 | 62   | Unique Paths                     |      |
 | 70   | Climbing Stairs                  |      |

@@ -1,6 +1,6 @@
-## Monotonic Stack
-| No. | Title                          | Mark     |
-|-----|--------------------------------|----------|
+## MonotonicStack
+| No.  | Title                                                       | Mark |
+|------|-------------------------------------------------------------|------|
 | 42  | Trapping Rain Water            | hot      |
 | 84  | Largest Rectangle in Histogram | hot      |
 | 85  | Maximal Rectangle              |          |
