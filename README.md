@@ -134,7 +134,7 @@
 |  ✅   | 190  | Reverse Bits                                                | Easy       |     |      |
 |  ✅   | 191  | Number of 1 Bits                                            | Easy       |     |      |
 |  ✅   | 198  | House Robber                                                | Easy       |     |      |
-|  ⬜   | 199  | Binary Tree Right Side View                                 | Medium     |     |      |
+|  ✅   | 199  | Binary Tree Right Side View                                 | Medium     |     |      |
 |  ✅   | 200  | Number of Islands                                           | Medium     |     |      |
 |  ✅   | 206  | Reverse Linked List                                         | Easy       |     |      |
 |  ✅   | 208  | Implement Trie (Prefix Tree)                                | Medium     |     |      |
