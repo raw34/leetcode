@@ -217,7 +217,7 @@
 |  ✅   | 538  | Convert BST to Greater Tree                                 | Medium     |     |      |
 |  ✅   | 542  | 01 Matrix                                                   | Medium     |     |      |
 |  ✅   | 543  | Diameter of Binary Tree                                     | Easy       |     |      |
-|  ⬜   | 545  | Boundary of Binary Tree                                     | Medium     |     |      |
+|  ✅   | 545  | Boundary of Binary Tree                                     | Medium     |     |      |
 |  ✅   | 560  | Subarray Sum Equals K                                       | Medium     |     |      |
 |  ✅   | 567  | Permutation in String                                       | Medium     |     |      |
 |  ✅   | 572  | Subtree of Another Tree                                     | Easy       |     |      |
