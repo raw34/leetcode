@@ -95,7 +95,7 @@
 |  ✅   | 115  | Distinct Subsequences                                       | Hard       |     | hot  |
 |  ✅   | 116  | Populating Next Right Pointers in Each Node                 | Medium     |     |      |
 |  ✅   | 117  | Populating Next Right Pointers in Each Node II              | Hard       |     |      |
-|  ⬜   | 118  | Pascal's Triangle                                           | Medium     |     |      |
+|  ✅   | 118  | Pascal's Triangle                                           | Medium     |     |      |
 |  ✅   | 120  | Triangle                                                    | Medium     |     |      |
 |  ✅   | 121  | Best Time to Buy and Sell Stock                             | Medium     |     |      |
 |  ✅   | 122  | Best Time to Buy and Sell Stock II                          | Medium     |     |      |
