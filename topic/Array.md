@@ -45,6 +45,7 @@
 | 121  | Best Time to Buy and Sell Stock                            |      |
 | 122  | Best Time to Buy and Sell Stock II                         |      |
 | 123  | Best Time to Buy and Sell Stock III                        |      |
+| 128 | Longest Consecutive Sequence | |
 | 130  | Surrounded Regions                                         |      |
 | 135  | Candy                                                      |      |
 | 136  | Single Number                                              |      |
