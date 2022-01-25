@@ -15,4 +15,13 @@
 | 449 | Serialize and Deserialize BST              |      |
 | 460 | LFU Cache                                  |      |
 | 716 | Max Stack                                  |      |
+| 703 | Kth Largest Element in a Stream | |
+| 705 | Design HashSet | |
+| 706 | Design HashMap | |
+| 707 | Design Linked List | |
+| 641 | Design Circular Deque | |
+| 622 | Design Circular Queue | |
+| 1206 | Design Skiplist | |
+| 1670 | Design Front Middle Back Queue | |
+| 1804 | Implement Trie II (Prefix Tree) | |
 | 931 | Maximum Frequency Stack                    |      |

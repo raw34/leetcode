@@ -22,5 +22,7 @@
 | 216  | Combination Sum III                   |          |
 | 401  | Binary Watch                          |          |
 | 494  | Target Sum                            |          |
+| 784 | Letter Case Permutation | |
+| 1863 | Sum of All Subset XOR Totals | |
 | 813  | All Paths From Source to Target       |          |
 | 1038 | Number of Squareful Arrays            |          |
