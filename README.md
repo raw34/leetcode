@@ -101,6 +101,7 @@
 |  ✅   | 122  | Best Time to Buy and Sell Stock II                          | Medium     |     |      |
 |  ✅   | 123  | Best Time to Buy and Sell Stock III                         | Hard       |     |      |
 |  ✅   | 124  | Binary Tree Maximum Path Sum                                | Hard       |     | hot  |
+|  ✅   | 128  | Longest Consecutive Sequence                                | Medium     |     |      |
 |  ✅   | 129  | Sum Root to Leaf Numbers                                    | Medium     |     |      |
 |  ✅   | 130  | Surrounded Regions                                          | Medium     |     |      |
 |  ✅   | 131  | Palindrome Partitioning                                     | Medium     |     |      |
