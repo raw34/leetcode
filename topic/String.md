@@ -44,7 +44,13 @@
 | 567  | Permutation in String                                       |      |
 | 583  | Delete Operation for Two Strings                            |      |
 | 712  | Minimum ASCII Delete Sum for Two Strings                    |      |
+| 784 | Letter Case Permutation | |
+| 1055 | Shortest Way to Form String | |
+| 1028 | Recover a Tree From Preorder Traversal | |
+| 1081 | Smallest Subsequence of Distinct Characters | |
+| 1108 | Defanging an IP Address | |
+| 1143 | Longest Common Subsequence | |
+| 1804 | Implement Trie II (Prefix Tree) | |
 | 862  | Find And Replace in String                                  |      |
 | 873  | Guess the Word                                              |      |
 | 1473 | Find the Longest Substring Containing Vowels in Even Counts |      |
-| 1804 | Maximum Binary String After Change                          |      |
