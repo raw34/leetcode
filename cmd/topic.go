@@ -124,7 +124,8 @@ func question2Topic(name string, questions []gjson.Result, doneQuestions map[int
     content += "|------|-------------------------------------------------------------|------|\n"
     // 遍历全部题目，找到包含当前标签的题目，逐行写入文件
     for _, question := range questions {
-        no := int(question.Get("questionId").Int())
+        no := int(question.Get("questionFrontendId").Int())
+        title := question.Get("title").String()
         topics := question.Get("topicTags").Array()
         for _, topic := range topics {
             topicName := topic.Get("name").String()
@@ -136,7 +137,6 @@ func question2Topic(name string, questions []gjson.Result, doneQuestions map[int
                 row += "\n"
                 delete(topicQuestions, no)
             } else {
-                title := question.Get("title").String()
                 row = fmt.Sprintf("| %d | %s | |\n", no, title)
             }
             // TODO 格式化一下当前行，补若干个空格

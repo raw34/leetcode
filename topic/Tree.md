@@ -41,13 +41,20 @@
 | 449  | Serialize and Deserialize BST                              |      |
 | 450  | Delete Node in a BST                                       |      |
 | 501  | Find Mode in Binary Search Tree                            |      |
-| 509  | Inorder Successor in BST II                                |      |
+| 510 | Inorder Successor in BST II | |
 | 538  | Convert BST to Greater Tree                                |      |
 | 543 | Diameter of Binary Tree | |
 | 545 | Boundary of Binary Tree | |
 | 572  | Subtree of Another Tree                                    |      |
+| 617 | Merge Two Binary Trees | |
 | 652  | Find Duplicate Subtrees                                    |      |
 | 671  | Second Minimum Node In a Binary Tree                       |      |
-| 784  | Insert into a Binary Search Tree                           |      |
+| 426 | Convert Binary Search Tree to Sorted Doubly Linked List | |
+| 701 | Insert into a Binary Search Tree | |
+| 703 | Kth Largest Element in a Stream | |
 | 863  | Sum of Distances in Tree                                   |      |
+| 889 | Construct Binary Tree from Preorder and Postorder Traversal | |
 | 1008 | Construct Binary Search Tree from Preorder Traversal       |      |
+| 1028 | Recover a Tree From Preorder Traversal | |
+| 1038 | Binary Search Tree to Greater Sum Tree | |
+| 1372 | Longest ZigZag Path in a Binary Tree | |
