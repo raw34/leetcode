@@ -221,7 +221,7 @@
 |  ✅   | 560  | Subarray Sum Equals K                                       | Medium     |     |      |
 |  ✅   | 567  | Permutation in String                                       | Medium     |     |      |
 |  ✅   | 572  | Subtree of Another Tree                                     | Easy       |     |      |
-|  ⬜   | 581  | Shortest Unsorted Continuous Subarray                       | Medium     |     |      |
+|  ✅   | 581  | Shortest Unsorted Continuous Subarray                       | Medium     |     |      |
 |  ✅   | 583  | Delete Operation for Two Strings                            | Medium     |     |      |
 |  ⬜   | 617  | Merge Two Binary Trees                                      | Easy       |     |      |
 |  ✅   | 622  | Design Circular Queue                                       | Medium     |     |      |
