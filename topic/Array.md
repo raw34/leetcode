@@ -94,27 +94,44 @@
 | 494  | Target Sum                                                 |      |
 | 496  | Next Greater Element I                                     |      |
 | 503  | Next Greater Element II                                    |      |
-| 510  | Count Subarrays With More Ones Than Zeros                  |      |
 | 518  | Coin Change 2                                              |      |
 | 529  | Minesweeper                                                |      |
 | 542  | 01 Matrix                                                  |      |
 | 560  | Subarray Sum Equals K                                      |      |
+| 581 | Shortest Unsorted Continuous Subarray | |
 | 673  | Number of Longest Increasing Subsequence                   |      |
 | 714  | Best Time to Buy and Sell Stock with Transaction Fee       |      |
 | 718  | Maximum Length of Repeated Subarray                        |      |
 | 733  | Flood Fill                                                 |      |
 | 739  | Daily Temperatures                                         |      |
 | 740  | Delete and Earn                                            |      |
+| 704 | Binary Search | |
+| 705 | Design HashSet | |
+| 706 | Design HashMap | |
+| 801 | Minimum Swaps To Make Sequences Increasing | |
+| 813 | Largest Sum of Averages | |
+| 641 | Design Circular Deque | |
+| 622 | Design Circular Queue | |
 | 862  | Find And Replace in String                                 |      |
+| 871 | Minimum Number of Refueling Stops | |
 | 873  | Guess the Word                                             |      |
 | 879  | Maximize Distance to Closest Person                        |      |
+| 889 | Construct Binary Tree from Preorder and Postorder Traversal | |
+| 912 | Sort an Array | |
+| 918 | Maximum Sum Circular Subarray | |
+| 931 | Minimum Falling Path Sum | |
+| 1008 | Construct Binary Search Tree from Preorder Traversal | |
+| 1013 | Partition Array Into Three Parts With Equal Sum | |
 | 1027 | Sum of Even Numbers After Queries                          |      |
+| 1049 | Last Stone Weight II | |
+| 1277 | Count Square Submatrices with All Ones | |
+| 1388 | Pizza With 3n Slices | |
+| 1473 | Paint House III | |
+| 1670 | Design Front Middle Back Queue | |
+| 1863 | Sum of All Subset XOR Totals | |
 | 1028 | Interval List Intersections                                |      |
 | 1038 | Number of Squareful Arrays                                 |      |
-| 1049 | Minimum Domino Rotations For Equal Row                     |      |
 | 1055 | Pairs of Songs With Total Durations Divisible by 60        |      |
 | 1143 | Find Smallest Common Element in All Rows                   |      |
 | 1206 | Corporate Flight Bookings                                  |      |
-| 1277 | Largest Multiple of Three                                  |      |
 | 1372 | Check If It Is a Good Array                                |      |
-| 1388 | Greatest Sum Divisible by Three                            |      |
