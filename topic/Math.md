@@ -20,6 +20,8 @@
 | 343  | Integer Break                    |      |
 | 368  | Largest Divisible Subset         |      |
 | 650  | 2 Keys Keyboard                  |      |
+| 509 | Fibonacci Number | |
+| 1863 | Sum of All Subset XOR Totals | |
 | 873  | Guess the Word                   |      |
 | 912  | Random Pick with Weight          |      |
 | 1013 | Fibonacci Number                 |      |

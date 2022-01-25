@@ -6,4 +6,6 @@
 | 239  | Sliding Window Maximum         |        |
 | 622  | Design Circular Queue          | design |
 | 641  | Design Circular Deque          | design |
+| 862 | Shortest Subarray with Sum at Least K | |
+| 918 | Maximum Sum Circular Subarray | |
 | 1670 | Design Front Middle Back Queue | design |

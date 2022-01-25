@@ -20,4 +20,6 @@
 | 529  | Minesweeper                              |          |
 | 542  | 01 Matrix                                |          |
 | 733  | Flood Fill                               |          |
+| 931 | Minimum Falling Path Sum | |
+| 1277 | Count Square Submatrices with All Ones | |
 | 1143 | Find Smallest Common Element in All Rows |          |
