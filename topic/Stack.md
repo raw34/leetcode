@@ -23,6 +23,10 @@
 | 402 | Remove K Digits                    |        |
 | 496 | Next Greater Element I             |        |
 | 503 | Next Greater Element II            |        |
+| 581 | Shortest Unsorted Continuous Subarray | |
 | 716 | Max Stack                          | design |
 | 739 | Daily Temperatures                 |        |
+| 426 | Convert Binary Search Tree to Sorted Doubly Linked List | |
+| 1008 | Construct Binary Search Tree from Preorder Traversal | |
+| 1081 | Smallest Subsequence of Distinct Characters | |
 | 931 | Maximum Frequency Stack            |        |

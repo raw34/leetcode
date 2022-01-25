@@ -14,4 +14,5 @@
 | 234  | Palindrome Linked List      |          |
 | 344  | Reverse String              | template |
 | 394  | Decode String               |          |
+| 509 | Fibonacci Number | |
 | 1013 | Fibonacci Number            | template |
