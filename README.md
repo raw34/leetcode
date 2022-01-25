@@ -262,7 +262,7 @@
 |  ✅   | 1038 | Binary Search Tree to Greater Sum Tree                      | Medium     |     |      |
 |  ✅   | 1049 | Last Stone Weight II                                        | Medium     |     |      |
 |  ✅   | 1055 | Shortest Way to Form String $                               | Medium     |     |      |
-|  ⬜   | 1081 | Smallest Subsequence of Distinct Characters                 | Medium     |     |      |
+|  ✅   | 1081 | Smallest Subsequence of Distinct Characters                 | Medium     |     |      |
 |  ⬜   | 1108 | Defanging an IP Address                                     | Easy       |     |      |
 |  ✅   | 1143 | Longest Common Subsequence                                  | Medium     |     |      |
 |  ✅   | 1155 | Number of Dice Rolls With Target Sum                        | Medium     |     |      |
