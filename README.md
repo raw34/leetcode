@@ -223,7 +223,7 @@
 |  ✅   | 572  | Subtree of Another Tree                                     | Easy       |     |      |
 |  ✅   | 581  | Shortest Unsorted Continuous Subarray                       | Medium     |     |      |
 |  ✅   | 583  | Delete Operation for Two Strings                            | Medium     |     |      |
-|  ⬜   | 617  | Merge Two Binary Trees                                      | Easy       |     |      |
+|  ✅   | 617  | Merge Two Binary Trees                                      | Easy       |     |      |
 |  ✅   | 622  | Design Circular Queue                                       | Medium     |     |      |
 |  ✅   | 641  | Design Circular Deque                                       | Medium     |     |      |
 |  ✅   | 650  | 2 Keys Keyboard                                             | Medium     |     |      |
