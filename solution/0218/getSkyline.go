@@ -9,8 +9,7 @@ func getSkyline(buildings [][]int) [][]int {
     n := len(buildings)
     boundaries := make([]int, 0)
     for i := 0; i < n; i++ {
-        boundaries = append(boundaries, buildings[i][0])
-        boundaries = append(boundaries, buildings[i][1])
+        boundaries = append(boundaries, buildings[i][0], buildings[i][1])
     }
     sort.Ints(boundaries)
     res := make([][]int, 0)
