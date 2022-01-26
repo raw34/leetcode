@@ -7,68 +7,57 @@ import (
 
 func getSkyline(buildings [][]int) [][]int {
     n := len(buildings)
-    points := make([][]int, 0)
+    boundaries := make([]int, 0)
     for i := 0; i < n; i++ {
-        points = append(points, []int{buildings[i][0], -buildings[i][2]})
-        points = append(points, []int{buildings[i][1], buildings[i][2]})
+        boundaries = append(boundaries, buildings[i][0])
+        boundaries = append(boundaries, buildings[i][1])
     }
-    sort.Slice(points, func(i, j int) bool {
-        if points[i][0] != points[j][0] {
-            return points[i][0] < points[j][0]
-        }
-        return points[i][1] < points[j][1]
-    })
-
+    sort.Ints(boundaries)
     res := make([][]int, 0)
-    curr, prev := 0, 0
-    queue := &maxHeap{}
-    heap.Push(queue, curr)
-    for _, dir := range points {
-        x, y := dir[0], dir[1]
-        if y < 0 {
-            heap.Push(queue, -y)
-        } else {
-            heap.Remove(queue, queue.Find(y))
+    queue := maxHeap{}
+    idx := 0
+    for _, boundary := range boundaries {
+        for idx < n && buildings[idx][0] <= boundary {
+            heap.Push(&queue, [2]int{buildings[idx][1], buildings[idx][2]})
+            idx++
         }
-
+        for queue.Len() > 0 && queue[0][0] <= boundary {
+            heap.Pop(&queue)
+        }
+        maxHeight := 0
         if queue.Len() > 0 {
-            curr = queue.IntSlice[0]
+            maxHeight = queue[0][1]
         }
-        if curr != prev {
-            res = append(res, []int{x, curr})
-            prev = curr
+        if len(res) == 0 || maxHeight != res[len(res)-1][1] {
+            res = append(res, []int{boundary, maxHeight})
         }
     }
 
     return res
 }
 
-type maxHeap struct {
-    sort.IntSlice
+type maxHeap [][2]int
+
+func (h maxHeap) Len() int {
+    return len(h)
 }
 
-func (this *maxHeap) Less(i, j int) bool {
-    return this.IntSlice[i] > this.IntSlice[j]
+func (h maxHeap) Less(i, j int) bool {
+    return h[i][1] > h[j][1]
 }
 
-func (this *maxHeap) Push(val interface{}) {
-    this.IntSlice = append(this.IntSlice, val.(int))
+func (h maxHeap) Swap(i, j int) {
+    h[i], h[j] = h[j], h[i]
 }
 
-func (this *maxHeap) Pop() interface{} {
-    n := this.IntSlice.Len()
-    val := this.IntSlice[n-1]
-    this.IntSlice = this.IntSlice[:n-1]
+func (h *maxHeap) Push(val interface{}) {
+    *h = append(*h, val.([2]int))
+}
+
+func (h *maxHeap) Pop() interface{} {
+    queue := *h
+    n := queue.Len()
+    val := queue[n-1]
+    *h = queue[:n-1]
     return val
-}
-
-func (this *maxHeap) Find(val interface{}) int {
-    idx := -1
-    for i := 0; i < this.IntSlice.Len(); i++ {
-        if this.IntSlice[i] == val.(int) {
-            idx = i
-            break
-        }
-    }
-    return idx
 }
