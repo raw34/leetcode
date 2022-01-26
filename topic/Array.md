@@ -67,6 +67,7 @@
 | 215  | Kth Largest Element in an Array                            |      |
 | 216  | Combination Sum III                                        |      |
 | 217 | Contains Duplicate | |
+| 218 | The Skyline Problem | |
 | 221  | Maximal Square                                             |      |
 | 239  | Sliding Window Maximum                                     |      |
 | 256  | Paint House                                                |      |
