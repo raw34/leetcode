@@ -146,6 +146,7 @@
 |  ✅   | 215  | Kth Largest Element in an Array                             | Medium     |     |      |
 |  ✅   | 216  | Combination Sum III                                         | Medium     |     |      |
 |  ✅   | 217  | Contains Duplicate                                          | Easy       |     |      |
+|  ✅   | 218  | The Skyline Problem                                         | Hard       |     |      |
 |  ✅   | 221  | Maximal Square                                              | Medium     |     |      |
 |  ✅   | 222  | Count Complete Tree Nodes                                   | Medium     |     |      |
 |  ✅   | 224  | Basic Calculator                                            | Medium     |     | hot  |

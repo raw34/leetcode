@@ -7,23 +7,23 @@ import (
 
 func getSkyline(buildings [][]int) [][]int {
     n := len(buildings)
-    dirs := make([][]int, 0)
+    points := make([][]int, 0)
     for i := 0; i < n; i++ {
-        dirs = append(dirs, []int{buildings[i][0], -buildings[i][2]})
-        dirs = append(dirs, []int{buildings[i][1], buildings[i][2]})
+        points = append(points, []int{buildings[i][0], -buildings[i][2]})
+        points = append(points, []int{buildings[i][1], buildings[i][2]})
     }
-    sort.Slice(dirs, func(i, j int) bool {
-        if dirs[i][0] != dirs[j][0] {
-            return dirs[i][0] < dirs[j][0]
+    sort.Slice(points, func(i, j int) bool {
+        if points[i][0] != points[j][0] {
+            return points[i][0] < points[j][0]
         }
-        return dirs[i][1] < dirs[j][1]
+        return points[i][1] < points[j][1]
     })
 
     res := make([][]int, 0)
-    queue := &maxHeap{}
-    heap.Push(queue, 0)
     curr, prev := 0, 0
-    for _, dir := range dirs {
+    queue := &maxHeap{}
+    heap.Push(queue, curr)
+    for _, dir := range points {
         x, y := dir[0], dir[1]
         if y < 0 {
             heap.Push(queue, -y)
