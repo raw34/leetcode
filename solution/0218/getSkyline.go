@@ -32,8 +32,7 @@ func getSkyline(buildings [][]int) [][]int {
         }
 
         if queue.Len() > 0 {
-            curr = heap.Pop(queue).(int)
-            heap.Push(queue, curr)
+            curr = queue.IntSlice[0]
         }
         if curr != prev {
             res = append(res, []int{x, curr})
