@@ -6,14 +6,17 @@ import (
 )
 
 func getSkyline(buildings [][]int) [][]int {
+    //核心思路：扫描所有对天际线有贡献的点
     n := len(buildings)
     boundaries := make([]int, 0)
     for i := 0; i < n; i++ {
-        boundaries = append(boundaries, buildings[i][0], buildings[i][1])
+        boundaries = append(boundaries, buildings[i][0])
+        boundaries = append(boundaries, buildings[i][1])
     }
     sort.Ints(boundaries)
     res := make([][]int, 0)
     queue := maxHeap{}
+    prev := 0
     idx := 0
     for _, boundary := range boundaries {
         for idx < n && buildings[idx][0] <= boundary {
@@ -23,18 +26,20 @@ func getSkyline(buildings [][]int) [][]int {
         for queue.Len() > 0 && queue[0][0] <= boundary {
             heap.Pop(&queue)
         }
-        maxHeight := 0
+        curr := 0
         if queue.Len() > 0 {
-            maxHeight = queue[0][1]
+            curr = queue[0][1]
         }
-        if len(res) == 0 || maxHeight != res[len(res)-1][1] {
-            res = append(res, []int{boundary, maxHeight})
+        if len(res) == 0 || curr != prev {
+            res = append(res, []int{boundary, curr})
+            prev = curr
         }
     }
 
     return res
 }
 
+// 最大堆
 type maxHeap [][2]int
 
 func (h maxHeap) Len() int {
