@@ -263,6 +263,7 @@
 |  ✅   | 1027 | Longest Arithmetic Subsequence                              | Medium     |     |      |
 |  ✅   | 1028 | Recover a Tree From Preorder Traversal                      | Hard       |     |      |
 |  ✅   | 1038 | Binary Search Tree to Greater Sum Tree                      | Medium     |     |      |
+|  ⬜   | 1044 | Longest Duplicate Substring                                 | Hard       |     |      |
 |  ✅   | 1049 | Last Stone Weight II                                        | Medium     |     |      |
 |  ✅   | 1055 | Shortest Way to Form String $                               | Medium     |     |      |
 |  ✅   | 1081 | Smallest Subsequence of Distinct Characters                 | Medium     |     |      |
