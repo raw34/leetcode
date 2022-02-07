@@ -153,6 +153,7 @@
 |  ✅   | 225  | Implement Stack using Queues                                | Medium     |     |      |
 |  ✅   | 226  | Invert Binary Tree                                          | Easy       |     |      |
 |  ✅   | 232  | Implement Queue using Stacks                                | Easy       |     |      |
+|  ⬜   | 233  | Number of Digit One                                         | Hard       |     |      |
 |  ✅   | 234  | Palindrome Linked List                                      | Easy       |     |      |
 |  ✅   | 235  | Lowest Common Ancestor of a Binary Search Tree              | Medium     |     |      |
 |  ✅   | 236  | Lowest Common Ancestor of a Binary Tree                     | Medium     |     |      |
@@ -174,6 +175,7 @@
 |  ✅   | 303  | Range Sum Query - Immutable                                 | Easy       |     |      |
 |  ✅   | 304  | Range Sum Query 2D - Immutable                              | Medium     |     |      |
 |  ✅   | 309  | Best Time to Buy and Sell Stock with Cooldown               | Medium     |     |      |
+|  ⬜   | 312  | Burst Balloons                                              | Hard       |     |      |
 |  ✅   | 316  | Remove Duplicate Letters                                    | Medium     |     |      |
 |  ✅   | 322  | Coin Change                                                 | Medium     |     |      |
 |  ✅   | 329  | Longest Increasing Path in a Matrix                         | Medium     |     | hot  |
@@ -194,6 +196,7 @@
 |  ✅   | 402  | Remove K Digits                                             | Medium     |     |      |
 |  ✅   | 403  | Frog Jump                                                   | Hard       |     |      |
 |  ✅   | 404  | Sum of Left Leaves                                          | Easy       |     |      |
+|  ⬜   | 407  | Trapping Rain Water II                                      | Hard       |     |      |
 |  ✅   | 410  | Split Array Largest Sum                                     | Hard       |     | hot  |
 |  ✅   | 413  | Arithmetic Slices                                           | Medium     |     |      |
 |  ✅   | 416  | Partition Equal Subset Sum                                  | Medium     |     |      |
@@ -209,6 +212,7 @@
 |  ✅   | 461  | Hamming Distance                                            | Easy       |     |      |
 |  ✅   | 474  | Ones and Zeroes                                             | Medium     |     |      |
 |  ✅   | 475  | Heaters                                                     | Medium     |     |      |
+|  ⬜   | 488  | Zuma Game                                                   | Hard       |     |      |
 |  ✅   | 494  | Target Sum                                                  | Medium     |     |      |
 |  ✅   | 496  | Next Greater Element I                                      | Easy       |     |      |
 |  ✅   | 501  | Find Mode in Binary Search Tree                             | Easy       |     |      |
@@ -229,6 +233,7 @@
 |  ✅   | 617  | Merge Two Binary Trees                                      | Easy       |     |      |
 |  ✅   | 622  | Design Circular Queue                                       | Medium     |     |      |
 |  ✅   | 641  | Design Circular Deque                                       | Medium     |     |      |
+|  ⬜   | 647  | 24 Game                                                     | Hard       |     |      |
 |  ✅   | 650  | 2 Keys Keyboard                                             | Medium     |     |      |
 |  ✅   | 652  | Find Duplicate Subtrees                                     | Medium     |     |      |
 |  ✅   | 671  | Second Minimum Node In a Binary Tree                        | Easy       |     |      |
