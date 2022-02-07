@@ -18,6 +18,7 @@
 | 354 | Russian Doll Envelopes          |          |
 | 368 | Largest Divisible Subset        |          |
 | 451 | Sort Characters By Frequency    | template |
+| 475 | Heaters | |
 | 581 | Shortest Unsorted Continuous Subarray | |
 | 912 | Sort an Array | |
 | 862 | Find And Replace in String      |          |

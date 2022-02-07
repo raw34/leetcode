@@ -93,6 +93,7 @@
 | 416  | Partition Equal Subset Sum                                 |      |
 | 448 | Find All Numbers Disappeared in an Array | |
 | 474  | Ones and Zeroes                                            |      |
+| 475 | Heaters | |
 | 494  | Target Sum                                                 |      |
 | 496  | Next Greater Element I                                     |      |
 | 503  | Next Greater Element II                                    |      |

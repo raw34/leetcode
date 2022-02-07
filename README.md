@@ -208,6 +208,7 @@
 |  ✅   | 460  | LFU Cache                                                   | Hard       |     | hot  |
 |  ✅   | 461  | Hamming Distance                                            | Easy       |     |      |
 |  ✅   | 474  | Ones and Zeroes                                             | Medium     |     |      |
+|  ✅   | 475  | Heaters                                                     | Medium     |     |      |
 |  ✅   | 494  | Target Sum                                                  | Medium     |     |      |
 |  ✅   | 496  | Next Greater Element I                                      | Easy       |     |      |
 |  ✅   | 501  | Find Mode in Binary Search Tree                             | Easy       |     |      |
