@@ -24,6 +24,7 @@
 |  ✅   | 25   | Reverse Nodes in k-Group                                    | Hard       |     | hot  |
 |  ✅   | 26   | Remove Duplicates from Sorted Array                         | Easy       |     |      |
 |  ✅   | 30   | Substring with Concatenation of All Words                   | Hard       |     | hot  |
+|  ✅   | 31   | Next Permutation                                            | Medium     |     |      |
 |  ✅   | 32   | Longest Valid Parentheses                                   | Hard       |     | hot  |
 |  ✅   | 33   | Search in Rotated Sorted Array                              | Medium     |     |      |
 |  ✅   | 34   | Search for a Range                                          | Medium     |     |      |
