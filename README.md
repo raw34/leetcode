@@ -7,6 +7,7 @@
 |  ✅   | 4    | Median of Two Sorted Arrays                                 | Hard       |     | hot  |
 |  ✅   | 5    | Longest Palindromic Substring                               | Medium     |     |      |
 |  ✅   | 7    | Reverse Integer                                             | Medium     |     |      |
+|  ⬜   | 8    | String to Integer (atoi)                                    | Medium     |     |      |
 |  ✅   | 10   | Regular Expression Matching                                 | Hard       |     | hot  |
 |  ✅   | 11   | Container With Most Water                                   | Medium     |     |      |
 |  ✅   | 12   | Integer to Roman                                            | Medium     |     |      |
@@ -23,6 +24,8 @@
 |  ✅   | 24   | Swap Nodes in Pairs                                         | Medium     |     |      |
 |  ✅   | 25   | Reverse Nodes in k-Group                                    | Hard       |     | hot  |
 |  ✅   | 26   | Remove Duplicates from Sorted Array                         | Easy       |     |      |
+|  ⬜   | 28   | Implement strStr()                                          | Medium     |     |      |
+|  ⬜   | 29   | Divide Two Integers                                         | Medium     |     |      |
 |  ✅   | 30   | Substring with Concatenation of All Words                   | Hard       |     | hot  |
 |  ✅   | 31   | Next Permutation                                            | Medium     |     |      |
 |  ✅   | 32   | Longest Valid Parentheses                                   | Hard       |     | hot  |
@@ -41,6 +44,7 @@
 |  ✅   | 46   | Permutations                                                | Medium     |     |      |
 |  ✅   | 47   | Permutations II                                             | Medium     |     |      |
 |  ✅   | 48   | Rotate Image                                                | Medium     |     |      |
+|  ⬜   | 50   | Pow(x, n)                                                   | Medium     |     |      |
 |  ✅   | 51   | N-Queens                                                    | Hard       |     | hot  |
 |  ✅   | 52   | N-Queens II                                                 | Hard       |     | hot  |
 |  ✅   | 53   | Maximum Subarray                                            | Medium     |     |      |
@@ -54,6 +58,7 @@
 |  ✅   | 65   | Valid Number                                                | Hard       |     | hot  |
 |  ✅   | 66   | Plus One                                                    | Easy       |     |      |
 |  ✅   | 68   | Text Justification                                          | Hard       |     | hot  |
+|  ⬜   | 69   | Sqrt(x)                                                     | Medium     |     |      |
 |  ✅   | 70   | Climbing Stairs                                             | Easy       |     |      |
 |  ✅   | 72   | Edit Distance                                               | Hard       |     | hot  |
 |  ✅   | 74   | Search a 2D Matrix                                          | Medium     |     |      |
@@ -127,10 +132,12 @@
 |  ✅   | 154  | Find Minimum in Rotated Sorted Array II                     | Hard       |     |      |
 |  ✅   | 155  | Min Stack                                                   | Easy       |     |      |
 |  ✅   | 160  | Intersection of Two Linked Lists                            | Easy       |     |      |
+|  ⬜   | 162  | Find Peak Element                                           | Medium     |     |      |
 |  ✅   | 164  | Maximum Gap                                                 | Hard       |     |      |
 |  ✅   | 169  | Majority Element                                            | Easy       |     |      |
 |  ✅   | 173  | Binary Search Tree Iterator                                 | Medium     |     |      |
 |  ✅   | 174  | Dungeon Game                                                | Hard       |     |      |
+|  ⬜   | 179  | Largest Number                                              | Medium     |     |      |
 |  ✅   | 188  | Best Time to Buy and Sell Stock IV                          | Hard       |     | hot  |
 |  ✅   | 189  | Rotate Array                                                | Medium     |     |      |
 |  ✅   | 190  | Reverse Bits                                                | Easy       |     |      |
