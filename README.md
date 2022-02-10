@@ -151,6 +151,7 @@
 |  ✅   | 211  | Add and Search Word - Data structure design                 | Medium     |     |      |
 |  ✅   | 212  | Word Search II                                              | Hard       |     |      |
 |  ✅   | 213  | House Robber II                                             | Medium     |     |      |
+|  ⬜   | 214  | Shortest Palindrome                                         | Hard       |     |      |
 |  ✅   | 215  | Kth Largest Element in an Array                             | Medium     |     |      |
 |  ✅   | 216  | Combination Sum III                                         | Medium     |     |      |
 |  ✅   | 217  | Contains Duplicate                                          | Easy       |     |      |
