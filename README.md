@@ -216,6 +216,7 @@
 |  ✅   | 449  | Serialize and Deserialize BST                               | Medium     |     |      |
 |  ✅   | 450  | Delete Node in a BST                                        | Medium     |     |      |
 |  ✅   | 451  | Sort Characters By Frequency                                | Medium     |     |      |
+|  ⬜   | 459  | Repeated Substring Pattern                                  | Easy       |     |      |
 |  ✅   | 460  | LFU Cache                                                   | Hard       |     | hot  |
 |  ✅   | 461  | Hamming Distance                                            | Easy       |     |      |
 |  ✅   | 474  | Ones and Zeroes                                             | Medium     |     |      |
