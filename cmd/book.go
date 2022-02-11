@@ -5,6 +5,7 @@ import (
     "github.com/spf13/cobra"
     "github.com/tidwall/gjson"
     "io/ioutil"
+    "strings"
 )
 
 func init() {
@@ -35,6 +36,12 @@ var bookCmd = &cobra.Command{
     },
 }
 
+type Node struct {
+    Id       string
+    Title    string
+    ParentId string
+}
+
 func saveBock(name string) {
     // 获取文件
     bookPath := fmt.Sprintf("data/%s.json", name)
@@ -47,17 +54,30 @@ func saveBock(name string) {
     questions := book.Get("data.leetbookBookDetail.pages").Array()
     // 遍历题目，拼接表格
     table := "| Done | Chapter | Title | Mark |\n|:----:|-------|---------|------|"
-    chapters := map[string]string{}
+    nodes := map[string]*Node{}
     for _, question := range questions {
         id := question.Get("id").String()
         title := question.Get("title").String()
         pageType := question.Get("pageType").String()
-        if _, ok := chapters[id]; !ok && pageType == "CHAPTER" {
-            chapters[id] = title
+        if pageType == "CHAPTER" {
+            nodes[id] = &Node{
+                Id:    id,
+                Title: title,
+            }
             continue
         }
         pid := question.Get("parentId").String()
-        chapter := chapters[pid]
+        nodes[id] = &Node{
+            Id:       id,
+            Title:    title,
+            ParentId: pid,
+        }
+        chapter := ""
+        for nodes[pid] != nil {
+            chapter = fmt.Sprintf("%s-%s", nodes[pid].Title, chapter)
+            pid = nodes[pid].ParentId
+        }
+        chapter = strings.TrimSuffix(chapter, "-")
         table += fmt.Sprintf("\n| %s | %s | %s |   |", "⬜", chapter, title)
     }
     // 写入题目索引文件
