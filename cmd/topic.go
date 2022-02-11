@@ -54,7 +54,7 @@ func saveTopic(name string) {
 
 func getAllQuestions() []gjson.Result {
     // 读取全部题目文件
-    questionsPath := "questions.json"
+    questionsPath := "data/questions.json"
     content, err := ioutil.ReadFile(questionsPath)
     if err != nil {
         panic(err)
