@@ -53,7 +53,7 @@ func saveBock(name string) {
     book := gjson.Parse(string(content))
     questions := book.Get("data.leetbookBookDetail.pages").Array()
     // 遍历题目，拼接表格
-    table := "| Done | Chapter | Title | Mark |\n|:----:|-------|---------|------|"
+    table := "| Done | Id | Chapter | Title | Mark |\n|:----:|-------|---------|------|"
     nodes := map[string]*Node{}
     for _, question := range questions {
         id := question.Get("id").String()
@@ -66,19 +66,19 @@ func saveBock(name string) {
             }
             continue
         }
-        pid := question.Get("parentId").String()
+        parentId := question.Get("parentId").String()
         nodes[id] = &Node{
             Id:       id,
             Title:    title,
-            ParentId: pid,
+            ParentId: parentId,
         }
         chapter := ""
-        for nodes[pid] != nil {
-            chapter = fmt.Sprintf("%s-%s", nodes[pid].Title, chapter)
-            pid = nodes[pid].ParentId
+        for nodes[parentId] != nil {
+            chapter = fmt.Sprintf("%s-%s", nodes[parentId].Title, chapter)
+            parentId = nodes[parentId].ParentId
         }
         chapter = strings.TrimSuffix(chapter, "-")
-        table += fmt.Sprintf("\n| %s | %s | %s |   |", "⬜", chapter, title)
+        table += fmt.Sprintf("\n| %s | %s | %s | %s |   |", "⬜", id, chapter, title)
     }
     // 写入题目索引文件
     indexPath := fmt.Sprintf("book/%s/index.md", name)
