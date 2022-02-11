@@ -59,37 +59,36 @@ func saveBock(name string) {
         id := question.Get("id").String()
         title := question.Get("title").String()
         pageType := question.Get("pageType").String()
+        nodes[id] = &Node{Id: id, Title: title}
         if pageType == "CHAPTER" {
-            nodes[id] = &Node{
-                Id:    id,
-                Title: title,
-            }
             continue
         }
         parentId := question.Get("parentId").String()
-        nodes[id] = &Node{
-            Id:       id,
-            Title:    title,
-            ParentId: parentId,
-        }
-        chapter := ""
-        for nodes[parentId] != nil {
-            chapter = fmt.Sprintf("%s-%s", nodes[parentId].Title, chapter)
-            parentId = nodes[parentId].ParentId
-        }
-        chapter = strings.TrimSuffix(chapter, "-")
+        nodes[id].ParentId = parentId
+        chapter := getChapter(nodes, parentId)
         detailTitle := strings.Replace(title, "/", "|", -1)
         detailTitle = strings.Replace(title, " ", "", -1)
         detailPath := fmt.Sprintf("book/%s/%s.md", name, detailTitle)
-        err = ioutil.WriteFile(detailPath, []byte("# "+title), 0644)
-        if err != nil {
-            panic(err)
-        }
+        writeFile(detailPath, []byte(fmt.Sprintf("# %s\n\n", title)))
         table += fmt.Sprintf("\n| %s | %s | %s | [%s](%s.md) |   |", "⬜", id, chapter, title, detailTitle)
     }
     // 写入题目索引文件
     indexPath := fmt.Sprintf("book/%s/index.md", name)
-    err = ioutil.WriteFile(indexPath, []byte(table), 0644)
+    writeFile(indexPath, []byte(table))
+}
+
+func getChapter(nodes map[string]*Node, parentId string) string {
+    chapter := ""
+    for nodes[parentId] != nil {
+        chapter = fmt.Sprintf("%s-%s", nodes[parentId].Title, chapter)
+        parentId = nodes[parentId].ParentId
+    }
+    chapter = strings.TrimSuffix(chapter, "-")
+    return chapter
+}
+
+func writeFile(path string, content []byte) {
+    err := ioutil.WriteFile(path, content, 0644)
     if err != nil {
         panic(err)
     }
