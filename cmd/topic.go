@@ -23,8 +23,8 @@ func init() {
 // topicCmd represents the topic command
 var topicCmd = &cobra.Command{
     Use:   "topic",
-    Short: "标签名称",
-    Long:  `题目分类标签名称。Usage：go run main.go topic --name="Hash Table"`,
+    Short: "标签",
+    Long:  `题目分类标签。Usage：go run main.go topic --name="Hash Table"`,
     Run: func(cmd *cobra.Command, args []string) {
         fmt.Println("topic called")
         name := cmd.Flag("name").Value.String()
