@@ -85,7 +85,7 @@ func saveBock(name string) {
         if err != nil {
             panic(err)
         }
-        table += fmt.Sprintf("\n| %s | %s | %s | [%s](%s) |   |", "⬜", id, chapter, title, detailPath)
+        table += fmt.Sprintf("\n| %s | %s | %s | [%s](%s.md) |   |", "⬜", id, chapter, title, detailTitle)
     }
     // 写入题目索引文件
     indexPath := fmt.Sprintf("book/%s/index.md", name)

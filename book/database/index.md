@@ -1,51 +1,51 @@
 | Done | Id | Chapter | Title | Mark |
 |:----:|-------|---------|------|------|
-| ⬜ | pxhvpv | 数据库基础概念 | [什么是数据库](book/database/什么是数据库.md) |   |
-| ⬜ | pxxaoj | 数据库基础概念 | [为什么要使用数据库](book/database/为什么要使用数据库.md) |   |
-| ⬜ | px5ret | 数据库基础概念 | [SQL 与 MySQL 有什么区别](book/database/SQL与MySQL有什么区别.md) |   |
-| ⬜ | px999r | 数据库基础概念 | [数据库三大范式是什么](book/database/数据库三大范式是什么.md) |   |
-| ⬜ | pxehxs | 数据库基础概念 | [数据库连接泄露的含义](book/database/数据库连接泄露的含义.md) |   |
-| ⬜ | pxebhd | 数据库基础概念 | [什么是触发器](book/database/什么是触发器.md) |   |
-| ⬜ | pxnng6 | 索引 | [索引的优缺点](book/database/索引的优缺点.md) |   |
-| ⬜ | pxvmk2 | 索引 | [索引的数据结构](book/database/索引的数据结构.md) |   |
-| ⬜ | pxwoqc | 索引 | [使用 B+ 树的好处](book/database/使用B+树的好处.md) |   |
-| ⬜ | pxd53i | 索引 | [Hash 索引和 B+ 树索引的区别](book/database/Hash索引和B+树索引的区别.md) |   |
-| ⬜ | pxdf8e | 索引 | [什么是前缀索引](book/database/什么是前缀索引.md) |   |
-| ⬜ | px0cug | 索引 | [什么是最左前缀匹配原则](book/database/什么是最左前缀匹配原则.md) |   |
-| ⬜ | px74iv | 索引 | [添加索引的原则](book/database/添加索引的原则.md) |   |
-| ⬜ | pxlg7j | 索引 | [什么是聚簇索引](book/database/什么是聚簇索引.md) |   |
-| ⬜ | pxiq0t | 事务管理 | [什么是数据库事务](book/database/什么是数据库事务.md) |   |
-| ⬜ | pxutdr | 事务管理 | [有哪些事务状态](book/database/有哪些事务状态.md) |   |
-| ⬜ | pxtlvs | 事务管理 | [事务的四大特性](book/database/事务的四大特性.md) |   |
-| ⬜ | px8dnd | 事务管理 | [如何实现事务的 ACID 特性](book/database/如何实现事务的ACID特性.md) |   |
-| ⬜ | px3n2h | 事务管理 | [什么是事务的隔离级别](book/database/什么是事务的隔离级别.md) |   |
-| ⬜ | pxqmm3 | 事务管理 | [事务之间的相互影响](book/database/事务之间的相互影响.md) |   |
-| ⬜ | pxk5o1 | 锁 | [锁的分类](book/database/锁的分类.md) |   |
-| ⬜ | pxkfe7 | 锁 | [事务隔离级别与锁的关系](book/database/事务隔离级别与锁的关系.md) |   |
-| ⬜ | pxgc95 | 锁 | [什么是死锁？如何解决死锁？](book/database/什么是死锁？如何解决死锁？.md) |   |
-| ⬜ | pxz4x6 | 锁 | [什么是乐观锁和悲观锁？如何实现？](book/database/什么是乐观锁和悲观锁？如何实现？.md) |   |
-| ⬜ | px43jc | 常用 SQL 语句 | [SQL 语句主要分为哪些类别](book/database/SQL语句主要分为哪些类别.md) |   |
-| ⬜ | px1ubi | 常用 SQL 语句 | [什么是超键？什么是主键？](book/database/什么是超键？什么是主键？.md) |   |
-| ⬜ | pxy7ce | 常用 SQL 语句 | [SQL 约束有哪几种类型](book/database/SQL约束有哪几种类型.md) |   |
-| ⬜ | pxcw1g | 常用 SQL 语句 | [char 与 varchar 的区别](book/database/char与varchar的区别.md) |   |
-| ⬜ | pxb24v | 常用 SQL 语句 | [有哪些关联查询](book/database/有哪些关联查询.md) |   |
-| ⬜ | pxjpzj | 常用 SQL 语句 | [什么是子查询](book/database/什么是子查询.md) |   |
-| ⬜ | pxfegt | 常用 SQL 语句 | [子查询的分类](book/database/子查询的分类.md) |   |
-| ⬜ | p5hxkr | 常用 SQL 语句 | [DROP、DELETE 与 TRUNCATE 的区别](book/database/DROP、DELETE与TRUNCATE的区别.md) |   |
-| ⬜ | p5hjqs | 常用 SQL 语句 | [UNION 与 UNION ALL 的区别](book/database/UNION与UNIONALL的区别.md) |   |
-| ⬜ | p5xy3d | Redis 常见面试题 | [Redis 缓存的特点](book/database/Redis缓存的特点.md) |   |
-| ⬜ | p55s8h | Redis 常见面试题 | [Redis 和 MySQL 的区别](book/database/Redis和MySQL的区别.md) |   |
-| ⬜ | p59ku3 | Redis 常见面试题 | [Redis 和 MongoDB 的区别](book/database/Redis和MongoDB的区别.md) |   |
-| ⬜ | p5e3im | Redis 常见面试题 | [Redis 有哪些数据类型](book/database/Redis有哪些数据类型.md) |   |
-| ⬜ | p5ou71 | Redis 常见面试题 | [如何实现 Redis 的定时机制](book/database/如何实现Redis的定时机制.md) |   |
-| ⬜ | p5r707 | Redis 常见面试题 | [单线程 Redis，为什么如此高效](book/database/单线程Redis，为什么如此高效.md) |   |
-| ⬜ | p5pwd5 | Redis 常见面试题 | [Redis 有哪些数据淘汰策略](book/database/Redis有哪些数据淘汰策略.md) |   |
-| ⬜ | p5m2v6 | Redis 常见面试题 | [对 Redis 的理解](book/database/对Redis的理解.md) |   |
-| ⬜ | p5apn2 | 数据库优化 | [数据库结构优化](book/database/数据库结构优化.md) |   |
-| ⬜ | p52eac | 数据库优化 | [MySQL 数据库 CPU 使用率飙升到 500% 的话，如何处理？](book/database/MySQL数据库CPU使用率飙升到500%的话，如何处理？.md) |   |
-| ⬜ | p5nxmi | 数据库优化 | [为什么要分库分表](book/database/为什么要分库分表.md) |   |
-| ⬜ | p5njpe | 数据库优化 | [分库分表的具体实施策略](book/database/分库分表的具体实施策略.md) |   |
-| ⬜ | p5vyog | 数据库优化 | [分库分表存在哪些问题](book/database/分库分表存在哪些问题.md) |   |
-| ⬜ | p5wsev | 数据库优化 | [什么是 MySQL 主从复制](book/database/什么是MySQL主从复制.md) |   |
-| ⬜ | p5dk5j | 数据库优化 | [MySQL 主从复制的工作原理](book/database/MySQL主从复制的工作原理.md) |   |
-| ⬜ | p503xt | 数据库优化 | [MySQL 读写分离的实现方案](book/database/MySQL读写分离的实现方案.md) |   |
+| ⬜ | pxhvpv | 数据库基础概念 | [什么是数据库](什么是数据库.md) |   |
+| ⬜ | pxxaoj | 数据库基础概念 | [为什么要使用数据库](为什么要使用数据库.md) |   |
+| ⬜ | px5ret | 数据库基础概念 | [SQL 与 MySQL 有什么区别](SQL与MySQL有什么区别.md) |   |
+| ⬜ | px999r | 数据库基础概念 | [数据库三大范式是什么](数据库三大范式是什么.md) |   |
+| ⬜ | pxehxs | 数据库基础概念 | [数据库连接泄露的含义](数据库连接泄露的含义.md) |   |
+| ⬜ | pxebhd | 数据库基础概念 | [什么是触发器](什么是触发器.md) |   |
+| ⬜ | pxnng6 | 索引 | [索引的优缺点](索引的优缺点.md) |   |
+| ⬜ | pxvmk2 | 索引 | [索引的数据结构](索引的数据结构.md) |   |
+| ⬜ | pxwoqc | 索引 | [使用 B+ 树的好处](使用B+树的好处.md) |   |
+| ⬜ | pxd53i | 索引 | [Hash 索引和 B+ 树索引的区别](Hash索引和B+树索引的区别.md) |   |
+| ⬜ | pxdf8e | 索引 | [什么是前缀索引](什么是前缀索引.md) |   |
+| ⬜ | px0cug | 索引 | [什么是最左前缀匹配原则](什么是最左前缀匹配原则.md) |   |
+| ⬜ | px74iv | 索引 | [添加索引的原则](添加索引的原则.md) |   |
+| ⬜ | pxlg7j | 索引 | [什么是聚簇索引](什么是聚簇索引.md) |   |
+| ⬜ | pxiq0t | 事务管理 | [什么是数据库事务](什么是数据库事务.md) |   |
+| ⬜ | pxutdr | 事务管理 | [有哪些事务状态](有哪些事务状态.md) |   |
+| ⬜ | pxtlvs | 事务管理 | [事务的四大特性](事务的四大特性.md) |   |
+| ⬜ | px8dnd | 事务管理 | [如何实现事务的 ACID 特性](如何实现事务的ACID特性.md) |   |
+| ⬜ | px3n2h | 事务管理 | [什么是事务的隔离级别](什么是事务的隔离级别.md) |   |
+| ⬜ | pxqmm3 | 事务管理 | [事务之间的相互影响](事务之间的相互影响.md) |   |
+| ⬜ | pxk5o1 | 锁 | [锁的分类](锁的分类.md) |   |
+| ⬜ | pxkfe7 | 锁 | [事务隔离级别与锁的关系](事务隔离级别与锁的关系.md) |   |
+| ⬜ | pxgc95 | 锁 | [什么是死锁？如何解决死锁？](什么是死锁？如何解决死锁？.md) |   |
+| ⬜ | pxz4x6 | 锁 | [什么是乐观锁和悲观锁？如何实现？](什么是乐观锁和悲观锁？如何实现？.md) |   |
+| ⬜ | px43jc | 常用 SQL 语句 | [SQL 语句主要分为哪些类别](SQL语句主要分为哪些类别.md) |   |
+| ⬜ | px1ubi | 常用 SQL 语句 | [什么是超键？什么是主键？](什么是超键？什么是主键？.md) |   |
+| ⬜ | pxy7ce | 常用 SQL 语句 | [SQL 约束有哪几种类型](SQL约束有哪几种类型.md) |   |
+| ⬜ | pxcw1g | 常用 SQL 语句 | [char 与 varchar 的区别](char与varchar的区别.md) |   |
+| ⬜ | pxb24v | 常用 SQL 语句 | [有哪些关联查询](有哪些关联查询.md) |   |
+| ⬜ | pxjpzj | 常用 SQL 语句 | [什么是子查询](什么是子查询.md) |   |
+| ⬜ | pxfegt | 常用 SQL 语句 | [子查询的分类](子查询的分类.md) |   |
+| ⬜ | p5hxkr | 常用 SQL 语句 | [DROP、DELETE 与 TRUNCATE 的区别](DROP、DELETE与TRUNCATE的区别.md) |   |
+| ⬜ | p5hjqs | 常用 SQL 语句 | [UNION 与 UNION ALL 的区别](UNION与UNIONALL的区别.md) |   |
+| ⬜ | p5xy3d | Redis 常见面试题 | [Redis 缓存的特点](Redis缓存的特点.md) |   |
+| ⬜ | p55s8h | Redis 常见面试题 | [Redis 和 MySQL 的区别](Redis和MySQL的区别.md) |   |
+| ⬜ | p59ku3 | Redis 常见面试题 | [Redis 和 MongoDB 的区别](Redis和MongoDB的区别.md) |   |
+| ⬜ | p5e3im | Redis 常见面试题 | [Redis 有哪些数据类型](Redis有哪些数据类型.md) |   |
+| ⬜ | p5ou71 | Redis 常见面试题 | [如何实现 Redis 的定时机制](如何实现Redis的定时机制.md) |   |
+| ⬜ | p5r707 | Redis 常见面试题 | [单线程 Redis，为什么如此高效](单线程Redis，为什么如此高效.md) |   |
+| ⬜ | p5pwd5 | Redis 常见面试题 | [Redis 有哪些数据淘汰策略](Redis有哪些数据淘汰策略.md) |   |
+| ⬜ | p5m2v6 | Redis 常见面试题 | [对 Redis 的理解](对Redis的理解.md) |   |
+| ⬜ | p5apn2 | 数据库优化 | [数据库结构优化](数据库结构优化.md) |   |
+| ⬜ | p52eac | 数据库优化 | [MySQL 数据库 CPU 使用率飙升到 500% 的话，如何处理？](MySQL数据库CPU使用率飙升到500%的话，如何处理？.md) |   |
+| ⬜ | p5nxmi | 数据库优化 | [为什么要分库分表](为什么要分库分表.md) |   |
+| ⬜ | p5njpe | 数据库优化 | [分库分表的具体实施策略](分库分表的具体实施策略.md) |   |
+| ⬜ | p5vyog | 数据库优化 | [分库分表存在哪些问题](分库分表存在哪些问题.md) |   |
+| ⬜ | p5wsev | 数据库优化 | [什么是 MySQL 主从复制](什么是MySQL主从复制.md) |   |
+| ⬜ | p5dk5j | 数据库优化 | [MySQL 主从复制的工作原理](MySQL主从复制的工作原理.md) |   |
+| ⬜ | p503xt | 数据库优化 | [MySQL 读写分离的实现方案](MySQL读写分离的实现方案.md) |   |

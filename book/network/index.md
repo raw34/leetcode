@@ -1,89 +1,89 @@
 | Done | Id | Chapter | Title | Mark |
 |:----:|-------|---------|------|------|
-| ⬜ | ekjhp7 | 第一部分：协议层次以及它们的服务类型 | [OSI 七层模型](book/network/OSI七层模型.md) |   |
-| ⬜ | ekjbr5 | 第一部分：协议层次以及它们的服务类型 | [TCP/IP 参考模型](book/network/TCP/IP参考模型.md) |   |
-| ⬜ | egackd | 第一部分：协议层次以及它们的服务类型 | [TCP/IP 五层参考模型](book/network/TCP/IP五层参考模型.md) |   |
-| ⬜ | eg246h | 第一部分：协议层次以及它们的服务类型 | [OSI 模型和 TCP/IP 模型异同比较](book/network/OSI模型和TCP/IP模型异同比较.md) |   |
-| ⬜ | egng33 | 第一部分：协议层次以及它们的服务类型 | [OSI 和 TCP/IP 协议之间的对应关系](book/network/OSI和TCP/IP协议之间的对应关系.md) |   |
-| ⬜ | egvq8m | 第一部分：协议层次以及它们的服务类型 | [为什么 TCP/IP 去除了表示层和会话层](book/network/为什么TCP/IP去除了表示层和会话层.md) |   |
-| ⬜ | egwtu1 | 第一部分：协议层次以及它们的服务类型 | [数据如何在各层之间传输【数据的封装过程】](book/network/数据如何在各层之间传输【数据的封装过程】.md) |   |
-| ⬜ | egdli7 | 第二部分：应用层 | [HTTP 头部包含哪些信息](book/network/HTTP头部包含哪些信息.md) |   |
-| ⬜ | eg0dl5 | 第二部分：应用层 | [Keep-Alive 和非 Keep-Alive 区别，对服务器性能有影响吗](book/network/Keep-Alive和非Keep-Alive区别，对服务器性能有影响吗.md) |   |
-| ⬜ | eg7n06 | 第二部分：应用层 | [HTTP 长连接短连接使用场景是什么](book/network/HTTP长连接短连接使用场景是什么.md) |   |
-| ⬜ | eglmd2 | 第二部分：应用层 | [怎么知道 HTTP 的报文长度](book/network/怎么知道HTTP的报文长度.md) |   |
-| ⬜ | ez8ikr | 第二部分：应用层 | [HTTP 方法了解哪些](book/network/HTTP方法了解哪些.md) |   |
-| ⬜ | ez30qs | 第二部分：应用层 | [GET 和 POST 的区别](book/network/GET和POST的区别.md) |   |
-| ⬜ | ezqv3d | 第二部分：应用层 | [GET 的长度限制是多少](book/network/GET的长度限制是多少.md) |   |
-| ⬜ | ez6a8h | 第二部分：应用层 | [HTTP 与 HTTPs 的工作方式【建立连接的过程】](book/network/HTTP与HTTPs的工作方式【建立连接的过程】.md) |   |
-| ⬜ | ezkru3 | 第二部分：应用层 | [HTTPS 和 HTTP 的区别](book/network/HTTPS和HTTP的区别.md) |   |
-| ⬜ | ezg9im | 第二部分：应用层 | [HTTPS 的加密方式](book/network/HTTPS的加密方式.md) |   |
-| ⬜ | ezzh71 | 第二部分：应用层 | [客户端为什么信任第三方证书](book/network/客户端为什么信任第三方证书.md) |   |
-| ⬜ | ezzb07 | 第二部分：应用层 | [HTTP 是不保存状态的协议,如何保存用户状态](book/network/HTTP是不保存状态的协议,如何保存用户状态.md) |   |
-| ⬜ | ezs1d5 | 第二部分：应用层 | [状态码](book/network/状态码.md) |   |
-| ⬜ | ez4zv6 | 第二部分：应用层 | [HTTP/1.1 和 HTTP/1.0 的区别](book/network/HTTP/1.1和HTTP/1.0的区别.md) |   |
-| ⬜ | ez16n2 | 第二部分：应用层 | [HTTP/1.X 和 HTTP/2.0 的区别](book/network/HTTP/1.X和HTTP/2.0的区别.md) |   |
-| ⬜ | ezy8ac | 第二部分：应用层 | [HTTP/3 了解吗](book/network/HTTP/3了解吗.md) |   |
-| ⬜ | ezcimi | 第二部分：应用层 | [DNS 的作用和原理](book/network/DNS的作用和原理.md) |   |
-| ⬜ | ezb0pe | 第二部分：应用层 | [DNS 为什么用 UDP](book/network/DNS为什么用UDP.md) |   |
-| ⬜ | ezjvog | 第二部分：应用层 | [怎么实现 DNS 劫持](book/network/怎么实现DNS劫持.md) |   |
-| ⬜ | ezfaev | 第二部分：应用层 | [socket() 套接字有哪些](book/network/socket()套接字有哪些.md) |   |
-| ⬜ | eshr5j | 第二部分：应用层 | [URI（统一资源标识符）和 URL（统一资源定位符）之间的区别](book/network/URI（统一资源标识符）和URL（统一资源定位符）之间的区别.md) |   |
-| ⬜ | esx9xt | 第二部分：应用层 | [为什么 fidder，charles 能抓到你的包【抓取数据包的过程】](book/network/为什么fidder，charles能抓到你的包【抓取数据包的过程】.md) |   |
-| ⬜ | es5hhr | 第二部分：应用层 | [如果你访问一个网站很慢，怎么排查和解决](book/network/如果你访问一个网站很慢，怎么排查和解决.md) |   |
-| ⬜ | es5cjs | 第二部分：应用层 | [其他协议](book/network/其他协议.md) |   |
-| ⬜ | es94bd | 第二部分：应用层 | [网页解析全过程【用户输入网址到显示对应页面的全过程】](book/network/网页解析全过程【用户输入网址到显示对应页面的全过程】.md) |   |
-| ⬜ | esegch | 第三部分：传输层 | [三次握手和四次挥手机制](book/network/三次握手和四次挥手机制.md) |   |
-| ⬜ | esoq13 | 第三部分：传输层 | [如果三次握手的时候每次握手信息对方没有收到会怎么样](book/network/如果三次握手的时候每次握手信息对方没有收到会怎么样.md) |   |
-| ⬜ | esrt4m | 第三部分：传输层 | [为什么要进行三次握手？两次握手可以吗？](book/network/为什么要进行三次握手？两次握手可以吗？.md) |   |
-| ⬜ | esplz1 | 第三部分：传输层 | [第 2 次握手传回了 ACK，为什么还要传回 SYN](book/network/第2次握手传回了ACK，为什么还要传回SYN.md) |   |
-| ⬜ | esmdg7 | 第三部分：传输层 | [为什么要四次挥手？](book/network/为什么要四次挥手？.md) |   |
-| ⬜ | esank5 | 第三部分：传输层 | [CLOSE-WAIT 和 TIME-WAIT 的状态和意义](book/network/CLOSE-WAIT和TIME-WAIT的状态和意义.md) |   |
-| ⬜ | es2mq6 | 第三部分：传输层 | [TIME_WAIT 状态会导致什么问题，怎么解决](book/network/TIME_WAIT状态会导致什么问题，怎么解决.md) |   |
-| ⬜ | esno32 | 第三部分：传输层 | [TIME-WAIT 为什么是 2MSL](book/network/TIME-WAIT为什么是2MSL.md) |   |
-| ⬜ | esv5tc | 第三部分：传输层 | [有很多 TIME-WAIT 状态如何解决](book/network/有很多TIME-WAIT状态如何解决.md) |   |
-| ⬜ | esvfui | 第三部分：传输层 | [有很多 CLOSE-WAIT 怎么解决](book/network/有很多CLOSE-WAIT怎么解决.md) |   |
-| ⬜ | eswcie | 第三部分：传输层 | [TCP 和 UDP 的区别](book/network/TCP和UDP的区别.md) |   |
-| ⬜ | esd47g | 第三部分：传输层 | [TCP 协议中的定时器](book/network/TCP协议中的定时器.md) |   |
-| ⬜ | es0g0v | 第三部分：传输层 | [TCP 是如何保证可靠性的](book/network/TCP是如何保证可靠性的.md) |   |
-| ⬜ | es7qwj | 第三部分：传输层 | [UDP 为什么是不可靠的？bind 和 connect 对于 UDP 的作用是什么](book/network/UDP为什么是不可靠的？bind和connect对于UDP的作用是什么.md) |   |
-| ⬜ | esltvt | 第三部分：传输层 | [TCP 超时重传的原理](book/network/TCP超时重传的原理.md) |   |
-| ⬜ | esilnr | 第三部分：传输层 | [TCP 的停止等待协议是什么](book/network/TCP的停止等待协议是什么.md) |   |
-| ⬜ | esudas | 第三部分：传输层 | [TCP 最大连接数限制](book/network/TCP最大连接数限制.md) |   |
-| ⬜ | estnmd | 第三部分：传输层 | [TCP 流量控制与拥塞控制](book/network/TCP流量控制与拥塞控制.md) |   |
-| ⬜ | es8mph | 第三部分：传输层 | [如果接收方滑动窗口满了，发送方会怎么做](book/network/如果接收方滑动窗口满了，发送方会怎么做.md) |   |
-| ⬜ | es3oo3 | 第三部分：传输层 | [TCP 拥塞控制采用的四种算法](book/network/TCP拥塞控制采用的四种算法.md) |   |
-| ⬜ | esq5em | 第三部分：传输层 | [TCP 粘包问题](book/network/TCP粘包问题.md) |   |
-| ⬜ | esqf51 | 第三部分：传输层 | [TCP 报文包含哪些信息](book/network/TCP报文包含哪些信息.md) |   |
-| ⬜ | es6cx7 | 第三部分：传输层 | [SYN FLOOD 是什么](book/network/SYNFLOOD是什么.md) |   |
-| ⬜ | esk4h5 | 第三部分：传输层 | [为什么服务端易受到 SYN 攻击](book/network/为什么服务端易受到SYN攻击.md) |   |
-| ⬜ | esgkj6 | 第三部分：传输层 | [高并发服务器客户端主动关闭连接和服务端主动关闭连接的区别](book/network/高并发服务器客户端主动关闭连接和服务端主动关闭连接的区别.md) |   |
-| ⬜ | esz3b2 | 第四部分：网络层 | [IP 协议的定义和作用](book/network/IP协议的定义和作用.md) |   |
-| ⬜ | essuyc | 第四部分：网络层 | [域名和 IP 的关系，一个 IP 可以对应多个域名吗](book/network/域名和IP的关系，一个IP可以对应多个域名吗.md) |   |
-| ⬜ | es471i | 第四部分：网络层 | [IPV4 地址不够如何解决](book/network/IPV4地址不够如何解决.md) |   |
-| ⬜ | es1w4e | 第四部分：网络层 | [路由器的分组转发流程](book/network/路由器的分组转发流程.md) |   |
-| ⬜ | esy2zg | 第四部分：网络层 | [路由器和交换机的区别](book/network/路由器和交换机的区别.md) |   |
-| ⬜ | escpgv | 第四部分：网络层 | [ICMP 协议概念/作用](book/network/ICMP协议概念/作用.md) |   |
-| ⬜ | esbe6j | 第四部分：网络层 | [ICMP 的应用](book/network/ICMP的应用.md) |   |
-| ⬜ | esjxqt | 第四部分：网络层 | [两台电脑连起来后 ping 不通，你觉得可能存在哪些问题？](book/network/两台电脑连起来后ping不通，你觉得可能存在哪些问题？.md) |   |
-| ⬜ | esjj3r | 第四部分：网络层 | [ARP 地址解析协议的原理和地址解析过程](book/network/ARP地址解析协议的原理和地址解析过程.md) |   |
-| ⬜ | esfyts | 第四部分：网络层 | [网络地址转换 NAT](book/network/网络地址转换NAT.md) |   |
-| ⬜ | e4hsud | 第四部分：网络层 | [TTL 是什么？有什么作用](book/network/TTL是什么？有什么作用.md) |   |
-| ⬜ | e4xkih | 第四部分：网络层 | [运输层协议和网络层协议的区别](book/network/运输层协议和网络层协议的区别.md) |   |
-| ⬜ | e45373 | 第五部分：数据链路层 | [MAC 地址和 IP 地址分别有什么作用](book/network/MAC地址和IP地址分别有什么作用.md) |   |
-| ⬜ | e49u0m | 第五部分：数据链路层 | [为什么有了 MAC 地址还需要 IP 地址](book/network/为什么有了MAC地址还需要IP地址.md) |   |
-| ⬜ | e4e7w1 | 第五部分：数据链路层 | [为什么有了 IP 地址还需要 MAC 地址](book/network/为什么有了IP地址还需要MAC地址.md) |   |
-| ⬜ | e4owv7 | 第五部分：数据链路层 | [私网地址和公网地址之间进行转换：同一个局域网内的两个私网地址，经过转换之后外面看到的一样吗](book/network/私网地址和公网地址之间进行转换：同一个局域网内的两个私网地址，经过转换之后外面看到的一样吗.md) |   |
-| ⬜ | e4r2n5 | 第五部分：数据链路层 | [以太网中的 CSMA/CD 协议](book/network/以太网中的CSMA/CD协议.md) |   |
-| ⬜ | e4ppa6 | 第五部分：数据链路层 | [数据链路层上的三个基本问题](book/network/数据链路层上的三个基本问题.md) |   |
-| ⬜ | e4mem2 | 第五部分：数据链路层 | [PPP 协议](book/network/PPP协议.md) |   |
-| ⬜ | e4axrc | 第五部分：数据链路层 | [为什么 PPP 协议不使用序号和确认机制](book/network/为什么PPP协议不使用序号和确认机制.md) |   |
-| ⬜ | e4g07i | 第六部分：物理层 | [物理层主要做什么事情](book/network/物理层主要做什么事情.md) |   |
-| ⬜ | e4zv0e | 第六部分：物理层 | [主机之间的通信方式](book/network/主机之间的通信方式.md) |   |
-| ⬜ | e4sawg | 第六部分：物理层 | [通道复用技术](book/network/通道复用技术.md) |   |
-| ⬜ | e44rvv | 第六部分：物理层 | [几种常用的宽带接入技术](book/network/几种常用的宽带接入技术.md) |   |
-| ⬜ | e4192j | 第七部分：计算机网络中的安全 | [安全攻击有哪些](book/network/安全攻击有哪些.md) |   |
-| ⬜ | e4yhat | 第七部分：计算机网络中的安全 | [ARP 攻击](book/network/ARP攻击.md) |   |
-| ⬜ | e4ybmr | 第七部分：计算机网络中的安全 | [对称加密和非对称的区别，非对称加密有哪些](book/network/对称加密和非对称的区别，非对称加密有哪些.md) |   |
-| ⬜ | e4c1rs | 第七部分：计算机网络中的安全 | [AES 的过程](book/network/AES的过程.md) |   |
-| ⬜ | e4bzod | 第七部分：计算机网络中的安全 | [RSA 和 AES 算法有什么区别](book/network/RSA和AES算法有什么区别.md) |   |
-| ⬜ | e4j6eh | 第七部分：计算机网络中的安全 | [DDoS 有哪些，如何防范](book/network/DDoS有哪些，如何防范.md) |   |
+| ⬜ | ekjhp7 | 第一部分：协议层次以及它们的服务类型 | [OSI 七层模型](OSI七层模型.md) |   |
+| ⬜ | ekjbr5 | 第一部分：协议层次以及它们的服务类型 | [TCP/IP 参考模型](TCP/IP参考模型.md) |   |
+| ⬜ | egackd | 第一部分：协议层次以及它们的服务类型 | [TCP/IP 五层参考模型](TCP/IP五层参考模型.md) |   |
+| ⬜ | eg246h | 第一部分：协议层次以及它们的服务类型 | [OSI 模型和 TCP/IP 模型异同比较](OSI模型和TCP/IP模型异同比较.md) |   |
+| ⬜ | egng33 | 第一部分：协议层次以及它们的服务类型 | [OSI 和 TCP/IP 协议之间的对应关系](OSI和TCP/IP协议之间的对应关系.md) |   |
+| ⬜ | egvq8m | 第一部分：协议层次以及它们的服务类型 | [为什么 TCP/IP 去除了表示层和会话层](为什么TCP/IP去除了表示层和会话层.md) |   |
+| ⬜ | egwtu1 | 第一部分：协议层次以及它们的服务类型 | [数据如何在各层之间传输【数据的封装过程】](数据如何在各层之间传输【数据的封装过程】.md) |   |
+| ⬜ | egdli7 | 第二部分：应用层 | [HTTP 头部包含哪些信息](HTTP头部包含哪些信息.md) |   |
+| ⬜ | eg0dl5 | 第二部分：应用层 | [Keep-Alive 和非 Keep-Alive 区别，对服务器性能有影响吗](Keep-Alive和非Keep-Alive区别，对服务器性能有影响吗.md) |   |
+| ⬜ | eg7n06 | 第二部分：应用层 | [HTTP 长连接短连接使用场景是什么](HTTP长连接短连接使用场景是什么.md) |   |
+| ⬜ | eglmd2 | 第二部分：应用层 | [怎么知道 HTTP 的报文长度](怎么知道HTTP的报文长度.md) |   |
+| ⬜ | ez8ikr | 第二部分：应用层 | [HTTP 方法了解哪些](HTTP方法了解哪些.md) |   |
+| ⬜ | ez30qs | 第二部分：应用层 | [GET 和 POST 的区别](GET和POST的区别.md) |   |
+| ⬜ | ezqv3d | 第二部分：应用层 | [GET 的长度限制是多少](GET的长度限制是多少.md) |   |
+| ⬜ | ez6a8h | 第二部分：应用层 | [HTTP 与 HTTPs 的工作方式【建立连接的过程】](HTTP与HTTPs的工作方式【建立连接的过程】.md) |   |
+| ⬜ | ezkru3 | 第二部分：应用层 | [HTTPS 和 HTTP 的区别](HTTPS和HTTP的区别.md) |   |
+| ⬜ | ezg9im | 第二部分：应用层 | [HTTPS 的加密方式](HTTPS的加密方式.md) |   |
+| ⬜ | ezzh71 | 第二部分：应用层 | [客户端为什么信任第三方证书](客户端为什么信任第三方证书.md) |   |
+| ⬜ | ezzb07 | 第二部分：应用层 | [HTTP 是不保存状态的协议,如何保存用户状态](HTTP是不保存状态的协议,如何保存用户状态.md) |   |
+| ⬜ | ezs1d5 | 第二部分：应用层 | [状态码](状态码.md) |   |
+| ⬜ | ez4zv6 | 第二部分：应用层 | [HTTP/1.1 和 HTTP/1.0 的区别](HTTP/1.1和HTTP/1.0的区别.md) |   |
+| ⬜ | ez16n2 | 第二部分：应用层 | [HTTP/1.X 和 HTTP/2.0 的区别](HTTP/1.X和HTTP/2.0的区别.md) |   |
+| ⬜ | ezy8ac | 第二部分：应用层 | [HTTP/3 了解吗](HTTP/3了解吗.md) |   |
+| ⬜ | ezcimi | 第二部分：应用层 | [DNS 的作用和原理](DNS的作用和原理.md) |   |
+| ⬜ | ezb0pe | 第二部分：应用层 | [DNS 为什么用 UDP](DNS为什么用UDP.md) |   |
+| ⬜ | ezjvog | 第二部分：应用层 | [怎么实现 DNS 劫持](怎么实现DNS劫持.md) |   |
+| ⬜ | ezfaev | 第二部分：应用层 | [socket() 套接字有哪些](socket()套接字有哪些.md) |   |
+| ⬜ | eshr5j | 第二部分：应用层 | [URI（统一资源标识符）和 URL（统一资源定位符）之间的区别](URI（统一资源标识符）和URL（统一资源定位符）之间的区别.md) |   |
+| ⬜ | esx9xt | 第二部分：应用层 | [为什么 fidder，charles 能抓到你的包【抓取数据包的过程】](为什么fidder，charles能抓到你的包【抓取数据包的过程】.md) |   |
+| ⬜ | es5hhr | 第二部分：应用层 | [如果你访问一个网站很慢，怎么排查和解决](如果你访问一个网站很慢，怎么排查和解决.md) |   |
+| ⬜ | es5cjs | 第二部分：应用层 | [其他协议](其他协议.md) |   |
+| ⬜ | es94bd | 第二部分：应用层 | [网页解析全过程【用户输入网址到显示对应页面的全过程】](网页解析全过程【用户输入网址到显示对应页面的全过程】.md) |   |
+| ⬜ | esegch | 第三部分：传输层 | [三次握手和四次挥手机制](三次握手和四次挥手机制.md) |   |
+| ⬜ | esoq13 | 第三部分：传输层 | [如果三次握手的时候每次握手信息对方没有收到会怎么样](如果三次握手的时候每次握手信息对方没有收到会怎么样.md) |   |
+| ⬜ | esrt4m | 第三部分：传输层 | [为什么要进行三次握手？两次握手可以吗？](为什么要进行三次握手？两次握手可以吗？.md) |   |
+| ⬜ | esplz1 | 第三部分：传输层 | [第 2 次握手传回了 ACK，为什么还要传回 SYN](第2次握手传回了ACK，为什么还要传回SYN.md) |   |
+| ⬜ | esmdg7 | 第三部分：传输层 | [为什么要四次挥手？](为什么要四次挥手？.md) |   |
+| ⬜ | esank5 | 第三部分：传输层 | [CLOSE-WAIT 和 TIME-WAIT 的状态和意义](CLOSE-WAIT和TIME-WAIT的状态和意义.md) |   |
+| ⬜ | es2mq6 | 第三部分：传输层 | [TIME_WAIT 状态会导致什么问题，怎么解决](TIME_WAIT状态会导致什么问题，怎么解决.md) |   |
+| ⬜ | esno32 | 第三部分：传输层 | [TIME-WAIT 为什么是 2MSL](TIME-WAIT为什么是2MSL.md) |   |
+| ⬜ | esv5tc | 第三部分：传输层 | [有很多 TIME-WAIT 状态如何解决](有很多TIME-WAIT状态如何解决.md) |   |
+| ⬜ | esvfui | 第三部分：传输层 | [有很多 CLOSE-WAIT 怎么解决](有很多CLOSE-WAIT怎么解决.md) |   |
+| ⬜ | eswcie | 第三部分：传输层 | [TCP 和 UDP 的区别](TCP和UDP的区别.md) |   |
+| ⬜ | esd47g | 第三部分：传输层 | [TCP 协议中的定时器](TCP协议中的定时器.md) |   |
+| ⬜ | es0g0v | 第三部分：传输层 | [TCP 是如何保证可靠性的](TCP是如何保证可靠性的.md) |   |
+| ⬜ | es7qwj | 第三部分：传输层 | [UDP 为什么是不可靠的？bind 和 connect 对于 UDP 的作用是什么](UDP为什么是不可靠的？bind和connect对于UDP的作用是什么.md) |   |
+| ⬜ | esltvt | 第三部分：传输层 | [TCP 超时重传的原理](TCP超时重传的原理.md) |   |
+| ⬜ | esilnr | 第三部分：传输层 | [TCP 的停止等待协议是什么](TCP的停止等待协议是什么.md) |   |
+| ⬜ | esudas | 第三部分：传输层 | [TCP 最大连接数限制](TCP最大连接数限制.md) |   |
+| ⬜ | estnmd | 第三部分：传输层 | [TCP 流量控制与拥塞控制](TCP流量控制与拥塞控制.md) |   |
+| ⬜ | es8mph | 第三部分：传输层 | [如果接收方滑动窗口满了，发送方会怎么做](如果接收方滑动窗口满了，发送方会怎么做.md) |   |
+| ⬜ | es3oo3 | 第三部分：传输层 | [TCP 拥塞控制采用的四种算法](TCP拥塞控制采用的四种算法.md) |   |
+| ⬜ | esq5em | 第三部分：传输层 | [TCP 粘包问题](TCP粘包问题.md) |   |
+| ⬜ | esqf51 | 第三部分：传输层 | [TCP 报文包含哪些信息](TCP报文包含哪些信息.md) |   |
+| ⬜ | es6cx7 | 第三部分：传输层 | [SYN FLOOD 是什么](SYNFLOOD是什么.md) |   |
+| ⬜ | esk4h5 | 第三部分：传输层 | [为什么服务端易受到 SYN 攻击](为什么服务端易受到SYN攻击.md) |   |
+| ⬜ | esgkj6 | 第三部分：传输层 | [高并发服务器客户端主动关闭连接和服务端主动关闭连接的区别](高并发服务器客户端主动关闭连接和服务端主动关闭连接的区别.md) |   |
+| ⬜ | esz3b2 | 第四部分：网络层 | [IP 协议的定义和作用](IP协议的定义和作用.md) |   |
+| ⬜ | essuyc | 第四部分：网络层 | [域名和 IP 的关系，一个 IP 可以对应多个域名吗](域名和IP的关系，一个IP可以对应多个域名吗.md) |   |
+| ⬜ | es471i | 第四部分：网络层 | [IPV4 地址不够如何解决](IPV4地址不够如何解决.md) |   |
+| ⬜ | es1w4e | 第四部分：网络层 | [路由器的分组转发流程](路由器的分组转发流程.md) |   |
+| ⬜ | esy2zg | 第四部分：网络层 | [路由器和交换机的区别](路由器和交换机的区别.md) |   |
+| ⬜ | escpgv | 第四部分：网络层 | [ICMP 协议概念/作用](ICMP协议概念/作用.md) |   |
+| ⬜ | esbe6j | 第四部分：网络层 | [ICMP 的应用](ICMP的应用.md) |   |
+| ⬜ | esjxqt | 第四部分：网络层 | [两台电脑连起来后 ping 不通，你觉得可能存在哪些问题？](两台电脑连起来后ping不通，你觉得可能存在哪些问题？.md) |   |
+| ⬜ | esjj3r | 第四部分：网络层 | [ARP 地址解析协议的原理和地址解析过程](ARP地址解析协议的原理和地址解析过程.md) |   |
+| ⬜ | esfyts | 第四部分：网络层 | [网络地址转换 NAT](网络地址转换NAT.md) |   |
+| ⬜ | e4hsud | 第四部分：网络层 | [TTL 是什么？有什么作用](TTL是什么？有什么作用.md) |   |
+| ⬜ | e4xkih | 第四部分：网络层 | [运输层协议和网络层协议的区别](运输层协议和网络层协议的区别.md) |   |
+| ⬜ | e45373 | 第五部分：数据链路层 | [MAC 地址和 IP 地址分别有什么作用](MAC地址和IP地址分别有什么作用.md) |   |
+| ⬜ | e49u0m | 第五部分：数据链路层 | [为什么有了 MAC 地址还需要 IP 地址](为什么有了MAC地址还需要IP地址.md) |   |
+| ⬜ | e4e7w1 | 第五部分：数据链路层 | [为什么有了 IP 地址还需要 MAC 地址](为什么有了IP地址还需要MAC地址.md) |   |
+| ⬜ | e4owv7 | 第五部分：数据链路层 | [私网地址和公网地址之间进行转换：同一个局域网内的两个私网地址，经过转换之后外面看到的一样吗](私网地址和公网地址之间进行转换：同一个局域网内的两个私网地址，经过转换之后外面看到的一样吗.md) |   |
+| ⬜ | e4r2n5 | 第五部分：数据链路层 | [以太网中的 CSMA/CD 协议](以太网中的CSMA/CD协议.md) |   |
+| ⬜ | e4ppa6 | 第五部分：数据链路层 | [数据链路层上的三个基本问题](数据链路层上的三个基本问题.md) |   |
+| ⬜ | e4mem2 | 第五部分：数据链路层 | [PPP 协议](PPP协议.md) |   |
+| ⬜ | e4axrc | 第五部分：数据链路层 | [为什么 PPP 协议不使用序号和确认机制](为什么PPP协议不使用序号和确认机制.md) |   |
+| ⬜ | e4g07i | 第六部分：物理层 | [物理层主要做什么事情](物理层主要做什么事情.md) |   |
+| ⬜ | e4zv0e | 第六部分：物理层 | [主机之间的通信方式](主机之间的通信方式.md) |   |
+| ⬜ | e4sawg | 第六部分：物理层 | [通道复用技术](通道复用技术.md) |   |
+| ⬜ | e44rvv | 第六部分：物理层 | [几种常用的宽带接入技术](几种常用的宽带接入技术.md) |   |
+| ⬜ | e4192j | 第七部分：计算机网络中的安全 | [安全攻击有哪些](安全攻击有哪些.md) |   |
+| ⬜ | e4yhat | 第七部分：计算机网络中的安全 | [ARP 攻击](ARP攻击.md) |   |
+| ⬜ | e4ybmr | 第七部分：计算机网络中的安全 | [对称加密和非对称的区别，非对称加密有哪些](对称加密和非对称的区别，非对称加密有哪些.md) |   |
+| ⬜ | e4c1rs | 第七部分：计算机网络中的安全 | [AES 的过程](AES的过程.md) |   |
+| ⬜ | e4bzod | 第七部分：计算机网络中的安全 | [RSA 和 AES 算法有什么区别](RSA和AES算法有什么区别.md) |   |
+| ⬜ | e4j6eh | 第七部分：计算机网络中的安全 | [DDoS 有哪些，如何防范](DDoS有哪些，如何防范.md) |   |
