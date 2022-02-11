@@ -79,6 +79,12 @@ func saveBock(name string) {
         }
         chapter = strings.TrimSuffix(chapter, "-")
         table += fmt.Sprintf("\n| %s | %s | %s | %s |   |", "⬜", id, chapter, title)
+        detailTitle := strings.Replace(title, "/", "&", -1)
+        detailPath := fmt.Sprintf("book/%s/%s.md", name, detailTitle)
+        err = ioutil.WriteFile(detailPath, []byte("# "+title), 0644)
+        if err != nil {
+            panic(err)
+        }
     }
     // 写入题目索引文件
     indexPath := fmt.Sprintf("book/%s/index.md", name)
