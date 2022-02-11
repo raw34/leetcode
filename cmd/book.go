@@ -24,7 +24,7 @@ var bookCmd = &cobra.Command{
         fmt.Println("book called")
         name := cmd.Flag("name").Value.String()
         fmt.Println("name is " + name)
-        if name == "All" {
+        if name != "All" {
             saveBock(name)
         } else {
             names := []string{"database", "network", "os", "design_pattern"}
