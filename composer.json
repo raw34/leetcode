@@ -8,5 +8,11 @@
             "email": "raw34@sina.com"
         }
     ],
-    "require": {}
+    "require": {
+        "phpunit/phpunit": "~9.0"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    }
 }
