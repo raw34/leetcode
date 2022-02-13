@@ -15,9 +15,9 @@
 |  ✅   | 9expxj | 第二章：结构型模式 Structural Patterns | [享元模式 Flyweight](Flyweight.md)                            |      |
 |  ✅   | 9e5eht | 第二章：结构型模式 Structural Patterns | [代理模式 Proxy](Proxy.md)                                    |      |
 |  ✅   | 9e9hfr | 第三章：行为型模式 Behavioral Patterns | [责任链模式 Chain of responsibility](ChainOfResponsibility.md) |      |
-|  ⬜   | 9e9bbs | 第三章：行为型模式 Behavioral Patterns | [命令模式 Command](Command.md)                                |      |
+|  ✅   | 9e9bbs | 第三章：行为型模式 Behavioral Patterns | [命令模式 Command](Command.md)                                |      |
 |  ⬜   | 9ee1cd | 第三章：行为型模式 Behavioral Patterns | [解释器模式 Interpreter](Interpreter.md)                       |      |
-|  ⬜   | 9eozyh | 第三章：行为型模式 Behavioral Patterns | [迭代器模式 Iterator](Iterator.md)                             |      |
+|  ✅   | 9eozyh | 第三章：行为型模式 Behavioral Patterns | [迭代器模式 Iterator](Iterator.md)                             |      |
 |  ⬜   | 9er643 | 第三章：行为型模式 Behavioral Patterns | [中介者模式 Mediator](中介者模式Mediator.md)                        |      |
 |  ⬜   | 9ep8sm | 第三章：行为型模式 Behavioral Patterns | [备忘录模式 Memento](Memento.md)                               |      |
 |  ⬜   | 9emig1 | 第三章：行为型模式 Behavioral Patterns | [观察者模式 Observer](Observer.md)                             |      |
