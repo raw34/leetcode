@@ -13,8 +13,8 @@
 |  ✅   | 99j7re | 第二章：结构型模式 Structural Patterns | [装饰模式 Decorator](Decorator.md)                            |      |
 |  ✅   | 99fweg | 第二章：结构型模式 Structural Patterns | [外观模式 Facade](Facade.md)                                  |      |
 |  ✅   | 9expxj | 第二章：结构型模式 Structural Patterns | [享元模式 Flyweight](Flyweight.md)                            |      |
-|  ⬜   | 9e5eht | 第二章：结构型模式 Structural Patterns | [代理模式 Proxy](Proxy.md)                                    |      |
-|  ⬜   | 9e9hfr | 第三章：行为型模式 Behavioral Patterns | [责任链模式 Chain of responsibility](Chainofresponsibility.md) |      |
+|  ✅   | 9e5eht | 第二章：结构型模式 Structural Patterns | [代理模式 Proxy](Proxy.md)                                    |      |
+|  ✅   | 9e9hfr | 第三章：行为型模式 Behavioral Patterns | [责任链模式 Chain of responsibility](ChainOfResponsibility.md) |      |
 |  ⬜   | 9e9bbs | 第三章：行为型模式 Behavioral Patterns | [命令模式 Command](Command.md)                                |      |
 |  ⬜   | 9ee1cd | 第三章：行为型模式 Behavioral Patterns | [解释器模式 Interpreter](Interpreter.md)                       |      |
 |  ⬜   | 9eozyh | 第三章：行为型模式 Behavioral Patterns | [迭代器模式 Iterator](Iterator.md)                             |      |
@@ -23,5 +23,5 @@
 |  ⬜   | 9emig1 | 第三章：行为型模式 Behavioral Patterns | [观察者模式 Observer](Observer.md)                             |      |
 |  ⬜   | 9ea0k7 | 第三章：行为型模式 Behavioral Patterns | [状态模式 State](State.md)                                    |      |
 |  ⬜   | 9e2v65 | 第三章：行为型模式 Behavioral Patterns | [策略模式 Strategy](Strategy.md)                              |      |
-|  ⬜   | 9ena36 | 第三章：行为型模式 Behavioral Patterns | [模板方法模式 Template method](Templatemethod.md)               |      |
+|  ⬜   | 9ena36 | 第三章：行为型模式 Behavioral Patterns | [模板方法模式 Template method](TemplateMethod.md)               |      |
 |  ⬜   | 9evr82 | 第三章：行为型模式 Behavioral Patterns | [访问者模式 Visitor](Visitor.md)                               |      |
