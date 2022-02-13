@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 
 class SimpleFactoryTest extends TestCase
 {
-    public function Test01()
+    public function testCase1()
     {
         $door = DoorFactory::makeDoor(100, 200);
         self::assertEquals(100, $door->getWidth());
