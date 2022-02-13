@@ -1,9 +1,9 @@
 | Done | Id     | Chapter                       | Title                                                     | Mark |
 |:----:|--------|-------------------------------|-----------------------------------------------------------|------|
-|  ✅   | 99k2th | 前言 Preface                    | [设计模式的六大原则 Six principles](Sixprinciples.md)              |      |
+|  ✅   | 99k2th | 前言 Preface                    | [设计模式的六大原则 Six Principles](SixPrinciples.md)              |      |
 |  ✅   | 99gpi3 | 第一章：构建型模式 Creational Patterns | [简单工厂模式 Simple Factory](SimpleFactory.md)                 |      |
 |  ✅   | 99gpi3 | 第一章：构建型模式 Creational Patterns | [工厂方法模式 Factory Method](FactoryMethod.md)                 |      |
-|  ✅   | 99zelm | 第一章：构建型模式 Creational Patterns | [抽象工厂模式 Abstract factory](AbstractFactory.md)             |      |
+|  ✅   | 99zelm | 第一章：构建型模式 Creational Patterns | [抽象工厂模式 Abstract Factory](AbstractFactory.md)             |      |
 |  ✅   | 99sx01 | 第一章：构建型模式 Creational Patterns | [单例模式 Singleton](Singleton.md)                            |      |
 |  ✅   | 99sjd7 | 第一章：构建型模式 Creational Patterns | [建造者模式 Builder](Builder.md)                               |      |
 |  ✅   | 994yw5 | 第一章：构建型模式 Creational Patterns | [原型模式 Prototype](Prototype.md)                            |      |
@@ -14,7 +14,7 @@
 |  ✅   | 99fweg | 第二章：结构型模式 Structural Patterns | [外观模式 Facade](Facade.md)                                  |      |
 |  ✅   | 9expxj | 第二章：结构型模式 Structural Patterns | [享元模式 Flyweight](Flyweight.md)                            |      |
 |  ✅   | 9e5eht | 第二章：结构型模式 Structural Patterns | [代理模式 Proxy](Proxy.md)                                    |      |
-|  ✅   | 9e9hfr | 第三章：行为型模式 Behavioral Patterns | [责任链模式 Chain of responsibility](ChainOfResponsibility.md) |      |
+|  ✅   | 9e9hfr | 第三章：行为型模式 Behavioral Patterns | [责任链模式 Chain Of Responsibility](ChainOfResponsibility.md) |      |
 |  ✅   | 9e9bbs | 第三章：行为型模式 Behavioral Patterns | [命令模式 Command](Command.md)                                |      |
 |  ⬜   | 9ee1cd | 第三章：行为型模式 Behavioral Patterns | [解释器模式 Interpreter](Interpreter.md)                       |      |
 |  ✅   | 9eozyh | 第三章：行为型模式 Behavioral Patterns | [迭代器模式 Iterator](Iterator.md)                             |      |
