@@ -3,7 +3,7 @@
 |  ✅   | 99k2th | 前言 Preface                    | [设计模式的六大原则 Six principles](Sixprinciples.md)              |      |
 |  ✅   | 99gpi3 | 第一章：构建型模式 Creational Patterns | [简单工厂模式 Simple Factory](SimpleFactory.md)                 |      |
 |  ✅   | 99gpi3 | 第一章：构建型模式 Creational Patterns | [工厂方法模式 Factory Method](FactoryMethod.md)                 |      |
-|  ✅   | 99zelm | 第一章：构建型模式 Creational Patterns | [抽象工厂模式 Abstract factory](Abstractfactory.md)             |      |
+|  ✅   | 99zelm | 第一章：构建型模式 Creational Patterns | [抽象工厂模式 Abstract factory](AbstractFactory.md)             |      |
 |  ✅   | 99sx01 | 第一章：构建型模式 Creational Patterns | [单例模式 Singleton](Singleton.md)                            |      |
 |  ✅   | 99sjd7 | 第一章：构建型模式 Creational Patterns | [建造者模式 Builder](Builder.md)                               |      |
 |  ✅   | 994yw5 | 第一章：构建型模式 Creational Patterns | [原型模式 Prototype](Prototype.md)                            |      |
