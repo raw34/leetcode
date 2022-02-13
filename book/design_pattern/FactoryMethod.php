@@ -1,6 +1,6 @@
 <?php
 
-namespace Book\DesignPatternFactoryMethod;
+namespace Book\DesignPattern\FactoryMethod;
 
 interface Interviewer
 {

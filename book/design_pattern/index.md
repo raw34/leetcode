@@ -5,8 +5,8 @@
 |  ✅   | 99gpi3 | 第一章：构建型模式 Creational Patterns | [工厂方法模式 Factory Method](FactoryMethod.md)                 |      |
 |  ✅   | 99zelm | 第一章：构建型模式 Creational Patterns | [抽象工厂模式 Abstract factory](Abstractfactory.md)             |      |
 |  ✅   | 99sx01 | 第一章：构建型模式 Creational Patterns | [单例模式 Singleton](Singleton.md)                            |      |
-|  ⬜   | 99sjd7 | 第一章：构建型模式 Creational Patterns | [建造者模式 Builder](Builder.md)                               |      |
-|  ⬜   | 994yw5 | 第一章：构建型模式 Creational Patterns | [原型模式 Prototype](Prototype.md)                            |      |
+|  ✅   | 99sjd7 | 第一章：构建型模式 Creational Patterns | [建造者模式 Builder](Builder.md)                               |      |
+|  ✅   | 994yw5 | 第一章：构建型模式 Creational Patterns | [原型模式 Prototype](Prototype.md)                            |      |
 |  ⬜   | 99yk22 | 第二章：结构型模式 Structural Patterns | [适配器模式 Adapter](Adapter.md)                               |      |
 |  ⬜   | 99c3mc | 第二章：结构型模式 Structural Patterns | [桥接模式 Bridge](Bridge.md)                                  |      |
 |  ⬜   | 99bupi | 第二章：结构型模式 Structural Patterns | [组合模式 Composite](Composite.md)                            |      |
