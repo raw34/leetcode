@@ -10,9 +10,9 @@
 |  ✅   | 99yk22 | 第二章：结构型模式 Structural Patterns | [适配器模式 Adapter](Adapter.md)                               |      |
 |  ✅   | 99c3mc | 第二章：结构型模式 Structural Patterns | [桥接模式 Bridge](Bridge.md)                                  |      |
 |  ✅   | 99bupi | 第二章：结构型模式 Structural Patterns | [组合模式 Composite](Composite.md)                            |      |
-|  ⬜   | 99j7re | 第二章：结构型模式 Structural Patterns | [装饰模式 Decorator](Decorator.md)                            |      |
-|  ⬜   | 99fweg | 第二章：结构型模式 Structural Patterns | [外观模式 Facade](Facade.md)                                  |      |
-|  ⬜   | 9expxj | 第二章：结构型模式 Structural Patterns | [享元模式 Flyweight](Flyweight.md)                            |      |
+|  ✅   | 99j7re | 第二章：结构型模式 Structural Patterns | [装饰模式 Decorator](Decorator.md)                            |      |
+|  ✅   | 99fweg | 第二章：结构型模式 Structural Patterns | [外观模式 Facade](Facade.md)                                  |      |
+|  ✅   | 9expxj | 第二章：结构型模式 Structural Patterns | [享元模式 Flyweight](Flyweight.md)                            |      |
 |  ⬜   | 9e5eht | 第二章：结构型模式 Structural Patterns | [代理模式 Proxy](Proxy.md)                                    |      |
 |  ⬜   | 9e9hfr | 第三章：行为型模式 Behavioral Patterns | [责任链模式 Chain of responsibility](Chainofresponsibility.md) |      |
 |  ⬜   | 9e9bbs | 第三章：行为型模式 Behavioral Patterns | [命令模式 Command](Command.md)                                |      |
