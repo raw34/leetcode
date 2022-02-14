@@ -4,7 +4,7 @@ namespace book\design_pattern\observer;
 
 interface Observable
 {
-    public function notify(JobPost $jobPosting);
-    public function attach(Observer $observer);
-    public function addJob(JobPost $jobPosting);
+    public function attach(Observer $observer): void;
+    public function detach(Observer $observer): void;
+    public function notify(JobPost $jobPost): void;
 }

@@ -5,15 +5,21 @@ namespace book\design_pattern\observer;
 class JobSeeker implements Observer
 {
     private string $name;
+    private string $lastNotice;
 
     public function __construct(string $name)
     {
         $this->name = $name;
     }
 
-    public function onJobPosted(JobPost $job)
+    public function update(JobPost $jobPost): void
     {
         // Do something with the job posting
-        echo 'Hi ' . $this->name . '! New job posted: ' . $job->getTitle();
+        $this->lastNotice = 'Hi ' . $this->name . '! New job posted: ' . $jobPost->getTitle();
+    }
+
+    public function getLastNotice(): string
+    {
+        return $this->lastNotice;
     }
 }

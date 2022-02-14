@@ -4,5 +4,5 @@ namespace book\design_pattern\observer;
 
 interface Observer
 {
-    public function onJobPosted(JobPost $job);
+    public function update(JobPost $jobPost): void;
 }
