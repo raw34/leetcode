@@ -13,22 +13,22 @@ class Sheep
         $this->category = $category;
     }
 
-    public function setName(string $name)
+    public function setName(string $name): void
     {
         $this->name = $name;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return $this->name;
     }
 
-    public function setCategory(string $category)
+    public function setCategory(string $category): void
     {
         $this->category = $category;
     }
 
-    public function getCategory()
+    public function getCategory(): string
     {
         return $this->category;
     }
