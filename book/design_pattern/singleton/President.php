@@ -1,10 +1,10 @@
 <?php
 
-namespace book\design_pattern\Singleton;
+namespace book\design_pattern\singleton;
 
 final class President
 {
-    private static $instance;
+    private static ?President $instance = null;
 
     private function __construct()
     {
@@ -30,8 +30,3 @@ final class President
         // Disable unserialize
     }
 }
-
-$president1 = President::getInstance();
-$president2 = President::getInstance();
-
-var_dump($president1 === $president2); // true
