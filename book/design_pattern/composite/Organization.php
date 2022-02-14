@@ -4,9 +4,9 @@ namespace book\design_pattern\composite;
 
 class Organization
 {
-    protected $employees;
+    private array $employees;
 
-    public function addEmployee(Employee $employee)
+    public function addEmployee(Employee $employee): void
     {
         $this->employees[] = $employee;
     }

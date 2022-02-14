@@ -4,7 +4,7 @@ namespace book\design_pattern\command;
 
 class TurnOff implements Command
 {
-    protected $bulb;
+    private Bulb $bulb;
 
     public function __construct(Bulb $bulb)
     {

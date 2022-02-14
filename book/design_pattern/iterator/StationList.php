@@ -36,17 +36,17 @@ class StationList implements Countable, Iterator
         return $this->stations[$this->counter];
     }
 
-    public function key()
+    public function key(): int
     {
         return $this->counter;
     }
 
-    public function next()
+    public function next(): void
     {
         $this->counter++;
     }
 
-    public function rewind()
+    public function rewind(): void
     {
         $this->counter = 0;
     }

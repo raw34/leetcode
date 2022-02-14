@@ -4,9 +4,9 @@ namespace book\design_pattern\composite;
 
 class Developer implements Employee
 {
-    protected $salary;
-    protected $name;
-    protected $roles;
+    private float $salary;
+    private string $name;
+    private array $roles;
 
     public function __construct(string $name, float $salary)
     {

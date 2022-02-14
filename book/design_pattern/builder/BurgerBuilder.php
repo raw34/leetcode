@@ -16,25 +16,25 @@ class BurgerBuilder
         $this->size = $size;
     }
 
-    public function addPepperoni()
+    public function addPepperoni(): BurgerBuilder
     {
         $this->pepperoni = true;
         return $this;
     }
 
-    public function addLettuce()
+    public function addLettuce(): BurgerBuilder
     {
         $this->lettuce = true;
         return $this;
     }
 
-    public function addCheese()
+    public function addCheese(): BurgerBuilder
     {
         $this->cheese = true;
         return $this;
     }
 
-    public function addTomato()
+    public function addTomato(): BurgerBuilder
     {
         $this->tomato = true;
         return $this;

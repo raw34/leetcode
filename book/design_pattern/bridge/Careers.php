@@ -4,7 +4,7 @@ namespace book\design_pattern\bridge;
 
 class Careers implements WebPage
 {
-    protected $theme;
+    private Theme $theme;
 
     public function __construct(Theme $theme)
     {
