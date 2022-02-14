@@ -1,4 +1,7 @@
 <?php
+
+namespace runtime;
+
 /**
  * Class MaxPriorityQueue
  * @author Randy Chang

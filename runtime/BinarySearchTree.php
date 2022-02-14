@@ -1,20 +1,6 @@
 <?php
 
-/**
- * Class TreeNode
- * @author Randy Chang
- */
-class TreeNode
-{
-    public $val;
-    public $left;
-    public $right;
-
-    public function __construct($val)
-    {
-        $this->val = $val;
-    }
-}
+namespace runtime;
 
 /**
  * Class BinarySearchTree
@@ -135,6 +121,7 @@ class BinarySearchTree
     }
 }
 
+/*
 $arr = range(1, 10);
 shuffle($arr);
 
@@ -148,3 +135,4 @@ echo "\n";
 
 echo 'min = ', $bst->getMin($root)->val, "\n";
 echo 'max = ', $bst->getMax($root)->val, "\n";
+*/

@@ -8,11 +8,16 @@
             "email": "raw34@sina.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "runtime\\": "runtime"
+        }
+    },
     "require": {
-        "phpunit/phpunit": "~9.0"
-    }
-    ,
+        "ext-json": "*"
+    },
     "require-dev": {
+        "phpunit/phpunit": "~9.0",
         "roave/security-advisories": "dev-latest"
     }
 }
