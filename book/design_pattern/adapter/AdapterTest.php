@@ -18,6 +18,7 @@ class AdapterTest extends TestCase
     {
         $wildDog = new WildDog();
         $wildDogAdapter = new WildDogAdapter($wildDog);
+
         $hunter = new Hunter();
 
         self::assertEquals("WildDog: Bark!", $hunter->hunt($wildDogAdapter));
