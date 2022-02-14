@@ -6,7 +6,7 @@ class EmploymentAgency implements Observable
 {
     private array $observers = [];
 
-    protected function notify(JobPost $jobPosting)
+    public function notify(JobPost $jobPosting)
     {
         foreach ($this->observers as $observer) {
             $observer->onJobPosted($jobPosting);
