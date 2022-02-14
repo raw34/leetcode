@@ -20,7 +20,7 @@
 |  ✅   | 9eozyh | 第三章：行为型模式 Behavioral Patterns | [迭代器模式 Iterator](iterator/Iterator.md)                                            |      |
 |  ✅   | 9er643 | 第三章：行为型模式 Behavioral Patterns | [中介者模式 Mediator](mediator/Mediator.md)                                            |      |
 |  ✅   | 9ep8sm | 第三章：行为型模式 Behavioral Patterns | [备忘录模式 Memento](memento/Memento.md)                                               |      |
-|  ⬜   | 9emig1 | 第三章：行为型模式 Behavioral Patterns | [观察者模式 Observer](observer/Observer.md)                                            |      |
+|  ✅   | 9emig1 | 第三章：行为型模式 Behavioral Patterns | [观察者模式 Observer](observer/Observer.md)                                            |      |
 |  ✅   | 9ea0k7 | 第三章：行为型模式 Behavioral Patterns | [状态模式 State](state/State.md)                                                      |      |
 |  ✅   | 9e2v65 | 第三章：行为型模式 Behavioral Patterns | [策略模式 Strategy](strategy/Strategy.md)                                             |      |
 |  ✅   | 9ena36 | 第三章：行为型模式 Behavioral Patterns | [模板方法模式 Template method](template_method/TemplateMethod.md)                       |      |
