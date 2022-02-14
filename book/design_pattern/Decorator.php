@@ -1,6 +1,6 @@
 <?php
 
-namespace Book\DesignPattern\Decorator;
+namespace book\design_pattern\Decorator;
 
 interface Coffee
 {

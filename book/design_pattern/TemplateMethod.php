@@ -1,6 +1,6 @@
 <?php
 
-namespace Book\DesignPattern\TemplateMethod;
+namespace book\design_pattern\TemplateMethod;
 
 abstract class Builder
 {

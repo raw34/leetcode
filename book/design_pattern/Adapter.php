@@ -1,6 +1,6 @@
 <?php
 
-namespace Book\DesignPattern\Adapter;
+namespace book\design_pattern\Adapter;
 
 interface Lion
 {

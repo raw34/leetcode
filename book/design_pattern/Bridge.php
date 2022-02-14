@@ -1,6 +1,6 @@
 <?php
 
-namespace Book\DesignPattern\Bridge;
+namespace book\design_pattern\Bridge;
 
 interface WebPage
 {

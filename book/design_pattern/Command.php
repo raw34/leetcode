@@ -1,6 +1,6 @@
 <?php
 
-namespace Book\DesignPattern\Command;
+namespace book\design_pattern\Command;
 
 // Receiver
 class Bulb

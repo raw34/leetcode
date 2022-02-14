@@ -1,6 +1,6 @@
 <?php
 
-namespace Book\DesignPattern\Visitor;
+namespace book\design_pattern\Visitor;
 
 // Visitee
 interface Animal

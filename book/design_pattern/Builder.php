@@ -1,6 +1,6 @@
 <?php
 
-namespace Book\DesignPattern\Builder;
+namespace book\design_pattern\Builder;
 
 class Burger
 {

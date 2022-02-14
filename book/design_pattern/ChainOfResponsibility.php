@@ -1,6 +1,6 @@
 <?php
 
-namespace Book\DesignPattern\ChainOfResponsibility;
+namespace book\design_pattern\ChainOfResponsibility;
 
 abstract class Account
 {

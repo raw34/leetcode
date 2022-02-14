@@ -1,6 +1,6 @@
 <?php
 
-namespace Book\DesignPattern\Singleton;
+namespace book\design_pattern\Singleton;
 
 final class President
 {

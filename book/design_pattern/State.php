@@ -1,6 +1,6 @@
 <?php
 
-namespace Book\DesignPattern\State;
+namespace book\design_pattern\State;
 
 interface WritingState
 {

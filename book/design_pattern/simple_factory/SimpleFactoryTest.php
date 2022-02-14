@@ -1,6 +1,6 @@
 <?php
 
-namespace Book\DesignPattern\SimpleFactory;
+namespace book\design_pattern\simple_factory;
 
 use PHPUnit\Framework\TestCase;
 

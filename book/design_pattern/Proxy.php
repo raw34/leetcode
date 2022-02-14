@@ -1,6 +1,6 @@
 <?php
 
-namespace Book\DesignPattern\Proxy;
+namespace book\design_pattern\Proxy;
 
 interface Door
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Book\DesignPattern\Iterator;
+namespace book\design_pattern\Iterator;
 
 class RadioStation
 {

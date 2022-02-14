@@ -1,6 +1,6 @@
 <?php
 
-namespace Book\DesignPattern\Composite;
+namespace book\design_pattern\Composite;
 
 interface Employee
 {

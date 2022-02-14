@@ -1,6 +1,6 @@
 <?php
 
-namespace Book\DesignPattern\Memoto;
+namespace book\design_pattern\Memoto;
 
 class EditorMemento
 {

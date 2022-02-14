@@ -1,6 +1,6 @@
 <?php
 
-namespace Book\DesignPattern\AbstractFactory;
+namespace book\design_pattern\AbstractFactory;
 
 interface Door
 {

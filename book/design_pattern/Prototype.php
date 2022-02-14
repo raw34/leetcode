@@ -1,6 +1,6 @@
 <?php
 
-namespace Book\DesignPattern\Prototype;
+namespace book\design_pattern\Prototype;
 
 class Sheep
 {

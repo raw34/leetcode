@@ -1,6 +1,6 @@
 <?php
 
-namespace Book\DesignPattern\Strategy;
+namespace book\design_pattern\Strategy;
 
 interface SortStrategy
 {

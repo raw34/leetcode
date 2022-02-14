@@ -1,6 +1,6 @@
 <?php
 
-namespace Book\DesignPattern\Facade;
+namespace book\design_pattern\Facade;
 
 class Computer
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Book\DesignPattern\Mediator;
+namespace book\design_pattern\Mediator;
 
 interface ChatRoomMediator
 {

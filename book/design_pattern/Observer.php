@@ -1,6 +1,6 @@
 <?php
 
-namespace Book\DesignPattern\Observer;
+namespace book\design_pattern\Observer;
 
 class JobPost
 {
