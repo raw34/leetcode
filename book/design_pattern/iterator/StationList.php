@@ -1,21 +1,6 @@
 <?php
 
-namespace book\design_pattern\Iterator;
-
-class RadioStation
-{
-    protected $frequency;
-
-    public function __construct(float $frequency)
-    {
-        $this->frequency = $frequency;
-    }
-
-    public function getFrequency(): float
-    {
-        return $this->frequency;
-    }
-}
+namespace book\design_pattern\iterator;
 
 use Countable;
 use Iterator;
@@ -23,17 +8,17 @@ use Iterator;
 class StationList implements Countable, Iterator
 {
     /** @var RadioStation[] $stations */
-    protected $stations = [];
+    private array $stations = [];
 
-    /** @var int $counter */
-    protected $counter;
+    /** @var int|null $counter */
+    private int $counter;
 
-    public function addStation(RadioStation $station)
+    public function addStation(RadioStation $station): void
     {
         $this->stations[] = $station;
     }
 
-    public function removeStation(RadioStation $toRemove)
+    public function removeStation(RadioStation $toRemove): void
     {
         $toRemoveFrequency = $toRemove->getFrequency();
         $this->stations = array_filter($this->stations, function (RadioStation $station) use ($toRemoveFrequency) {
@@ -71,16 +56,3 @@ class StationList implements Countable, Iterator
         return isset($this->stations[$this->counter]);
     }
 }
-
-$stationList = new StationList();
-
-$stationList->addStation(new RadioStation(89));
-$stationList->addStation(new RadioStation(101));
-$stationList->addStation(new RadioStation(102));
-$stationList->addStation(new RadioStation(103.2));
-
-foreach($stationList as $station) {
-    echo $station->getFrequency() . PHP_EOL;
-}
-
-$stationList->removeStation(new RadioStation(89)); // Will remove station 89
