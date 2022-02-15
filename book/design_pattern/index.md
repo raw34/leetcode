@@ -9,10 +9,10 @@
 |  ✅   | 994yw5 | 构建型模式 Creational Patterns | [原型模式 Prototype](prototype/Prototype.md)                                          |      |
 |  ✅   | 99yk22 | 结构型模式 Structural Patterns | [适配器模式 Adapter](adapter/Adapter.md)                                               |      |
 |  ✅   | 99c3mc | 结构型模式 Structural Patterns | [桥接模式 Bridge](bridge/Bridge.md)                                                   |      |
-|  ✅?  | 99bupi | 结构型模式 Structural Patterns | [组合模式 Composite](composite/Composite.md)                                          |      |
+|  ✅   | 99bupi | 结构型模式 Structural Patterns | [组合模式 Composite](composite/Composite.md)                                          |      |
 |  ✅   | 99j7re | 结构型模式 Structural Patterns | [装饰模式 Decorator](decorator/Decorator.md)                                          |      |
 |  ✅   | 99fweg | 结构型模式 Structural Patterns | [外观模式 Facade](facade/Facade.md)                                                   |      |
-|  ✅?  | 9expxj | 结构型模式 Structural Patterns | [享元模式 Flyweight](flyweight/Flyweight.md)                                          |      |
+|  ✅   | 9expxj | 结构型模式 Structural Patterns | [享元模式 Flyweight](flyweight/Flyweight.md)                                          |      |
 |  ✅   | 9e5eht | 结构型模式 Structural Patterns | [代理模式 Proxy](proxy/Proxy.md)                                                      |      |
 |  ✅?  | 9e9hfr | 行为型模式 Behavioral Patterns | [责任链模式 Chain Of Responsibility](chain_of_responsibility/ChainOfResponsibility.md) |      |
 |  ✅   | 9e9bbs | 行为型模式 Behavioral Patterns | [命令模式 Command](command/Command.md)                                                |      |
