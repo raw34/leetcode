@@ -43,6 +43,7 @@ type QuestionNode struct {
     Id       string
     Title    string
     ParentId string
+    Book     string
     Chapter  string
 }
 
@@ -70,9 +71,14 @@ func saveBock(name string, ftype string) {
         for _, node := range questionList {
             detailTitle := filterTitle(node.Title)
             detailPath := fmt.Sprintf("book/%s/%s.md", name, detailTitle)
-            writeFile(detailPath, []byte(fmt.Sprintf("# %s\n\n", node.Title)))
+            detailContent := getQuestionDetail(node)
+            writeFile(detailPath, []byte(fmt.Sprintf(detailContent, node.Title)))
         }
     }
+}
+
+func getQuestionDetail(node *QuestionNode) string {
+    return fmt.Sprintf("# %s\n\n", node.Title)
 }
 
 func getQuestions(name string) []*QuestionNode {
@@ -92,7 +98,7 @@ func getQuestions(name string) []*QuestionNode {
         id := question.Get("id").String()
         title := question.Get("title").String()
         pageType := question.Get("pageType").String()
-        node := &QuestionNode{Id: id, Title: title}
+        node := &QuestionNode{Id: id, Title: title, Book: name}
         questionMap[id] = node
         if pageType == "CHAPTER" {
             continue
