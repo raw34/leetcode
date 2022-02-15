@@ -24,4 +24,4 @@
 |  ✅   | 9ea0k7 | 行为型模式 Behavioral Patterns | [状态模式 State](state/State.md)                                                      |      |
 |  ✅   | 9e2v65 | 行为型模式 Behavioral Patterns | [策略模式 Strategy](strategy/Strategy.md)                                             |      |
 |  ✅   | 9ena36 | 行为型模式 Behavioral Patterns | [模板方法模式 Template method](template_method/TemplateMethod.md)                       |      |
-|  ✅?  | 9evr82 | 行为型模式 Behavioral Patterns | [访问者模式 Visitor](visitor/Visitor.md)                                               |      |
+|  ✅   | 9evr82 | 行为型模式 Behavioral Patterns | [访问者模式 Visitor](visitor/Visitor.md)                                               |      |
