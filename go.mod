@@ -3,7 +3,6 @@ module github.com/raw34/leetcode
 go 1.16
 
 require (
-	github.com/go-resty/resty/v2 v2.7.0
 	github.com/gocolly/colly/v2 v2.1.0
 	github.com/spf13/cobra v1.3.0
 	github.com/spf13/viper v1.10.1

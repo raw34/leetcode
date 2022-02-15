@@ -2,12 +2,13 @@ package cmd
 
 import (
     "fmt"
-    _ "github.com/go-resty/resty/v2"
-    _ "github.com/gocolly/colly/v2"
+    "github.com/gocolly/colly/v2"
     "github.com/spf13/cobra"
     "github.com/tidwall/gjson"
     "io/ioutil"
+    "log"
     "strings"
+    "time"
 )
 
 func init() {
@@ -29,7 +30,6 @@ var bookCmd = &cobra.Command{
         fmt.Println("book called")
         name := cmd.Flag("name").Value.String()
         ftype := cmd.Flag("ftype").Value.String()
-        fmt.Println("name is " + name)
         if name != "All" {
             saveBock(name, ftype)
         } else {
@@ -71,26 +71,56 @@ func saveBock(name string, ftype string) {
     // 写入题目详情文件
     if ftype == "Detail" {
         for _, node := range questionList {
-            detailTitle := filterTitle(node.Title)
-            detailPath := fmt.Sprintf("book/%s/%s.md", name, detailTitle)
-            detailContent := getQuestionDetail(node)
-            writeFile(detailPath, []byte(fmt.Sprintf(detailContent, node.Title)))
+            saveQuestionDetail(node)
         }
     }
 }
 
-func getQuestionDetail(node *QuestionNode) string {
-    paths := map[string]string{
-        "database":       "database-handbook",
-        "os":             "awesome-os-guide",
-        "network":        "networks-interview-highlights",
-        "design_pattern": "design-patterns",
+func saveQuestionDetail(node *QuestionNode) {
+    detailTitle := filterTitle(node.Title)
+    detailPath := fmt.Sprintf("book/%s/%s.md", node.Book, detailTitle)
+
+    c := colly.NewCollector(
+        colly.AllowedDomains("leetcode-cn.com"),
+    )
+
+    c.Limit(&colly.LimitRule{
+        //DomainGlob:  "*httpbin.*",
+        Parallelism: 2,
+        RandomDelay: 5 * time.Second,
+    })
+
+    c.OnRequest(func(r *colly.Request) {
+        fmt.Println("Visiting", r.URL)
+        r.Headers.Set("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36")
+        r.Headers.Set("Content-Type", "application/json")
+    })
+
+    c.OnError(func(_ *colly.Response, err error) {
+        log.Println("Something went wrong:", err)
+    })
+
+    c.OnResponse(func(r *colly.Response) {
+        fmt.Println("Visited", r.Request.URL)
+        blocks := gjson.Get(string(r.Body), "data.leetbookPage.blocks")
+        content := ""
+        for _, block := range blocks.Array() {
+            blockType := block.Get("type").String()
+            if blockType == "MARKDOWN" {
+                content += block.Get("value").String() + "\n"
+            }
+        }
+        content = fmt.Sprintf("# %s\n\n%s", node.Title, content)
+        writeFile(detailPath, []byte(fmt.Sprintf(content, node.Title)))
+    })
+
+    url := "https://leetcode-cn.com/graphql/"
+    payload := `{"operationName":"leetbookPageDetail","variables":{"pageId":"` + node.Id + `"},"query":"query leetbookPageDetail($pageId: ID!) {\n  leetbookPage(pageId: $pageId) {\n    title\n    subtitle\n    id\n    pageType\n    blocks {\n      type\n      value\n      __typename\n    }\n    commonTags {\n      nameTranslated\n      name\n      slug\n      __typename\n    }\n    qaQuestionUuid\n    ...leetbookQuestionPageNode\n    __typename\n  }\n}\n\nfragment leetbookQuestionPageNode on LeetbookQuestionPage {\n  question {\n    questionId\n    envInfo\n    judgeType\n    metaData\n    enableRunCode\n    sampleTestCase\n    judgerAvailable\n    langToValidPlayground\n    questionFrontendId\n    style\n    content\n    translatedContent\n    questionType\n    questionTitleSlug\n    editorType\n    mysqlSchemas\n    codeSnippets {\n      lang\n      langSlug\n      code\n      __typename\n    }\n    topicTags {\n      slug\n      name\n      translatedName\n      __typename\n    }\n    __typename\n  }\n  __typename\n}\n"}`
+    err := c.PostRaw(url, []byte(payload))
+    if err != nil {
+        fmt.Println("Post err is :", err)
+        return
     }
-
-    url := fmt.Sprintf("https://leetcode-cn.com/leetbook/detail/%s/%s/", paths[node.Book], node.Id)
-    fmt.Println(url)
-
-    return fmt.Sprintf("# %s\n\n", node.Title)
 }
 
 func getQuestions(name string) []*QuestionNode {
@@ -134,8 +164,8 @@ func getChapter(nodes map[string]*QuestionNode, parentId string) string {
 }
 
 func filterTitle(title string) string {
-    detailTitle := strings.Replace(title, "/", "|", -1)
-    detailTitle = strings.Replace(title, " ", "", -1)
+    detailTitle := strings.ReplaceAll(title, "/", "|")
+    detailTitle = strings.ReplaceAll(detailTitle, " ", "")
     return detailTitle
 }
 
