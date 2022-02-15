@@ -2,6 +2,8 @@ package cmd
 
 import (
     "fmt"
+    _ "github.com/go-resty/resty/v2"
+    _ "github.com/gocolly/colly/v2"
     "github.com/spf13/cobra"
     "github.com/tidwall/gjson"
     "io/ioutil"
@@ -78,6 +80,16 @@ func saveBock(name string, ftype string) {
 }
 
 func getQuestionDetail(node *QuestionNode) string {
+    paths := map[string]string{
+        "database":       "database-handbook",
+        "os":             "awesome-os-guide",
+        "network":        "networks-interview-highlights",
+        "design_pattern": "design-patterns",
+    }
+
+    url := fmt.Sprintf("https://leetcode-cn.com/leetbook/detail/%s/%s/", paths[node.Book], node.Id)
+    fmt.Println(url)
+
     return fmt.Sprintf("# %s\n\n", node.Title)
 }
 
