@@ -6,7 +6,7 @@ class Editor
 {
     private string $content = '';
 
-    public function type(string $words)
+    public function type(string $words): void
     {
         $this->content .= ' ' . $words;
     }
