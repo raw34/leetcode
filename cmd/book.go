@@ -87,8 +87,8 @@ func saveQuestion(node *QuestionNode) {
     )
 
     c.Limit(&colly.LimitRule{
-        //DomainGlob:  "*httpbin.*",
-        Parallelism: 2,
+        DomainGlob:  "*",
+        Parallelism: 3,
         RandomDelay: 5 * time.Second,
     })
 
@@ -131,6 +131,7 @@ func saveQuestion(node *QuestionNode) {
         fmt.Println("Post err is :", err)
         return
     }
+    c.Wait()
 }
 
 func getQuestions(name string) []*QuestionNode {
