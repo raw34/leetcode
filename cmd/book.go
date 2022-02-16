@@ -33,11 +33,11 @@ var bookCmd = &cobra.Command{
         name := cmd.Flag("name").Value.String()
         ftype := cmd.Flag("ftype").Value.String()
         if name != "All" {
-            saveBock(name, ftype)
+            saveBook(name, ftype)
         } else {
             names := []string{"database", "network", "os", "design_pattern"}
             for _, name := range names {
-                saveBock(name, ftype)
+                saveBook(name, ftype)
             }
         }
     },
@@ -51,7 +51,7 @@ type QuestionNode struct {
     Chapter  string
 }
 
-func saveBock(name string, ftype string) {
+func saveBook(name string, ftype string) {
     // 获取题目信息
     questionList := getQuestions(name)
 
@@ -73,12 +73,12 @@ func saveBock(name string, ftype string) {
     // 写入题目详情文件
     if ftype == "Detail" {
         for _, node := range questionList {
-            saveQuestionDetail(node)
+            saveQuestion(node)
         }
     }
 }
 
-func saveQuestionDetail(node *QuestionNode) {
+func saveQuestion(node *QuestionNode) {
     detailTitle := filterTitle(node.Title)
     detailPath := fmt.Sprintf("book/%s/%s.md", node.Book, detailTitle)
 
