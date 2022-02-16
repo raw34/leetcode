@@ -173,10 +173,10 @@ func getQuestions(name string) []*QuestionNode {
 func getChapter(nodes map[string]*QuestionNode, parentId string) string {
     chapter := ""
     for nodes[parentId] != nil {
-        chapter = fmt.Sprintf("%s-%s", nodes[parentId].Title, chapter)
+        chapter = fmt.Sprintf("%s/%s", nodes[parentId].Title, chapter)
         parentId = nodes[parentId].ParentId
     }
-    chapter = strings.TrimSuffix(chapter, "-")
+    chapter = strings.TrimSuffix(chapter, "/")
     return chapter
 }
 
