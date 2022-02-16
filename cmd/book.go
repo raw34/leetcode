@@ -9,6 +9,7 @@ import (
     "io/ioutil"
     "log"
     "net/http"
+    "os"
     "strings"
     "time"
 )
@@ -59,11 +60,12 @@ func saveBook(name string, ftype string) {
     if ftype == "Index" {
         table := "| Done | Id | Chapter | Title | Mark |\n|:----:|-------|---------|------|------|"
         for _, node := range questionList {
-            table += fmt.Sprintf("\n| ⬜ | %s | %s | [%s](%s.md) |   |",
+            table += fmt.Sprintf("\n| ⬜ | %s | %s | [%s](%s/%s.md) |   |",
                 node.Id,
                 node.Chapter,
                 node.Title,
-                filterTitle(node.Title),
+                filterFileName(node.Chapter),
+                filterFileName(node.Title),
             )
         }
         indexPath := fmt.Sprintf("book/%s/index.md", name)
@@ -79,8 +81,11 @@ func saveBook(name string, ftype string) {
 }
 
 func saveQuestion(node *QuestionNode) {
-    detailTitle := filterTitle(node.Title)
-    detailPath := fmt.Sprintf("book/%s/%s.md", node.Book, detailTitle)
+    detailTitle := filterFileName(node.Title)
+    detailDir := fmt.Sprintf("book/%s/%s", node.Book, node.Chapter)
+    detailDir = filterFileName(detailDir)
+    detailPath := fmt.Sprintf("%s/%s.md", detailDir, detailTitle)
+    checkDir(detailDir)
 
     c := colly.NewCollector(
         colly.AllowedDomains("leetcode-cn.com"),
@@ -174,10 +179,19 @@ func getChapter(nodes map[string]*QuestionNode, parentId string) string {
     return chapter
 }
 
-func filterTitle(title string) string {
-    detailTitle := strings.ReplaceAll(title, "/", "|")
-    detailTitle = strings.ReplaceAll(detailTitle, " ", "")
-    return detailTitle
+func filterFileName(name string) string {
+    newName := strings.ReplaceAll(name, "/", "|")
+    newName = strings.ReplaceAll(newName, " ", "")
+    return newName
+}
+
+func checkDir(detailDir string) {
+    if _, err := os.Stat(detailDir); err != nil {
+        err = os.MkdirAll(detailDir, os.ModePerm)
+        if err != nil {
+            panic(err)
+        }
+    }
 }
 
 func writeFile(path string, content []byte) {
