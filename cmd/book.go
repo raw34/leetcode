@@ -4,9 +4,11 @@ import (
     "fmt"
     "github.com/gocolly/colly/v2"
     "github.com/spf13/cobra"
+    "github.com/spf13/viper"
     "github.com/tidwall/gjson"
     "io/ioutil"
     "log"
+    "net/http"
     "strings"
     "time"
 )
@@ -103,6 +105,7 @@ func saveQuestionDetail(node *QuestionNode) {
     c.OnResponse(func(r *colly.Response) {
         fmt.Println("Visited", r.Request.URL)
         blocks := gjson.Get(string(r.Body), "data.leetbookPage.blocks")
+        //fmt.Println(blocks)
         content := ""
         for _, block := range blocks.Array() {
             blockType := block.Get("type").String()
@@ -116,6 +119,13 @@ func saveQuestionDetail(node *QuestionNode) {
 
     url := "https://leetcode-cn.com/graphql/"
     payload := `{"operationName":"leetbookPageDetail","variables":{"pageId":"` + node.Id + `"},"query":"query leetbookPageDetail($pageId: ID!) {\n  leetbookPage(pageId: $pageId) {\n    title\n    subtitle\n    id\n    pageType\n    blocks {\n      type\n      value\n      __typename\n    }\n    commonTags {\n      nameTranslated\n      name\n      slug\n      __typename\n    }\n    qaQuestionUuid\n    ...leetbookQuestionPageNode\n    __typename\n  }\n}\n\nfragment leetbookQuestionPageNode on LeetbookQuestionPage {\n  question {\n    questionId\n    envInfo\n    judgeType\n    metaData\n    enableRunCode\n    sampleTestCase\n    judgerAvailable\n    langToValidPlayground\n    questionFrontendId\n    style\n    content\n    translatedContent\n    questionType\n    questionTitleSlug\n    editorType\n    mysqlSchemas\n    codeSnippets {\n      lang\n      langSlug\n      code\n      __typename\n    }\n    topicTags {\n      slug\n      name\n      translatedName\n      __typename\n    }\n    __typename\n  }\n  __typename\n}\n"}`
+    cookies := []*http.Cookie{
+        {
+            Name:  "LEETCODE_SESSION",
+            Value: viper.GetString("auth.session"),
+        },
+    }
+    c.SetCookies(url, cookies)
     err := c.PostRaw(url, []byte(payload))
     if err != nil {
         fmt.Println("Post err is :", err)
