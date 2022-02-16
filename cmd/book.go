@@ -82,8 +82,7 @@ func saveBook(name string, ftype string) {
 
 func saveQuestion(node *QuestionNode) {
     detailTitle := filterFileName(node.Title)
-    detailDir := fmt.Sprintf("book/%s/%s", node.Book, node.Chapter)
-    detailDir = filterFileName(detailDir)
+    detailDir := fmt.Sprintf("book/%s/%s", node.Book, filterFileName(node.Chapter))
     detailPath := fmt.Sprintf("%s/%s.md", detailDir, detailTitle)
     checkDir(detailDir)
 
