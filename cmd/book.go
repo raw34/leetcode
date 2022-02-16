@@ -33,6 +33,8 @@ var bookCmd = &cobra.Command{
         fmt.Println("book called")
         name := cmd.Flag("name").Value.String()
         ftype := cmd.Flag("ftype").Value.String()
+        fmt.Println("name:", name)
+        fmt.Println("ftype:", ftype)
         if name != "All" {
             saveBook(name, ftype)
         } else {
@@ -64,7 +66,7 @@ func saveBook(name string, ftype string) {
                 node.Id,
                 node.Chapter,
                 node.Title,
-                filterFileName(node.Chapter),
+                filterDirName(node.Chapter),
                 filterFileName(node.Title),
             )
         }
@@ -82,7 +84,7 @@ func saveBook(name string, ftype string) {
 
 func saveQuestion(node *QuestionNode) {
     detailTitle := filterFileName(node.Title)
-    detailDir := fmt.Sprintf("book/%s/%s", node.Book, filterFileName(node.Chapter))
+    detailDir := fmt.Sprintf("book/%s/%s", node.Book, filterDirName(node.Chapter))
     detailPath := fmt.Sprintf("%s/%s.md", detailDir, detailTitle)
     checkDir(detailDir)
 
@@ -178,8 +180,13 @@ func getChapter(nodes map[string]*QuestionNode, parentId string) string {
     return chapter
 }
 
+func filterDirName(name string) string {
+    newName := strings.ReplaceAll(name, " ", "")
+    return newName
+}
+
 func filterFileName(name string) string {
-    newName := strings.ReplaceAll(name, "/", "|")
+    newName := strings.ReplaceAll(name, "/", "、")
     newName = strings.ReplaceAll(newName, " ", "")
     return newName
 }
