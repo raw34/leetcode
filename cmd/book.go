@@ -119,7 +119,7 @@ func saveQuestion(node *QuestionNode) {
             }
         }
         content = fmt.Sprintf("# %s\n\n%s", node.Title, content)
-        writeFile(detailPath, []byte(fmt.Sprintf(content, node.Title)))
+        writeFile(detailPath, []byte(content))
     })
 
     url := "https://leetcode-cn.com/graphql/"
