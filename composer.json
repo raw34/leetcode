@@ -10,7 +10,6 @@
     ],
     "autoload": {
         "psr-4": {
-            "book\\": "book",
             "solution\\": "solution",
             "runtime\\": "runtime"
         }
